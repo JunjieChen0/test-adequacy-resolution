@@ -1,0 +1,76 @@
+{
+  "project": "Cli",
+  "bug": "4b",
+  "t": "2026-10-16T00:42:55.549843+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.9
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.8
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.7
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.7
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.7
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.cli.ApplicationTest",
+    "org.apache.commons.cli.ArgumentIsOptionTest",
+    "org.apache.commons.cli.BugsTest",
+    "org.apache.commons.cli.BuildTest",
+    "org.apache.commons.cli.GnuParseTest",
+    "org.apache.commons.cli.OptionBuilderTest",
+    "org.apache.commons.cli.OptionGroupTest",
+    "org.apache.commons.cli.OptionTest",
+    "org.apache.commons.cli.OptionsTest",
+    "org.apache.commons.cli.ParseRequiredTest",
+    "org.apache.commons.cli.ParseTest",
+    "org.apache.commons.cli.PatternOptionBuilderTest",
+    "org.apache.commons.cli.TestHelpFormatter",
+    "org.apache.commons.cli.ValueTest",
+    "org.apache.commons.cli.ValuesTest",
+    "org.apache.commons.cli.bug.BugCLI13Test",
+    "org.apache.commons.cli.bug.BugCLI18Test",
+    "org.apache.commons.cli.bug.BugCLI51Test",
+    "org.apache.commons.cli.bug.BugCLI71Test"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+    "org.apache.commons.cli.OptionsTest::testMissingOptionException"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.cli.ApplicationTest",
+    "org.apache.commons.cli.ArgumentIsOptionTest",
+    "org.apache.commons.cli.BugsTest",
+    "org.apache.commons.cli.GnuParseTest",
+    "org.apache.commons.cli.OptionGroupTest",
+    "org.apache.commons.cli.OptionsTest",
+    "org.apache.commons.cli.ParseRequiredTest",
+    "org.apache.commons.cli.ParseTest",
+    "org.apache.commons.cli.PatternOptionBuilderTest",
+    "org.apache.commons.cli.ValueTest",
+    "org.apache.commons.cli.ValuesTest",
+    "org.apache.commons.cli.bug.BugCLI13Test",
+    "org.apache.commons.cli.bug.BugCLI51Test",
+    "org.apache.commons.cli.bug.BugCLI71Test"
+  ],
+  "modified.txt": [
+    "org.apache.commons.cli.Parser"
+  ],
+  "n_all_tests": 19
+}

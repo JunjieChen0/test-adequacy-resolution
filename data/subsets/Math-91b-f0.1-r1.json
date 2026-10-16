@@ -1,0 +1,126 @@
+{
+  "project": "Math",
+  "bug": "91b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T09:41:22.333294+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 23.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 28.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 165.4,
+      "lines_total": 16452,
+      "lines_covered": 1939,
+      "cond_total": 7024,
+      "cond_covered": 762,
+      "line_cov_pct": 11.8,
+      "cond_cov_pct": 10.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 26.1
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 24.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 144.1,
+      "mutants_generated": 1669,
+      "mutants_covered": 508,
+      "mutants_killed": 389,
+      "mutation_score_pct": 76.6,
+      "mutation_score_covered_pct": 23.3
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 173,
+  "n_test_java_total": 212,
+  "n_test_target": 17,
+  "n_test_kept": 20,
+  "n_keep_java": 30,
+  "kept_tests": [
+    "org/apache/commons/math/ConvergenceExceptionTest.java",
+    "org/apache/commons/math/MathConfigurationExceptionTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionNewtonFormTest.java",
+    "org/apache/commons/math/analysis/solvers/BrentSolverTest.java",
+    "org/apache/commons/math/analysis/solvers/RiddersSolverTest.java",
+    "org/apache/commons/math/complex/ComplexFormatTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/FDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/estimation/GaussNewtonEstimatorTest.java",
+    "org/apache/commons/math/geometry/RotationOrderTest.java",
+    "org/apache/commons/math/linear/decomposition/LUDecompositionImplTest.java",
+    "org/apache/commons/math/special/BetaTest.java",
+    "org/apache/commons/math/special/GammaTest.java",
+    "org/apache/commons/math/stat/correlation/CovarianceTest.java",
+    "org/apache/commons/math/stat/descriptive/ListUnivariateImplTest.java",
+    "org/apache/commons/math/stat/descriptive/rank/MaxTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java",
+    "org/apache/commons/math/util/TransformerMapTest.java"
+  ],
+  "n_moved_b": 182,
+  "kept_tests_final": [
+    "org/apache/commons/math/ConvergenceExceptionTest.java",
+    "org/apache/commons/math/MathConfigurationExceptionTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionNewtonFormTest.java",
+    "org/apache/commons/math/analysis/solvers/BrentSolverTest.java",
+    "org/apache/commons/math/analysis/solvers/RiddersSolverTest.java",
+    "org/apache/commons/math/complex/ComplexFormatTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/FDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/estimation/GaussNewtonEstimatorTest.java",
+    "org/apache/commons/math/geometry/RotationOrderTest.java",
+    "org/apache/commons/math/linear/decomposition/LUDecompositionImplTest.java",
+    "org/apache/commons/math/special/BetaTest.java",
+    "org/apache/commons/math/special/GammaTest.java",
+    "org/apache/commons/math/stat/correlation/CovarianceTest.java",
+    "org/apache/commons/math/stat/descriptive/ListUnivariateImplTest.java",
+    "org/apache/commons/math/stat/descriptive/rank/MaxTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java",
+    "org/apache/commons/math/util/TransformerMapTest.java"
+  ],
+  "n_test_final": 20,
+  "n_keep_java_f": 30,
+  "n_moved_f": 182,
+  "kept_tests_final_f": [
+    "org/apache/commons/math/ConvergenceExceptionTest.java",
+    "org/apache/commons/math/MathConfigurationExceptionTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionNewtonFormTest.java",
+    "org/apache/commons/math/analysis/solvers/BrentSolverTest.java",
+    "org/apache/commons/math/analysis/solvers/RiddersSolverTest.java",
+    "org/apache/commons/math/complex/ComplexFormatTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/FDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/estimation/GaussNewtonEstimatorTest.java",
+    "org/apache/commons/math/geometry/RotationOrderTest.java",
+    "org/apache/commons/math/linear/decomposition/LUDecompositionImplTest.java",
+    "org/apache/commons/math/special/BetaTest.java",
+    "org/apache/commons/math/special/GammaTest.java",
+    "org/apache/commons/math/stat/correlation/CovarianceTest.java",
+    "org/apache/commons/math/stat/descriptive/ListUnivariateImplTest.java",
+    "org/apache/commons/math/stat/descriptive/rank/MaxTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java",
+    "org/apache/commons/math/util/TransformerMapTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

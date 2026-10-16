@@ -1,0 +1,26 @@
+{
+  "tag": "Math-8b-f0.1-r1",
+  "project": "Math",
+  "bug": "8b",
+  "frac": 0.1,
+  "rep": 1,
+  "n_test_final": 39,
+  "features": {
+    "n_assertions": 920,
+    "n_test_methods": 261,
+    "n_strong": 651,
+    "n_weak": 125,
+    "n_other": 144,
+    "n_predicate": 68,
+    "n_distinct_calls": 217,
+    "test_loc": 7741,
+    "n_files": 39
+  },
+  "derived": {
+    "assertions_per_method": 3.524904214559387,
+    "strong_ratio": 0.7076086956521739,
+    "weak_ratio": 0.1358695652173913,
+    "predicate_ratio": 0.07391304347826087,
+    "calls_per_assertion": 0.2358695652173913
+  }
+}

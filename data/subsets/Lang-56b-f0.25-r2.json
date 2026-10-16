@@ -1,0 +1,129 @@
+{
+  "project": "Lang",
+  "bug": "56b",
+  "frac": 0.25,
+  "rep": 2,
+  "t": "2026-10-15T14:00:29.075655+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.9
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 77.9,
+      "lines_total": 9742,
+      "lines_covered": 2617,
+      "cond_total": 6455,
+      "cond_covered": 1621,
+      "line_cov_pct": 26.9,
+      "cond_cov_pct": 25.1
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 15.1
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 20.3
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 70.2,
+      "mutants_generated": 2001,
+      "mutants_covered": 624,
+      "mutants_killed": 323,
+      "mutation_score_pct": 51.8,
+      "mutation_score_covered_pct": 16.1
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 20,
+  "n_test_kept": 21,
+  "n_keep_java": 25,
+  "kept_tests": [
+    "org/apache/commons/lang/BitFieldTest.java",
+    "org/apache/commons/lang/CharSetUtilsTest.java",
+    "org/apache/commons/lang/NullArgumentExceptionTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/RandomStringUtilsTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/math/NumberRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/math/RangeTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/oldenum/EnumUtilsTest.java"
+  ],
+  "n_moved_b": 115,
+  "kept_tests_final": [
+    "org/apache/commons/lang/BitFieldTest.java",
+    "org/apache/commons/lang/CharSetUtilsTest.java",
+    "org/apache/commons/lang/NullArgumentExceptionTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/RandomStringUtilsTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/math/NumberRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/math/RangeTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/oldenum/EnumUtilsTest.java"
+  ],
+  "n_test_final": 21,
+  "n_keep_java_f": 25,
+  "n_moved_f": 115,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/BitFieldTest.java",
+    "org/apache/commons/lang/CharSetUtilsTest.java",
+    "org/apache/commons/lang/NullArgumentExceptionTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/RandomStringUtilsTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/math/NumberRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/math/RangeTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/oldenum/EnumUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

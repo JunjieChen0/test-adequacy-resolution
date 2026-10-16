@@ -1,0 +1,46 @@
+{
+  "project": "Compress",
+  "bug": "36b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:35:57.083671+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.8
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.3,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 89,
+  "n_test_java_total": 99,
+  "n_test_target": 9,
+  "n_test_kept": 10,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEightByteIntegerTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java"
+  ],
+  "n_moved_b": 88
+}

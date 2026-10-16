@@ -1,0 +1,93 @@
+{
+  "project": "Lang",
+  "bug": "40b",
+  "frac": 0.1,
+  "rep": 2,
+  "t": "2026-10-15T13:23:45.934140+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 16.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 55.3,
+      "lines_total": 9812,
+      "lines_covered": 1817,
+      "cond_total": 6539,
+      "cond_covered": 1020,
+      "line_cov_pct": 18.5,
+      "cond_cov_pct": 15.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 8.3
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 12.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 233.5,
+      "mutants_generated": 4369,
+      "mutants_covered": 2757,
+      "mutants_killed": 1849,
+      "mutation_score_pct": 67.1,
+      "mutation_score_covered_pct": 42.3
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 87,
+  "n_test_java_total": 98,
+  "n_test_target": 9,
+  "n_test_kept": 9,
+  "n_keep_java": 9,
+  "kept_tests": [
+    "org/apache/commons/lang/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/text/StrBuilderTest.java",
+    "org/apache/commons/lang/text/translate/LookupTranslatorTest.java"
+  ],
+  "n_moved_b": 89,
+  "kept_tests_final": [
+    "org/apache/commons/lang/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/text/StrBuilderTest.java",
+    "org/apache/commons/lang/text/translate/LookupTranslatorTest.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 9,
+  "n_moved_f": 89,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/text/StrBuilderTest.java",
+    "org/apache/commons/lang/text/translate/LookupTranslatorTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

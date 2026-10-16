@@ -1,0 +1,51 @@
+{
+  "project": "Csv",
+  "bug": "1b",
+  "t": "2026-10-16T00:54:28.808897+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.5
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 3.2
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.2
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.5
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVLexerTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.csv.CSVParserTest::testGetLineNumberWithCR"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.csv.CSVLexerTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.csv.ExtendedBufferedReader"
+  ],
+  "n_all_tests": 5
+}

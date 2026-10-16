@@ -1,0 +1,101 @@
+{
+  "project": "Lang",
+  "bug": "24b",
+  "frac": 0.5,
+  "rep": 1,
+  "t": "2026-10-15T09:56:21.171114+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 16.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 18.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 142.1,
+      "lines_total": 10493,
+      "lines_covered": 5818,
+      "cond_total": 7085,
+      "cond_covered": 3584,
+      "line_cov_pct": 55.4,
+      "cond_cov_pct": 50.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 7.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 80.2,
+      "mutants_generated": 1401,
+      "mutants_covered": 951,
+      "mutants_killed": 637,
+      "mutation_score_pct": 67.0,
+      "mutation_score_covered_pct": 45.5
+    }
+  },
+  "n_test_total": 93,
+  "n_test_target": 46,
+  "n_test_kept": 47,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsTest.java",
+    "org/apache/commons/lang3/BitFieldTest.java",
+    "org/apache/commons/lang3/BooleanUtilsTest.java",
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang3/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang3/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang3/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java",
+    "org/apache/commons/lang3/concurrent/ConstantInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/math/IEEE754rUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang3/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang3/reflect/ConstructorUtilsTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/text/CompositeFormatTest.java",
+    "org/apache/commons/lang3/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/StrTokenizerTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/EntityArraysTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java",
+    "org/apache/commons/lang3/time/DurationFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java"
+  ],
+  "n_moved_b": 46,
+  "n_test_kept_f": 47,
+  "n_moved_f": 46,
+  "n_mut_classes": 13,
+  "status": "ok"
+}

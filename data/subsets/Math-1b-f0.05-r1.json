@@ -1,0 +1,142 @@
+{
+  "project": "Math",
+  "bug": "1b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T13:58:24.713673+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 14.8
+    },
+    "compile_b": {
+      "rc": 1,
+      "s": 27.8,
+      "repair_added": 1,
+      "repair_log": [
+        [
+          "CircleScalar"
+        ]
+      ],
+      "rc_after_repair": 0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 247.1,
+      "lines_total": 43883,
+      "lines_covered": 7246,
+      "cond_total": 19097,
+      "cond_covered": 2353,
+      "line_cov_pct": 16.5,
+      "cond_cov_pct": 12.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 11.7
+    },
+    "compile_f": {
+      "rc": 1,
+      "s": 25.7,
+      "repair_added": 1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 410.1,
+      "mutants_generated": 3335,
+      "mutants_covered": 212,
+      "mutants_killed": 171,
+      "mutation_score_pct": 80.7,
+      "mutation_score_covered_pct": 5.1
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 385,
+  "n_test_java_total": 496,
+  "n_test_target": 19,
+  "n_test_kept": 22,
+  "n_keep_java": 35,
+  "kept_tests": [
+    "org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionTest.java",
+    "org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatorTest.java",
+    "org/apache/commons/math3/analysis/solvers/RegulaFalsiSolverTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/EnumeratedIntegerDistributionTest.java",
+    "org/apache/commons/math3/distribution/LogNormalDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/exception/NonMonotonicSequenceExceptionTest.java",
+    "org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/FieldVector3DTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java",
+    "org/apache/commons/math3/linear/FrenchRealVectorFormatTest.java",
+    "org/apache/commons/math3/linear/MatrixUtilsTest.java",
+    "org/apache/commons/math3/linear/SparseRealVectorTest.java",
+    "org/apache/commons/math3/ode/nonstiff/HighamHall54StepInterpolatorTest.java",
+    "org/apache/commons/math3/optim/SimplePointCheckerTest.java",
+    "org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizerTest.java",
+    "org/apache/commons/math3/optimization/fitting/GaussianFitterTest.java",
+    "org/apache/commons/math3/optimization/univariate/BracketFinderTest.java",
+    "org/apache/commons/math3/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SynchronizedMultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/summary/SumSqTest.java"
+  ],
+  "n_moved_b": 461,
+  "n_repaired_b": 1,
+  "kept_tests_final": [
+    "org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionTest.java",
+    "org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatorTest.java",
+    "org/apache/commons/math3/analysis/solvers/RegulaFalsiSolverTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/EnumeratedIntegerDistributionTest.java",
+    "org/apache/commons/math3/distribution/LogNormalDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/exception/NonMonotonicSequenceExceptionTest.java",
+    "org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/FieldVector3DTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java",
+    "org/apache/commons/math3/linear/FrenchRealVectorFormatTest.java",
+    "org/apache/commons/math3/linear/MatrixUtilsTest.java",
+    "org/apache/commons/math3/linear/SparseRealVectorTest.java",
+    "org/apache/commons/math3/ode/nonstiff/HighamHall54StepInterpolatorTest.java",
+    "org/apache/commons/math3/optim/SimplePointCheckerTest.java",
+    "org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizerTest.java",
+    "org/apache/commons/math3/optimization/fitting/GaussianFitterTest.java",
+    "org/apache/commons/math3/optimization/univariate/BracketFinderTest.java",
+    "org/apache/commons/math3/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SynchronizedMultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/summary/SumSqTest.java"
+  ],
+  "n_test_final": 22,
+  "n_keep_java_f": 35,
+  "n_moved_f": 461,
+  "n_repaired_f": 1,
+  "kept_tests_final_f": [
+    "org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionTest.java",
+    "org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatorTest.java",
+    "org/apache/commons/math3/analysis/solvers/RegulaFalsiSolverTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/EnumeratedIntegerDistributionTest.java",
+    "org/apache/commons/math3/distribution/LogNormalDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/exception/NonMonotonicSequenceExceptionTest.java",
+    "org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/FieldVector3DTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java",
+    "org/apache/commons/math3/linear/FrenchRealVectorFormatTest.java",
+    "org/apache/commons/math3/linear/MatrixUtilsTest.java",
+    "org/apache/commons/math3/linear/SparseRealVectorTest.java",
+    "org/apache/commons/math3/ode/nonstiff/HighamHall54StepInterpolatorTest.java",
+    "org/apache/commons/math3/optim/SimplePointCheckerTest.java",
+    "org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizerTest.java",
+    "org/apache/commons/math3/optimization/fitting/GaussianFitterTest.java",
+    "org/apache/commons/math3/optimization/univariate/BracketFinderTest.java",
+    "org/apache/commons/math3/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SynchronizedMultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/summary/SumSqTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

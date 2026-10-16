@@ -1,0 +1,72 @@
+{
+  "project": "Csv",
+  "bug": "4b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T19:11:10.498291+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 6.9
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 11.5,
+      "lines_total": 652,
+      "lines_covered": 388,
+      "cond_total": 463,
+      "cond_covered": 255,
+      "line_cov_pct": 59.5,
+      "cond_cov_pct": 55.1
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 3.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 196.6,
+      "mutants_generated": 976,
+      "mutants_covered": 630,
+      "mutants_killed": 471,
+      "mutation_score_pct": 74.8,
+      "mutation_score_covered_pct": 48.3
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 10,
+  "n_test_java_total": 14,
+  "n_test_target": 2,
+  "n_test_kept": 2,
+  "n_keep_java": 3,
+  "kept_tests": [
+    "org/apache/commons/csv/CSVPrinterTest.java",
+    "org/apache/commons/csv/ExtendedBufferedReaderTest.java"
+  ],
+  "n_moved_b": 11,
+  "kept_tests_final": [
+    "org/apache/commons/csv/CSVPrinterTest.java",
+    "org/apache/commons/csv/ExtendedBufferedReaderTest.java"
+  ],
+  "n_test_final": 2,
+  "n_keep_java_f": 3,
+  "n_moved_f": 11,
+  "kept_tests_final_f": [
+    "org/apache/commons/csv/CSVPrinterTest.java",
+    "org/apache/commons/csv/ExtendedBufferedReaderTest.java"
+  ],
+  "n_mut_classes": 7,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

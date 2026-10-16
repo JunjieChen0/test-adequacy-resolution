@@ -1,0 +1,71 @@
+{
+  "project": "Lang",
+  "bug": "24b",
+  "frac": 0.1,
+  "rep": 2,
+  "t": "2026-10-15T11:23:59.038592+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 18.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 42.3,
+      "lines_total": 10493,
+      "lines_covered": 2331,
+      "cond_total": 7085,
+      "cond_covered": 1772,
+      "line_cov_pct": 22.2,
+      "cond_cov_pct": 25.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 8.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 11.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 35.7,
+      "mutants_generated": 1401,
+      "mutants_covered": 67,
+      "mutants_killed": 18,
+      "mutation_score_pct": 26.9,
+      "mutation_score_covered_pct": 1.3
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 93,
+  "n_test_java_total": 109,
+  "n_test_target": 9,
+  "n_test_kept": 11,
+  "n_keep_java": 21,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsTest.java",
+    "org/apache/commons/lang3/BooleanUtilsTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/LazyInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java"
+  ],
+  "n_moved_b": 88,
+  "n_keep_java_f": 21,
+  "n_moved_f": 88,
+  "n_mut_classes": 13,
+  "status": "ok"
+}

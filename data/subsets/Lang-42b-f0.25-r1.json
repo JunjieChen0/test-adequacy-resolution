@@ -1,0 +1,150 @@
+{
+  "project": "Lang",
+  "bug": "42b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T18:25:55.626558+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.4
+    },
+    "compile_b": {
+      "rc": 1,
+      "s": 10.5,
+      "repair_added": 3,
+      "repair_log": [
+        [
+          "ColorEnum",
+          "DummyEnum",
+          "ValuedColorEnum"
+        ]
+      ],
+      "rc_after_repair": 0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 57.0,
+      "lines_total": 10779,
+      "lines_covered": 3755,
+      "cond_total": 7102,
+      "cond_covered": 2145,
+      "line_cov_pct": 34.8,
+      "cond_cov_pct": 30.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.9
+    },
+    "compile_f": {
+      "rc": 1,
+      "s": 9.6,
+      "repair_added": 3
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 408.7,
+      "mutants_generated": 4183,
+      "mutants_covered": 1167,
+      "mutants_killed": 710,
+      "mutation_score_pct": 60.8,
+      "mutation_score_covered_pct": 17.0
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 90,
+  "n_test_java_total": 158,
+  "n_test_target": 22,
+  "n_test_kept": 24,
+  "n_keep_java": 30,
+  "kept_tests": [
+    "org/apache/commons/lang/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang/IncompleteArgumentExceptionTest.java",
+    "org/apache/commons/lang/NotImplementedExceptionTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/StringUtilsIsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/ValidateTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/enums/EnumUtilsTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/IEEE754rUtilsTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang/text/StrLookupTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_moved_b": 128,
+  "n_repaired_b": 3,
+  "kept_tests_final": [
+    "org/apache/commons/lang/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang/IncompleteArgumentExceptionTest.java",
+    "org/apache/commons/lang/NotImplementedExceptionTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/StringUtilsIsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/ValidateTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/enums/EnumUtilsTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/IEEE754rUtilsTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang/text/StrLookupTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_test_final": 24,
+  "n_keep_java_f": 30,
+  "n_moved_f": 128,
+  "n_repaired_f": 3,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang/IncompleteArgumentExceptionTest.java",
+    "org/apache/commons/lang/NotImplementedExceptionTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/StringUtilsIsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/ValidateTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/enums/EnumUtilsTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/IEEE754rUtilsTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang/text/StrLookupTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

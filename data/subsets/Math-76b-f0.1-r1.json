@@ -1,0 +1,59 @@
+{
+  "project": "Math",
+  "bug": "76b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:32:05.919618+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.5
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 218,
+  "n_test_java_total": 262,
+  "n_test_target": 22,
+  "n_test_kept": 23,
+  "n_keep_java": 39,
+  "kept_tests": [
+    "org/apache/commons/math/ConvergenceExceptionTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionTest.java",
+    "org/apache/commons/math/distribution/PascalDistributionTest.java",
+    "org/apache/commons/math/linear/ArrayRealVectorTest.java",
+    "org/apache/commons/math/linear/CholeskySolverTest.java",
+    "org/apache/commons/math/ode/events/EventStateTest.java",
+    "org/apache/commons/math/ode/nonstiff/EulerIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/GillIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/GraggBulirschStoerIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/HighamHall54IntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/MidpointStepInterpolatorTest.java",
+    "org/apache/commons/math/optimization/fitting/HarmonicFitterTest.java",
+    "org/apache/commons/math/stat/FrequencyTest.java",
+    "org/apache/commons/math/stat/descriptive/MixedListUnivariateImplTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/FirstMomentTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/SecondMomentTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/VarianceTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/VectorialMeanTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java",
+    "org/apache/commons/math/stat/regression/SimpleRegressionTest.java",
+    "org/apache/commons/math/transform/FastHadamardTransformerTest.java",
+    "org/apache/commons/math/util/DefaultTransformerTest.java",
+    "org/apache/commons/math/util/TransformerMapTest.java"
+  ],
+  "n_moved_b": 223
+}

@@ -1,0 +1,62 @@
+{
+  "project": "Lang",
+  "bug": "8b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T08:41:13.137599+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 17.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 25.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 144.2,
+      "lines_total": 11286,
+      "lines_covered": 1780,
+      "cond_total": 7504,
+      "cond_covered": 823,
+      "line_cov_pct": 15.8,
+      "cond_cov_pct": 11.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 17.9
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 25.3
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 191.9,
+      "mutants_generated": 1428,
+      "mutants_covered": 199,
+      "mutants_killed": 109,
+      "mutation_score_pct": 54.8,
+      "mutation_score_covered_pct": 7.6
+    }
+  },
+  "n_test_total": 109,
+  "n_test_target": 5,
+  "n_test_kept": 8,
+  "kept_tests": [
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/time/DurationFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/time/FastDatePrinterTest.java"
+  ],
+  "n_moved_b": 101,
+  "n_test_kept_f": 8,
+  "n_moved_f": 101,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

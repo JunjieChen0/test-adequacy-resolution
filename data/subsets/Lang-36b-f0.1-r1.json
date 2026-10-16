@@ -1,0 +1,96 @@
+{
+  "project": "Lang",
+  "bug": "36b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:33:06.285851+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 24.8,
+      "lines_total": 9601,
+      "lines_covered": 1978,
+      "cond_total": 6355,
+      "cond_covered": 1027,
+      "line_cov_pct": 20.6,
+      "cond_cov_pct": 16.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 7.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 68.4,
+      "mutants_generated": 1411,
+      "mutants_covered": 577,
+      "mutants_killed": 364,
+      "mutation_score_pct": 63.1,
+      "mutation_score_covered_pct": 25.8
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 84,
+  "n_test_java_total": 97,
+  "n_test_target": 8,
+  "n_test_kept": 10,
+  "n_keep_java": 22,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/LocaleUtilsTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 75,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/LocaleUtilsTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 10,
+  "n_keep_java_f": 22,
+  "n_moved_f": 75,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/LocaleUtilsTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 10,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

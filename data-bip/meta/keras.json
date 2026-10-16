@@ -1,0 +1,760 @@
+{
+ "project": "keras",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/initializers_test.py",
+   "buggy_commit": "331d5b0102ab0cc79cece1f03cc551d8105db3c9",
+   "fixed_commit": "8e23a3ec47a2ccbf6cdd222a80886c6b9f17264f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/initializers_test.py",
+     "node": "test_statefulness",
+     "raw": "pytest tests/keras/initializers_test.py::test_statefulness"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/backend/backend_test.py",
+   "buggy_commit": "2f55055a9f053b35fa721d3eb75dd07ea5a5f1e3",
+   "fixed_commit": "c24d16af155e20976bdf61e468ba760408e676ff",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/backend/backend_test.py",
+     "node": "TestBackend::test_in_top_k",
+     "raw": "pytest tests/keras/backend/backend_test.py::TestBackend::test_in_top_k"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/test_sequential_model.py",
+   "buggy_commit": "c0d1709cbae3d05efc6dd224230012bc120be8e5",
+   "fixed_commit": "c13d2723d01212d09dfdda39b0ad439803ec9230",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/test_sequential_model.py",
+     "node": "test_clone_functional_model_with_multi_outputs",
+     "raw": "pytest tests/keras/test_sequential_model.py::test_clone_functional_model_with_multi_outputs"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/optimizers_test.py",
+   "buggy_commit": "b0bfd5201da2bfced84028bcc5bda05bdfd75af7",
+   "fixed_commit": "4185cbb50bfcae9cc30b0fc7b67e81d67a50a8ac",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/optimizers_test.py",
+     "node": "test_tfoptimizer_pass_correct_named_params_to_native_tensorflow_optimizer",
+     "raw": "pytest tests/keras/optimizers_test.py::test_tfoptimizer_pass_correct_named_params_to_native_tensorflow_optimizer"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/utils/data_utils_test.py",
+   "buggy_commit": "b847b4601d608050bab6eccd049fce28b7bf1b1f",
+   "fixed_commit": "e11c48d9ce3ee47bb8a966549b14cbd5b10ee70d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/utils/data_utils_test.py",
+     "node": "test_data_utils",
+     "raw": "pytest tests/keras/utils/data_utils_test.py::test_data_utils"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/test_loss_masking.py",
+   "buggy_commit": "88af7d0c97497b5c3a198ee9416b2accfbc72c36",
+   "fixed_commit": "4b54657ab4806b0aaef8f8eeb973edb83c3d3483",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_loss_masking.py",
+     "node": "test_masking_is_all_zeros",
+     "raw": "pytest tests/test_loss_masking.py::test_masking_is_all_zeros"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/wrappers/scikit_learn_test.py",
+   "buggy_commit": "26b620fb37c885d60183f83abc744f43775ce75a",
+   "fixed_commit": "c05ef1fd95a6024155ab59656fef8dac5a45c335",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/wrappers/scikit_learn_test.py",
+     "node": "test_regression_predict_shape_correct_num_test_1",
+     "raw": "pytest tests/keras/wrappers/scikit_learn_test.py::test_regression_predict_shape_correct_num_test_1"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/engine/test_topology.py",
+   "buggy_commit": "87540a2a2f42e00c4a2ca7ca35d19f96e62e6cb0",
+   "fixed_commit": "d78c982b326adeed6ac25200dc6892ff8f518ca6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/engine/test_topology.py",
+     "node": "test_layer_sharing_at_heterogeneous_depth_order",
+     "raw": "pytest tests/keras/engine/test_topology.py::test_layer_sharing_at_heterogeneous_depth_order"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/test_doc_auto_generation.py",
+   "buggy_commit": "0cd3b07eb5de1aaaad84d1ff7f7c2ed7dab4b23c",
+   "fixed_commit": "0505393746d56ddacc34bb1c016dba79429c9ac9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_doc_auto_generation.py",
+     "node": "test_doc_lists[docs_descriptor1]",
+     "raw": "pytest tests/test_doc_auto_generation.py::test_doc_lists[docs_descriptor1]"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/engine/test_training.py",
+   "buggy_commit": "8f41e41eda6e8ea96403cae5798a5a89c8bb5605",
+   "fixed_commit": "c1c4afe60b1355a6c0e83577791a0423f37a3324",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/engine/test_training.py",
+     "node": "test_sample_weights",
+     "raw": "pytest tests/keras/engine/test_training.py::test_sample_weights"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/integration_tests/test_image_data_tasks.py",
+   "buggy_commit": "36b9e4c055f32718a036cabaf767325b010c7485",
+   "fixed_commit": "d6b5c5ebb410e3366c9d7aca41977a60134bfe10",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/integration_tests/test_image_data_tasks.py",
+     "node": "test_image_data_generator_training",
+     "raw": "pytest tests/integration_tests/test_image_data_tasks.py::test_image_data_generator_training"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/metrics_test.py",
+   "buggy_commit": "6dff721a3a8755356b2e89d02ef63ad8ab38ec95",
+   "fixed_commit": "6dff721a3a8755356b2e89d02ef63ad8ab38ec95",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/metrics_test.py",
+     "node": "test_sparse_categorical_accuracy_correctness[shape1]",
+     "raw": "pytest tests/keras/metrics_test.py::test_sparse_categorical_accuracy_correctness[shape1]"
+    },
+    {
+     "file": "tests/keras/metrics_test.py",
+     "node": "test_sparse_categorical_accuracy_correctness[shape2]",
+     "raw": "pytest tests/keras/metrics_test.py::test_sparse_categorical_accuracy_correctness[shape2]"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/engine/test_training.py",
+   "buggy_commit": "2bfd1f2c950df5fc3f40b903c1966f1b0a48bee4",
+   "fixed_commit": "a07253d8269e1b750f0a64767cc9a07da8a3b7ea",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/engine/test_training.py",
+     "node": "test_model_methods",
+     "raw": "pytest tests/keras/engine/test_training.py::test_model_methods"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/metrics_test.py",
+   "buggy_commit": "98465b85d020f1326bcef7632f1261a9a7a84e92",
+   "fixed_commit": "02bc5010a04bb11c8e91835cc9775c8149dec754",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/metrics_test.py",
+     "node": "test_sparse_top_k_categorical_accuracy[y_pred1-y_true1]",
+     "raw": "pytest tests/keras/metrics_test.py::test_sparse_top_k_categorical_accuracy[y_pred1-y_true1]"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/test_callbacks.py",
+   "buggy_commit": "5b6243485acc20cc36f2db4f258512c332d691ec",
+   "fixed_commit": "f60313e29657b2afb6a02f28dba5936bc0dd09e6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/test_callbacks.py",
+     "node": "test_CSVLogger",
+     "raw": "pytest tests/keras/test_callbacks.py::test_CSVLogger"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/test_sequential_model.py",
+   "buggy_commit": "514aca20c6f076a86819d7180f36c3b2e8bcc33b",
+   "fixed_commit": "fe38f9dfc8c732a77ac03507b63c79b1d2acfba2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/test_sequential_model.py",
+     "node": "test_sequential",
+     "raw": "pytest tests/keras/test_sequential_model.py::test_sequential"
+    },
+    {
+     "file": "tests/keras/test_sequential_model.py",
+     "node": "test_sequential_deferred_build",
+     "raw": "pytest tests/keras/test_sequential_model.py::test_sequential_deferred_build"
+    }
+   ]
+  },
+  "17": {
+   "bug": "17",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/metrics_test.py",
+   "buggy_commit": "c913b6da92f6ab9a3f4c897caa4085e782a14680",
+   "fixed_commit": "5a6af4bc6d44e9adbc2a21804bfcd18c4ce849ef",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/metrics_test.py",
+     "node": "test_sparse_categorical_accuracy_correctness",
+     "raw": "pytest tests/keras/metrics_test.py::test_sparse_categorical_accuracy_correctness"
+    }
+   ]
+  },
+  "18": {
+   "bug": "18",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/backend/backend_test.py",
+   "buggy_commit": "9400be98783135a1d42dd238f4e6c3aa048eceea",
+   "fixed_commit": "244546c2fe5165b6770eb456afd5fac8878473c5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/backend/backend_test.py",
+     "node": "TestBackend::test_function_tf_run_options_with_run_metadata",
+     "raw": "pytest tests/keras/backend/backend_test.py::TestBackend::test_function_tf_run_options_with_run_metadata"
+    }
+   ]
+  },
+  "19": {
+   "bug": "19",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/recurrent_test.py",
+   "buggy_commit": "f9210387088fe91b5bc8999cf0cb41a0fe9eacf6",
+   "fixed_commit": "66f8cc7ac4942f7f9fe0164a2a854a6264b87735",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/recurrent_test.py",
+     "node": "test_inconsistent_output_state_size",
+     "raw": "pytest tests/keras/layers/recurrent_test.py::test_inconsistent_output_state_size"
+    },
+    {
+     "file": "tests/keras/layers/recurrent_test.py",
+     "node": "test_minimal_rnn_cell_non_layer_multiple_states",
+     "raw": "pytest tests/keras/layers/recurrent_test.py::test_minimal_rnn_cell_non_layer_multiple_states"
+    }
+   ]
+  },
+  "20": {
+   "bug": "20",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/convolutional_test.py",
+   "buggy_commit": "76da5f0a21ca98e4bf6706e182fb825243e76204",
+   "fixed_commit": "6dd087ab73b09e449144ff17450cc14f981b9ac2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/convolutional_test.py",
+     "node": "test_conv2d_transpose_dilation",
+     "raw": "pytest tests/keras/layers/convolutional_test.py::test_conv2d_transpose_dilation"
+    }
+   ]
+  },
+  "21": {
+   "bug": "21",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/test_callbacks.py",
+   "buggy_commit": "c7b7328cc99fd5d7c298e57c6020043451d89a61",
+   "fixed_commit": "1fc585adb57f20a2acf69f0cd08b731259b8d2f8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/test_callbacks.py",
+     "node": "test_EarlyStopping_final_weights_when_restoring_model_weights",
+     "raw": "pytest tests/keras/test_callbacks.py::test_EarlyStopping_final_weights_when_restoring_model_weights"
+    }
+   ]
+  },
+  "22": {
+   "bug": "22",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/core_test.py",
+   "buggy_commit": "54386efa549f850dff13f79fc3af67799a4e5d4f",
+   "fixed_commit": "ee02d256611b17d11e37b86bd4f618d7f2a37d84",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/core_test.py",
+     "node": "test_sequential_as_downstream_of_masking_layer",
+     "raw": "pytest tests/keras/layers/core_test.py::test_sequential_as_downstream_of_masking_layer"
+    }
+   ]
+  },
+  "23": {
+   "bug": "23",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/test_sequential_model.py",
+   "buggy_commit": "3dcd9c767ce6875fc8b69c74971ac8a552e23131",
+   "fixed_commit": "69c30a150f0b2caee7961ca1c0080960ef5ad6f6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/test_sequential_model.py",
+     "node": "test_nested_sequential_deferred_build",
+     "raw": "pytest tests/keras/test_sequential_model.py::test_nested_sequential_deferred_build"
+    }
+   ]
+  },
+  "24": {
+   "bug": "24",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/test_callbacks.py",
+   "buggy_commit": "d7884570b10951d156aa086ee29a4df9eab79cf3",
+   "fixed_commit": "bcf0031b54d555179be81c088cc3df0a723d7907",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/test_callbacks.py",
+     "node": "test_TensorBoard_multi_input_output",
+     "raw": "pytest tests/keras/test_callbacks.py::test_TensorBoard_multi_input_output"
+    }
+   ]
+  },
+  "25": {
+   "bug": "25",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/applications/imagenet_utils_test.py",
+   "buggy_commit": "b470a595f7278acf5e7e47521edf25d3c4f479f1",
+   "fixed_commit": "84e168b5fa55933e02e767ff7c86fcc0232aecc6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/applications/imagenet_utils_test.py",
+     "node": "test_preprocess_input",
+     "raw": "pytest tests/keras/applications/imagenet_utils_test.py::test_preprocess_input"
+    }
+   ]
+  },
+  "26": {
+   "bug": "26",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/backend/backend_test.py",
+   "buggy_commit": "87417470c8168772559be0531e297120c569a422",
+   "fixed_commit": "97d5fa920e4f8248128f7c1b460fd9bb20d3478f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/backend/backend_test.py",
+     "node": "TestBackend::test_rnn_additional_states",
+     "raw": "pytest tests/keras/backend/backend_test.py::TestBackend::test_rnn_additional_states"
+    }
+   ]
+  },
+  "27": {
+   "bug": "27",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/wrappers_test.py",
+   "buggy_commit": "49f5b931410bc2e56378f20a15e8ac919e0efb88",
+   "fixed_commit": "b076e227da6beaf87d6c84eff1a92285e4662acf",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/wrappers_test.py",
+     "node": "test_Bidirectional_updates",
+     "raw": "pytest tests/keras/layers/wrappers_test.py::test_Bidirectional_updates"
+    },
+    {
+     "file": "tests/keras/layers/wrappers_test.py",
+     "node": "test_Bidirectional_losses",
+     "raw": "pytest tests/keras/layers/wrappers_test.py::test_Bidirectional_losses"
+    }
+   ]
+  },
+  "28": {
+   "bug": "28",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/preprocessing/sequence_test.py",
+   "buggy_commit": "6171b3656ebd9b6038f709ba83f7475de284ba4e",
+   "fixed_commit": "5422fdd38baad36730cb6aeb946e17eeae6a551c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/preprocessing/sequence_test.py",
+     "node": "test_TimeSeriesGenerator_doesnt_miss_any_sample",
+     "raw": "pytest tests/keras/preprocessing/sequence_test.py::test_TimeSeriesGenerator_doesnt_miss_any_sample"
+    },
+    {
+     "file": "tests/keras/preprocessing/sequence_test.py",
+     "node": "test_TimeseriesGenerator",
+     "raw": "pytest tests/keras/preprocessing/sequence_test.py::test_TimeseriesGenerator"
+    }
+   ]
+  },
+  "29": {
+   "bug": "29",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/metrics_test.py",
+   "buggy_commit": "a341c014412cbfc86a9dd9816ae228e398dff3a2",
+   "fixed_commit": "adc321b4d7a4e22f6bdb00b404dfe5e23d4887aa",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/metrics_test.py",
+     "node": "test_stateful_metrics[dict]",
+     "raw": "pytest tests/keras/metrics_test.py::test_stateful_metrics[dict]"
+    }
+   ]
+  },
+  "30": {
+   "bug": "30",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/engine/test_training.py",
+   "buggy_commit": "c08ef613af27da896cee168daeee5c6fad1980b6",
+   "fixed_commit": "2c8d1d03599cc03243bce8f07ed9c4a3d5f384f9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/engine/test_training.py",
+     "node": "test_model_with_external_loss",
+     "raw": "pytest tests/keras/engine/test_training.py::test_model_with_external_loss"
+    }
+   ]
+  },
+  "31": {
+   "bug": "31",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/backend/backend_test.py",
+   "buggy_commit": "ced81968b0e9d8b1389e6580721ac60d9cf3ca60",
+   "fixed_commit": "e2a10a5e6e156a45e946c4d08db7133f997c1f9a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/backend/backend_test.py",
+     "node": "TestBackend::test_ctc",
+     "raw": "pytest tests/keras/backend/backend_test.py::TestBackend::test_ctc"
+    }
+   ]
+  },
+  "32": {
+   "bug": "32",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/test_callbacks.py",
+   "buggy_commit": "a3d160b9467c99cbb27f9aa0382c759f45c8ee66",
+   "fixed_commit": "709f791af201caaab4aa180bda259989087cfe47",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/test_callbacks.py",
+     "node": "test_ReduceLROnPlateau_patience",
+     "raw": "pytest tests/keras/test_callbacks.py::test_ReduceLROnPlateau_patience"
+    },
+    {
+     "file": "tests/keras/test_callbacks.py",
+     "node": "test_ReduceLROnPlateau_backwards_compatibility",
+     "raw": "pytest tests/keras/test_callbacks.py::test_ReduceLROnPlateau_backwards_compatibility"
+    }
+   ]
+  },
+  "33": {
+   "bug": "33",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/preprocessing/text_test.py",
+   "buggy_commit": "1c9a49781da2101507db23e2014e4e5d16bd2e52",
+   "fixed_commit": "70ad0d6e4a569701ef106058397ad0540ec08340",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/preprocessing/text_test.py",
+     "node": "test_text_to_word_sequence_multichar_split",
+     "raw": "pytest tests/keras/preprocessing/text_test.py::test_text_to_word_sequence_multichar_split"
+    },
+    {
+     "file": "tests/keras/preprocessing/text_test.py",
+     "node": "test_text_to_word_sequence_unicode_multichar_split",
+     "raw": "pytest tests/keras/preprocessing/text_test.py::test_text_to_word_sequence_unicode_multichar_split"
+    }
+   ]
+  },
+  "34": {
+   "bug": "34",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/test_multiprocessing.py",
+   "buggy_commit": "7ef5244a2f1f7f7b76e3c804b82cbb20cdf4d139",
+   "fixed_commit": "4b74fc5418944c9f449eb88ed4b40ada280fa5ca",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_multiprocessing.py",
+     "node": "test_multiprocessing_training",
+     "raw": "pytest tests/test_multiprocessing.py::test_multiprocessing_training"
+    }
+   ]
+  },
+  "35": {
+   "bug": "35",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/preprocessing/image_test.py",
+   "buggy_commit": "06eaeebecfb73c23bfd531013ca172ee3bf5069c",
+   "fixed_commit": "738819de0b7e6bc45abed8d0640f02b81c6ac4e9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/preprocessing/image_test.py",
+     "node": "TestImage::test_directory_iterator",
+     "raw": "pytest tests/keras/preprocessing/image_test.py::TestImage::test_directory_iterator"
+    }
+   ]
+  },
+  "36": {
+   "bug": "36",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/convolutional_test.py",
+   "buggy_commit": "85f011df5a5c0fcf1f01b39eca338eb6b7e58401",
+   "fixed_commit": "fb1887d132a8ce8548ff53d868a6ba531cd63b34",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/convolutional_test.py",
+     "node": "test_separable_conv_1d",
+     "raw": "pytest tests/keras/layers/convolutional_test.py::test_separable_conv_1d"
+    }
+   ]
+  },
+  "37": {
+   "bug": "37",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/wrappers_test.py",
+   "buggy_commit": "81f6b3aa5b2b6215a533180e848a3b4dff851d03",
+   "fixed_commit": "1d2ad790dd43a2d702176c1170b2f3fd592a385a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/wrappers_test.py",
+     "node": "test_Bidirectional_state_reuse",
+     "raw": "pytest tests/keras/layers/wrappers_test.py::test_Bidirectional_state_reuse"
+    }
+   ]
+  },
+  "38": {
+   "bug": "38",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/recurrent_test.py",
+   "buggy_commit": "53ec990d54130dd0a457dd235c93d39de32d571d",
+   "fixed_commit": "64f80d6077edd5f277a1181df94bf4510ea0517a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/recurrent_test.py",
+     "node": "test_minimal_rnn_cell_layer",
+     "raw": "pytest tests/keras/layers/recurrent_test.py::test_minimal_rnn_cell_layer"
+    }
+   ]
+  },
+  "39": {
+   "bug": "39",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/utils/generic_utils_test.py",
+   "buggy_commit": "3a431ea52d090fb3ef8a1e0e5d7f796d9a42e097",
+   "fixed_commit": "a5ecde595c47f35fd7293d52eba48efd687ca94e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/utils/generic_utils_test.py",
+     "node": "test_progbar",
+     "raw": "pytest tests/keras/utils/generic_utils_test.py::test_progbar"
+    }
+   ]
+  },
+  "40": {
+   "bug": "40",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/recurrent_test.py",
+   "buggy_commit": "871007dbb0e6211459b9d16244cc3c9683459df7",
+   "fixed_commit": "4cad455ef4da600c96ddc69800bab39d0e52b677",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/recurrent_test.py",
+     "node": "test_stacked_rnn_compute_output_shape",
+     "raw": "pytest tests/keras/layers/recurrent_test.py::test_stacked_rnn_compute_output_shape"
+    }
+   ]
+  },
+  "41": {
+   "bug": "41",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/utils/data_utils_test.py",
+   "buggy_commit": "a27b4a51f4880ad3a7669531b667c1ef44b173ef",
+   "fixed_commit": "4a58b178073f0ba3b166220f7ebd7d56149bfb20",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/utils/data_utils_test.py",
+     "node": "test_generator_enqueuer_fail_threads",
+     "raw": "pytest tests/keras/utils/data_utils_test.py::test_generator_enqueuer_fail_threads"
+    }
+   ]
+  },
+  "42": {
+   "bug": "42",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/engine/test_training.py",
+   "buggy_commit": "67a432c273cbd65866b1d2cb1e2c62714b633b6e",
+   "fixed_commit": "2f3edf96078d78450b985bdf3bfffe7e0c627169",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/engine/test_training.py",
+     "node": "test_model_methods",
+     "raw": "pytest tests/keras/engine/test_training.py::test_model_methods"
+    }
+   ]
+  },
+  "43": {
+   "bug": "43",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/utils/np_utils_test.py",
+   "buggy_commit": "e3e97c401aa8251e957b73fba8ed4d108c106f12",
+   "fixed_commit": "b17169ca5d6cd1c8aeb237fc2bb0555c9e1b6a02",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/utils/np_utils_test.py",
+     "node": "test_to_categorical",
+     "raw": "pytest tests/keras/utils/np_utils_test.py::test_to_categorical"
+    }
+   ]
+  },
+  "44": {
+   "bug": "44",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/recurrent_test.py",
+   "buggy_commit": "cc08f0f01fe97a9659e3da8fa9b290a54992c74a",
+   "fixed_commit": "3292aa5a30350c67627f173ceac713956f68271f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/recurrent_test.py",
+     "node": "test_trainability",
+     "raw": "pytest tests/keras/layers/recurrent_test.py::test_trainability"
+    }
+   ]
+  },
+  "45": {
+   "bug": "45",
+   "project": "keras",
+   "python_version": "3.7.3",
+   "test_file": "tests/keras/layers/recurrent_test.py",
+   "buggy_commit": "d368dc870bfd8fdd4ca0ff82bd5b61aa549291c5",
+   "fixed_commit": "159bb1aac17a8de0f96997d35703b8f26926a848",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/keras/layers/recurrent_test.py",
+     "node": "test_implementation_mode[LSTM]",
+     "raw": "pytest tests/keras/layers/recurrent_test.py::test_implementation_mode[LSTM]"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+  "project": "Cli",
+  "bug": "1b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T15:23:37.042096+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 11.3
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 40.3,
+      "lines_total": 852,
+      "lines_covered": 441,
+      "cond_total": 464,
+      "cond_covered": 208,
+      "line_cov_pct": 51.8,
+      "cond_cov_pct": 44.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 10.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 21.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 152.5,
+      "mutants_generated": 851,
+      "mutants_covered": 501,
+      "mutants_killed": 319,
+      "mutation_score_pct": 63.7,
+      "mutation_score_covered_pct": 37.5
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 16,
+  "n_test_java_total": 18,
+  "n_test_target": 4,
+  "n_test_kept": 4,
+  "n_keep_java": 4,
+  "kept_tests": [
+    "org/apache/commons/cli/OptionsTest.java",
+    "org/apache/commons/cli/ParseTest.java",
+    "org/apache/commons/cli/TestHelpFormatter.java",
+    "org/apache/commons/cli/ValueTest.java"
+  ],
+  "n_moved_b": 14,
+  "kept_tests_final": [
+    "org/apache/commons/cli/OptionsTest.java",
+    "org/apache/commons/cli/ParseTest.java",
+    "org/apache/commons/cli/TestHelpFormatter.java",
+    "org/apache/commons/cli/ValueTest.java"
+  ],
+  "n_test_final": 4,
+  "n_keep_java_f": 4,
+  "n_moved_f": 14,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli/OptionsTest.java",
+    "org/apache/commons/cli/ParseTest.java",
+    "org/apache/commons/cli/TestHelpFormatter.java",
+    "org/apache/commons/cli/ValueTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

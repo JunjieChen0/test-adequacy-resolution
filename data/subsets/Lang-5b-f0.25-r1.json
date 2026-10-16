@@ -1,0 +1,68 @@
+{
+  "project": "Lang",
+  "bug": "5b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:33:25.771285+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.4
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 111,
+  "n_test_java_total": 128,
+  "n_test_target": 28,
+  "n_test_kept": 32,
+  "n_keep_java": 35,
+  "kept_tests": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/CharEncodingTest.java",
+    "org/apache/commons/lang3/CharSequenceUtilsTest.java",
+    "org/apache/commons/lang3/HashSetvBitSetTest.java",
+    "org/apache/commons/lang3/JavaVersionTest.java",
+    "org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderConcurrencyTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/event/EventListenerSupportTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java",
+    "org/apache/commons/lang3/math/IEEE754rUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityEscaperTest.java",
+    "org/apache/commons/lang3/text/translate/OctalUnescaperTest.java",
+    "org/apache/commons/lang3/time/DateUtilsRoundingTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/time/FastDatePrinterTest.java"
+  ],
+  "n_moved_b": 93
+}

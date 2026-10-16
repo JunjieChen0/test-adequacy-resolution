@@ -1,0 +1,26 @@
+{
+  "tag": "Compress-22b-f0.1-r1",
+  "project": "Compress",
+  "bug": "22b",
+  "frac": 0.1,
+  "rep": 1,
+  "n_test_final": 7,
+  "features": {
+    "n_assertions": 206,
+    "n_test_methods": 18,
+    "n_strong": 107,
+    "n_weak": 85,
+    "n_other": 14,
+    "n_predicate": 2,
+    "n_distinct_calls": 53,
+    "test_loc": 1363,
+    "n_files": 7
+  },
+  "derived": {
+    "assertions_per_method": 11.444444444444445,
+    "strong_ratio": 0.5194174757281553,
+    "weak_ratio": 0.41262135922330095,
+    "predicate_ratio": 0.009708737864077669,
+    "calls_per_assertion": 0.25728155339805825
+  }
+}

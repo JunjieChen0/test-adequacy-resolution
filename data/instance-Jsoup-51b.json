@@ -1,0 +1,86 @@
+{
+  "project": "Jsoup",
+  "bug": "51b",
+  "t": "2026-10-16T01:11:19.037901+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.3
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.0
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.5
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.8
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 3.3
+    }
+  },
+  "all.txt": [
+    "org.jsoup.helper.DataUtilTest",
+    "org.jsoup.helper.HttpConnectionTest",
+    "org.jsoup.helper.StringUtilTest",
+    "org.jsoup.helper.W3CDomTest",
+    "org.jsoup.integration.ParseTest",
+    "org.jsoup.integration.UrlConnectTest",
+    "org.jsoup.nodes.AttributeTest",
+    "org.jsoup.nodes.AttributesTest",
+    "org.jsoup.nodes.DocumentTest",
+    "org.jsoup.nodes.DocumentTypeTest",
+    "org.jsoup.nodes.ElementTest",
+    "org.jsoup.nodes.EntitiesTest",
+    "org.jsoup.nodes.FormElementTest",
+    "org.jsoup.nodes.NodeTest",
+    "org.jsoup.nodes.TextNodeTest",
+    "org.jsoup.parser.AttributeParseTest",
+    "org.jsoup.parser.CharacterReaderTest",
+    "org.jsoup.parser.HtmlParserTest",
+    "org.jsoup.parser.TagTest",
+    "org.jsoup.parser.TokenQueueTest",
+    "org.jsoup.parser.XmlTreeBuilderTest",
+    "org.jsoup.safety.CleanerTest",
+    "org.jsoup.select.CssTest",
+    "org.jsoup.select.ElementsTest",
+    "org.jsoup.select.QueryParserTest",
+    "org.jsoup.select.SelectorTest"
+  ],
+  "trigger.txt": [
+    "org.jsoup.parser.HtmlParserTest::testSupportsNonAsciiTags"
+  ],
+  "relevant.txt": [
+    "org.jsoup.helper.DataUtilTest",
+    "org.jsoup.helper.StringUtilTest",
+    "org.jsoup.helper.W3CDomTest",
+    "org.jsoup.integration.ParseTest",
+    "org.jsoup.nodes.DocumentTest",
+    "org.jsoup.nodes.ElementTest",
+    "org.jsoup.nodes.EntitiesTest",
+    "org.jsoup.nodes.FormElementTest",
+    "org.jsoup.nodes.NodeTest",
+    "org.jsoup.nodes.TextNodeTest",
+    "org.jsoup.parser.AttributeParseTest",
+    "org.jsoup.parser.CharacterReaderTest",
+    "org.jsoup.parser.HtmlParserTest",
+    "org.jsoup.parser.XmlTreeBuilderTest",
+    "org.jsoup.safety.CleanerTest",
+    "org.jsoup.select.CssTest",
+    "org.jsoup.select.ElementsTest",
+    "org.jsoup.select.SelectorTest"
+  ],
+  "modified.txt": [
+    "org.jsoup.parser.CharacterReader"
+  ],
+  "n_all_tests": 26
+}

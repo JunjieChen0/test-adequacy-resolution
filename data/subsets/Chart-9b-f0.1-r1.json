@@ -1,0 +1,71 @@
+{
+  "project": "Chart",
+  "bug": "9b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:40:53.646705+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 14.4
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 329,
+  "n_test_java_total": 359,
+  "n_test_target": 33,
+  "n_test_kept": 35,
+  "n_keep_java": 36,
+  "kept_tests": [
+    "org/jfree/chart/annotations/junit/CategoryLineAnnotationTests.java",
+    "org/jfree/chart/annotations/junit/TextAnnotationTests.java",
+    "org/jfree/chart/annotations/junit/XYShapeAnnotationTests.java",
+    "org/jfree/chart/axis/junit/QuarterDateFormatTests.java",
+    "org/jfree/chart/axis/junit/SymbolAxisTests.java",
+    "org/jfree/chart/axis/junit/TickUnitsTests.java",
+    "org/jfree/chart/block/junit/FlowArrangementTests.java",
+    "org/jfree/chart/block/junit/RectangleConstraintTests.java",
+    "org/jfree/chart/entity/junit/StandardEntityCollectionTests.java",
+    "org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java",
+    "org/jfree/chart/junit/GanttChartTests.java",
+    "org/jfree/chart/junit/MeterChartTests.java",
+    "org/jfree/chart/junit/ScatterPlotTests.java",
+    "org/jfree/chart/junit/StackedBarChart3DTests.java",
+    "org/jfree/chart/junit/XYStepChartTests.java",
+    "org/jfree/chart/labels/junit/StandardCategoryItemLabelGeneratorTests.java",
+    "org/jfree/chart/needle/junit/LineNeedleTests.java",
+    "org/jfree/chart/plot/dial/junit/ArcDialFrameTests.java",
+    "org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java",
+    "org/jfree/chart/renderer/junit/RendererUtilitiesTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYAreaRenderer2Tests.java",
+    "org/jfree/chart/util/junit/LogFormatTests.java",
+    "org/jfree/chart/util/junit/RelativeDateFormatTests.java",
+    "org/jfree/data/category/junit/CategoryToPieDatasetTests.java",
+    "org/jfree/data/general/junit/DefaultKeyedValuesDatasetTests.java",
+    "org/jfree/data/junit/DefaultKeyedValueTests.java",
+    "org/jfree/data/time/junit/QuarterTests.java",
+    "org/jfree/data/time/junit/TimePeriodValueTests.java",
+    "org/jfree/data/time/junit/TimePeriodValuesTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/time/ohlc/junit/OHLCTests.java",
+    "org/jfree/data/xy/junit/DefaultHighLowDatasetTests.java",
+    "org/jfree/data/xy/junit/XYSeriesTests.java",
+    "org/jfree/data/xy/junit/YIntervalDataItemTests.java",
+    "org/jfree/data/xy/junit/YIntervalSeriesTests.java"
+  ],
+  "n_moved_b": 323
+}

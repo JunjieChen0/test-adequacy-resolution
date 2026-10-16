@@ -1,0 +1,120 @@
+{
+ "project": "youtube-dl",
+ "bug": "36",
+ "n_collected": 40,
+ "n_pool": 29,
+ "source_pkgs": [
+  "youtube_dl"
+ ],
+ "total_asserts_in_pool": null,
+ "pool": [
+  "test/test_utils.py::TestUtil::test_daterange",
+  "test/test_utils.py::TestUtil::test_find_xpath_attr",
+  "test/test_utils.py::TestUtil::test_fix_xml_ampersands",
+  "test/test_utils.py::TestUtil::test_meta_parser",
+  "test/test_utils.py::TestUtil::test_ordered_set",
+  "test/test_utils.py::TestUtil::test_paged_list",
+  "test/test_utils.py::TestUtil::test_parse_duration",
+  "test/test_utils.py::TestUtil::test_parse_iso8601",
+  "test/test_utils.py::TestUtil::test_read_batch_urls",
+  "test/test_utils.py::TestUtil::test_sanitize_filename",
+  "test/test_utils.py::TestUtil::test_sanitize_filename_restricted",
+  "test/test_utils.py::TestUtil::test_sanitize_ids",
+  "test/test_utils.py::TestUtil::test_shell_quote",
+  "test/test_utils.py::TestUtil::test_smuggle_url",
+  "test/test_utils.py::TestUtil::test_str_to_int",
+  "test/test_utils.py::TestUtil::test_strip_jsonp",
+  "test/test_utils.py::TestUtil::test_struct_unpack",
+  "test/test_utils.py::TestUtil::test_timeconvert",
+  "test/test_utils.py::TestUtil::test_unescape_html",
+  "test/test_utils.py::TestUtil::test_unified_dates",
+  "test/test_utils.py::TestUtil::test_uppercase_escape",
+  "test/test_utils.py::TestUtil::test_url_basename",
+  "test/test_utils.py::TestUtil::test_urlencode_postdata",
+  "test/test_utils.py::TestUtil::test_xpath_with_ns",
+  "test/test_YoutubeDL.py::TestFormatSelection::test_add_extra_info",
+  "test/test_execution.py::TestExecution::test_import",
+  "test/test_execution.py::TestExecution::test_main_exec",
+  "test/test_execution.py::TestExecution::test_module_exec",
+  "test/test_unicode_literals.py::TestUnicodeLiterals::test_all_files"
+ ],
+ "instances": [
+  {
+   "frac": 0.1,
+   "rep": 1,
+   "k": 5,
+   "detect_n": 1,
+   "detect_rate": 0.07692307692307693,
+   "n_bugs_project": 43,
+   "n_bugs_active": 13,
+   "features": {
+    "assertions_per_method": 4.0,
+    "strong_ratio": 0.75,
+    "weak_ratio": 0.25,
+    "predicate_ratio": 0.75,
+    "calls_per_assertion": 1.05,
+    "n_assert_total": 20,
+    "n_methods_with_assert": 4
+   },
+   "status": "ok",
+   "line_cov_pct": 27.66330556773345,
+   "n_pass": 5,
+   "tail": "5 passed, 92 warnings in 1.46s"
+  },
+  {
+   "frac": 0.3,
+   "rep": 1,
+   "k": 9,
+   "detect_n": 4,
+   "detect_rate": 0.3076923076923077,
+   "n_bugs_project": 43,
+   "n_bugs_active": 13,
+   "features": {
+    "assertions_per_method": 5.888888888888889,
+    "strong_ratio": 0.8490566037735849,
+    "weak_ratio": 0.1509433962264151,
+    "predicate_ratio": 0.8490566037735849,
+    "calls_per_assertion": 0.9433962264150944,
+    "n_assert_total": 53,
+    "n_methods_with_assert": 9
+   },
+   "status": "ok",
+   "line_cov_pct": 27.826141416671884,
+   "n_pass": 9,
+   "tail": "9 passed, 92 warnings in 0.79s"
+  },
+  {
+   "frac": 0.6,
+   "rep": 1,
+   "k": 17,
+   "detect_n": 9,
+   "detect_rate": 0.6923076923076923,
+   "n_bugs_project": 43,
+   "n_bugs_active": 13,
+   "features": {
+    "assertions_per_method": 3.0588235294117645,
+    "strong_ratio": 0.8653846153846154,
+    "weak_ratio": 0.1346153846153846,
+    "predicate_ratio": 0.8653846153846154,
+    "calls_per_assertion": 0.9230769230769231,
+    "n_assert_total": 52,
+    "n_methods_with_assert": 16
+   },
+   "status": "ok",
+   "line_cov_pct": 28.070395190079537,
+   "n_pass": 17,
+   "tail": "17 passed, 92 warnings in 2.15s"
+  }
+ ],
+ "pool_features": {
+  "assertions_per_method": 3.4827586206896552,
+  "strong_ratio": 0.8415841584158416,
+  "weak_ratio": 0.15841584158415842,
+  "predicate_ratio": 0.8415841584158416,
+  "calls_per_assertion": 0.9900990099009901,
+  "n_assert_total": 101,
+  "n_methods_with_assert": 26
+ },
+ "n_bugs_active": 13,
+ "status": "ok"
+}

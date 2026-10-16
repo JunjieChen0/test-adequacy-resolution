@@ -1,0 +1,102 @@
+{
+  "project": "Lang",
+  "bug": "12b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:25:52.207804+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 15.8
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 34.5,
+      "lines_total": 11257,
+      "lines_covered": 1721,
+      "cond_total": 7494,
+      "cond_covered": 706,
+      "line_cov_pct": 15.3,
+      "cond_cov_pct": 9.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 14.4
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 45.0,
+      "mutants_generated": 1427,
+      "mutants_covered": 54,
+      "mutants_killed": 11,
+      "mutation_score_pct": 20.4,
+      "mutation_score_covered_pct": 0.8
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 108,
+  "n_test_java_total": 126,
+  "n_test_target": 11,
+  "n_test_kept": 12,
+  "n_keep_java": 13,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/JavaVersionTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderConcurrencyTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/text/CompositeFormatTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java"
+  ],
+  "n_moved_b": 113,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/JavaVersionTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderConcurrencyTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/text/CompositeFormatTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java"
+  ],
+  "n_test_final": 12,
+  "n_keep_java_f": 13,
+  "n_moved_f": 113,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/JavaVersionTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderConcurrencyTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/text/CompositeFormatTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

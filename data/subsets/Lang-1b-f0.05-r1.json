@@ -1,0 +1,67 @@
+{
+  "project": "Lang",
+  "bug": "1b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T10:38:46.216782+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 11.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 16.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 71.0,
+      "lines_total": 12084,
+      "lines_covered": 716,
+      "cond_total": 8104,
+      "cond_covered": 267,
+      "line_cov_pct": 5.9,
+      "cond_cov_pct": 3.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 14.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 14.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 70.0,
+      "mutants_generated": 1432,
+      "mutants_covered": 29,
+      "mutants_killed": 28,
+      "mutation_score_pct": 96.6,
+      "mutation_score_covered_pct": 2.0
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 111,
+  "n_test_java_total": 128,
+  "n_test_target": 6,
+  "n_test_kept": 7,
+  "n_keep_java": 7,
+  "kept_tests": [
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
+    "org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang3/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java"
+  ],
+  "n_moved_b": 121,
+  "n_keep_java_f": 7,
+  "n_moved_f": 121,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

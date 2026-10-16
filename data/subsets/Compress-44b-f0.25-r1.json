@@ -1,0 +1,64 @@
+{
+  "project": "Compress",
+  "bug": "44b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:36:09.427387+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 113,
+  "n_test_java_total": 127,
+  "n_test_target": 28,
+  "n_test_kept": 28,
+  "n_keep_java": 31,
+  "kept_tests": [
+    "org/apache/commons/compress/ArchiveReadTest.java",
+    "org/apache/commons/compress/ChainingTestCase.java",
+    "org/apache/commons/compress/archivers/ArchiveServiceLoaderTest.java",
+    "org/apache/commons/compress/archivers/DumpTestCase.java",
+    "org/apache/commons/compress/archivers/TarTestCase.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/ar/ArArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/StreamCompressorTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEightByteIntegerTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/compressors/CompressorServiceLoaderTest.java",
+    "org/apache/commons/compress/compressors/DeflateTestCase.java",
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamTest.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateParametersTest.java",
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStreamTest.java",
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorRoundtripTest.java",
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest.java",
+    "org/apache/commons/compress/compressors/xz/XZCompressorInputStreamTest.java",
+    "org/apache/commons/compress/utils/CharsetsTest.java"
+  ],
+  "n_moved_b": 96
+}

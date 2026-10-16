@@ -1,0 +1,97 @@
+{
+  "project": "Chart",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 2,
+  "t": "2026-10-15T10:31:08.852652+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 17.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 21.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 200.4,
+      "lines_total": 53789,
+      "lines_covered": 9391,
+      "cond_total": 23120,
+      "cond_covered": 3116,
+      "line_cov_pct": 17.5,
+      "cond_cov_pct": 13.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 23.3
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 16.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 74.9,
+      "mutants_generated": 1229,
+      "mutants_covered": 89,
+      "mutants_killed": 43,
+      "mutation_score_pct": 48.3,
+      "mutation_score_covered_pct": 3.5
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 356,
+  "n_test_java_total": 389,
+  "n_test_target": 36,
+  "n_test_kept": 37,
+  "n_keep_java": 37,
+  "kept_tests": [
+    "org/jfree/chart/annotations/junit/XYLineAnnotationTests.java",
+    "org/jfree/chart/axis/junit/DateAxisTests.java",
+    "org/jfree/chart/axis/junit/DateTickUnitTests.java",
+    "org/jfree/chart/axis/junit/NumberTickUnitTests.java",
+    "org/jfree/chart/block/junit/LineBorderTests.java",
+    "org/jfree/chart/imagemap/junit/ImageMapUtilitiesTests.java",
+    "org/jfree/chart/imagemap/junit/OverLIBToolTipTagFragmentGeneratorTests.java",
+    "org/jfree/chart/junit/StackedBarChart3DTests.java",
+    "org/jfree/chart/labels/junit/BubbleXYItemLabelGeneratorTests.java",
+    "org/jfree/chart/labels/junit/StandardXYToolTipGeneratorTests.java",
+    "org/jfree/chart/plot/junit/CombinedDomainCategoryPlotTests.java",
+    "org/jfree/chart/plot/junit/MeterPlotTests.java",
+    "org/jfree/chart/plot/junit/PlotOrientationTests.java",
+    "org/jfree/chart/plot/junit/PlotTests.java",
+    "org/jfree/chart/renderer/category/junit/StatisticalLineAndShapeRendererTests.java",
+    "org/jfree/chart/renderer/junit/DefaultPolarItemRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/HighLowRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/StandardXYBarPainterTests.java",
+    "org/jfree/chart/renderer/xy/junit/YIntervalRendererTests.java",
+    "org/jfree/chart/urls/junit/CustomCategoryURLGeneratorTests.java",
+    "org/jfree/chart/urls/junit/CustomXYURLGeneratorTests.java",
+    "org/jfree/chart/util/junit/BooleanListTests.java",
+    "org/jfree/data/category/junit/DefaultCategoryDatasetTests.java",
+    "org/jfree/data/category/junit/SlidingCategoryDatasetTests.java",
+    "org/jfree/data/gantt/junit/TaskSeriesTests.java",
+    "org/jfree/data/junit/DefaultKeyedValues2DTests.java",
+    "org/jfree/data/junit/DomainOrderTests.java",
+    "org/jfree/data/junit/KeyToGroupMapTests.java",
+    "org/jfree/data/junit/KeyedObjectTests.java",
+    "org/jfree/data/statistics/junit/DefaultStatisticalCategoryDatasetTests.java",
+    "org/jfree/data/statistics/junit/SimpleHistogramBinTests.java",
+    "org/jfree/data/statistics/junit/SimpleHistogramDatasetTests.java",
+    "org/jfree/data/time/junit/SimpleTimePeriodTests.java",
+    "org/jfree/data/time/junit/WeekTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/xy/junit/DefaultHighLowDatasetTests.java",
+    "org/jfree/data/xy/junit/XIntervalSeriesCollectionTests.java"
+  ],
+  "n_moved_b": 352,
+  "n_keep_java_f": 37,
+  "n_moved_f": 352,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

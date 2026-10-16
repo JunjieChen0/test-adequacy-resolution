@@ -1,0 +1,52 @@
+{
+  "project": "Lang",
+  "bug": "64b",
+  "frac": 1.0,
+  "rep": 1,
+  "t": "2026-10-15T10:08:02.318137+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 5.9
+    },
+    "coverage": {
+      "rc": 255,
+      "s": 1.1,
+      "err": [
+        "Running ant (compile.tests)................................................ OK",
+        "No classes to instrument found! at /home/user/tools/defects4j/framework/core/Project.pm line 813.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 4.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 5.9
+    },
+    "mutation": {
+      "rc": 255,
+      "s": 7.4,
+      "err": [
+        "Running ant (mutate)....................................................... OK",
+        "Cannot mutate project! at /home/user/tools/defects4j/framework/bin/d4j/d4j-mutation line 149.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "n_test_total": 0,
+  "n_test_target": 0,
+  "n_test_kept": 0,
+  "kept_tests": [],
+  "n_moved_b": 0,
+  "n_test_kept_f": 0,
+  "n_moved_f": 0,
+  "n_mut_classes": 0,
+  "status": "ok"
+}

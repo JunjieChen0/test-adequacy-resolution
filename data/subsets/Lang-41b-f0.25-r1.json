@@ -1,0 +1,58 @@
+{
+  "project": "Lang",
+  "bug": "41b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:34:54.415737+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 87,
+  "n_test_java_total": 98,
+  "n_test_target": 22,
+  "n_test_kept": 22,
+  "n_keep_java": 25,
+  "kept_tests": [
+    "org/apache/commons/lang/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/math/LongRangeTest.java",
+    "org/apache/commons/lang/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang/text/StrBuilderTest.java",
+    "org/apache/commons/lang/text/StrLookupTest.java",
+    "org/apache/commons/lang/text/translate/EscapeUtilsTest.java",
+    "org/apache/commons/lang/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang/text/translate/UnescapeUtilsTest.java",
+    "org/apache/commons/lang/text/translate/UnicodeEscaperTest.java",
+    "org/apache/commons/lang/time/DateUtilsFragmentTest.java",
+    "org/apache/commons/lang/time/FastDateFormatTest.java"
+  ],
+  "n_moved_b": 73
+}

@@ -1,0 +1,59 @@
+{
+  "project": "Lang",
+  "bug": "32b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T10:00:53.443985+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.9
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 17.1,
+      "lines_total": 9708,
+      "lines_covered": 1427,
+      "cond_total": 6481,
+      "cond_covered": 562,
+      "line_cov_pct": 14.7,
+      "cond_cov_pct": 8.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 6.3
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 50.8,
+      "mutants_generated": 1344,
+      "mutants_covered": 572,
+      "mutants_killed": 362,
+      "mutation_score_pct": 63.3,
+      "mutation_score_covered_pct": 26.9
+    }
+  },
+  "n_test_total": 85,
+  "n_test_target": 4,
+  "n_test_kept": 5,
+  "kept_tests": [
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java"
+  ],
+  "n_moved_b": 80,
+  "n_test_kept_f": 5,
+  "n_moved_f": 80,
+  "n_mut_classes": 10,
+  "status": "ok"
+}

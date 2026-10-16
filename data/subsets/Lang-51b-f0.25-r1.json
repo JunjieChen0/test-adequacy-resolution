@@ -1,0 +1,132 @@
+{
+  "project": "Lang",
+  "bug": "51b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T18:26:46.386951+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 10.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 62.9,
+      "lines_total": 9767,
+      "lines_covered": 3184,
+      "cond_total": 6444,
+      "cond_covered": 1891,
+      "line_cov_pct": 32.6,
+      "cond_cov_pct": 29.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 8.3
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 10.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 373.2,
+      "mutants_generated": 2022,
+      "mutants_covered": 877,
+      "mutants_killed": 486,
+      "mutation_score_pct": 55.4,
+      "mutation_score_covered_pct": 24.0
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 83,
+  "n_test_java_total": 141,
+  "n_test_target": 21,
+  "n_test_kept": 22,
+  "n_keep_java": 40,
+  "kept_tests": [
+    "org/apache/commons/lang/CharSetTest.java",
+    "org/apache/commons/lang/CharUtilsTest.java",
+    "org/apache/commons/lang/EntitiesPerformanceTest.java",
+    "org/apache/commons/lang/IllegalClassExceptionTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/LongRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableByteTest.java",
+    "org/apache/commons/lang/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_moved_b": 101,
+  "kept_tests_final": [
+    "org/apache/commons/lang/CharSetTest.java",
+    "org/apache/commons/lang/CharUtilsTest.java",
+    "org/apache/commons/lang/EntitiesPerformanceTest.java",
+    "org/apache/commons/lang/IllegalClassExceptionTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/LongRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableByteTest.java",
+    "org/apache/commons/lang/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_test_final": 22,
+  "n_keep_java_f": 40,
+  "n_moved_f": 101,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/CharSetTest.java",
+    "org/apache/commons/lang/CharUtilsTest.java",
+    "org/apache/commons/lang/EntitiesPerformanceTest.java",
+    "org/apache/commons/lang/IllegalClassExceptionTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/LongRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableByteTest.java",
+    "org/apache/commons/lang/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

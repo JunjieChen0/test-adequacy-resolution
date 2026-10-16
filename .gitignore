@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs and LaTeX build products
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+
+# BugsInPy collector scratch space (one clone, one working tree and one
+# virtual environment per project; rebuilt by scripts/bip_collect.py)
+repo/
+work/

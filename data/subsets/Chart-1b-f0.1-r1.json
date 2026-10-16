@@ -1,0 +1,100 @@
+{
+  "project": "Chart",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T10:26:33.364744+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 13.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 18.3
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 185.4,
+      "lines_total": 53789,
+      "lines_covered": 10995,
+      "cond_total": 23120,
+      "cond_covered": 3382,
+      "line_cov_pct": 20.4,
+      "cond_cov_pct": 14.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 18.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 15.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 108.8,
+      "mutants_generated": 1229,
+      "mutants_covered": 61,
+      "mutants_killed": 31,
+      "mutation_score_pct": 50.8,
+      "mutation_score_covered_pct": 2.5
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 356,
+  "n_test_java_total": 389,
+  "n_test_target": 36,
+  "n_test_kept": 40,
+  "n_keep_java": 41,
+  "kept_tests": [
+    "org/jfree/chart/annotations/junit/XYImageAnnotationTests.java",
+    "org/jfree/chart/axis/junit/AxisSpaceTests.java",
+    "org/jfree/chart/axis/junit/NumberTickUnitTests.java",
+    "org/jfree/chart/axis/junit/SegmentedTimelineTests.java",
+    "org/jfree/chart/block/junit/BlockBorderTests.java",
+    "org/jfree/chart/junit/BarChart3DTests.java",
+    "org/jfree/chart/junit/ChartPanelTests.java",
+    "org/jfree/chart/junit/MeterChartTests.java",
+    "org/jfree/chart/junit/StackedBarChartTests.java",
+    "org/jfree/chart/junit/XYStepChartTests.java",
+    "org/jfree/chart/labels/junit/MultipleXYSeriesLabelGeneratorTests.java",
+    "org/jfree/chart/labels/junit/StandardPieToolTipGeneratorTests.java",
+    "org/jfree/chart/plot/junit/PieLabelRecordTests.java",
+    "org/jfree/chart/plot/junit/PlotTests.java",
+    "org/jfree/chart/plot/junit/SpiderWebPlotTests.java",
+    "org/jfree/chart/renderer/category/junit/BarRendererTests.java",
+    "org/jfree/chart/renderer/category/junit/GradientBarPainterTests.java",
+    "org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java",
+    "org/jfree/chart/renderer/junit/LookupPaintScaleTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYErrorRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepAreaRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepRendererTests.java",
+    "org/jfree/chart/title/junit/CompositeTitleTests.java",
+    "org/jfree/chart/title/junit/LegendGraphicTests.java",
+    "org/jfree/chart/urls/junit/CustomCategoryURLGeneratorTests.java",
+    "org/jfree/chart/urls/junit/CustomXYURLGeneratorTests.java",
+    "org/jfree/chart/util/junit/HashUtilitiesTests.java",
+    "org/jfree/chart/util/junit/PaintListTests.java",
+    "org/jfree/chart/util/junit/ShapeListTests.java",
+    "org/jfree/chart/util/junit/StrokeListTests.java",
+    "org/jfree/data/category/junit/DefaultCategoryDatasetTests.java",
+    "org/jfree/data/function/junit/PolynomialFunction2DTests.java",
+    "org/jfree/data/junit/RangeTypeTests.java",
+    "org/jfree/data/statistics/junit/SimpleHistogramBinTests.java",
+    "org/jfree/data/time/junit/SecondTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/xy/junit/DefaultHighLowDatasetTests.java",
+    "org/jfree/data/xy/junit/XIntervalSeriesTests.java",
+    "org/jfree/data/xy/junit/XYIntervalSeriesTests.java",
+    "org/jfree/data/xy/junit/XYSeriesTests.java"
+  ],
+  "n_moved_b": 348,
+  "n_keep_java_f": 41,
+  "n_moved_f": 348,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

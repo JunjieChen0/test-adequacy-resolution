@@ -1,0 +1,81 @@
+{
+  "project": "Cli",
+  "bug": "14b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T15:29:44.488059+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 11.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 20.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 50.1,
+      "lines_total": 1922,
+      "lines_covered": 856,
+      "cond_total": 905,
+      "cond_covered": 336,
+      "line_cov_pct": 44.5,
+      "cond_cov_pct": 37.1
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 11.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 15.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 85.5,
+      "mutants_generated": 540,
+      "mutants_covered": 204,
+      "mutants_killed": 49,
+      "mutation_score_pct": 24.0,
+      "mutation_score_covered_pct": 9.1
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 48,
+  "n_test_java_total": 56,
+  "n_test_target": 5,
+  "n_test_kept": 5,
+  "n_keep_java": 5,
+  "kept_tests": [
+    "org/apache/commons/cli2/DocumentationTest.java",
+    "org/apache/commons/cli2/bug/BugCLI122Test.java",
+    "org/apache/commons/cli2/bug/BugCLI18Test.java",
+    "org/apache/commons/cli2/bug/BugCLI80Test.java",
+    "org/apache/commons/cli2/bug/BugLoopingOptionLookAlikeTest.java"
+  ],
+  "n_moved_b": 51,
+  "kept_tests_final": [
+    "org/apache/commons/cli2/DocumentationTest.java",
+    "org/apache/commons/cli2/bug/BugCLI122Test.java",
+    "org/apache/commons/cli2/bug/BugCLI18Test.java",
+    "org/apache/commons/cli2/bug/BugCLI80Test.java",
+    "org/apache/commons/cli2/bug/BugLoopingOptionLookAlikeTest.java"
+  ],
+  "n_test_final": 5,
+  "n_keep_java_f": 5,
+  "n_moved_f": 51,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli2/DocumentationTest.java",
+    "org/apache/commons/cli2/bug/BugCLI122Test.java",
+    "org/apache/commons/cli2/bug/BugCLI18Test.java",
+    "org/apache/commons/cli2/bug/BugCLI80Test.java",
+    "org/apache/commons/cli2/bug/BugLoopingOptionLookAlikeTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

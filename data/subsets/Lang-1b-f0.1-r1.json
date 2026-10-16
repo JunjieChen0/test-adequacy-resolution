@@ -1,0 +1,74 @@
+{
+  "project": "Lang",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T10:38:46.221276+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 11.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 17.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 91.5,
+      "lines_total": 12084,
+      "lines_covered": 1691,
+      "cond_total": 8104,
+      "cond_covered": 707,
+      "line_cov_pct": 14.0,
+      "cond_cov_pct": 8.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 11.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 13.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 82.7,
+      "mutants_generated": 1432,
+      "mutants_covered": 80,
+      "mutants_killed": 46,
+      "mutation_score_pct": 57.5,
+      "mutation_score_covered_pct": 3.2
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 111,
+  "n_test_java_total": 128,
+  "n_test_target": 11,
+  "n_test_kept": 14,
+  "n_keep_java": 15,
+  "kept_tests": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/HashSetvBitSetTest.java",
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/ConstantInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/text/FormattableUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/time/FastDatePrinterTest.java"
+  ],
+  "n_moved_b": 113,
+  "n_keep_java_f": 15,
+  "n_moved_f": 113,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

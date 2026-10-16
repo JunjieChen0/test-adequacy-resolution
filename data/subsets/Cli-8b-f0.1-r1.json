@@ -1,0 +1,72 @@
+{
+  "project": "Cli",
+  "bug": "8b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T15:26:50.782010+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 27.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 39.8,
+      "lines_total": 874,
+      "lines_covered": 350,
+      "cond_total": 476,
+      "cond_covered": 160,
+      "line_cov_pct": 40.0,
+      "cond_cov_pct": 33.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 14.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 74.2,
+      "mutants_generated": 861,
+      "mutants_covered": 346,
+      "mutants_killed": 211,
+      "mutation_score_pct": 61.0,
+      "mutation_score_covered_pct": 24.5
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 22,
+  "n_test_java_total": 24,
+  "n_test_target": 2,
+  "n_test_kept": 2,
+  "n_keep_java": 2,
+  "kept_tests": [
+    "org/apache/commons/cli/ApplicationTest.java",
+    "org/apache/commons/cli/ParseTest.java"
+  ],
+  "n_moved_b": 22,
+  "kept_tests_final": [
+    "org/apache/commons/cli/ApplicationTest.java",
+    "org/apache/commons/cli/ParseTest.java"
+  ],
+  "n_test_final": 2,
+  "n_keep_java_f": 2,
+  "n_moved_f": 22,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli/ApplicationTest.java",
+    "org/apache/commons/cli/ParseTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

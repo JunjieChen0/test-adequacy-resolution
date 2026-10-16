@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Replication package: Identifiability and Confounding in Test-Adequacy Metric Validity Studies"
+abstract: >-
+  Collection pipeline, per-instance measurements and analysis code for a
+  cross-language study of whether incremental-validity claims about
+  test-adequacy metrics can be statistically resolved at conventional sample
+  sizes, on Defects4J (Java) and BugsInPy (Python).
+type: software
+license: MIT
+version: v1.0-submission
+date-released: 2026-10-16
+authors:
+  - family-names: "Anonymous"
+    given-names: "Author"
+message: >-
+  If you use this replication package, please cite the accompanying paper.

@@ -1,0 +1,74 @@
+{
+  "project": "Cli",
+  "bug": "27b",
+  "t": "2026-10-16T00:45:23.766127+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.3
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.9
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.8
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.8
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.9
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.cli.ApplicationTest",
+    "org.apache.commons.cli.ArgumentIsOptionTest",
+    "org.apache.commons.cli.BasicParserTest",
+    "org.apache.commons.cli.BugsTest",
+    "org.apache.commons.cli.CommandLineTest",
+    "org.apache.commons.cli.GnuParserTest",
+    "org.apache.commons.cli.HelpFormatterTest",
+    "org.apache.commons.cli.OptionBuilderTest",
+    "org.apache.commons.cli.OptionGroupTest",
+    "org.apache.commons.cli.OptionTest",
+    "org.apache.commons.cli.OptionsTest",
+    "org.apache.commons.cli.PatternOptionBuilderTest",
+    "org.apache.commons.cli.PosixParserTest",
+    "org.apache.commons.cli.UtilTest",
+    "org.apache.commons.cli.ValueTest",
+    "org.apache.commons.cli.ValuesTest",
+    "org.apache.commons.cli.bug.BugCLI133Test",
+    "org.apache.commons.cli.bug.BugCLI13Test",
+    "org.apache.commons.cli.bug.BugCLI148Test",
+    "org.apache.commons.cli.bug.BugCLI162Test",
+    "org.apache.commons.cli.bug.BugCLI18Test",
+    "org.apache.commons.cli.bug.BugCLI71Test"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.cli.BasicParserTest::testOptionGroupLong",
+    "org.apache.commons.cli.GnuParserTest::testOptionGroupLong",
+    "org.apache.commons.cli.PosixParserTest::testOptionGroupLong"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.cli.BasicParserTest",
+    "org.apache.commons.cli.BugsTest",
+    "org.apache.commons.cli.GnuParserTest",
+    "org.apache.commons.cli.HelpFormatterTest",
+    "org.apache.commons.cli.OptionGroupTest",
+    "org.apache.commons.cli.OptionsTest",
+    "org.apache.commons.cli.PosixParserTest",
+    "org.apache.commons.cli.bug.BugCLI162Test"
+  ],
+  "modified.txt": [
+    "org.apache.commons.cli.OptionGroup"
+  ],
+  "n_all_tests": 22
+}

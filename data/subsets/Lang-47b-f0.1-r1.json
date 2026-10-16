@@ -1,0 +1,46 @@
+{
+  "project": "Lang",
+  "bug": "47b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:35:08.191560+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.3
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 86,
+  "n_test_java_total": 148,
+  "n_test_target": 9,
+  "n_test_kept": 10,
+  "n_keep_java": 12,
+  "kept_tests": [
+    "org/apache/commons/lang/CharSetUtilsTest.java",
+    "org/apache/commons/lang/ClassUtilsTest.java",
+    "org/apache/commons/lang/IntHashMapTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang/oldenum/ValuedEnumTest.java",
+    "org/apache/commons/lang/time/DateUtilsFragmentTest.java"
+  ],
+  "n_moved_b": 136
+}

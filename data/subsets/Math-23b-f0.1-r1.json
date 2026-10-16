@@ -1,0 +1,69 @@
+{
+  "project": "Math",
+  "bug": "23b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:25:57.502331+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.9
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.7,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 307,
+  "n_test_java_total": 388,
+  "n_test_target": 31,
+  "n_test_kept": 33,
+  "n_keep_java": 45,
+  "kept_tests": [
+    "org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatorTest.java",
+    "org/apache/commons/math3/analysis/interpolation/MicrosphereInterpolatorTest.java",
+    "org/apache/commons/math3/analysis/interpolation/NevilleInterpolatorTest.java",
+    "org/apache/commons/math3/complex/ComplexUtilsTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/LogNormalDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/distribution/TDistributionTest.java",
+    "org/apache/commons/math3/distribution/UniformRealDistributionTest.java",
+    "org/apache/commons/math3/distribution/WeibullDistributionTest.java",
+    "org/apache/commons/math3/exception/NotPositiveExceptionTest.java",
+    "org/apache/commons/math3/fraction/BigFractionTest.java",
+    "org/apache/commons/math3/genetics/BinaryMutationTest.java",
+    "org/apache/commons/math3/genetics/FixedElapsedTimeTest.java",
+    "org/apache/commons/math3/genetics/RandomKeyMutationTest.java",
+    "org/apache/commons/math3/genetics/UniformCrossoverTest.java",
+    "org/apache/commons/math3/geometry/euclidean/oned/IntervalsSetTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSetTest.java",
+    "org/apache/commons/math3/linear/ArrayRealVectorTest.java",
+    "org/apache/commons/math3/linear/CholeskySolverTest.java",
+    "org/apache/commons/math3/linear/FrenchRealVectorFormatTest.java",
+    "org/apache/commons/math3/linear/RealVectorTest.java",
+    "org/apache/commons/math3/linear/UnmodifiableOpenMapRealVectorTest.java",
+    "org/apache/commons/math3/ode/nonstiff/EulerStepInterpolatorTest.java",
+    "org/apache/commons/math3/optimization/MultivariateMultiStartOptimizerTest.java",
+    "org/apache/commons/math3/stat/CertifiedDataTest.java",
+    "org/apache/commons/math3/stat/descriptive/AggregateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/DescriptiveStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SynchronizedDescriptiveStatisticsTest.java",
+    "org/apache/commons/math3/stat/inference/WilcoxonSignedRankTestTest.java",
+    "org/apache/commons/math3/stat/regression/GLSMultipleLinearRegressionTest.java",
+    "org/apache/commons/math3/util/OpenIntToDoubleHashMapTest.java"
+  ],
+  "n_moved_b": 343
+}

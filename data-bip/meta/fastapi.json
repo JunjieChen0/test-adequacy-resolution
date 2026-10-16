@@ -1,0 +1,336 @@
+{
+ "project": "fastapi",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_jsonable_encoder.py",
+   "buggy_commit": "766157bfb4e7dfccba09ab398e8ec444d14e947c",
+   "fixed_commit": "3397d4d69a9c2d64c1219fcbf291ea5697a4abb8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_jsonable_encoder.py",
+     "node": "test_encode_model_with_default",
+     "raw": "pytest tests/test_jsonable_encoder.py::test_encode_model_with_default"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_ws_router.py",
+   "buggy_commit": "210af1fd3dc0f612a08fa02a0cb3f5adb81e5bfb",
+   "fixed_commit": "02441ff0313d5b471b662293244c53e712f1243f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_ws_router.py",
+     "node": "test_router_ws_depends_with_override",
+     "raw": "pytest tests/test_ws_router.py::test_router_ws_depends_with_override"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_serialize_response_model.py",
+   "buggy_commit": "869c7389e22dc9ad659940fa271da76c4f3ba3b1",
+   "fixed_commit": "aea04ee32ee1942e6e1a904527bb8da6ba76abd9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_valid",
+     "raw": "pytest tests/test_serialize_response_model.py::test_valid"
+    },
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_coerce",
+     "raw": "pytest tests/test_serialize_response_model.py::test_coerce"
+    },
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_validlist",
+     "raw": "pytest tests/test_serialize_response_model.py::test_validlist"
+    },
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_validdict",
+     "raw": "pytest tests/test_serialize_response_model.py::test_validdict"
+    },
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_valid_exclude_unset",
+     "raw": "pytest tests/test_serialize_response_model.py::test_valid_exclude_unset"
+    },
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_coerce_exclude_unset",
+     "raw": "pytest tests/test_serialize_response_model.py::test_coerce_exclude_unset"
+    },
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_validlist_exclude_unset",
+     "raw": "pytest tests/test_serialize_response_model.py::test_validlist_exclude_unset"
+    },
+    {
+     "file": "tests/test_serialize_response_model.py",
+     "node": "test_validdict_exclude_unset",
+     "raw": "pytest tests/test_serialize_response_model.py::test_validdict_exclude_unset"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_param_in_path_and_dependency.py",
+   "buggy_commit": "7ccd81f70653857bd8f3a15ee946aa3fb0edc2cb",
+   "fixed_commit": "74c4d1c1dbe6bfdb05d6e4fc767ffe062398f0a3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_param_in_path_and_dependency.py",
+     "node": "test_reused_param",
+     "raw": "pytest tests/test_param_in_path_and_dependency.py::test_reused_param"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_filter_pydantic_sub_model.py",
+   "buggy_commit": "7cea84b74ca3106a7f861b774e9d215e5228728f",
+   "fixed_commit": "75a07f24bf01a31225ee687f3e2b3fc1981b67ab",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_filter_pydantic_sub_model.py",
+     "node": "test_filter_sub_model",
+     "raw": "pytest tests/test_filter_pydantic_sub_model.py::test_filter_sub_model"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_forms_from_non_typing_sequences.py",
+   "buggy_commit": "5db99a27cf640864b4793807811848698c5ff4a2",
+   "fixed_commit": "874d24181e779ebc6e1c52afb7d6598f863fd6a8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_forms_from_non_typing_sequences.py",
+     "node": "test_python_list_param_as_form",
+     "raw": "pytest tests/test_forms_from_non_typing_sequences.py::test_python_list_param_as_form"
+    },
+    {
+     "file": "tests/test_forms_from_non_typing_sequences.py",
+     "node": "test_python_set_param_as_form",
+     "raw": "pytest tests/test_forms_from_non_typing_sequences.py::test_python_set_param_as_form"
+    },
+    {
+     "file": "tests/test_forms_from_non_typing_sequences.py",
+     "node": "test_python_tuple_param_as_form",
+     "raw": "pytest tests/test_forms_from_non_typing_sequences.py::test_python_tuple_param_as_form"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_multi_body_errors.py",
+   "buggy_commit": "cc4c13e4ae3f65fc76c23962b316df4a60e0c7e0",
+   "fixed_commit": "19c77e35bdde33aeec1eb2cfa680f95016492b69",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_multi_body_errors.py",
+     "node": "test_jsonable_encoder_requiring_error",
+     "raw": "pytest tests/test_multi_body_errors.py::test_jsonable_encoder_requiring_error"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_custom_route_class.py",
+   "buggy_commit": "fdb6d43e103bcf7a7325d796e37c9435c9460e4c",
+   "fixed_commit": "dd963511d699b463b416408a0ad705b3dda0d067",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_custom_route_class.py",
+     "node": "test_route_classes",
+     "raw": "pytest tests/test_custom_route_class.py::test_route_classes"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_request_body_parameters_media_type.py",
+   "buggy_commit": "a7a92bc63768ccee3f3afc2b73b2c581928dfe75",
+   "fixed_commit": "c5817912d2be25bb310bf9da517882f57bbe7bb5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_request_body_parameters_media_type.py",
+     "node": "test_openapi_schema",
+     "raw": "pytest tests/test_request_body_parameters_media_type.py::test_openapi_schema"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_skip_defaults.py",
+   "buggy_commit": "b77a43bcac3ec8e7edbe82543e777c60ae85c178",
+   "fixed_commit": "38495fffa560fa57a8f0e6437d8e43c36c8e5612",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_skip_defaults.py",
+     "node": "test_return_defaults",
+     "raw": "pytest tests/test_skip_defaults.py::test_return_defaults"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_union_body.py;tests/test_union_inherited_body.py",
+   "buggy_commit": "bf229ad5d830eb5320f966d51a55e590e8d57008",
+   "fixed_commit": "06eb4219345a77d23484528c9d164eb8d2097fec",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_union_body.py",
+     "node": "test_item_openapi_schema",
+     "raw": "pytest tests/test_union_body.py::test_item_openapi_schema"
+    },
+    {
+     "file": "tests/test_union_body.py",
+     "node": "test_post_other_item",
+     "raw": "pytest tests/test_union_body.py::test_post_other_item"
+    },
+    {
+     "file": "tests/test_union_body.py",
+     "node": "test_post_item",
+     "raw": "pytest tests/test_union_body.py::test_post_item"
+    },
+    {
+     "file": "tests/test_union_inherited_body.py",
+     "node": "test_inherited_item_openapi_schema",
+     "raw": "pytest tests/test_union_inherited_body.py::test_inherited_item_openapi_schema"
+    },
+    {
+     "file": "tests/test_union_inherited_body.py",
+     "node": "test_post_extended_item",
+     "raw": "pytest tests/test_union_inherited_body.py::test_post_extended_item"
+    },
+    {
+     "file": "tests/test_union_inherited_body.py",
+     "node": "test_post_item",
+     "raw": "pytest tests/test_union_inherited_body.py::test_post_item"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_security_http_bearer_optional.py",
+   "buggy_commit": "d61f5e4b555b123bf222503fc0e076cbae6a7ebc",
+   "fixed_commit": "d262f6e9296993e528e2327f0a73f7bf5514e7c6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_security_http_bearer_optional.py",
+     "node": "test_security_http_bearer_incorrect_scheme_credentials",
+     "raw": "pytest tests/test_security_http_bearer_optional.py::test_security_http_bearer_incorrect_scheme_credentials"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_additional_responses_router.py",
+   "buggy_commit": "6f7f9268f6b03f42831dcfeaa5c15ba9813333ec",
+   "fixed_commit": "c8df3ae57c57e119d115dd3c1f44efa78de1022a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_additional_responses_router.py",
+     "node": "test_openapi_schema",
+     "raw": "pytest tests/test_additional_responses_router.py::test_openapi_schema"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_additional_properties.py",
+   "buggy_commit": "2ddb804940bbcad4ed730b2a910c8fd3c1167127",
+   "fixed_commit": "b7d184363fad5f6b55d15ec3a3a844aa81092bbd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_additional_properties.py",
+     "node": "test_additional_properties_schema",
+     "raw": "pytest tests/test_additional_properties.py::test_additional_properties_schema"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_ws_router.py",
+   "buggy_commit": "b16ca54c30644667ab9f65a712704850666a039c",
+   "fixed_commit": "6d77e2ac5f2cadc63424f2d85d8d8cded2975922",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_ws_router.py",
+     "node": "test_router",
+     "raw": "pytest tests/test_ws_router.py::test_router"
+    },
+    {
+     "file": "tests/test_ws_router.py",
+     "node": "test_prefix_router",
+     "raw": "pytest tests/test_ws_router.py::test_prefix_router"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "fastapi",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_datetime_custom_encoder.py;tests/test_jsonable_encoder.py",
+   "buggy_commit": "92c825be6a7362099400c9c3fe8b01ea13add3dc",
+   "fixed_commit": "9745a5d1ae86a7fefacf79bdde8e5dd2d59fa2f4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_jsonable_encoder.py",
+     "node": "test_encode_model_with_config",
+     "raw": "pytest tests/test_jsonable_encoder.py::test_encode_model_with_config"
+    }
+   ]
+  }
+ }
+}

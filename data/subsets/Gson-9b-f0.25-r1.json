@@ -1,0 +1,129 @@
+{
+  "project": "Gson",
+  "bug": "9b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T01:03:35.867348+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 16.3
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 49.3,
+      "lines_total": 4380,
+      "lines_covered": 2662,
+      "cond_total": 2291,
+      "cond_covered": 1169,
+      "line_cov_pct": 60.8,
+      "cond_cov_pct": 51.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 15.5
+    },
+    "mutation": {
+      "rc": 1,
+      "s": 1.5,
+      "err": [
+        "The compilation process ended with errors!\u001b[0m ",
+        "Cannot compile mml file: /home/user/d4j-work/subsets/Gson-9b-f0.25-r1-wf-bbfd06/.mml/default.mml! at /home/user/tools/defects4j/framework/core/Mutation.pm line 99.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "gson/src/main/java",
+    "test": "gson/src/test/java"
+  },
+  "n_test_total": 85,
+  "n_test_java_total": 93,
+  "n_test_target": 21,
+  "n_test_kept": 21,
+  "n_keep_java": 25,
+  "kept_tests": [
+    "com/google/gson/GsonBuilderTest.java",
+    "com/google/gson/JavaSerializationTest.java",
+    "com/google/gson/JsonParserTest.java",
+    "com/google/gson/JsonStreamParserTest.java",
+    "com/google/gson/ObjectTypeAdapterTest.java",
+    "com/google/gson/functional/ArrayTest.java",
+    "com/google/gson/functional/CustomDeserializerTest.java",
+    "com/google/gson/functional/CustomSerializerTest.java",
+    "com/google/gson/functional/CustomTypeAdaptersTest.java",
+    "com/google/gson/functional/DefaultTypeAdaptersTest.java",
+    "com/google/gson/functional/ExclusionStrategyFunctionalTest.java",
+    "com/google/gson/functional/LeniencyTest.java",
+    "com/google/gson/functional/MapTest.java",
+    "com/google/gson/functional/ParameterizedTypesTest.java",
+    "com/google/gson/functional/PrimitiveCharacterTest.java",
+    "com/google/gson/functional/PrintFormattingTest.java",
+    "com/google/gson/functional/SerializedNameTest.java",
+    "com/google/gson/functional/StreamingTypeAdaptersTest.java",
+    "com/google/gson/functional/TypeVariableTest.java",
+    "com/google/gson/internal/bind/JsonElementReaderTest.java",
+    "com/google/gson/regression/JsonAdapterNullSafeTest.java"
+  ],
+  "n_moved_b": 68,
+  "kept_tests_final": [
+    "com/google/gson/GsonBuilderTest.java",
+    "com/google/gson/JavaSerializationTest.java",
+    "com/google/gson/JsonParserTest.java",
+    "com/google/gson/JsonStreamParserTest.java",
+    "com/google/gson/ObjectTypeAdapterTest.java",
+    "com/google/gson/functional/ArrayTest.java",
+    "com/google/gson/functional/CustomDeserializerTest.java",
+    "com/google/gson/functional/CustomSerializerTest.java",
+    "com/google/gson/functional/CustomTypeAdaptersTest.java",
+    "com/google/gson/functional/DefaultTypeAdaptersTest.java",
+    "com/google/gson/functional/ExclusionStrategyFunctionalTest.java",
+    "com/google/gson/functional/LeniencyTest.java",
+    "com/google/gson/functional/MapTest.java",
+    "com/google/gson/functional/ParameterizedTypesTest.java",
+    "com/google/gson/functional/PrimitiveCharacterTest.java",
+    "com/google/gson/functional/PrintFormattingTest.java",
+    "com/google/gson/functional/SerializedNameTest.java",
+    "com/google/gson/functional/StreamingTypeAdaptersTest.java",
+    "com/google/gson/functional/TypeVariableTest.java",
+    "com/google/gson/internal/bind/JsonElementReaderTest.java",
+    "com/google/gson/regression/JsonAdapterNullSafeTest.java"
+  ],
+  "n_test_final": 21,
+  "n_keep_java_f": 25,
+  "n_moved_f": 68,
+  "kept_tests_final_f": [
+    "com/google/gson/GsonBuilderTest.java",
+    "com/google/gson/JavaSerializationTest.java",
+    "com/google/gson/JsonParserTest.java",
+    "com/google/gson/JsonStreamParserTest.java",
+    "com/google/gson/ObjectTypeAdapterTest.java",
+    "com/google/gson/functional/ArrayTest.java",
+    "com/google/gson/functional/CustomDeserializerTest.java",
+    "com/google/gson/functional/CustomSerializerTest.java",
+    "com/google/gson/functional/CustomTypeAdaptersTest.java",
+    "com/google/gson/functional/DefaultTypeAdaptersTest.java",
+    "com/google/gson/functional/ExclusionStrategyFunctionalTest.java",
+    "com/google/gson/functional/LeniencyTest.java",
+    "com/google/gson/functional/MapTest.java",
+    "com/google/gson/functional/ParameterizedTypesTest.java",
+    "com/google/gson/functional/PrimitiveCharacterTest.java",
+    "com/google/gson/functional/PrintFormattingTest.java",
+    "com/google/gson/functional/SerializedNameTest.java",
+    "com/google/gson/functional/StreamingTypeAdaptersTest.java",
+    "com/google/gson/functional/TypeVariableTest.java",
+    "com/google/gson/internal/bind/JsonElementReaderTest.java",
+    "com/google/gson/regression/JsonAdapterNullSafeTest.java"
+  ],
+  "n_mut_classes": 7,
+  "mut_sample_source": "cached",
+  "status": "incomplete"
+}

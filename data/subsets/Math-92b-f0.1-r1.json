@@ -1,0 +1,129 @@
+{
+  "project": "Math",
+  "bug": "92b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:15:48.657897+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 10.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 12.8
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 41.1,
+      "lines_total": 13957,
+      "lines_covered": 3627,
+      "cond_total": 5935,
+      "cond_covered": 1328,
+      "line_cov_pct": 26.0,
+      "cond_cov_pct": 22.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 14.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 54.0,
+      "mutants_generated": 2616,
+      "mutants_covered": 117,
+      "mutants_killed": 56,
+      "mutation_score_pct": 47.9,
+      "mutation_score_covered_pct": 2.1
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 159,
+  "n_test_java_total": 198,
+  "n_test_target": 16,
+  "n_test_kept": 21,
+  "n_keep_java": 37,
+  "kept_tests": [
+    "org/apache/commons/math/FunctionEvaluationExceptionTest.java",
+    "org/apache/commons/math/MaxIterationsExceededExceptionTest.java",
+    "org/apache/commons/math/analysis/integration/LegendreGaussIntegratorTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialSplineFunctionTest.java",
+    "org/apache/commons/math/complex/ComplexUtilsTest.java",
+    "org/apache/commons/math/complex/FrenchComplexFormatTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/linear/EigenDecompositionImplTest.java",
+    "org/apache/commons/math/linear/EigenSolverTest.java",
+    "org/apache/commons/math/linear/QRDecompositionImplTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolatorTest.java",
+    "org/apache/commons/math/stat/descriptive/DescriptiveStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/MeanTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumLogTest.java",
+    "org/apache/commons/math/stat/regression/SimpleRegressionTest.java"
+  ],
+  "n_moved_b": 161,
+  "kept_tests_final": [
+    "org/apache/commons/math/FunctionEvaluationExceptionTest.java",
+    "org/apache/commons/math/MaxIterationsExceededExceptionTest.java",
+    "org/apache/commons/math/analysis/integration/LegendreGaussIntegratorTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialSplineFunctionTest.java",
+    "org/apache/commons/math/complex/ComplexUtilsTest.java",
+    "org/apache/commons/math/complex/FrenchComplexFormatTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/linear/EigenDecompositionImplTest.java",
+    "org/apache/commons/math/linear/EigenSolverTest.java",
+    "org/apache/commons/math/linear/QRDecompositionImplTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolatorTest.java",
+    "org/apache/commons/math/stat/descriptive/DescriptiveStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/MeanTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumLogTest.java",
+    "org/apache/commons/math/stat/regression/SimpleRegressionTest.java"
+  ],
+  "n_test_final": 21,
+  "n_keep_java_f": 37,
+  "n_moved_f": 161,
+  "kept_tests_final_f": [
+    "org/apache/commons/math/FunctionEvaluationExceptionTest.java",
+    "org/apache/commons/math/MaxIterationsExceededExceptionTest.java",
+    "org/apache/commons/math/analysis/integration/LegendreGaussIntegratorTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialSplineFunctionTest.java",
+    "org/apache/commons/math/complex/ComplexUtilsTest.java",
+    "org/apache/commons/math/complex/FrenchComplexFormatTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/linear/EigenDecompositionImplTest.java",
+    "org/apache/commons/math/linear/EigenSolverTest.java",
+    "org/apache/commons/math/linear/QRDecompositionImplTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/ode/nonstiff/ClassicalRungeKuttaIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolatorTest.java",
+    "org/apache/commons/math/stat/descriptive/DescriptiveStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/MeanTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumLogTest.java",
+    "org/apache/commons/math/stat/regression/SimpleRegressionTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

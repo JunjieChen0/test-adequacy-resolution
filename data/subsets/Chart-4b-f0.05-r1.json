@@ -1,0 +1,78 @@
+{
+  "project": "Chart",
+  "bug": "4b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T11:15:46.427289+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 43.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 24.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 190.6,
+      "lines_total": 52804,
+      "lines_covered": 4258,
+      "cond_total": 22800,
+      "cond_covered": 1347,
+      "line_cov_pct": 8.1,
+      "cond_cov_pct": 5.9
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 29.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 24.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 102.6,
+      "mutants_generated": 1233,
+      "mutants_covered": 45,
+      "mutants_killed": 20,
+      "mutation_score_pct": 44.4,
+      "mutation_score_covered_pct": 1.6
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 356,
+  "n_test_java_total": 387,
+  "n_test_target": 18,
+  "n_test_kept": 18,
+  "n_keep_java": 18,
+  "kept_tests": [
+    "org/jfree/chart/axis/junit/AxisLocationTests.java",
+    "org/jfree/chart/axis/junit/DateTickTests.java",
+    "org/jfree/chart/axis/junit/StandardTickUnitSourceTests.java",
+    "org/jfree/chart/block/junit/BorderArrangementTests.java",
+    "org/jfree/chart/junit/PieChartTests.java",
+    "org/jfree/chart/junit/TimeSeriesChartTests.java",
+    "org/jfree/chart/labels/junit/SymbolicXYItemLabelGeneratorTests.java",
+    "org/jfree/chart/plot/junit/PlotTests.java",
+    "org/jfree/chart/plot/junit/PolarPlotTests.java",
+    "org/jfree/chart/renderer/category/junit/CategoryStepRendererTests.java",
+    "org/jfree/chart/title/junit/TextTitleTests.java",
+    "org/jfree/data/function/junit/PowerFunction2DTests.java",
+    "org/jfree/data/general/junit/DatasetGroupTests.java",
+    "org/jfree/data/general/junit/DefaultKeyedValuesDatasetTests.java",
+    "org/jfree/data/junit/ComparableObjectItemTests.java",
+    "org/jfree/data/xy/junit/DefaultHighLowDatasetTests.java",
+    "org/jfree/data/xy/junit/VectorSeriesCollectionTests.java",
+    "org/jfree/data/xy/junit/XYSeriesTests.java"
+  ],
+  "n_moved_b": 369,
+  "n_keep_java_f": 18,
+  "n_moved_f": 369,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

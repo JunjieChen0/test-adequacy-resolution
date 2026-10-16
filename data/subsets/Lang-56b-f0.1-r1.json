@@ -1,0 +1,90 @@
+{
+  "project": "Lang",
+  "bug": "56b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T13:58:24.767444+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 11.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 19.9,
+      "lines_total": 9742,
+      "lines_covered": 1951,
+      "cond_total": 6455,
+      "cond_covered": 1548,
+      "line_cov_pct": 20.0,
+      "cond_cov_pct": 24.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 12.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 57.1,
+      "mutants_generated": 2001,
+      "mutants_covered": 785,
+      "mutants_killed": 459,
+      "mutation_score_pct": 58.5,
+      "mutation_score_covered_pct": 22.9
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 8,
+  "n_test_kept": 8,
+  "n_keep_java": 9,
+  "kept_tests": [
+    "org/apache/commons/lang/ArrayUtilsTest.java",
+    "org/apache/commons/lang/BooleanUtilsTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/NumberUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java"
+  ],
+  "n_moved_b": 131,
+  "kept_tests_final": [
+    "org/apache/commons/lang/ArrayUtilsTest.java",
+    "org/apache/commons/lang/BooleanUtilsTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/NumberUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java"
+  ],
+  "n_test_final": 8,
+  "n_keep_java_f": 9,
+  "n_moved_f": 131,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/ArrayUtilsTest.java",
+    "org/apache/commons/lang/BooleanUtilsTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/NumberUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

@@ -1,0 +1,59 @@
+{
+  "project": "Lang",
+  "bug": "8b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T08:41:07.669635+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 16.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 24.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 71.3,
+      "lines_total": 11286,
+      "lines_covered": 1337,
+      "cond_total": 7504,
+      "cond_covered": 720,
+      "line_cov_pct": 11.8,
+      "cond_cov_pct": 9.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 16.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 24.4
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 219.9,
+      "mutants_generated": 1428,
+      "mutants_covered": 431,
+      "mutants_killed": 337,
+      "mutation_score_pct": 78.2,
+      "mutation_score_covered_pct": 23.6
+    }
+  },
+  "n_test_total": 109,
+  "n_test_target": 5,
+  "n_test_kept": 5,
+  "kept_tests": [
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/ValidateTest.java",
+    "org/apache/commons/lang3/concurrent/ConstantInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java"
+  ],
+  "n_moved_b": 104,
+  "n_test_kept_f": 5,
+  "n_moved_f": 104,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

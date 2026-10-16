@@ -1,0 +1,96 @@
+{
+  "project": "Lang",
+  "bug": "15b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:25:49.318831+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 11.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 33.7,
+      "lines_total": 10967,
+      "lines_covered": 1118,
+      "cond_total": 7371,
+      "cond_covered": 576,
+      "line_cov_pct": 10.2,
+      "cond_cov_pct": 7.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 9.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 35.2,
+      "mutants_generated": 1441,
+      "mutants_covered": 321,
+      "mutants_killed": 192,
+      "mutation_score_pct": 59.8,
+      "mutation_score_covered_pct": 13.3
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 101,
+  "n_test_java_total": 119,
+  "n_test_target": 10,
+  "n_test_kept": 10,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/text/FormattableUtilsTest.java",
+    "org/apache/commons/lang3/text/StrLookupTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java"
+  ],
+  "n_moved_b": 108,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/text/FormattableUtilsTest.java",
+    "org/apache/commons/lang3/text/StrLookupTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java"
+  ],
+  "n_test_final": 10,
+  "n_keep_java_f": 11,
+  "n_moved_f": 108,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/text/FormattableUtilsTest.java",
+    "org/apache/commons/lang3/text/StrLookupTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

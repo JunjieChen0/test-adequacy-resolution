@@ -1,0 +1,43 @@
+{
+  "project": "Compress",
+  "bug": "23b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:35:43.601575+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.3,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 73,
+  "n_test_java_total": 80,
+  "n_test_target": 7,
+  "n_test_kept": 7,
+  "n_keep_java": 8,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.java",
+    "org/apache/commons/compress/archivers/tar/SparseFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/EncryptedArchiveTest.java",
+    "org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStreamTest.java"
+  ],
+  "n_moved_b": 72
+}

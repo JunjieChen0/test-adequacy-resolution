@@ -1,0 +1,69 @@
+{
+  "project": "Lang",
+  "bug": "32b",
+  "frac": 0.1,
+  "rep": 2,
+  "t": "2026-10-15T11:36:20.321959+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 11.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 45.8,
+      "lines_total": 9708,
+      "lines_covered": 2112,
+      "cond_total": 6481,
+      "cond_covered": 1144,
+      "line_cov_pct": 21.8,
+      "cond_cov_pct": 17.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 8.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 15.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 61.8,
+      "mutants_generated": 1344,
+      "mutants_covered": 62,
+      "mutants_killed": 15,
+      "mutation_score_pct": 24.2,
+      "mutation_score_covered_pct": 1.1
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 85,
+  "n_test_java_total": 98,
+  "n_test_target": 8,
+  "n_test_kept": 9,
+  "n_keep_java": 18,
+  "kept_tests": [
+    "org/apache/commons/lang3/StringUtilsTest.java",
+    "org/apache/commons/lang3/ValidateTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang3/text/StrMatcherTest.java"
+  ],
+  "n_moved_b": 80,
+  "n_keep_java_f": 18,
+  "n_moved_f": 80,
+  "n_mut_classes": 10,
+  "status": "ok"
+}

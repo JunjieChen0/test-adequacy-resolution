@@ -1,0 +1,85 @@
+{
+ "project": "sanic",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "sanic",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_blueprints.py",
+   "buggy_commit": "e7001b00747b659f7042b0534802b936ee8a53e0",
+   "fixed_commit": "44973125c15304b4262c51c78b5a86bd1daafa86",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_blueprints.py",
+     "node": "test_bp_middleware_order",
+     "raw": "pytest tests/test_blueprints.py::test_bp_middleware_order"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "sanic",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_app.py",
+   "buggy_commit": "ba9b432993019b0af0c4827a5ed42aaa091bd17d",
+   "fixed_commit": "801595e24acdf8050b8d3ffa512d424147848d32",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_app.py",
+     "node": "test_asyncio_server_start_serving",
+     "raw": "pytest tests/test_app.py::test_asyncio_server_start_serving"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "sanic",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_url_for.py",
+   "buggy_commit": "91f6abaa81248189fbcbdf685e8bdcbb7846609f",
+   "fixed_commit": "861e87347a2d373d6ffa387965a6887c83af632c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_url_for.py",
+     "node": "test_routes_with_host",
+     "raw": "pytest tests/test_url_for.py::test_routes_with_host"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "sanic",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_requests.py",
+   "buggy_commit": "e506c89304948bba593e8603ecace1c495b06fd5",
+   "fixed_commit": "e81a8ce07329e95d3d0899b1d774f21759c28e0e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_requests.py",
+     "node": "test_url_for_without_server_name",
+     "raw": "pytest tests/test_requests.py::test_url_for_without_server_name"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "sanic",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_logging.py",
+   "buggy_commit": "e3a27c2cc485d57aa1ff87d9f69098e4ab12727e",
+   "fixed_commit": "b63c06c75a54752d7f3115d3c635580db44b8399",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_logging.py",
+     "node": "test_logging_modified_root_logger_config",
+     "raw": "pytest tests/test_logging.py::test_logging_modified_root_logger_config"
+    }
+   ]
+  }
+ }
+}

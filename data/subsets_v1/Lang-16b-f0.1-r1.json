@@ -1,0 +1,64 @@
+{
+  "project": "Lang",
+  "bug": "16b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T09:19:47.326673+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 17.3
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 24.0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 165.5,
+      "lines_total": 11166,
+      "lines_covered": 1685,
+      "cond_total": 7495,
+      "cond_covered": 999,
+      "line_cov_pct": 15.1,
+      "cond_cov_pct": 13.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 19.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 23.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 116.1,
+      "mutants_generated": 1435,
+      "mutants_covered": 190,
+      "mutants_killed": 102,
+      "mutation_score_pct": 53.7,
+      "mutation_score_covered_pct": 7.1
+    }
+  },
+  "n_test_total": 102,
+  "n_test_target": 10,
+  "n_test_kept": 10,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharEncodingTest.java",
+    "org/apache/commons/lang3/CharSequenceUtilsTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/text/translate/OctalUnescaperTest.java"
+  ],
+  "n_moved_b": 92,
+  "n_test_kept_f": 10,
+  "n_moved_f": 92,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

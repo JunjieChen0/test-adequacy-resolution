@@ -1,0 +1,59 @@
+{
+  "project": "Lang",
+  "bug": "47b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:35:08.193910+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.3
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 86,
+  "n_test_java_total": 148,
+  "n_test_target": 22,
+  "n_test_kept": 23,
+  "n_keep_java": 27,
+  "kept_tests": [
+    "org/apache/commons/lang/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang/ArrayUtilsTest.java",
+    "org/apache/commons/lang/ClassUtilsTest.java",
+    "org/apache/commons/lang/EntitiesPerformanceTest.java",
+    "org/apache/commons/lang/EntitiesTest.java",
+    "org/apache/commons/lang/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/enums/EnumEqualsTest.java",
+    "org/apache/commons/lang/enums/ValuedEnumTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/math/LongRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableByteTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/text/MultiFormatTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 121
+}

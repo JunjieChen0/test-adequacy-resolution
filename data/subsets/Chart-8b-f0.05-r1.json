@@ -1,0 +1,77 @@
+{
+  "project": "Chart",
+  "bug": "8b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T12:23:14.063720+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 16.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 14.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 87.1,
+      "lines_total": 46539,
+      "lines_covered": 5604,
+      "cond_total": 19780,
+      "cond_covered": 1773,
+      "line_cov_pct": 12.0,
+      "cond_cov_pct": 9.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 15.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 15.4
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 56.2,
+      "mutants_generated": 1104,
+      "mutants_covered": 43,
+      "mutants_killed": 14,
+      "mutation_score_pct": 32.6,
+      "mutation_score_covered_pct": 1.3
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 329,
+  "n_test_java_total": 359,
+  "n_test_target": 16,
+  "n_test_kept": 17,
+  "n_keep_java": 18,
+  "kept_tests": [
+    "org/jfree/chart/axis/junit/AxisTests.java",
+    "org/jfree/chart/block/junit/EmptyBlockTests.java",
+    "org/jfree/chart/needle/junit/WindNeedleTests.java",
+    "org/jfree/chart/plot/dial/junit/DialValueIndicatorTests.java",
+    "org/jfree/chart/plot/dial/junit/StandardDialScaleTests.java",
+    "org/jfree/chart/plot/junit/CombinedRangeXYPlotTests.java",
+    "org/jfree/chart/plot/junit/MarkerTests.java",
+    "org/jfree/chart/plot/junit/PolarPlotTests.java",
+    "org/jfree/chart/plot/junit/SpiderWebPlotTests.java",
+    "org/jfree/chart/plot/junit/ValueMarkerTests.java",
+    "org/jfree/chart/renderer/category/junit/WaterfallBarRendererTests.java",
+    "org/jfree/chart/renderer/junit/RendererUtilitiesTests.java",
+    "org/jfree/chart/renderer/xy/junit/CandlestickRendererTests.java",
+    "org/jfree/chart/urls/junit/TimeSeriesURLGeneratorTests.java",
+    "org/jfree/data/time/junit/TimeSeriesDataItemTests.java",
+    "org/jfree/data/xy/junit/IntervalXYDelegateTests.java",
+    "org/jfree/data/xy/junit/YIntervalTests.java"
+  ],
+  "n_moved_b": 341,
+  "n_keep_java_f": 18,
+  "n_moved_f": 341,
+  "n_mut_classes": 13,
+  "status": "ok"
+}

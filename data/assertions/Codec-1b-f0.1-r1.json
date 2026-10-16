@@ -1,0 +1,26 @@
+{
+  "tag": "Codec-1b-f0.1-r1",
+  "project": "Codec",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "n_test_final": 2,
+  "features": {
+    "n_assertions": 119,
+    "n_test_methods": 2,
+    "n_strong": 108,
+    "n_weak": 2,
+    "n_other": 9,
+    "n_predicate": 1,
+    "n_distinct_calls": 9,
+    "test_loc": 589,
+    "n_files": 2
+  },
+  "derived": {
+    "assertions_per_method": 59.5,
+    "strong_ratio": 0.907563025210084,
+    "weak_ratio": 0.01680672268907563,
+    "predicate_ratio": 0.008403361344537815,
+    "calls_per_assertion": 0.07563025210084033
+  }
+}

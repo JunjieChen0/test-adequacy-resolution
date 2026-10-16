@@ -1,0 +1,117 @@
+{
+  "project": "Chart",
+  "bug": "12b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T15:02:10.880003+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 44.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 41.9
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 293.7,
+      "lines_total": 46530,
+      "lines_covered": 7823,
+      "cond_total": 19766,
+      "cond_covered": 2489,
+      "line_cov_pct": 16.8,
+      "cond_cov_pct": 12.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 61.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 32.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 106.3,
+      "mutants_generated": 1104,
+      "mutants_covered": 94,
+      "mutants_killed": 49,
+      "mutation_score_pct": 52.1,
+      "mutation_score_covered_pct": 4.4
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 326,
+  "n_test_java_total": 355,
+  "n_test_target": 16,
+  "n_test_kept": 17,
+  "n_keep_java": 17,
+  "kept_tests": [
+    "org/jfree/chart/axis/junit/DateTickMarkPositionTests.java",
+    "org/jfree/chart/axis/junit/NumberTickUnitTests.java",
+    "org/jfree/chart/axis/junit/SymbolAxisTests.java",
+    "org/jfree/chart/junit/JFreeChartTests.java",
+    "org/jfree/chart/junit/PieChart3DTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYDotRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepRendererTests.java",
+    "org/jfree/chart/urls/junit/StandardXYURLGeneratorTests.java",
+    "org/jfree/chart/util/junit/PaintListTests.java",
+    "org/jfree/chart/util/junit/StrokeListTests.java",
+    "org/jfree/data/statistics/junit/DefaultMultiValueCategoryDatasetTests.java",
+    "org/jfree/data/statistics/junit/SimpleHistogramDatasetTests.java",
+    "org/jfree/data/time/junit/HourTests.java",
+    "org/jfree/data/time/junit/TimePeriodAnchorTests.java",
+    "org/jfree/data/time/junit/TimeSeriesCollectionTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/xy/junit/DefaultXYZDatasetTests.java"
+  ],
+  "n_moved_b": 338,
+  "kept_tests_final": [
+    "org/jfree/chart/axis/junit/DateTickMarkPositionTests.java",
+    "org/jfree/chart/axis/junit/NumberTickUnitTests.java",
+    "org/jfree/chart/axis/junit/SymbolAxisTests.java",
+    "org/jfree/chart/junit/JFreeChartTests.java",
+    "org/jfree/chart/junit/PieChart3DTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYDotRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepRendererTests.java",
+    "org/jfree/chart/urls/junit/StandardXYURLGeneratorTests.java",
+    "org/jfree/chart/util/junit/PaintListTests.java",
+    "org/jfree/chart/util/junit/StrokeListTests.java",
+    "org/jfree/data/statistics/junit/DefaultMultiValueCategoryDatasetTests.java",
+    "org/jfree/data/statistics/junit/SimpleHistogramDatasetTests.java",
+    "org/jfree/data/time/junit/HourTests.java",
+    "org/jfree/data/time/junit/TimePeriodAnchorTests.java",
+    "org/jfree/data/time/junit/TimeSeriesCollectionTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/xy/junit/DefaultXYZDatasetTests.java"
+  ],
+  "n_test_final": 17,
+  "n_keep_java_f": 17,
+  "n_moved_f": 338,
+  "kept_tests_final_f": [
+    "org/jfree/chart/axis/junit/DateTickMarkPositionTests.java",
+    "org/jfree/chart/axis/junit/NumberTickUnitTests.java",
+    "org/jfree/chart/axis/junit/SymbolAxisTests.java",
+    "org/jfree/chart/junit/JFreeChartTests.java",
+    "org/jfree/chart/junit/PieChart3DTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYDotRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepRendererTests.java",
+    "org/jfree/chart/urls/junit/StandardXYURLGeneratorTests.java",
+    "org/jfree/chart/util/junit/PaintListTests.java",
+    "org/jfree/chart/util/junit/StrokeListTests.java",
+    "org/jfree/data/statistics/junit/DefaultMultiValueCategoryDatasetTests.java",
+    "org/jfree/data/statistics/junit/SimpleHistogramDatasetTests.java",
+    "org/jfree/data/time/junit/HourTests.java",
+    "org/jfree/data/time/junit/TimePeriodAnchorTests.java",
+    "org/jfree/data/time/junit/TimeSeriesCollectionTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/xy/junit/DefaultXYZDatasetTests.java"
+  ],
+  "n_mut_classes": 13,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

@@ -1,0 +1,96 @@
+{
+  "project": "Lang",
+  "bug": "45b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:35:37.881607+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 24.7,
+      "lines_total": 10756,
+      "lines_covered": 1545,
+      "cond_total": 7072,
+      "cond_covered": 663,
+      "line_cov_pct": 14.4,
+      "cond_cov_pct": 9.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 9.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 56.2,
+      "mutants_generated": 5110,
+      "mutants_covered": 663,
+      "mutants_killed": 362,
+      "mutation_score_pct": 54.6,
+      "mutation_score_covered_pct": 7.1
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 89,
+  "n_test_java_total": 157,
+  "n_test_target": 9,
+  "n_test_kept": 10,
+  "n_keep_java": 22,
+  "kept_tests": [
+    "org/apache/commons/lang/NotImplementedExceptionTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/ValidateTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/oldenum/EnumUtilsTest.java",
+    "org/apache/commons/lang/oldenum/ValuedEnumTest.java",
+    "org/apache/commons/lang/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 135,
+  "kept_tests_final": [
+    "org/apache/commons/lang/NotImplementedExceptionTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/ValidateTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/oldenum/EnumUtilsTest.java",
+    "org/apache/commons/lang/oldenum/ValuedEnumTest.java",
+    "org/apache/commons/lang/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 10,
+  "n_keep_java_f": 22,
+  "n_moved_f": 135,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/NotImplementedExceptionTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/ValidateTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/oldenum/EnumUtilsTest.java",
+    "org/apache/commons/lang/oldenum/ValuedEnumTest.java",
+    "org/apache/commons/lang/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

@@ -1,0 +1,87 @@
+{
+  "project": "Lang",
+  "bug": "16b",
+  "frac": 0.25,
+  "rep": 2,
+  "t": "2026-10-15T11:13:17.955632+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 10.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 14.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 80.7,
+      "lines_total": 11166,
+      "lines_covered": 3650,
+      "cond_total": 7495,
+      "cond_covered": 2211,
+      "line_cov_pct": 32.7,
+      "cond_cov_pct": 29.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 12.1
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 19.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 146.8,
+      "mutants_generated": 1435,
+      "mutants_covered": 509,
+      "mutants_killed": 427,
+      "mutation_score_pct": 83.9,
+      "mutation_score_covered_pct": 29.8
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 102,
+  "n_test_java_total": 120,
+  "n_test_target": 26,
+  "n_test_kept": 27,
+  "n_keep_java": 29,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsTest.java",
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/EnumUtilsTest.java",
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/compare/FixedOrderComparatorTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/ConstantInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java",
+    "org/apache/commons/lang3/math/IEEE754rUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang3/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang3/mutable/MutableLongTest.java",
+    "org/apache/commons/lang3/text/CompositeFormatTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityEscaperTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeEscaperTest.java",
+    "org/apache/commons/lang3/time/DateUtilsFragmentTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java",
+    "org/apache/commons/lang3/time/StopWatchTest.java"
+  ],
+  "n_moved_b": 91,
+  "n_keep_java_f": 29,
+  "n_moved_f": 91,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

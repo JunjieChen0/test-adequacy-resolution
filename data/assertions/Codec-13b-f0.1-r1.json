@@ -1,0 +1,26 @@
+{
+  "tag": "Codec-13b-f0.1-r1",
+  "project": "Codec",
+  "bug": "13b",
+  "frac": 0.1,
+  "rep": 1,
+  "n_test_final": 4,
+  "features": {
+    "n_assertions": 105,
+    "n_test_methods": 52,
+    "n_strong": 79,
+    "n_weak": 15,
+    "n_other": 11,
+    "n_predicate": 2,
+    "n_distinct_calls": 15,
+    "test_loc": 904,
+    "n_files": 4
+  },
+  "derived": {
+    "assertions_per_method": 2.019230769230769,
+    "strong_ratio": 0.7523809523809524,
+    "weak_ratio": 0.14285714285714285,
+    "predicate_ratio": 0.01904761904761905,
+    "calls_per_assertion": 0.14285714285714285
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "project": "Compress",
+  "bug": "10b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T19:18:38.261175+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 29.0,
+      "lines_total": 6744,
+      "lines_covered": 4189,
+      "cond_total": 3148,
+      "cond_covered": 1590,
+      "line_cov_pct": 62.1,
+      "cond_cov_pct": 50.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 4.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 7.4
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 1022.0,
+      "mutants_generated": 6255,
+      "mutants_covered": 4887,
+      "mutants_killed": 2575,
+      "mutation_score_pct": 52.7,
+      "mutation_score_covered_pct": 41.2
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 52,
+  "n_test_java_total": 59,
+  "n_test_target": 13,
+  "n_test_kept": 13,
+  "n_keep_java": 14,
+  "kept_tests": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/JarTestCase.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBitTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java"
+  ],
+  "n_moved_b": 45,
+  "kept_tests_final": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/JarTestCase.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBitTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java"
+  ],
+  "n_test_final": 13,
+  "n_keep_java_f": 14,
+  "n_moved_f": 45,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/JarTestCase.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBitTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

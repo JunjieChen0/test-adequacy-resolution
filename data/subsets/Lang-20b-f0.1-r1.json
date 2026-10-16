@@ -1,0 +1,99 @@
+{
+  "project": "Lang",
+  "bug": "20b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:27:24.175086+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 29.5,
+      "lines_total": 10617,
+      "lines_covered": 2142,
+      "cond_total": 7147,
+      "cond_covered": 897,
+      "line_cov_pct": 20.2,
+      "cond_cov_pct": 12.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 7.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 43.4,
+      "mutants_generated": 1460,
+      "mutants_covered": 267,
+      "mutants_killed": 145,
+      "mutation_score_pct": 54.3,
+      "mutation_score_covered_pct": 9.9
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 97,
+  "n_test_java_total": 114,
+  "n_test_target": 10,
+  "n_test_kept": 11,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/reflect/ConstructorUtilsTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityEscaperTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/tuple/PairTest.java"
+  ],
+  "n_moved_b": 103,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/reflect/ConstructorUtilsTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityEscaperTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/tuple/PairTest.java"
+  ],
+  "n_test_final": 11,
+  "n_keep_java_f": 11,
+  "n_moved_f": 103,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/reflect/ConstructorUtilsTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityEscaperTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/tuple/PairTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

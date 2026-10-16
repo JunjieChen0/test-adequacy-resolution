@@ -1,0 +1,49 @@
+{
+  "project": "Time",
+  "bug": "12b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:38:36.562602+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 122,
+  "n_test_java_total": 154,
+  "n_test_target": 12,
+  "n_test_kept": 13,
+  "n_keep_java": 16,
+  "kept_tests": [
+    "org/joda/time/TestInstant_Basics.java",
+    "org/joda/time/TestInstant_Constructors.java",
+    "org/joda/time/TestMutableDateTime_Basics.java",
+    "org/joda/time/TestMutableInterval_Updates.java",
+    "org/joda/time/TestMutablePeriod_Constructors.java",
+    "org/joda/time/TestPartial_Basics.java",
+    "org/joda/time/TestPartial_Constructors.java",
+    "org/joda/time/TestYearMonthDay_Constructors.java",
+    "org/joda/time/convert/TestReadableInstantConverter.java",
+    "org/joda/time/field/TestPreciseDurationField.java",
+    "org/joda/time/format/TestISODateTimeFormat_Fields.java",
+    "org/joda/time/tz/TestBuilder.java",
+    "org/joda/time/tz/TestCompiler.java"
+  ],
+  "n_moved_b": 138
+}

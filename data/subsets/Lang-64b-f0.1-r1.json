@@ -1,0 +1,90 @@
+{
+  "project": "Lang",
+  "bug": "64b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T14:15:26.781984+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 12.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 13.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 38.9,
+      "lines_total": 9586,
+      "lines_covered": 1404,
+      "cond_total": 6307,
+      "cond_covered": 465,
+      "line_cov_pct": 14.6,
+      "cond_cov_pct": 7.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 12.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 13.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 61.4,
+      "mutants_generated": 2001,
+      "mutants_covered": 151,
+      "mutants_killed": 38,
+      "mutation_score_pct": 25.2,
+      "mutation_score_covered_pct": 1.9
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 8,
+  "n_test_kept": 8,
+  "n_keep_java": 8,
+  "kept_tests": [
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/math/RangeTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/text/CompositeFormatTest.java",
+    "org/apache/commons/lang/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/FastDateFormatTest.java"
+  ],
+  "n_moved_b": 132,
+  "kept_tests_final": [
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/math/RangeTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/text/CompositeFormatTest.java",
+    "org/apache/commons/lang/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/FastDateFormatTest.java"
+  ],
+  "n_test_final": 8,
+  "n_keep_java_f": 8,
+  "n_moved_f": 132,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/math/RangeTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/text/CompositeFormatTest.java",
+    "org/apache/commons/lang/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java",
+    "org/apache/commons/lang/time/FastDateFormatTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

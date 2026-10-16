@@ -1,0 +1,26 @@
+{
+  "tag": "Lang-55b-f0.25-r1",
+  "project": "Lang",
+  "bug": "55b",
+  "frac": 0.25,
+  "rep": 1,
+  "n_test_final": 21,
+  "features": {
+    "n_assertions": 2488,
+    "n_test_methods": 21,
+    "n_strong": 2208,
+    "n_weak": 77,
+    "n_other": 112,
+    "n_predicate": 44,
+    "n_distinct_calls": 265,
+    "test_loc": 7009,
+    "n_files": 21
+  },
+  "derived": {
+    "assertions_per_method": 118.47619047619048,
+    "strong_ratio": 0.887459807073955,
+    "weak_ratio": 0.03094855305466238,
+    "predicate_ratio": 0.017684887459807074,
+    "calls_per_assertion": 0.10651125401929261
+  }
+}

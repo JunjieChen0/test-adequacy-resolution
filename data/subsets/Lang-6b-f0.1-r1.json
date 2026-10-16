@@ -1,0 +1,102 @@
+{
+  "project": "Lang",
+  "bug": "6b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:21:01.113110+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 15.3
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 33.8,
+      "lines_total": 11914,
+      "lines_covered": 2968,
+      "cond_total": 8004,
+      "cond_covered": 1747,
+      "line_cov_pct": 24.9,
+      "cond_cov_pct": 21.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 10.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 36.0,
+      "mutants_generated": 1428,
+      "mutants_covered": 119,
+      "mutants_killed": 51,
+      "mutation_score_pct": 42.9,
+      "mutation_score_covered_pct": 3.6
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 111,
+  "n_test_java_total": 128,
+  "n_test_target": 11,
+  "n_test_kept": 12,
+  "n_keep_java": 14,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharEncodingTest.java",
+    "org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang3/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang3/StringUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/EntityArraysTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/tuple/MutablePairTest.java"
+  ],
+  "n_moved_b": 114,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/CharEncodingTest.java",
+    "org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang3/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang3/StringUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/EntityArraysTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/tuple/MutablePairTest.java"
+  ],
+  "n_test_final": 12,
+  "n_keep_java_f": 14,
+  "n_moved_f": 114,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/CharEncodingTest.java",
+    "org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang3/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang3/StringUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang3/builder/ToStringBuilderTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/EntityArraysTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/tuple/MutablePairTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

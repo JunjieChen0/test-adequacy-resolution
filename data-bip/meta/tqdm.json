@@ -1,0 +1,154 @@
+{
+ "project": "tqdm",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_contrib.py",
+   "buggy_commit": "8cc777fe8401a05d07f2c97e65d15e4460feab88",
+   "fixed_commit": "c0dcf39b046d1b4ff6de14ac99ad9a1b10487512",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_contrib.py",
+     "node": "test_enumerate",
+     "raw": "python3 -m pytest tqdm/tests/tests_contrib.py::test_enumerate"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_tqdm.py",
+   "buggy_commit": "bef86db56654d271838b145ad77f7040a73a7b4d",
+   "fixed_commit": "127af5caf19e7d29c346f5ca8a9c7ef3004b664b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_tqdm.py",
+     "node": "test_format_meter",
+     "raw": "python3 -m pytest tqdm/tests/tests_tqdm.py::test_format_meter"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_tqdm.py",
+   "buggy_commit": "c2599e3cd6087429f48bae34347ec5d2473c8392",
+   "fixed_commit": "73962a47026dd980ac0758820efc9c41cbf938e0",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_tqdm.py",
+     "node": "test_bool",
+     "raw": "python3 -m pytest tqdm/tests/tests_tqdm.py::test_bool"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_tqdm.py",
+   "buggy_commit": "03b347646492131d889871939b40457d29147216",
+   "fixed_commit": "964dee631d0ed30e2f799b42fc58ba5e73795a08",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_tqdm.py",
+     "node": "test_nototal",
+     "raw": "python3 -m pytest tqdm/tests/tests_tqdm.py::test_nototal"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_tqdm.py",
+   "buggy_commit": "19b08ab34fdbfa0275bc5cb2430436c724c7e759",
+   "fixed_commit": "4f340697af69b71850aad496387c9c5aa1904136",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_tqdm.py",
+     "node": "test_bool",
+     "raw": "python3 -m pytest tqdm/tests/tests_tqdm.py::test_bool"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_synchronisation.py",
+   "buggy_commit": "a4b9c86db548b2d0dbb5af7a6bbdc26ab47e1eec",
+   "fixed_commit": "6dad2e89019317e875c46d5a3a82a811ad6de2f9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_synchronisation.py",
+     "node": "test_imap",
+     "raw": "python3 -m pytest tqdm/tests/tests_synchronisation.py::test_imap"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_main.py",
+   "buggy_commit": "caefe02fd6f3165e5634460ab20caf4c60400120",
+   "fixed_commit": "4efd35246c924236f34d8130b1055a3c3ba78605",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_main.py",
+     "node": "test_main",
+     "raw": "python3 -m pytest tqdm/tests/tests_main.py::test_main"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_tqdm.py",
+   "buggy_commit": "08b8ad1ff3bd003ef8309faaa0cc108ffa40317d",
+   "fixed_commit": "cae9d139c6df5614be3bf6e25ccbd600ee3286dc",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_tqdm.py",
+     "node": "test_format_meter",
+     "raw": "python3 -m pytest tqdm/tests/tests_tqdm.py::test_format_meter"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "tqdm",
+   "python_version": "3.6.9",
+   "test_file": "tqdm/tests/tests_tqdm.py",
+   "buggy_commit": "9da1d5d116aec7a23d8f6dc22d5e23ecb1c40a7c",
+   "fixed_commit": "d877c1dfb4739852105f7b967a8fceb869ac5042",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tqdm/tests/tests_tqdm.py",
+     "node": "test_si_format",
+     "raw": "python3 -m pytest tqdm/tests/tests_tqdm.py::test_si_format"
+    },
+    {
+     "file": "tqdm/tests/tests_tqdm.py",
+     "node": "test_update",
+     "raw": "python3 -m pytest tqdm/tests/tests_tqdm.py::test_update"
+    }
+   ]
+  }
+ }
+}

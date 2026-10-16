@@ -1,0 +1,1154 @@
+{
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_download_json": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_extract_jwplayer_data_realworld": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_html_search_meta": {
+  "n_assert": 11,
+  "strong": 11,
+  "weak": 0,
+  "pred": 11,
+  "calls": 9,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_html_search_regex": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_ie_key": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_opengraph": {
+  "n_assert": 10,
+  "strong": 10,
+  "weak": 0,
+  "pred": 10,
+  "calls": 8,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_parse_f4m_formats": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_parse_m3u8_formats": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_parse_mpd_formats": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_InfoExtractor.py::TestInfoExtractor::test_parse_xspf": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_audio_only_extractor_format_selection": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_default_format_spec": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_format_filtering": {
+  "n_assert": 10,
+  "strong": 10,
+  "weak": 0,
+  "pred": 10,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_format_not_available": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_format_selection": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_format_selection_audio": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_format_selection_audio_exts": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_format_selection_issue_10083": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_format_selection_video": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_invalid_format_specs": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_prefer_free_formats": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestFormatSelection::test_youtube_format_selection": {
+  "n_assert": 9,
+  "strong": 9,
+  "weak": 0,
+  "pred": 9,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_add_extra_info": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_do_not_override_ie_key_in_url_transparent": {
+  "n_assert": 5,
+  "strong": 5,
+  "weak": 0,
+  "pred": 5,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_format_note": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_match_filter": {
+  "n_assert": 12,
+  "strong": 12,
+  "weak": 0,
+  "pred": 12,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_playlist_items_selection": {
+  "n_assert": 10,
+  "strong": 10,
+  "weak": 0,
+  "pred": 10,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_postprocessors": {
+  "n_assert": 5,
+  "strong": 0,
+  "weak": 5,
+  "pred": 0,
+  "calls": 10,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_prepare_filename": {
+  "n_assert": 20,
+  "strong": 20,
+  "weak": 0,
+  "pred": 20,
+  "calls": 20,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_subtitles": {
+  "n_assert": 18,
+  "strong": 8,
+  "weak": 10,
+  "pred": 8,
+  "calls": 20,
+  "fails": 0
+ },
+ "test/test_YoutubeDL.py::TestYoutubeDL::test_urlopen_no_file_protocol": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_aes.py::TestAES::test_cbc_decrypt": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_aes.py::TestAES::test_cbc_encrypt": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_aes.py::TestAES::test_decrypt_text": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_aes.py::TestAES::test_encrypt": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_cache.py::TestCache::test_cache": {
+  "n_assert": 8,
+  "strong": 6,
+  "weak": 2,
+  "pred": 6,
+  "calls": 10,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_all_present": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_etree_fromstring": {
+  "n_assert": 5,
+  "strong": 0,
+  "weak": 5,
+  "pred": 0,
+  "calls": 13,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_etree_fromstring_doctype": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_expanduser": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_getenv": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_setenv": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_shlex_split": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_urllib_parse_unquote": {
+  "n_assert": 11,
+  "strong": 11,
+  "weak": 0,
+  "pred": 11,
+  "calls": 11,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_urllib_parse_unquote_plus": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_compat_urllib_parse_urlencode": {
+  "n_assert": 8,
+  "strong": 8,
+  "weak": 0,
+  "pred": 8,
+  "calls": 8,
+  "fails": 0
+ },
+ "test/test_compat.py::TestCompat::test_struct_unpack": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_execution.py::TestExecution::test_import": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_execution.py::TestExecution::test_main_exec": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_execution.py::TestExecution::test_module_exec": {
+  "n_assert": 0,
+  "strong": 0,
+  "weak": 0,
+  "pred": 0,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_array_access": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_assignments": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_basic": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_calc": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_call": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_comments": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_empty_return": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_morespace": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_operators": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_parens": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_precedence": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_jsinterp.py::TestJSInterpreter::test_strange_chars": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_options.py::TestOptions::test_hide_login_info": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_postprocessors.py::TestMetadataFromTitle::test_format_to_regex": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_unicode_literals.py::TestUnicodeLiterals::test_all_files": {
+  "n_assert": 1,
+  "strong": 0,
+  "weak": 1,
+  "pred": 0,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_age_restricted": {
+  "n_assert": 5,
+  "strong": 0,
+  "weak": 5,
+  "pred": 0,
+  "calls": 10,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_args_to_str": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_base_url": {
+  "n_assert": 5,
+  "strong": 5,
+  "weak": 0,
+  "pred": 5,
+  "calls": 5,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_clean_html": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_cli_bool_option": {
+  "n_assert": 7,
+  "strong": 7,
+  "weak": 0,
+  "pred": 7,
+  "calls": 7,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_cli_option": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_cli_valueless_option": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_date_from_str": {
+  "n_assert": 5,
+  "strong": 5,
+  "weak": 0,
+  "pred": 5,
+  "calls": 5,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_daterange": {
+  "n_assert": 3,
+  "strong": 0,
+  "weak": 3,
+  "pred": 0,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_detect_exe_version": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_determine_ext": {
+  "n_assert": 5,
+  "strong": 5,
+  "weak": 0,
+  "pred": 5,
+  "calls": 5,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_dfxp2srt": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_dict_get": {
+  "n_assert": 10,
+  "strong": 10,
+  "weak": 0,
+  "pred": 10,
+  "calls": 10,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_encode_base_n": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_encode_compat_str": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_escape_rfc3986": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_escape_url": {
+  "n_assert": 5,
+  "strong": 5,
+  "weak": 0,
+  "pred": 5,
+  "calls": 5,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_expand_path": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 7,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_extract_attributes": {
+  "n_assert": 30,
+  "strong": 30,
+  "weak": 0,
+  "pred": 30,
+  "calls": 30,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_find_xpath_attr": {
+  "n_assert": 11,
+  "strong": 11,
+  "weak": 0,
+  "pred": 11,
+  "calls": 11,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_fix_xml_ampersands": {
+  "n_assert": 5,
+  "strong": 5,
+  "weak": 0,
+  "pred": 5,
+  "calls": 5,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_get_element_by_attribute": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_get_element_by_class": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_get_elements_by_attribute": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_get_elements_by_class": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_intlist_to_bytes": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_is_html": {
+  "n_assert": 7,
+  "strong": 0,
+  "weak": 7,
+  "pred": 0,
+  "calls": 14,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_js_to_json_edgecases": {
+  "n_assert": 23,
+  "strong": 23,
+  "weak": 0,
+  "pred": 23,
+  "calls": 21,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_js_to_json_malformed": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_js_to_json_realworld": {
+  "n_assert": 8,
+  "strong": 8,
+  "weak": 0,
+  "pred": 8,
+  "calls": 8,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_limit_length": {
+  "n_assert": 4,
+  "strong": 2,
+  "weak": 2,
+  "pred": 2,
+  "calls": 7,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_lowercase_escape": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_match_str": {
+  "n_assert": 33,
+  "strong": 1,
+  "weak": 32,
+  "pred": 1,
+  "calls": 64,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_mimetype2ext": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_month_by_name": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_multipart_encode": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_ohdave_rsa_encrypt": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_ordered_set": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_paged_list": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_age_limit": {
+  "n_assert": 12,
+  "strong": 12,
+  "weak": 0,
+  "pred": 12,
+  "calls": 12,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_codecs": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_count": {
+  "n_assert": 9,
+  "strong": 9,
+  "weak": 0,
+  "pred": 9,
+  "calls": 9,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_dfxp_time_expr": {
+  "n_assert": 7,
+  "strong": 7,
+  "weak": 0,
+  "pred": 7,
+  "calls": 7,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_duration": {
+  "n_assert": 31,
+  "strong": 31,
+  "weak": 0,
+  "pred": 31,
+  "calls": 31,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_filesize": {
+  "n_assert": 11,
+  "strong": 11,
+  "weak": 0,
+  "pred": 11,
+  "calls": 11,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_iso8601": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_parse_resolution": {
+  "n_assert": 8,
+  "strong": 8,
+  "weak": 0,
+  "pred": 8,
+  "calls": 8,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_pkcs1pad": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_prepend_extension": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_read_batch_urls": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_remove_end": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_remove_quotes": {
+  "n_assert": 7,
+  "strong": 7,
+  "weak": 0,
+  "pred": 7,
+  "calls": 7,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_remove_start": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_render_table": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_replace_extension": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_sanitize_filename": {
+  "n_assert": 18,
+  "strong": 16,
+  "weak": 2,
+  "pred": 16,
+  "calls": 15,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_sanitize_filename_restricted": {
+  "n_assert": 17,
+  "strong": 12,
+  "weak": 5,
+  "pred": 12,
+  "calls": 17,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_sanitize_ids": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_sanitize_path": {
+  "n_assert": 22,
+  "strong": 22,
+  "weak": 0,
+  "pred": 22,
+  "calls": 22,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_sanitize_url": {
+  "n_assert": 4,
+  "strong": 4,
+  "weak": 0,
+  "pred": 4,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_shell_quote": {
+  "n_assert": 1,
+  "strong": 1,
+  "weak": 0,
+  "pred": 1,
+  "calls": 1,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_smuggle_url": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_str_to_int": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_strip_jsonp": {
+  "n_assert": 5,
+  "strong": 5,
+  "weak": 0,
+  "pred": 5,
+  "calls": 0,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_timeconvert": {
+  "n_assert": 2,
+  "strong": 0,
+  "weak": 2,
+  "pred": 0,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_unescape_html": {
+  "n_assert": 7,
+  "strong": 7,
+  "weak": 0,
+  "pred": 7,
+  "calls": 7,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_unified_dates": {
+  "n_assert": 17,
+  "strong": 17,
+  "weak": 0,
+  "pred": 17,
+  "calls": 17,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_unified_timestamps": {
+  "n_assert": 19,
+  "strong": 19,
+  "weak": 0,
+  "pred": 19,
+  "calls": 19,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_update_url_query": {
+  "n_assert": 10,
+  "strong": 10,
+  "weak": 0,
+  "pred": 10,
+  "calls": 20,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_uppercase_escape": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_url_basename": {
+  "n_assert": 6,
+  "strong": 6,
+  "weak": 0,
+  "pred": 6,
+  "calls": 6,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_urlencode_postdata": {
+  "n_assert": 1,
+  "strong": 0,
+  "weak": 1,
+  "pred": 0,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_urljoin": {
+  "n_assert": 18,
+  "strong": 18,
+  "weak": 0,
+  "pred": 18,
+  "calls": 18,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_urshift": {
+  "n_assert": 2,
+  "strong": 2,
+  "weak": 0,
+  "pred": 2,
+  "calls": 2,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_version_tuple": {
+  "n_assert": 3,
+  "strong": 3,
+  "weak": 0,
+  "pred": 3,
+  "calls": 3,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_xpath_attr": {
+  "n_assert": 7,
+  "strong": 7,
+  "weak": 0,
+  "pred": 7,
+  "calls": 5,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_xpath_element": {
+  "n_assert": 11,
+  "strong": 8,
+  "weak": 3,
+  "pred": 8,
+  "calls": 11,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_xpath_text": {
+  "n_assert": 4,
+  "strong": 3,
+  "weak": 1,
+  "pred": 3,
+  "calls": 4,
+  "fails": 0
+ },
+ "test/test_utils.py::TestUtil::test_xpath_with_ns": {
+  "n_assert": 3,
+  "strong": 2,
+  "weak": 1,
+  "pred": 2,
+  "calls": 4,
+  "fails": 0
+ }
+}

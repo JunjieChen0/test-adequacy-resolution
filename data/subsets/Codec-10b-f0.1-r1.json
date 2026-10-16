@@ -1,0 +1,78 @@
+{
+  "project": "Codec",
+  "bug": "10b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T15:34:05.507152+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 15.8
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 48.5,
+      "lines_total": 1931,
+      "lines_covered": 339,
+      "cond_total": 1258,
+      "cond_covered": 125,
+      "line_cov_pct": 17.6,
+      "cond_cov_pct": 9.9
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 10.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 19.3
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 69.6,
+      "mutants_generated": 1318,
+      "mutants_covered": 163,
+      "mutants_killed": 99,
+      "mutation_score_pct": 60.7,
+      "mutation_score_covered_pct": 7.5
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 31,
+  "n_test_java_total": 34,
+  "n_test_target": 3,
+  "n_test_kept": 4,
+  "n_keep_java": 4,
+  "kept_tests": [
+    "org/apache/commons/codec/binary/Base32Test.java",
+    "org/apache/commons/codec/binary/Base32TestData.java",
+    "org/apache/commons/codec/net/QCodecTest.java",
+    "org/apache/commons/codec/net/RFC1522CodecTest.java"
+  ],
+  "n_moved_b": 30,
+  "kept_tests_final": [
+    "org/apache/commons/codec/binary/Base32Test.java",
+    "org/apache/commons/codec/binary/Base32TestData.java",
+    "org/apache/commons/codec/net/QCodecTest.java",
+    "org/apache/commons/codec/net/RFC1522CodecTest.java"
+  ],
+  "n_test_final": 4,
+  "n_keep_java_f": 4,
+  "n_moved_f": 30,
+  "kept_tests_final_f": [
+    "org/apache/commons/codec/binary/Base32Test.java",
+    "org/apache/commons/codec/binary/Base32TestData.java",
+    "org/apache/commons/codec/net/QCodecTest.java",
+    "org/apache/commons/codec/net/RFC1522CodecTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

@@ -1,0 +1,578 @@
+{
+ "project": "luigi",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/server_test.py",
+   "buggy_commit": "1164eb6b85b8a70f596dbb99452bec513e72c12e",
+   "fixed_commit": "aec5dc2ed8db53fc282a0bd24aabe59031b6d1ba",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/server_test.py",
+     "node": "MetricsHandlerTest::test_get",
+     "raw": "pytest test/server_test.py::MetricsHandlerTest::test_get"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/contrib/beam_dataflow_test.py",
+   "buggy_commit": "baa54c9f4f809692d62d4c3e4497161717c76550",
+   "fixed_commit": "24e85945ae39e5975491527e00c3f0f64b42ea6e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/contrib/beam_dataflow_test.py",
+     "node": "BeamDataflowTest::test_get_target_path",
+     "raw": "pytest test/contrib/beam_dataflow_test.py::BeamDataflowTest::test_get_target_path"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/parameter_test.py",
+   "buggy_commit": "a0f1db01ddab5b4b2bda3fbe58bad09a6d94a7b4",
+   "fixed_commit": "3a0bfbff69addfb3be1107adab3d4914bcae3e4b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestSerializeTupleParameter::testSerialize",
+     "raw": "pytest test/parameter_test.py::TestSerializeTupleParameter::testSerialize"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/contrib/redshift_test.py",
+   "buggy_commit": "ffa51b50103a3adaf3c4d0569fdb037a7ba01e8e",
+   "fixed_commit": "8501e5dbb8d3040453a89bb0d3562526086d51e5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/contrib/redshift_test.py",
+     "node": "TestS3CopyToTable::test_s3_copy_with_nonetype_columns",
+     "raw": "pytest test/contrib/redshift_test.py::TestS3CopyToTable::test_s3_copy_with_nonetype_columns"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/util_test.py",
+   "buggy_commit": "45b5711d1900184ccd66c65216d28c0d69d10d4a",
+   "fixed_commit": "1fbec18ceb7c5de352e6d1df12960c61f09e67c2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/util_test.py",
+     "node": "BasicsTest::test_inherits_has_effect_MRO",
+     "raw": "pytest test/util_test.py::BasicsTest::test_inherits_has_effect_MRO"
+    },
+    {
+     "file": "test/util_test.py",
+     "node": "BasicsTest::test_requires_has_effect_MRO",
+     "raw": "pytest test/util_test.py::BasicsTest::test_requires_has_effect_MRO"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/parameter_test.py",
+   "buggy_commit": "d9667b7c8ce75f17efa383e8f64e27e5852e6f89",
+   "fixed_commit": "ce881b2a95743887c6147ff4ba23ce5f622b3f5e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestParametersHashability::test_list_dict",
+     "raw": "pytest test/parameter_test.py::TestParametersHashability::test_list_dict"
+    },
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestParametersHashability::test_tuple_dict",
+     "raw": "pytest test/parameter_test.py::TestParametersHashability::test_tuple_dict"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/scheduler_api_test.py",
+   "buggy_commit": "dd1f2ce0061e7787166522a3c75339ba4755dd2c",
+   "fixed_commit": "daf9ce99a3a7ed4227d1564570c5fce8848357e5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/scheduler_api_test.py",
+     "node": "SchedulerApiTest::test_status_wont_override",
+     "raw": "pytest test/scheduler_api_test.py::SchedulerApiTest::test_status_wont_override"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/contrib/redshift_test.py",
+   "buggy_commit": "61ee32e9968978c32be12a6af0affa3a5750e87e",
+   "fixed_commit": "8874b93165953c4f6bbe7b747804654d13290018",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/contrib/redshift_test.py",
+     "node": "TestS3CopyToSchemaTable::test_s3_copy_to_table",
+     "raw": "pytest test/contrib/redshift_test.py::TestS3CopyToSchemaTable::test_s3_copy_to_table"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/execution_summary_test.py",
+   "buggy_commit": "f7e0b7710fd8b12f27625b1efb62a8fde6e206c4",
+   "fixed_commit": "b7115974c3deadf77113686248b39567cb67e38f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/execution_summary_test.py",
+     "node": "ExecutionSummaryTest::test_status_with_task_retry",
+     "raw": "pytest test/execution_summary_test.py::ExecutionSummaryTest::test_status_with_task_retry"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/scheduler_test.py",
+   "buggy_commit": "f538d1b3d473d542a19d508e5f7e0809b1dfe5ef",
+   "fixed_commit": "3c55acd2cd5cf9c6c760bec5bb3159e0bc48a614",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/scheduler_test.py",
+     "node": "SchedulerWorkerTest::test_get_pending_tasks_with_many_done_tasks",
+     "raw": "pytest test/scheduler_test.py::SchedulerWorkerTest::test_get_pending_tasks_with_many_done_tasks"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/scheduler_api_test.py",
+   "buggy_commit": "bf8b5cba573d5d6cd11f7f10a03b458aeaf955c1",
+   "fixed_commit": "70d8734d60e168389f425082b41b1936d63c028e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/scheduler_api_test.py",
+     "node": "SchedulerApiTest::test_batch_ignore_items_not_ready",
+     "raw": "pytest test/scheduler_api_test.py::SchedulerApiTest::test_batch_ignore_items_not_ready"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/hdfs_client_test.py",
+   "buggy_commit": "c3119757c9ad4141fb446554109fa09cbd31173c",
+   "fixed_commit": "b3e9ad57f8502a390686957b69070105fddcfd49",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/hdfs_client_test.py",
+     "node": "HdfsClientTest::test_get_autoconfig_client_cached",
+     "raw": "pytest test/hdfs_client_test.py::HdfsClientTest::test_get_autoconfig_client_cached"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/file_test.py",
+   "buggy_commit": "3c90bcdac63d978dbdaeae408420e22b963c9863",
+   "fixed_commit": "a8e64fe7f83d69702166a44c7e8cb9470ff31040",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/file_test.py",
+     "node": "FileSystemTest::test_move_to_new_dir",
+     "raw": "pytest test/file_test.py::FileSystemTest::test_move_to_new_dir"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/central_planner_test.py",
+   "buggy_commit": "f7219c38121098d464011a094156d99b5b320362",
+   "fixed_commit": "43f2de2646c8e1efd6e17ffabbb11accc21e70b6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/central_planner_test.py",
+     "node": "CentralPlannerTest::test_no_crash_on_only_disable_hard_timeout",
+     "raw": "pytest test/central_planner_test.py::CentralPlannerTest::test_no_crash_on_only_disable_hard_timeout"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/central_planner_test.py",
+   "buggy_commit": "a822f55d4d7c5adf5b9e3b64f23189d8305e9bf9",
+   "fixed_commit": "736c0f1352463c20ece84f2f651bcd37fd2b88ae",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/central_planner_test.py",
+     "node": "CentralPlannerTest::test_assistants_dont_nurture_finished_statuses",
+     "raw": "pytest test/central_planner_test.py::CentralPlannerTest::test_assistants_dont_nurture_finished_statuses"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/central_planner_test.py",
+   "buggy_commit": "e38392a1381dd8daee0f180f0ac7f651edb88e0c",
+   "fixed_commit": "96f2b5a97c2cc5f63bea0f422c57f93dcec0ebac",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/central_planner_test.py",
+     "node": "CentralPlannerTest::test_re_enable_failed_task_assistant",
+     "raw": "pytest test/central_planner_test.py::CentralPlannerTest::test_re_enable_failed_task_assistant"
+    }
+   ]
+  },
+  "17": {
+   "bug": "17",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/scheduler_test.py",
+   "buggy_commit": "c39922350cba3a93c96c2ed223283bf8cf315a7d",
+   "fixed_commit": "e38392a1381dd8daee0f180f0ac7f651edb88e0c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/scheduler_test.py",
+     "node": "SchedulerTest::test_local_scheduler_task_history_status",
+     "raw": "pytest test/scheduler_test.py::SchedulerTest::test_local_scheduler_task_history_status"
+    }
+   ]
+  },
+  "18": {
+   "bug": "18",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/central_planner_test.py",
+   "buggy_commit": "6cffbf438d023441f7f42c2019a51c62eecd9018",
+   "fixed_commit": "c521d59c5eacf6c19ce3c17a62f73e042fa0556e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/central_planner_test.py",
+     "node": "CentralPlannerTest::test_no_automatic_re_enable_after_auto_then_manual_disable",
+     "raw": "pytest test/central_planner_test.py::CentralPlannerTest::test_no_automatic_re_enable_after_auto_then_manual_disable"
+    }
+   ]
+  },
+  "19": {
+   "bug": "19",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/central_planner_test.py",
+   "buggy_commit": "3d2f75224c7649402927a5ef57558d8c3717cd94",
+   "fixed_commit": "6cffbf438d023441f7f42c2019a51c62eecd9018",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/central_planner_test.py",
+     "node": "CentralPlannerTest::test_automatic_re_enable_with_one_failure_allowed",
+     "raw": "pytest test/central_planner_test.py::CentralPlannerTest::test_automatic_re_enable_with_one_failure_allowed"
+    }
+   ]
+  },
+  "20": {
+   "bug": "20",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/task_test.py",
+   "buggy_commit": "b958140c2ec838e590a5be02dbac7414d5d0bf17",
+   "fixed_commit": "c3d685e2b03369aab6f4d86ed1c95169c1c2c217",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/task_test.py",
+     "node": "TaskTest::test_task_to_str_to_task",
+     "raw": "pytest test/task_test.py::TaskTest::test_task_to_str_to_task"
+    }
+   ]
+  },
+  "21": {
+   "bug": "21",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/interface_test.py",
+   "buggy_commit": "b7768da963570bd2223d97c1035f811c2eaf30b4",
+   "fixed_commit": "1a6a89d8b510089392bb407d4ec660451deb1f23",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/interface_test.py",
+     "node": "InterfaceTest::test_just_run_main_task_cls",
+     "raw": "pytest test/interface_test.py::InterfaceTest::test_just_run_main_task_cls"
+    }
+   ]
+  },
+  "22": {
+   "bug": "22",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/scheduler_test.py",
+   "buggy_commit": "9c4c47ae449593c55fb67ce51115d0be1fecb163",
+   "fixed_commit": "2db9768958c9665c2bb78f040054a25534205fc4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/scheduler_test.py",
+     "node": "SchedulerTest::test_worker_prune_after_init",
+     "raw": "pytest test/scheduler_test.py::SchedulerTest::test_worker_prune_after_init"
+    }
+   ]
+  },
+  "23": {
+   "bug": "23",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/worker_external_task_test.py",
+   "buggy_commit": "c707253572deb795a900c3e07d21eee591a55fca",
+   "fixed_commit": "dc41727f4de88f86f4e77aa45be51eff4ee6b3be",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/worker_external_task_test.py",
+     "node": "WorkerExternalTaskTest::test_external_dependency_completes_later",
+     "raw": "pytest test/worker_external_task_test.py::WorkerExternalTaskTest::test_external_dependency_completes_later"
+    }
+   ]
+  },
+  "24": {
+   "bug": "24",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/contrib/spark_test.py",
+   "buggy_commit": "572fce617a3b8133983cdee2b2cc336a65af5abe",
+   "fixed_commit": "8a4f73296f237fcf8182c342e62c2cb201c717df",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/contrib/spark_test.py",
+     "node": "SparkSubmitTaskTest::test_run",
+     "raw": "pytest test/contrib/spark_test.py::SparkSubmitTaskTest::test_run"
+    },
+    {
+     "file": "test/contrib/spark_test.py",
+     "node": "SparkSubmitTaskTest::test_defaults",
+     "raw": "pytest test/contrib/spark_test.py::SparkSubmitTaskTest::test_defaults"
+    }
+   ]
+  },
+  "25": {
+   "bug": "25",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/contrib/redshift_test.py",
+   "buggy_commit": "d7ec31609c88503391d12d65b6037f397feff816",
+   "fixed_commit": "040bbc9ef8d1703b64d13c60f271fded63e13601",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/contrib/redshift_test.py",
+     "node": "TestS3CopyToTable::test_s3_copy_to_table",
+     "raw": "pytest test/contrib/redshift_test.py::TestS3CopyToTable::test_s3_copy_to_table"
+    }
+   ]
+  },
+  "26": {
+   "bug": "26",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/contrib/hadoop_jar_test.py",
+   "buggy_commit": "ed351ca3c3baf3657de584db08dfe0414fa000a3",
+   "fixed_commit": "13673fd488c25325db633b1d49e664fb937fabc2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/contrib/hadoop_jar_test.py",
+     "node": "HadoopJarJobTaskTest::test_missing_jar",
+     "raw": "pytest test/contrib/hadoop_jar_test.py::HadoopJarJobTaskTest::test_missing_jar"
+    }
+   ]
+  },
+  "27": {
+   "bug": "27",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/parameter_test.py",
+   "buggy_commit": "69dfec33dc7c34d551ddc71742fa9c847295b01f",
+   "fixed_commit": "fa17292ebb54c8b83db8cf0995618a2a057103a6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestParamWithDefaultFromConfig::testCommandLineWithDefault",
+     "raw": "pytest test/parameter_test.py::TestParamWithDefaultFromConfig::testCommandLineWithDefault"
+    },
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestParamWithDefaultFromConfig::testCommandLineNoDefault",
+     "raw": "pytest test/parameter_test.py::TestParamWithDefaultFromConfig::testCommandLineNoDefault"
+    }
+   ]
+  },
+  "28": {
+   "bug": "28",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/contrib/hive_test.py",
+   "buggy_commit": "e37cb0ea1d97e6340840128a68c8d59bd05c28c3",
+   "fixed_commit": "e2be971226c34a193d7029c51206e488b6a037cd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/contrib/hive_test.py",
+     "node": "HiveCommandClientTest::test_table_exists",
+     "raw": "pytest test/contrib/hive_test.py::HiveCommandClientTest::test_table_exists"
+    },
+    {
+     "file": "test/contrib/hive_test.py",
+     "node": "HiveCommandClientTest::test_apacheclient_table_exists",
+     "raw": "pytest test/contrib/hive_test.py::HiveCommandClientTest::test_apacheclient_table_exists"
+    }
+   ]
+  },
+  "29": {
+   "bug": "29",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/task_test.py",
+   "buggy_commit": "07efdd9136966ffe143ea57e15b1a57b5698fd5a",
+   "fixed_commit": "2898a2d2d178499435892d7a69bb1dfc90c70b29",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/task_test.py",
+     "node": "TaskTest::test_external_tasks_loadable",
+     "raw": "pytest test/task_test.py::TaskTest::test_external_tasks_loadable"
+    }
+   ]
+  },
+  "30": {
+   "bug": "30",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/test_event_callbacks.py",
+   "buggy_commit": "97fa4afea3748f0d714482d2c97990bb467bc9d1",
+   "fixed_commit": "f1e3fb48fe9877e511a2d079636fd75eaaba4573",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_event_callbacks.py",
+     "node": "TestEventCallbacks::test_failure",
+     "raw": "pytest test/test_event_callbacks.py::TestEventCallbacks::test_failure"
+    },
+    {
+     "file": "test/test_event_callbacks.py",
+     "node": "TestEventCallbacks::test_processing_time_handler_failure",
+     "raw": "pytest test/test_event_callbacks.py::TestEventCallbacks::test_processing_time_handler_failure"
+    }
+   ]
+  },
+  "31": {
+   "bug": "31",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/central_planner_test.py",
+   "buggy_commit": "554850f32784537796383db5ee188d0455863ca9",
+   "fixed_commit": "c0857e9e06012b696017e0a353ae74f4f621d066",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/central_planner_test.py",
+     "node": "CentralPlannerTest::test_assistant_get_work_external_task",
+     "raw": "pytest test/central_planner_test.py::CentralPlannerTest::test_assistant_get_work_external_task"
+    }
+   ]
+  },
+  "32": {
+   "bug": "32",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/instance_test.py",
+   "buggy_commit": "7233a0cc3e34c7c14259b1fa046f66332914f410",
+   "fixed_commit": "027ac3fbcf66d5d21554c9ac6da26eee5c2e0f3d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/instance_test.py",
+     "node": "InstanceTest::test_unhashable_type",
+     "raw": "pytest test/instance_test.py::InstanceTest::test_unhashable_type"
+    }
+   ]
+  },
+  "33": {
+   "bug": "33",
+   "project": "luigi",
+   "python_version": "3.8.3",
+   "test_file": "test/parameter_test.py",
+   "buggy_commit": "a7c0662eab78fd226fd7ef6b4461d7199336cbb1",
+   "fixed_commit": "fccb631a14e1d52138d39f06004be14ca8f3337d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/parameter_test.py",
+     "node": "ParameterTest::test_local_insignificant_param",
+     "raw": "pytest test/parameter_test.py::ParameterTest::test_local_insignificant_param"
+    },
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestRemoveGlobalParameters::test_global_significant_param",
+     "raw": "pytest test/parameter_test.py::TestRemoveGlobalParameters::test_global_significant_param"
+    },
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestRemoveGlobalParameters::test_mixed_params",
+     "raw": "pytest test/parameter_test.py::TestRemoveGlobalParameters::test_mixed_params"
+    },
+    {
+     "file": "test/parameter_test.py",
+     "node": "TestRemoveGlobalParameters::test_mixed_params_inheritence",
+     "raw": "pytest test/parameter_test.py::TestRemoveGlobalParameters::test_mixed_params_inheritence"
+    }
+   ]
+  }
+ }
+}

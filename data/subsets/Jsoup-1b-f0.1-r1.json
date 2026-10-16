@@ -1,0 +1,37 @@
+{
+  "project": "Jsoup",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:39:36.561832+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.1
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 12,
+  "n_test_java_total": 14,
+  "n_test_target": 1,
+  "n_test_kept": 1,
+  "n_keep_java": 2,
+  "kept_tests": [
+    "org/jsoup/nodes/ElementTest.java"
+  ],
+  "n_moved_b": 12
+}

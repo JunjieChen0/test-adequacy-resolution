@@ -1,0 +1,60 @@
+{
+  "project": "Lang",
+  "bug": "16b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T09:13:03.905871+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 14.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 22.0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 98.5,
+      "lines_total": 11166,
+      "lines_covered": 1361,
+      "cond_total": 7495,
+      "cond_covered": 732,
+      "line_cov_pct": 12.2,
+      "cond_cov_pct": 9.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 17.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 25.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 117.7,
+      "mutants_generated": 1435,
+      "mutants_covered": 211,
+      "mutants_killed": 126,
+      "mutation_score_pct": 59.7,
+      "mutation_score_covered_pct": 8.8
+    }
+  },
+  "n_test_total": 102,
+  "n_test_target": 5,
+  "n_test_kept": 6,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/compare/NullComparatorTest.java",
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java"
+  ],
+  "n_moved_b": 96,
+  "n_test_kept_f": 6,
+  "n_moved_f": 96,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

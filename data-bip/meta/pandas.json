@@ -1,0 +1,2929 @@
+{
+ "project": "pandas",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes/test_dtypes.py",
+   "buggy_commit": "3fd150c",
+   "fixed_commit": "e41ee47a90bb1d8a1fa28fcefcd45ed8ef5cb946",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes/test_dtypes.py",
+     "node": "TestCategoricalDtype::test_not_string",
+     "raw": "pytest pandas/tests/dtypes/test_dtypes.py::TestCategoricalDtype::test_not_string"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_scalar.py",
+   "buggy_commit": "2740fb4",
+   "fixed_commit": "55e8891f6d33be14e0db73ac06513129503f995c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_scalar.py",
+     "node": "test_at_with_tuple_index_get",
+     "raw": "pytest pandas/tests/indexing/test_scalar.py::test_at_with_tuple_index_get"
+    },
+    {
+     "file": "pandas/tests/indexing/test_scalar.py",
+     "node": "test_at_with_tuple_index_set",
+     "raw": "pytest pandas/tests/indexing/test_scalar.py::test_at_with_tuple_index_set"
+    },
+    {
+     "file": "pandas/tests/indexing/test_scalar.py",
+     "node": "test_multiindex_at_get",
+     "raw": "pytest pandas/tests/indexing/test_scalar.py::test_multiindex_at_get"
+    },
+    {
+     "file": "pandas/tests/indexing/test_scalar.py",
+     "node": "test_multiindex_at_set",
+     "raw": "pytest pandas/tests/indexing/test_scalar.py::test_multiindex_at_set"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/methods/test_to_period.py;pandas/tests/series/methods/test_to_timestamp.py",
+   "buggy_commit": "45fee32",
+   "fixed_commit": "d3a6a3a58e1a6eb68b8b8399ff252b8f4501950e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/methods/test_to_period.py",
+     "node": "TestToPeriod::test_to_period_raises",
+     "raw": "pytest pandas/tests/series/methods/test_to_period.py::TestToPeriod::test_to_period_raises"
+    },
+    {
+     "file": "pandas/tests/series/methods/test_to_timestamp.py",
+     "node": "TestToTimestamp::test_to_timestamp_raises",
+     "raw": "pytest pandas/tests/series/methods/test_to_timestamp.py::TestToTimestamp::test_to_timestamp_raises"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/multi/test_join.py",
+   "buggy_commit": "cca710b",
+   "fixed_commit": "2250ddfaff92abaff20a5bcd78315f5d4bd44981",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/multi/test_join.py",
+     "node": "test_join_multi_return_indexers",
+     "raw": "pytest pandas/tests/indexes/multi/test_join.py::test_join_multi_return_indexers"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_function.py",
+   "buggy_commit": "4f4282f8a7c1033fc3efe9f4eab5368a70ae5041",
+   "fixed_commit": "0babe10f1f3f19bb6183b6fb4cc958583c6860c8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_function.py",
+     "node": "test_ops_not_as_index",
+     "raw": "pytest pandas/tests/groupby/test_function.py::test_ops_not_as_index"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_size.py",
+   "buggy_commit": "21a10d1",
+   "fixed_commit": "8cd8ed3657e52ad9f67e17b7f5c20f7340ab6a2c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_size.py",
+     "node": "test_size_period_index",
+     "raw": "pytest pandas/tests/groupby/test_size.py::test_size_period_index"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/indexing/test_indexing.py",
+   "buggy_commit": "27f365d",
+   "fixed_commit": "64336ff8414f8977ff94adb9a5bc000a3a4ef454",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/indexing/test_indexing.py",
+     "node": "TestDataFrameIndexing::test_reindex_nearest_tz",
+     "raw": "pytest pandas/tests/frame/indexing/test_indexing.py::TestDataFrameIndexing::test_reindex_nearest_tz"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/methods/test_replace.py",
+   "buggy_commit": "ddbeca6",
+   "fixed_commit": "d09f20e29bdfa82f5efc071986e2633001d552f6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/methods/test_replace.py",
+     "node": "TestDataFrameReplace::test_replace_no_replacement_dtypes",
+     "raw": "pytest pandas/tests/frame/methods/test_replace.py::TestDataFrameReplace::test_replace_no_replacement_dtypes"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/categorical/test_indexing.py",
+   "buggy_commit": "c557ab5",
+   "fixed_commit": "ebb727e5cd8865a7f5d6cfb4b22d3278b6bf5e6b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/categorical/test_indexing.py",
+     "node": "TestContains::test_contains_na_dtype",
+     "raw": "pytest pandas/tests/indexes/categorical/test_indexing.py::TestContains::test_contains_na_dtype"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/methods/test_update.py",
+   "buggy_commit": "de8ca78",
+   "fixed_commit": "e1ee2b0679e5999c993a787606d30e75faaba7a2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/methods/test_update.py",
+     "node": "TestUpdate::test_update_extension_array_series",
+     "raw": "pytest pandas/tests/series/methods/test_update.py::TestUpdate::test_update_extension_array_series"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_concat.py",
+   "buggy_commit": "1c88e6a",
+   "fixed_commit": "b7f061c3d24df943e16918ad3932e767f5639a38",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_concat.py",
+     "node": "test_duplicate_keys",
+     "raw": "pytest pandas/tests/reshape/test_concat.py::test_duplicate_keys"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/methods/test_cov_corr.py",
+   "buggy_commit": "9bd296c",
+   "fixed_commit": "8aa707298428801199280b2b994632080591700a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/methods/test_cov_corr.py",
+     "node": "TestDataFrameCov::test_cov_nullable_integer",
+     "raw": "pytest pandas/tests/frame/methods/test_cov_corr.py::TestDataFrameCov::test_cov_nullable_integer"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/categorical/test_missing.py",
+   "buggy_commit": "08f9bd2",
+   "fixed_commit": "91150d976ac41bd93a0e6516b2090c534f91aff2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/categorical/test_missing.py",
+     "node": "TestCategoricalMissing::test_use_inf_as_na",
+     "raw": "pytest pandas/tests/arrays/categorical/test_missing.py::TestCategoricalMissing::test_use_inf_as_na"
+    },
+    {
+     "file": "pandas/tests/arrays/categorical/test_missing.py",
+     "node": "TestCategoricalMissing::test_use_inf_as_na_outside_context",
+     "raw": "pytest pandas/tests/arrays/categorical/test_missing.py::TestCategoricalMissing::test_use_inf_as_na_outside_context"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_datetime64.py;pandas/tests/arithmetic/test_timedelta64.py",
+   "buggy_commit": "e7b23d4",
+   "fixed_commit": "dd71064327721c1ec7366000f357b0c08bcec4d2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_datetime64.py",
+     "node": "TestDatetime64DateOffsetArithmetic::test_dt64arr_add_sub_offset_array",
+     "raw": "pytest pandas/tests/arithmetic/test_datetime64.py::TestDatetime64DateOffsetArithmetic::test_dt64arr_add_sub_offset_array"
+    },
+    {
+     "file": "pandas/tests/arithmetic/test_timedelta64.py",
+     "node": "TestTimedeltaArraylikeAddSubOps::test_td64arr_add_offset_index",
+     "raw": "pytest pandas/tests/arithmetic/test_timedelta64.py::TestTimedeltaArraylikeAddSubOps::test_td64arr_add_offset_index"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_datetime.py",
+   "buggy_commit": "f3fdab3",
+   "fixed_commit": "71d610596ed128055614eb660f13c88168bfe22f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_datetime.py",
+     "node": "TestDatetimeIndex::test_pickle_after_set_freq",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_datetime.py::TestDatetimeIndex::test_pickle_after_set_freq"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_period.py",
+   "buggy_commit": "f159734",
+   "fixed_commit": "74e8607cb163b76ccf272ac72ae6b7848fe930c8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_period.py",
+     "node": "TestPeriodIndexSeriesMethods::test_pi_sub_period",
+     "raw": "pytest pandas/tests/arithmetic/test_period.py::TestPeriodIndexSeriesMethods::test_pi_sub_period"
+    }
+   ]
+  },
+  "17": {
+   "bug": "17",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_insert.py",
+   "buggy_commit": "1e5ff23",
+   "fixed_commit": "afb04645b5b3361814f7d00ef68ce8d68e19ddb8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_insert.py",
+     "node": "TestInsert::test_insert_mismatched_types_raises",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_insert.py::TestInsert::test_insert_mismatched_types_raises"
+    }
+   ]
+  },
+  "18": {
+   "bug": "18",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/window/test_base_indexer.py",
+   "buggy_commit": "e008a0a",
+   "fixed_commit": "cb71376385c33270fa1922aec9eb6c49de4336f4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/window/test_base_indexer.py",
+     "node": "test_rolling_forward_skewness",
+     "raw": "pytest pandas/tests/window/test_base_indexer.py::test_rolling_forward_skewness"
+    }
+   ]
+  },
+  "19": {
+   "bug": "19",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/multiindex/test_loc.py;pandas/tests/indexing/multiindex/test_slice.py;pandas/tests/series/indexing/test_getitem.py",
+   "buggy_commit": "17dc6b0",
+   "fixed_commit": "c6a1638bcd99df677a8f76f036c0b30027eb243c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/multiindex/test_loc.py",
+     "node": "TestMultiIndexLoc::test_loc_multiindex_list_missing_label",
+     "raw": "pytest pandas/tests/indexing/multiindex/test_loc.py::TestMultiIndexLoc::test_loc_multiindex_list_missing_label"
+    },
+    {
+     "file": "pandas/tests/indexing/multiindex/test_slice.py",
+     "node": "TestMultiIndexSlicers::test_per_axis_per_level_getitem",
+     "raw": "pytest pandas/tests/indexing/multiindex/test_slice.py::TestMultiIndexSlicers::test_per_axis_per_level_getitem"
+    },
+    {
+     "file": "pandas/tests/series/indexing/test_getitem.py",
+     "node": "TestSeriesGetitemListLike::test_getitem_intlist_multiindex_numeric_level",
+     "raw": "pytest pandas/tests/series/indexing/test_getitem.py::TestSeriesGetitemListLike::test_getitem_intlist_multiindex_numeric_level"
+    }
+   ]
+  },
+  "20": {
+   "bug": "20",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/tseries/offsets/test_yqm_offsets.py",
+   "buggy_commit": "ea09d50",
+   "fixed_commit": "92afd5c2c08216e4e9c80eb6b92b1660f91846e0",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/tseries/offsets/test_yqm_offsets.py",
+     "node": "test_apply_index",
+     "raw": "pytest pandas/tests/tseries/offsets/test_yqm_offsets.py::test_apply_index"
+    }
+   ]
+  },
+  "21": {
+   "bug": "21",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/indexing/test_boolean.py;pandas/tests/series/indexing/test_getitem.py",
+   "buggy_commit": "4071c3b",
+   "fixed_commit": "56d0934092b8296c90f940c56fce3b731e0de81b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/indexing/test_getitem.py",
+     "node": "TestSeriesGetitemListLike::test_getitem_no_matches",
+     "raw": "pytest pandas/tests/series/indexing/test_getitem.py::TestSeriesGetitemListLike::test_getitem_no_matches"
+    }
+   ]
+  },
+  "22": {
+   "bug": "22",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/window/test_base_indexer.py",
+   "buggy_commit": "38b669a",
+   "fixed_commit": "299e27da8a75d02d84870c1ca5971f4dd0f046e6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/window/test_base_indexer.py",
+     "node": "test_rolling_forward_window",
+     "raw": "pytest pandas/tests/window/test_base_indexer.py::test_rolling_forward_window"
+    }
+   ]
+  },
+  "23": {
+   "bug": "23",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_setops.py",
+   "buggy_commit": "ab9f3c9",
+   "fixed_commit": "38b669a206b151e0a2bb985200d4a493c4ac078f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_setops.py",
+     "node": "TestDatetimeIndexSetOps::test_intersection_empty",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_setops.py::TestDatetimeIndexSetOps::test_intersection_empty"
+    },
+    {
+     "file": "pandas/tests/indexes/datetimes/test_setops.py",
+     "node": "TestBusinessDatetimeIndex::test_intersection_bug",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_setops.py::TestBusinessDatetimeIndex::test_intersection_bug"
+    },
+    {
+     "file": "pandas/tests/indexes/datetimes/test_setops.py",
+     "node": "TestCustomDatetimeIndex::test_intersection_bug",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_setops.py::TestCustomDatetimeIndex::test_intersection_bug"
+    }
+   ]
+  },
+  "24": {
+   "bug": "24",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_timezones.py",
+   "buggy_commit": "91dcc3a",
+   "fixed_commit": "6367bd23b935a85f1bcd2ae762c7f08433d0efbd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_timezones.py",
+     "node": "test_tz_localize_invalidates_freq",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_timezones.py::test_tz_localize_invalidates_freq"
+    }
+   ]
+  },
+  "25": {
+   "bug": "25",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_misc.py",
+   "buggy_commit": "ecc3b2e",
+   "fixed_commit": "73d614403759831814ef7ab83ef1e4aaa645b33a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_misc.py",
+     "node": "test_isocalendar_returns_correct_values_close_to_new_year_with_tz",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_misc.py::test_isocalendar_returns_correct_values_close_to_new_year_with_tz"
+    }
+   ]
+  },
+  "26": {
+   "bug": "26",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/categorical/test_analytics.py",
+   "buggy_commit": "13dc13f",
+   "fixed_commit": "70ca24680d3e51fa4b957366e8093b3cc755462d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/categorical/test_analytics.py",
+     "node": "TestCategoricalAnalytics::test_min_max_only_nan",
+     "raw": "pytest pandas/tests/arrays/categorical/test_analytics.py::TestCategoricalAnalytics::test_min_max_only_nan"
+    }
+   ]
+  },
+  "27": {
+   "bug": "27",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_to_period.py",
+   "buggy_commit": "6658d89",
+   "fixed_commit": "13dc13f12c0fca943979cde065b7484bb0e40d66",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_to_period.py",
+     "node": "TestToPeriod::test_to_period_infer",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_to_period.py::TestToPeriod::test_to_period_infer"
+    }
+   ]
+  },
+  "28": {
+   "bug": "28",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/test_strings.py",
+   "buggy_commit": "40fd73a",
+   "fixed_commit": "ef9b9387c88cf12b20dd8656dfedfc236e0f3352",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/test_strings.py",
+     "node": "test_cat_different_classes",
+     "raw": "pytest pandas/tests/test_strings.py::test_cat_different_classes"
+    }
+   ]
+  },
+  "29": {
+   "bug": "29",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/interval/test_interval.py;pandas/tests/series/methods/test_convert_dtypes.py",
+   "buggy_commit": "6e3537d",
+   "fixed_commit": "4334482c348c3adc69683c8332295e22092c1b57",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/interval/test_interval.py",
+     "node": "TestSetitem::test_set_na",
+     "raw": "pytest pandas/tests/arrays/interval/test_interval.py::TestSetitem::test_set_na"
+    },
+    {
+     "file": "pandas/tests/series/methods/test_convert_dtypes.py",
+     "node": "TestSeriesConvertDtypes::test_convert_dtypes",
+     "raw": "pytest pandas/tests/series/methods/test_convert_dtypes.py::TestSeriesConvertDtypes::test_convert_dtypes"
+    }
+   ]
+  },
+  "30": {
+   "bug": "30",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/json/test_pandas.py",
+   "buggy_commit": "60d6f28",
+   "fixed_commit": "d857cd12b3ae11be788ba96015383a5b7464ecc9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/json/test_pandas.py",
+     "node": "TestPandasContainer::test_readjson_bool_series",
+     "raw": "pytest pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_readjson_bool_series"
+    }
+   ]
+  },
+  "31": {
+   "bug": "31",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_function.py",
+   "buggy_commit": "45c13a9",
+   "fixed_commit": "8267427bfe567eec9a098aa8c071dddcc1d289f9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_function.py",
+     "node": "test_groupby_quantile_nullable_array",
+     "raw": "pytest pandas/tests/groupby/test_function.py::test_groupby_quantile_nullable_array"
+    }
+   ]
+  },
+  "32": {
+   "bug": "32",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/sas/test_xport.py",
+   "buggy_commit": "467e1c2",
+   "fixed_commit": "c82cb179affed1c1136431ce39e4c66f4f3a65c0",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/sas/test_xport.py",
+     "node": "TestXport::test2_binary",
+     "raw": "pytest pandas/tests/io/sas/test_xport.py::TestXport::test2_binary"
+    }
+   ]
+  },
+  "33": {
+   "bug": "33",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/integer/test_function.py",
+   "buggy_commit": "03dacc1",
+   "fixed_commit": "89d8aba76a2bb930e520590d145e3d67b2046e39",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/integer/test_function.py",
+     "node": "test_value_counts_empty",
+     "raw": "pytest pandas/tests/arrays/integer/test_function.py::test_value_counts_empty"
+    }
+   ]
+  },
+  "34": {
+   "bug": "34",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/resample/test_datetime_index.py",
+   "buggy_commit": "02a134b",
+   "fixed_commit": "cf9ec7854ecb80709804178e769425f02ddf8c64",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/resample/test_datetime_index.py",
+     "node": "test_downsample_dst_at_midnight",
+     "raw": "pytest pandas/tests/resample/test_datetime_index.py::test_downsample_dst_at_midnight"
+    }
+   ]
+  },
+  "35": {
+   "bug": "35",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/multi/test_get_level_values.py",
+   "buggy_commit": "a7dd3ea",
+   "fixed_commit": "f10ec595eccaf86a9f52fe9683e1181a51ba675b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/multi/test_get_level_values.py",
+     "node": "test_get_level_values_when_periods",
+     "raw": "pytest pandas/tests/indexes/multi/test_get_level_values.py::test_get_level_values_when_periods"
+    }
+   ]
+  },
+  "36": {
+   "bug": "36",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes//test_missing.py",
+   "buggy_commit": "cb41651",
+   "fixed_commit": "51f114b9882a5cf819efddb8be74524814f437e1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes//test_missing.py",
+     "node": "TestIsNA::test_isna_old_datetimelike",
+     "raw": "pytest pandas/tests/dtypes//test_missing.py::TestIsNA::test_isna_old_datetimelike"
+    }
+   ]
+  },
+  "37": {
+   "bug": "37",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/string_/test_string.py",
+   "buggy_commit": "c69f7d8",
+   "fixed_commit": "845c50c9e2ce611c773422ae9db7097fc3e5fba5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/string_/test_string.py",
+     "node": "test_astype_int",
+     "raw": "pytest pandas/tests/arrays/string_/test_string.py::test_astype_int"
+    }
+   ]
+  },
+  "38": {
+   "bug": "38",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_reshape.py",
+   "buggy_commit": "c81d90f",
+   "fixed_commit": "e7ee418fa7a519225203fef23481c5fa35834dc3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_reshape.py",
+     "node": "TestDataFrameReshape::test_unstack_long_index",
+     "raw": "pytest pandas/tests/frame/test_reshape.py::TestDataFrameReshape::test_unstack_long_index"
+    },
+    {
+     "file": "pandas/tests/frame/test_reshape.py",
+     "node": "TestDataFrameReshape::test_unstack_multi_level_cols",
+     "raw": "pytest pandas/tests/frame/test_reshape.py::TestDataFrameReshape::test_unstack_multi_level_cols"
+    },
+    {
+     "file": "pandas/tests/frame/test_reshape.py",
+     "node": "TestDataFrameReshape::test_unstack_multi_level_rows_and_cols",
+     "raw": "pytest pandas/tests/frame/test_reshape.py::TestDataFrameReshape::test_unstack_multi_level_rows_and_cols"
+    }
+   ]
+  },
+  "39": {
+   "bug": "39",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame//test_axis_select_reindex.py",
+   "buggy_commit": "8a5f291",
+   "fixed_commit": "a3097b5bd172e76dd3524eb5dbe18b6b4c22df50",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame//test_axis_select_reindex.py",
+     "node": "TestDataFrameSelectReindex::test_inplace_drop_and_operation",
+     "raw": "pytest pandas/tests/frame//test_axis_select_reindex.py::TestDataFrameSelectReindex::test_inplace_drop_and_operation"
+    }
+   ]
+  },
+  "40": {
+   "bug": "40",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/merge/test_merge.py",
+   "buggy_commit": "218cc30",
+   "fixed_commit": "8a5f2917e163e09e08af880819fdf44144b1a5fe",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/merge/test_merge.py",
+     "node": "TestMerge::test_merge_preserves_row_order",
+     "raw": "pytest pandas/tests/reshape/merge/test_merge.py::TestMerge::test_merge_preserves_row_order"
+    }
+   ]
+  },
+  "41": {
+   "bug": "41",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_iloc.py;pandas/tests/internals/test_internals.py",
+   "buggy_commit": "1b49f69",
+   "fixed_commit": "d4273353bc512e3b4e79c361b879633f33ec7289",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_iloc.py",
+     "node": "TestiLoc2::test_iloc_setitem_categorical_updates_inplace",
+     "raw": "pytest pandas/tests/indexing/test_iloc.py::TestiLoc2::test_iloc_setitem_categorical_updates_inplace"
+    },
+    {
+     "file": "pandas/tests/internals/test_internals.py",
+     "node": "TestShouldStore::test_should_store_categorical",
+     "raw": "pytest pandas/tests/internals/test_internals.py::TestShouldStore::test_should_store_categorical"
+    }
+   ]
+  },
+  "42": {
+   "bug": "42",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/util/test_assert_frame_equal.py;pandas/tests/util/test_assert_series_equal.py",
+   "buggy_commit": "b3a0fe4",
+   "fixed_commit": "05780a760400e42ce1b00200dd8204ae4f94044a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/util/test_assert_frame_equal.py",
+     "node": "test_assert_frame_equal_extension_dtype_mismatch",
+     "raw": "pytest pandas/tests/util/test_assert_frame_equal.py::test_assert_frame_equal_extension_dtype_mismatch"
+    },
+    {
+     "file": "pandas/tests/util/test_assert_frame_equal.py",
+     "node": "test_assert_frame_equal_interval_dtype_mismatch",
+     "raw": "pytest pandas/tests/util/test_assert_frame_equal.py::test_assert_frame_equal_interval_dtype_mismatch"
+    },
+    {
+     "file": "pandas/tests/util/test_assert_series_equal.py",
+     "node": "test_assert_series_equal_extension_dtype_mismatch",
+     "raw": "pytest pandas/tests/util/test_assert_series_equal.py::test_assert_series_equal_extension_dtype_mismatch"
+    },
+    {
+     "file": "pandas/tests/util/test_assert_series_equal.py",
+     "node": "test_assert_series_equal_interval_dtype_mismatch",
+     "raw": "pytest pandas/tests/util/test_assert_series_equal.py::test_assert_series_equal_interval_dtype_mismatch"
+    }
+   ]
+  },
+  "43": {
+   "bug": "43",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_arithmetic.py",
+   "buggy_commit": "81149fb",
+   "fixed_commit": "be7bfe6ab7ae2cba056f61dea6c3b0226bf80082",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_arithmetic.py",
+     "node": "test_pow_with_realignment",
+     "raw": "pytest pandas/tests/frame/test_arithmetic.py::test_pow_with_realignment"
+    }
+   ]
+  },
+  "44": {
+   "bug": "44",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/test_base.py;pandas/tests/indexing/test_loc.py",
+   "buggy_commit": "96d22d4",
+   "fixed_commit": "50817487ce5b1a2c4896495509e2b53e22fa3212",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/test_base.py",
+     "node": "test_get_indexer_non_unique_wrong_dtype",
+     "raw": "pytest pandas/tests/indexes/test_base.py::test_get_indexer_non_unique_wrong_dtype"
+    },
+    {
+     "file": "pandas/tests/indexing/test_loc.py",
+     "node": "test_loc_datetimelike_mismatched_dtypes",
+     "raw": "pytest pandas/tests/indexing/test_loc.py::test_loc_datetimelike_mismatched_dtypes"
+    }
+   ]
+  },
+  "45": {
+   "bug": "45",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_constructors.py",
+   "buggy_commit": "74c5306",
+   "fixed_commit": "74f6579941fbe71cf7c033f53977047ac872e469",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_constructors.py",
+     "node": "TestDataFrameConstructorWithDatetimeTZ::test_construction_from_set_raises",
+     "raw": "pytest pandas/tests/frame/test_constructors.py::TestDataFrameConstructorWithDatetimeTZ::test_construction_from_set_raises"
+    }
+   ]
+  },
+  "46": {
+   "bug": "46",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_pivot.py",
+   "buggy_commit": "e734449",
+   "fixed_commit": "0ed6d538c38010bcbd540cd6413ae8e4b749d9e6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_pivot.py",
+     "node": "TestPivotTable::test_pivot_table_retains_tz",
+     "raw": "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_table_retains_tz"
+    }
+   ]
+  },
+  "47": {
+   "bug": "47",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/indexing/test_indexing.py;pandas/tests/indexing/test_loc.py",
+   "buggy_commit": "1a5b11d",
+   "fixed_commit": "810a4e5b19616efb503767b4518083c9a59c11e6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/indexing/test_indexing.py",
+     "node": "TestDataFrameIndexing::test_setitem_list_missing_columns",
+     "raw": "pytest pandas/tests/frame/indexing/test_indexing.py::TestDataFrameIndexing::test_setitem_list_missing_columns"
+    },
+    {
+     "file": "pandas/tests/indexing/test_loc.py",
+     "node": "TestLoc2::test_loc_setitem_missing_columns",
+     "raw": "pytest pandas/tests/indexing/test_loc.py::TestLoc2::test_loc_setitem_missing_columns"
+    }
+   ]
+  },
+  "48": {
+   "bug": "48",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_function.py",
+   "buggy_commit": "9bc3ee0",
+   "fixed_commit": "9e7cb7c102655d0ba92d2561c178da9254d5cef5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_function.py",
+     "node": "test_apply_to_nullable_integer_returns_float",
+     "raw": "pytest pandas/tests/groupby/test_function.py::test_apply_to_nullable_integer_returns_float"
+    }
+   ]
+  },
+  "49": {
+   "bug": "49",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/test_strings.py",
+   "buggy_commit": "113c255",
+   "fixed_commit": "37659d47a685ecc5f5117aa56526ece0106c6d0f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/test_strings.py",
+     "node": "TestStringMethods::test_repeat_with_null",
+     "raw": "pytest pandas/tests/test_strings.py::TestStringMethods::test_repeat_with_null"
+    }
+   ]
+  },
+  "50": {
+   "bug": "50",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/extension/test_categorical.py",
+   "buggy_commit": "ebf9668",
+   "fixed_commit": "821aa25c9039e72da9a7b236cf2f9e7d549cbb7b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/extension/test_categorical.py",
+     "node": "TestComparisonOps::test_not_equal_with_na",
+     "raw": "pytest pandas/tests/extension/test_categorical.py::TestComparisonOps::test_not_equal_with_na"
+    }
+   ]
+  },
+  "51": {
+   "bug": "51",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/merge/test_merge.py",
+   "buggy_commit": "4800ab4",
+   "fixed_commit": "ea1d8fadb95fbc7cafe036274006228400817fd4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/merge/test_merge.py",
+     "node": "test_categorical_non_unique_monotonic",
+     "raw": "pytest pandas/tests/reshape/merge/test_merge.py::test_categorical_non_unique_monotonic"
+    }
+   ]
+  },
+  "52": {
+   "bug": "52",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_function.py",
+   "buggy_commit": "20a84a5",
+   "fixed_commit": "7017599821e02ba95282848c12f7d3b5f2ce670a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_function.py",
+     "node": "test_series_groupby_nunique",
+     "raw": "pytest pandas/tests/groupby/test_function.py::test_series_groupby_nunique"
+    }
+   ]
+  },
+  "53": {
+   "bug": "53",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_categorical.py;pandas/tests/indexing/test_loc.py",
+   "buggy_commit": "f9b49c8",
+   "fixed_commit": "020dcce17e3bd0983fca5b02556bd431140ab371",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_categorical.py",
+     "node": "TestCategoricalIndex::test_loc_scalar",
+     "raw": "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_scalar"
+    },
+    {
+     "file": "pandas/tests/indexing/test_loc.py",
+     "node": "TestLoc::test_loc_getitem_int",
+     "raw": "pytest pandas/tests/indexing/test_loc.py::TestLoc::test_loc_getitem_int"
+    },
+    {
+     "file": "pandas/tests/indexing/test_loc.py",
+     "node": "test_loc_mixed_int_float",
+     "raw": "pytest pandas/tests/indexing/test_loc.py::test_loc_mixed_int_float"
+    }
+   ]
+  },
+  "54": {
+   "bug": "54",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes/test_dtypes.py",
+   "buggy_commit": "25443f0",
+   "fixed_commit": "00e8e4ab0c5e4c7bfb3e356e660d9f088d4a82a4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes/test_dtypes.py",
+     "node": "TestCategoricalDtype::test_from_values_or_dtype_invalid_dtype",
+     "raw": "pytest pandas/tests/dtypes/test_dtypes.py::TestCategoricalDtype::test_from_values_or_dtype_invalid_dtype"
+    }
+   ]
+  },
+  "55": {
+   "bug": "55",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_iloc.py",
+   "buggy_commit": "6ab00bc",
+   "fixed_commit": "628dfba239865adc09c94108b288bcb60c619950",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_iloc.py",
+     "node": "TestiLoc2::test_is_scalar_access",
+     "raw": "pytest pandas/tests/indexing/test_iloc.py::TestiLoc2::test_is_scalar_access"
+    }
+   ]
+  },
+  "56": {
+   "bug": "56",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_scalar.py",
+   "buggy_commit": "9e69040",
+   "fixed_commit": "dafec63f2e138d0451dae5b37edea2e83f9adc8a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_scalar.py",
+     "node": "test_iat_dont_wrap_object_datetimelike",
+     "raw": "pytest pandas/tests/indexing/test_scalar.py::test_iat_dont_wrap_object_datetimelike"
+    }
+   ]
+  },
+  "57": {
+   "bug": "57",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/categorical/test_replace.py",
+   "buggy_commit": "267d2d8",
+   "fixed_commit": "84444538a88721c5ee74de8836b716d3c1adc4b8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/categorical/test_replace.py",
+     "node": "test_replace",
+     "raw": "pytest pandas/tests/arrays/categorical/test_replace.py::test_replace"
+    }
+   ]
+  },
+  "58": {
+   "bug": "58",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/categorical/test_constructors.py",
+   "buggy_commit": "634a41f",
+   "fixed_commit": "16684f2affaf901b42a12e50f9c29e7c034ad7ea",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/categorical/test_constructors.py",
+     "node": "TestCategoricalConstructors::test_from_codes_with_nullable_int",
+     "raw": "pytest pandas/tests/arrays/categorical/test_constructors.py::TestCategoricalConstructors::test_from_codes_with_nullable_int"
+    },
+    {
+     "file": "pandas/tests/arrays/categorical/test_constructors.py",
+     "node": "TestCategoricalConstructors::test_from_codes_with_nullable_int_na_raises",
+     "raw": "pytest pandas/tests/arrays/categorical/test_constructors.py::TestCategoricalConstructors::test_from_codes_with_nullable_int_na_raises"
+    }
+   ]
+  },
+  "59": {
+   "bug": "59",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/window/test_pairwise.py",
+   "buggy_commit": "292a993",
+   "fixed_commit": "8dd9fabd2ad9104e747084437b9ad436d5be087a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/window/test_pairwise.py",
+     "node": "TestPairwise::test_corr_freq_memory_error",
+     "raw": "pytest pandas/tests/window/test_pairwise.py::TestPairwise::test_corr_freq_memory_error"
+    }
+   ]
+  },
+  "60": {
+   "bug": "60",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/window/test_grouper.py",
+   "buggy_commit": "6bc2dca",
+   "fixed_commit": "fcf7258c19b0a6a712f33fb0bcefdae426be7e7f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/window/test_grouper.py",
+     "node": "TestGrouperGrouping::test_groupby_rolling",
+     "raw": "pytest pandas/tests/window/test_grouper.py::TestGrouperGrouping::test_groupby_rolling"
+    }
+   ]
+  },
+  "61": {
+   "bug": "61",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_indexing.py",
+   "buggy_commit": "74dad82",
+   "fixed_commit": "f7e2b74f1bcc1d1cbebbc42481e33f0abb2843dc",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_indexing.py",
+     "node": "TestFancy::test_getitem_ndarray_3d",
+     "raw": "pytest pandas/tests/indexing/test_indexing.py::TestFancy::test_getitem_ndarray_3d"
+    }
+   ]
+  },
+  "62": {
+   "bug": "62",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_indexing.py",
+   "buggy_commit": "46a77f6",
+   "fixed_commit": "74dad82827e9b13552df2d6d3fbbeb901821b53f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_indexing.py",
+     "node": "TestFancy::test_setitem_ndarray_3d",
+     "raw": "pytest pandas/tests/indexing/test_indexing.py::TestFancy::test_setitem_ndarray_3d"
+    }
+   ]
+  },
+  "63": {
+   "bug": "63",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_scalar.py",
+   "buggy_commit": "e5c65bf",
+   "fixed_commit": "e1ca66bae38b8026079dfcbe0edad5f278546608",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_scalar.py",
+     "node": "TestScalar2::test_series_at_raises_type_error",
+     "raw": "pytest pandas/tests/indexing/test_scalar.py::TestScalar2::test_series_at_raises_type_error"
+    }
+   ]
+  },
+  "64": {
+   "bug": "64",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/excel/test_writers.py",
+   "buggy_commit": "31c1856",
+   "fixed_commit": "d0c84ce57d23a409169daf7232ec7681e42363fe",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/excel/test_writers.py",
+     "node": "TestExcelWriter::test_write_subset_columns",
+     "raw": "pytest pandas/tests/io/excel/test_writers.py::TestExcelWriter::test_write_subset_columns"
+    }
+   ]
+  },
+  "65": {
+   "bug": "65",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/parser/test_encoding.py",
+   "buggy_commit": "2f70e41",
+   "fixed_commit": "2f9a44635bd8d468cf008f2855ce2dcfb9e90586",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/parser/test_encoding.py",
+     "node": "test_binary_mode_file_buffers",
+     "raw": "pytest pandas/tests/io/parser/test_encoding.py::test_binary_mode_file_buffers"
+    }
+   ]
+  },
+  "66": {
+   "bug": "66",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/indexing/test_xs.py",
+   "buggy_commit": "f5409cb",
+   "fixed_commit": "d84f9eb32aea33a8f790e8e365cf226eddd5c7a7",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/indexing/test_xs.py",
+     "node": "test_xs_datetimelike_wrapping",
+     "raw": "pytest pandas/tests/series/indexing/test_xs.py::test_xs_datetimelike_wrapping"
+    }
+   ]
+  },
+  "67": {
+   "bug": "67",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/indexing/test_indexing.py",
+   "buggy_commit": "c3e32d7",
+   "fixed_commit": "1996b17599731b889895b0e1edf758588c068fbb",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/indexing/test_indexing.py",
+     "node": "test_object_casting_indexing_wraps_datetimelike",
+     "raw": "pytest pandas/tests/frame/indexing/test_indexing.py::test_object_casting_indexing_wraps_datetimelike"
+    }
+   ]
+  },
+  "68": {
+   "bug": "68",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/interval/test_interval.py",
+   "buggy_commit": "01582c4",
+   "fixed_commit": "d28db65bdba16e9400a16469ba2707f94ae63483",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/interval/test_interval.py",
+     "node": "TestMethods::test_shift",
+     "raw": "pytest pandas/tests/arrays/interval/test_interval.py::TestMethods::test_shift"
+    }
+   ]
+  },
+  "69": {
+   "bug": "69",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/test_numeric.py",
+   "buggy_commit": "426d445",
+   "fixed_commit": "948f95756c79543bb089a94a85e73011a3730b2d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/test_numeric.py",
+     "node": "TestFloat64Index::test_lookups_datetimelike_values",
+     "raw": "pytest pandas/tests/indexes/test_numeric.py::TestFloat64Index::test_lookups_datetimelike_values"
+    }
+   ]
+  },
+  "70": {
+   "bug": "70",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_categorical.py",
+   "buggy_commit": "a05e6c9",
+   "fixed_commit": "06ef193a5c1957c0a76e3e88bc7b834b38972c39",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_categorical.py",
+     "node": "test_groupby_agg_categorical_columns",
+     "raw": "pytest pandas/tests/groupby/test_categorical.py::test_groupby_agg_categorical_columns"
+    }
+   ]
+  },
+  "71": {
+   "bug": "71",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/test_integer.py",
+   "buggy_commit": "74a5edc",
+   "fixed_commit": "a5daff22e6e37af4946c614f85b110905e063be3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/test_integer.py",
+     "node": "test_cut",
+     "raw": "pytest pandas/tests/arrays/test_integer.py::test_cut"
+    }
+   ]
+  },
+  "72": {
+   "bug": "72",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/indexing/test_categorical.py",
+   "buggy_commit": "a9b61a9",
+   "fixed_commit": "0c50950f2a7e32887eff6be5979f09772091e1de",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/indexing/test_categorical.py",
+     "node": "TestDataFrameIndexingCategorical::test_setitem_single_row_categorical",
+     "raw": "pytest pandas/tests/frame/indexing/test_categorical.py::TestDataFrameIndexingCategorical::test_setitem_single_row_categorical"
+    }
+   ]
+  },
+  "73": {
+   "bug": "73",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_arithmetic.py",
+   "buggy_commit": "f1d7ac6",
+   "fixed_commit": "6f93898d32c0f1fdb382d1e9dee434c158998374",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_arithmetic.py",
+     "node": "TestFrameFlexArithmetic::test_floordiv_axis0",
+     "raw": "pytest pandas/tests/frame/test_arithmetic.py::TestFrameFlexArithmetic::test_floordiv_axis0"
+    }
+   ]
+  },
+  "74": {
+   "bug": "74",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/timedeltas/test_constructors.py",
+   "buggy_commit": "9a211aa",
+   "fixed_commit": "839e7f1416148caff518a5b75327a2480a2bbbb4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/timedeltas/test_constructors.py",
+     "node": "TestTimedeltaIndex::test_infer_from_tdi_mismatch",
+     "raw": "pytest pandas/tests/indexes/timedeltas/test_constructors.py::TestTimedeltaIndex::test_infer_from_tdi_mismatch"
+    }
+   ]
+  },
+  "75": {
+   "bug": "75",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/period/test_indexing.py",
+   "buggy_commit": "2038d7a",
+   "fixed_commit": "9a211aae9f710db23c9113aea0251e2758904755",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/period/test_indexing.py",
+     "node": "TestIndexing::test_contains",
+     "raw": "pytest pandas/tests/indexes/period/test_indexing.py::TestIndexing::test_contains"
+    }
+   ]
+  },
+  "76": {
+   "bug": "76",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/json/test_pandas.py",
+   "buggy_commit": "4da554f",
+   "fixed_commit": "47922d3b00edfc264f73b1484589734bbd077c11",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/json/test_pandas.py",
+     "node": "TestPandasContainer::test_frame_int_overflow",
+     "raw": "pytest pandas/tests/io/json/test_pandas.py::TestPandasContainer::test_frame_int_overflow"
+    }
+   ]
+  },
+  "77": {
+   "bug": "77",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_array_ops.py",
+   "buggy_commit": "667bb37",
+   "fixed_commit": "daef69c1366e31c3c49aea6f2e55f577d0c832fd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_array_ops.py",
+     "node": "test_na_logical_op_2d",
+     "raw": "pytest pandas/tests/arithmetic/test_array_ops.py::test_na_logical_op_2d"
+    }
+   ]
+  },
+  "78": {
+   "bug": "78",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_subclass.py",
+   "buggy_commit": "f5aa542",
+   "fixed_commit": "bd6b395a1e8fb7d099fa17a0e24f8fe3b628822c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_subclass.py",
+     "node": "TestDataFrameSubclassing::test_subclassed_boolean_reductions",
+     "raw": "pytest pandas/tests/frame/test_subclass.py::TestDataFrameSubclassing::test_subclassed_boolean_reductions"
+    }
+   ]
+  },
+  "79": {
+   "bug": "79",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_indexing.py",
+   "buggy_commit": "38ea154",
+   "fixed_commit": "0b0cd08524e4472eb15835c2b91621dc0a6eeeb0",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_indexing.py",
+     "node": "TestDatetimeIndex::test_get_loc",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_indexing.py::TestDatetimeIndex::test_get_loc"
+    }
+   ]
+  },
+  "80": {
+   "bug": "80",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/sparse/test_arithmetics.py",
+   "buggy_commit": "d0d93db",
+   "fixed_commit": "351760c0655b6c383e449cf857b9a718e3545229",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/sparse/test_arithmetics.py",
+     "node": "test_invert",
+     "raw": "pytest pandas/tests/arrays/sparse/test_arithmetics.py::test_invert"
+    }
+   ]
+  },
+  "81": {
+   "bug": "81",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/test_integer.py",
+   "buggy_commit": "b529857",
+   "fixed_commit": "339edcdb7ecc6edc6fde1b7d1413dbb746d2bcca",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/test_integer.py",
+     "node": "TestCasting::test_astype_boolean",
+     "raw": "pytest pandas/tests/arrays/test_integer.py::TestCasting::test_astype_boolean"
+    }
+   ]
+  },
+  "82": {
+   "bug": "82",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/merge/test_merge.py",
+   "buggy_commit": "6f395ad",
+   "fixed_commit": "e83a6bddac8c89b144dfe0783594dd332c5b3030",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/merge/test_merge.py",
+     "node": "test_merge_datetime_upcast_dtype",
+     "raw": "pytest pandas/tests/reshape/merge/test_merge.py::test_merge_datetime_upcast_dtype"
+    }
+   ]
+  },
+  "83": {
+   "bug": "83",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_concat.py",
+   "buggy_commit": "964400d",
+   "fixed_commit": "7ffcf9d6753e7de2c5318e8e0ecdc63586d502f3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_concat.py",
+     "node": "test_concat_copy_index",
+     "raw": "pytest pandas/tests/reshape/test_concat.py::test_concat_copy_index"
+    }
+   ]
+  },
+  "84": {
+   "bug": "84",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_reshape.py",
+   "buggy_commit": "469b4b7",
+   "fixed_commit": "24d7c06130f9c2aeebedc26971b244ce076f7d0a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_reshape.py",
+     "node": "TestDataFrameReshape::test_unstack_tuplename_in_multiindex",
+     "raw": "pytest pandas/tests/frame/test_reshape.py::TestDataFrameReshape::test_unstack_tuplename_in_multiindex"
+    },
+    {
+     "file": "pandas/tests/frame/test_reshape.py",
+     "node": "TestDataFrameReshape::test_unstack_mixed_type_name_in_multiindex",
+     "raw": "pytest pandas/tests/frame/test_reshape.py::TestDataFrameReshape::test_unstack_mixed_type_name_in_multiindex"
+    }
+   ]
+  },
+  "85": {
+   "bug": "85",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_apply.py",
+   "buggy_commit": "f1aaf62",
+   "fixed_commit": "29edd119d31a9ee7d4f89e8c1dc8af96f0c19dce",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_apply.py",
+     "node": "test_apply_multi_level_name",
+     "raw": "pytest pandas/tests/groupby/test_apply.py::test_apply_multi_level_name"
+    }
+   ]
+  },
+  "86": {
+   "bug": "86",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_pivot.py",
+   "buggy_commit": "55cfabb",
+   "fixed_commit": "f792d8c50ee456aa8aa2ae406d8e6b8843f45614",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_pivot.py",
+     "node": "TestPivotTable::test_pivot_columns_none_raise_error",
+     "raw": "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_columns_none_raise_error"
+    }
+   ]
+  },
+  "87": {
+   "bug": "87",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_pivot.py",
+   "buggy_commit": "641346c",
+   "fixed_commit": "a890239b7020dec714d9819b718d83f786bfda34",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_pivot.py",
+     "node": "TestCrosstab::test_crosstab_both_tuple_names",
+     "raw": "pytest pandas/tests/reshape/test_pivot.py::TestCrosstab::test_crosstab_both_tuple_names"
+    }
+   ]
+  },
+  "88": {
+   "bug": "88",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_pivot.py",
+   "buggy_commit": "698920f",
+   "fixed_commit": "586bcb16023ae870b0ad7769f6d9077903705486",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_pivot.py",
+     "node": "TestPivotTable::test_pivot_table_multiindex_only",
+     "raw": "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_pivot_table_multiindex_only"
+    }
+   ]
+  },
+  "89": {
+   "bug": "89",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_reshape.py",
+   "buggy_commit": "0dc317f",
+   "fixed_commit": "feaa5033b7810f7775fd4806c27b2f9f1e9b5051",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_reshape.py",
+     "node": "test_unstacking_multi_index_df",
+     "raw": "pytest pandas/tests/frame/test_reshape.py::test_unstacking_multi_index_df"
+    }
+   ]
+  },
+  "90": {
+   "bug": "90",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/test_pickle.py",
+   "buggy_commit": "a474a01",
+   "fixed_commit": "1c3d64bae7c07b5ae1be337e0ebd751385b7ce27",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/test_pickle.py",
+     "node": "test_pickle_buffer_roundtrip",
+     "raw": "pytest pandas/tests/io/test_pickle.py::test_pickle_buffer_roundtrip"
+    },
+    {
+     "file": "pandas/tests/io/test_pickle.py",
+     "node": "test_pickle_generalurl_read",
+     "raw": "pytest pandas/tests/io/test_pickle.py::test_pickle_generalurl_read"
+    }
+   ]
+  },
+  "91": {
+   "bug": "91",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/test_timedeltas.py",
+   "buggy_commit": "5c12d4f",
+   "fixed_commit": "cb9a1c7d0319c34a97247973ca96af53ead8033a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/test_timedeltas.py",
+     "node": "TestTimedeltaArray::test_searchsorted_invalid_types",
+     "raw": "pytest pandas/tests/arrays/test_timedeltas.py::TestTimedeltaArray::test_searchsorted_invalid_types"
+    }
+   ]
+  },
+  "92": {
+   "bug": "92",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/methods/test_asof.py",
+   "buggy_commit": "f2b213c",
+   "fixed_commit": "511a2847f4330c54d079d04b3cac4febe0fe9915",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/methods/test_asof.py",
+     "node": "TestFrameAsof::test_missing",
+     "raw": "pytest pandas/tests/frame/methods/test_asof.py::TestFrameAsof::test_missing"
+    }
+   ]
+  },
+  "93": {
+   "bug": "93",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/period/test_indexing.py;",
+   "buggy_commit": "425c2fb",
+   "fixed_commit": "bde25278ccf4fb2d751c5e99e24b2270e0d62ef7",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/period/test_indexing.py",
+     "node": "TestWhere::test_where_invalid_dtypes",
+     "raw": "pytest pandas/tests/indexes/period/test_indexing.py::TestWhere::test_where_invalid_dtypes"
+    }
+   ]
+  },
+  "94": {
+   "bug": "94",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_constructors.py",
+   "buggy_commit": "8803056",
+   "fixed_commit": "613df15047887957f5964d2a6ce59ea20b0c4c91",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_constructors.py",
+     "node": "TestDatetimeIndex::test_shallow_copy_inherits_array_freq",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_constructors.py::TestDatetimeIndex::test_shallow_copy_inherits_array_freq"
+    }
+   ]
+  },
+  "95": {
+   "bug": "95",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_period.py",
+   "buggy_commit": "036dc88",
+   "fixed_commit": "c99dfea33612f44e97c2365f78c0ca6d5754a1bc",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_period.py",
+     "node": "TestPeriodIndexComparisons::test_eq_integer_disallowed",
+     "raw": "pytest pandas/tests/arithmetic/test_period.py::TestPeriodIndexComparisons::test_eq_integer_disallowed"
+    }
+   ]
+  },
+  "96": {
+   "bug": "96",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_date_range.py",
+   "buggy_commit": "5e488a0",
+   "fixed_commit": "6d67cf9f02dd22cc870fd407f569197512700203",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_date_range.py",
+     "node": "test_date_range_with_custom_holidays",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_date_range.py::test_date_range_with_custom_holidays"
+    }
+   ]
+  },
+  "97": {
+   "bug": "97",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/timedeltas/test_setops.py",
+   "buggy_commit": "f9e524c",
+   "fixed_commit": "6f690b088190581552e04c53288819472fdb2dbe",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/timedeltas/test_setops.py",
+     "node": "TestTimedeltaIndex::test_union_sort_false",
+     "raw": "pytest pandas/tests/indexes/timedeltas/test_setops.py::TestTimedeltaIndex::test_union_sort_false"
+    }
+   ]
+  },
+  "98": {
+   "bug": "98",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/period/test_constructors.py",
+   "buggy_commit": "8105a7e",
+   "fixed_commit": "09e4b780f09c5aa72bb2a6ae2832612f81dc047f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/period/test_constructors.py",
+     "node": "TestPeriodIndex::test_base_constructor_with_period_dtype",
+     "raw": "pytest pandas/tests/indexes/period/test_constructors.py::TestPeriodIndex::test_base_constructor_with_period_dtype"
+    }
+   ]
+  },
+  "99": {
+   "bug": "99",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_tools.py",
+   "buggy_commit": "2b1b3da",
+   "fixed_commit": "b8043724c48890e86fda0265ad5b6ac3d31f1940",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_tools.py",
+     "node": "test_nullable_integer_to_datetime",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_tools.py::test_nullable_integer_to_datetime"
+    }
+   ]
+  },
+  "100": {
+   "bug": "100",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/methods/test_pct_change.py",
+   "buggy_commit": "8806ed7",
+   "fixed_commit": "2b1b3da4c68fdaf9637d12706c5ba3de1a9b20de",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/methods/test_pct_change.py",
+     "node": "test_pct_change_with_duplicated_indices",
+     "raw": "pytest pandas/tests/frame/methods/test_pct_change.py::test_pct_change_with_duplicated_indices"
+    }
+   ]
+  },
+  "101": {
+   "bug": "101",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes/test_common.py",
+   "buggy_commit": "765d8db",
+   "fixed_commit": "27b713ba677869893552cbeff6bc98a5dd231950",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes/test_common.py",
+     "node": "test_astype_nansafe",
+     "raw": "pytest pandas/tests/dtypes/test_common.py::test_astype_nansafe"
+    }
+   ]
+  },
+  "102": {
+   "bug": "102",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_constructors.py",
+   "buggy_commit": "efaadd5",
+   "fixed_commit": "765d8db7eef1befef33f4c99d3e206d26e8444c8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_constructors.py",
+     "node": "TestDataFrameConstructorWithDatetimeTZ::test_from_2d_ndarray_with_dtype",
+     "raw": "pytest pandas/tests/frame/test_constructors.py::TestDataFrameConstructorWithDatetimeTZ::test_from_2d_ndarray_with_dtype"
+    }
+   ]
+  },
+  "103": {
+   "bug": "103",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_transform.py",
+   "buggy_commit": "d1f82f7",
+   "fixed_commit": "19578e364fb47ce10dd14174cffc3ecfea1a58cd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_transform.py",
+     "node": "test_pct_change",
+     "raw": "pytest pandas/tests/groupby/test_transform.py::test_pct_change"
+    }
+   ]
+  },
+  "104": {
+   "bug": "104",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_function.py",
+   "buggy_commit": "f738581",
+   "fixed_commit": "8e9b3eee812b70197341c26c40200d8a1a77ed9c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_function.py",
+     "node": "test_groupby_quantile_with_arraylike_q_and_int_columns",
+     "raw": "pytest pandas/tests/groupby/test_function.py::test_groupby_quantile_with_arraylike_q_and_int_columns"
+    }
+   ]
+  },
+  "105": {
+   "bug": "105",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_period.py",
+   "buggy_commit": "7e6125a",
+   "fixed_commit": "cb5f9d1ff407f5ccef7c717e0c23bbd6ed96cf5f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_period.py",
+     "node": "TestPeriodIndexArithmetic::test_pi_add_offset_n_gt1",
+     "raw": "pytest pandas/tests/arithmetic/test_period.py::TestPeriodIndexArithmetic::test_pi_add_offset_n_gt1"
+    },
+    {
+     "file": "pandas/tests/arithmetic/test_period.py",
+     "node": "TestPeriodIndexArithmetic::test_parr_add_sub_td64_nat",
+     "raw": "pytest pandas/tests/arithmetic/test_period.py::TestPeriodIndexArithmetic::test_parr_add_sub_td64_nat"
+    },
+    {
+     "file": "pandas/tests/arithmetic/test_period.py",
+     "node": "TestPeriodIndexArithmetic::test_parr_add_sub_tdt64_nat_array",
+     "raw": "pytest pandas/tests/arithmetic/test_period.py::TestPeriodIndexArithmetic::test_parr_add_sub_tdt64_nat_array"
+    }
+   ]
+  },
+  "106": {
+   "bug": "106",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/multi/test_drop.py",
+   "buggy_commit": "114d552",
+   "fixed_commit": "e46026ff4669a30192b91e362ce8cdcbc9693870",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/multi/test_drop.py",
+     "node": "test_drop_with_non_unique_datetime_index_and_invalid_keys",
+     "raw": "pytest pandas/tests/indexes/multi/test_drop.py::test_drop_with_non_unique_datetime_index_and_invalid_keys"
+    }
+   ]
+  },
+  "107": {
+   "bug": "107",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_combine_concat.py",
+   "buggy_commit": "47ac4b3",
+   "fixed_commit": "fa4949f27ccfbc255bb8dbcd5ec5464b8663f1d2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_combine_concat.py",
+     "node": "TestDataFrameConcatCommon::test_append_timestamps_aware_or_naive",
+     "raw": "pytest pandas/tests/frame/test_combine_concat.py::TestDataFrameConcatCommon::test_append_timestamps_aware_or_naive"
+    }
+   ]
+  },
+  "108": {
+   "bug": "108",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes/cast/test_infer_dtype.py",
+   "buggy_commit": "20e4c18",
+   "fixed_commit": "53a0dfd41a65a33dd7b0963734b24c749212e625",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes/cast/test_infer_dtype.py",
+     "node": "test_infer_from_interval",
+     "raw": "pytest pandas/tests/dtypes/cast/test_infer_dtype.py::test_infer_from_interval"
+    }
+   ]
+  },
+  "109": {
+   "bug": "109",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/categorical/test_analytics.py",
+   "buggy_commit": "8b39de1",
+   "fixed_commit": "68b3eb4f5a7fbc223accbbeddbf03ec8ea31af00",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/categorical/test_analytics.py",
+     "node": "TestCategoricalAnalytics::test_min_max_ordered_empty",
+     "raw": "pytest pandas/tests/arrays/categorical/test_analytics.py::TestCategoricalAnalytics::test_min_max_ordered_empty"
+    }
+   ]
+  },
+  "110": {
+   "bug": "110",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_categorical.py",
+   "buggy_commit": "cceef8e",
+   "fixed_commit": "96bb151fe1a5b812ecab400adcd297d14fd0e0e4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_categorical.py",
+     "node": "TestCategoricalIndex::test_loc_with_non_string_categories",
+     "raw": "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories"
+    },
+    {
+     "file": "pandas/tests/indexing/test_categorical.py",
+     "node": "TestCategoricalIndex::test_loc_slice",
+     "raw": "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_slice"
+    }
+   ]
+  },
+  "111": {
+   "bug": "111",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexing/test_categorical.py;pandas/tests/indexing/test_floats.py",
+   "buggy_commit": "28715a7",
+   "fixed_commit": "27836e93dc3c9d55c60282ccb15c88c42a340d87",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexing/test_categorical.py",
+     "node": "TestCategoricalIndex::test_loc_with_non_string_categories",
+     "raw": "pytest pandas/tests/indexing/test_categorical.py::TestCategoricalIndex::test_loc_with_non_string_categories"
+    },
+    {
+     "file": "pandas/tests/indexing/test_floats.py",
+     "node": "TestFloatIndexers::test_scalar_non_numeric",
+     "raw": "pytest pandas/tests/indexing/test_floats.py::TestFloatIndexers::test_scalar_non_numeric"
+    }
+   ]
+  },
+  "112": {
+   "bug": "112",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_analytics.py",
+   "buggy_commit": "ebbe2a2",
+   "fixed_commit": "8a354b7630f74739212725c38cbaa9b069191a88",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_analytics.py",
+     "node": "TestDataFrameAnalytics::test_round_interval_category_columns",
+     "raw": "pytest pandas/tests/frame/test_analytics.py::TestDataFrameAnalytics::test_round_interval_category_columns"
+    }
+   ]
+  },
+  "113": {
+   "bug": "113",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/extension/test_integer.py",
+   "buggy_commit": "b164624",
+   "fixed_commit": "8705aad961dd227d38ff93a39697547b98109c9d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/extension/test_integer.py",
+     "node": "TestComparisonOps::test_compare_to_string",
+     "raw": "pytest pandas/tests/extension/test_integer.py::TestComparisonOps::test_compare_to_string"
+    },
+    {
+     "file": "pandas/tests/extension/test_integer.py",
+     "node": "TestComparisonOps::test_compare_to_int",
+     "raw": "pytest pandas/tests/extension/test_integer.py::TestComparisonOps::test_compare_to_int"
+    }
+   ]
+  },
+  "114": {
+   "bug": "114",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/extension/decimal/test_decimal.py",
+   "buggy_commit": "8f0310a",
+   "fixed_commit": "9a222ea0300053ff46da984e3b3f68622ccba9c3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/extension/decimal/test_decimal.py",
+     "node": "test_indexing_no_materialize",
+     "raw": "pytest pandas/tests/extension/decimal/test_decimal.py::test_indexing_no_materialize"
+    }
+   ]
+  },
+  "115": {
+   "bug": "115",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_missing.py",
+   "buggy_commit": "ed20822",
+   "fixed_commit": "386494d0dc851be9e86b1576f30fa8705df4d47b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_missing.py",
+     "node": "TestSeriesInterpolateData::test_interpolate_unsorted_index",
+     "raw": "pytest pandas/tests/series/test_missing.py::TestSeriesInterpolateData::test_interpolate_unsorted_index"
+    }
+   ]
+  },
+  "116": {
+   "bug": "116",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/merge/test_merge_asof.py",
+   "buggy_commit": "9333e3d",
+   "fixed_commit": "c4fa6a52f7737aecda08f6b0f2d6c27476298ae1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/merge/test_merge_asof.py",
+     "node": "TestAsOfMerge::test_merge_index_column_tz",
+     "raw": "pytest pandas/tests/reshape/merge/test_merge_asof.py::TestAsOfMerge::test_merge_index_column_tz"
+    }
+   ]
+  },
+  "117": {
+   "bug": "117",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_analytics.py",
+   "buggy_commit": "fc100fe",
+   "fixed_commit": "f98d2b6587b74c9a640b062d94911b199d962119",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_analytics.py",
+     "node": "TestSeriesAnalytics::test_count",
+     "raw": "pytest pandas/tests/series/test_analytics.py::TestSeriesAnalytics::test_count"
+    }
+   ]
+  },
+  "118": {
+   "bug": "118",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_melt.py",
+   "buggy_commit": "6f1accd",
+   "fixed_commit": "76e39ebcf584042fab4f224a6bd2c903bb0c8aff",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_melt.py",
+     "node": "TestMelt::test_melt_mixed_int_str_id_vars",
+     "raw": "pytest pandas/tests/reshape/test_melt.py::TestMelt::test_melt_mixed_int_str_id_vars"
+    },
+    {
+     "file": "pandas/tests/reshape/test_melt.py",
+     "node": "TestMelt::test_melt_mixed_int_str_value_vars",
+     "raw": "pytest pandas/tests/reshape/test_melt.py::TestMelt::test_melt_mixed_int_str_value_vars"
+    }
+   ]
+  },
+  "119": {
+   "bug": "119",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_pivot.py",
+   "buggy_commit": "3f69d62",
+   "fixed_commit": "e0bd4d5dd07cc481cb52de3cf3c7bf199cb2df07",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_pivot.py",
+     "node": "TestPivotTable::test_margins_casted_to_float",
+     "raw": "pytest pandas/tests/reshape/test_pivot.py::TestPivotTable::test_margins_casted_to_float"
+    }
+   ]
+  },
+  "120": {
+   "bug": "120",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_categorical.py",
+   "buggy_commit": "2b0cac7",
+   "fixed_commit": "c5a1f9e2c373ced9ef2f02ab64d11eaa7b4248f2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_categorical.py",
+     "node": "test_series_groupby_on_2_categoricals_unobserved",
+     "raw": "pytest pandas/tests/groupby/test_categorical.py::test_series_groupby_on_2_categoricals_unobserved"
+    },
+    {
+     "file": "pandas/tests/groupby/test_categorical.py",
+     "node": "test_series_groupby_on_2_categoricals_unobserved_zeroes_or_nans",
+     "raw": "pytest pandas/tests/groupby/test_categorical.py::test_series_groupby_on_2_categoricals_unobserved_zeroes_or_nans"
+    }
+   ]
+  },
+  "121": {
+   "bug": "121",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_replace.py",
+   "buggy_commit": "ad4c4d5",
+   "fixed_commit": "958756af5cb40658e975a70d29089b68aea93040",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_replace.py",
+     "node": "TestDataFrameReplace::test_replace_replacer_dtype",
+     "raw": "pytest pandas/tests/frame/test_replace.py::TestDataFrameReplace::test_replace_replacer_dtype"
+    }
+   ]
+  },
+  "122": {
+   "bug": "122",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/internals/test_internals.py",
+   "buggy_commit": "07e6b9d",
+   "fixed_commit": "30059081e946a2020d08d49bf4fa7b771d10089a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/internals/test_internals.py",
+     "node": "test_dataframe_not_equal",
+     "raw": "pytest pandas/tests/internals/test_internals.py::test_dataframe_not_equal"
+    }
+   ]
+  },
+  "123": {
+   "bug": "123",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/test_numeric.py;pandas/tests/indexes/test_range.py",
+   "buggy_commit": "b6d64d2",
+   "fixed_commit": "17fe9a467581ca39f44c89876ebd0d38b9ca77ea",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/test_numeric.py",
+     "node": "TestFloat64Index::test_invalid_dtype",
+     "raw": "pytest pandas/tests/indexes/test_numeric.py::TestFloat64Index::test_invalid_dtype"
+    },
+    {
+     "file": "pandas/tests/indexes/test_range.py",
+     "node": "TestRangeIndex::test_constructor_same",
+     "raw": "pytest pandas/tests/indexes/test_range.py::TestRangeIndex::test_constructor_same"
+    },
+    {
+     "file": "pandas/tests/indexes/test_range.py",
+     "node": "TestRangeIndex::test_constructor_range",
+     "raw": "pytest pandas/tests/indexes/test_range.py::TestRangeIndex::test_constructor_range"
+    },
+    {
+     "file": "pandas/tests/indexes/test_range.py",
+     "node": "TestRangeIndex::test_constructor_corner",
+     "raw": "pytest pandas/tests/indexes/test_range.py::TestRangeIndex::test_constructor_corner"
+    }
+   ]
+  },
+  "124": {
+   "bug": "124",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/test_strings.py",
+   "buggy_commit": "deceebe",
+   "fixed_commit": "5a0f7e9e03976020ba52a7473f90cb1c8a4354c0",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/test_strings.py",
+     "node": "TestStringMethods::test_empty_str_methods",
+     "raw": "pytest pandas/tests/test_strings.py::TestStringMethods::test_empty_str_methods"
+    }
+   ]
+  },
+  "125": {
+   "bug": "125",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/categorical/test_algos.py;pandas/tests/frame/test_replace.py",
+   "buggy_commit": "e639af2",
+   "fixed_commit": "fb08ceeeeba2ba62f92b47d424b3ae83c20ed9db",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/categorical/test_algos.py",
+     "node": "test_replace",
+     "raw": "pytest pandas/tests/arrays/categorical/test_algos.py::test_replace"
+    },
+    {
+     "file": "pandas/tests/frame/test_replace.py",
+     "node": "TestDataFrameReplace::test_categorical_replace_with_dict",
+     "raw": "pytest pandas/tests/frame/test_replace.py::TestDataFrameReplace::test_categorical_replace_with_dict"
+    }
+   ]
+  },
+  "126": {
+   "bug": "126",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_combine_concat.py",
+   "buggy_commit": "29be383",
+   "fixed_commit": "e639af2afd18b90ab9063df9c1927ae1f357a418",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_combine_concat.py",
+     "node": "TestDataFrameConcatCommon::test_append_empty_list",
+     "raw": "pytest pandas/tests/frame/test_combine_concat.py::TestDataFrameConcatCommon::test_append_empty_list"
+    }
+   ]
+  },
+  "127": {
+   "bug": "127",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_timeseries.py",
+   "buggy_commit": "f7d6b58",
+   "fixed_commit": "710d82c0d393c9031e469ec0371660d8187b7dc3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_timeseries.py",
+     "node": "TestTimeSeries::test_pct_change_with_duplicate_axis",
+     "raw": "pytest pandas/tests/series/test_timeseries.py::TestTimeSeries::test_pct_change_with_duplicate_axis"
+    }
+   ]
+  },
+  "128": {
+   "bug": "128",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/json/test_readlines.py",
+   "buggy_commit": "794a1c2",
+   "fixed_commit": "112e6b8d054f9adc1303138533ed6506975f94db",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/json/test_readlines.py",
+     "node": "test_readjson_unicode",
+     "raw": "pytest pandas/tests/io/json/test_readlines.py::test_readjson_unicode"
+    }
+   ]
+  },
+  "129": {
+   "bug": "129",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_timedelta64.py",
+   "buggy_commit": "5b580fb",
+   "fixed_commit": "82c9547ddcaf2fd70e00f1368731f14a03bbac88",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_timedelta64.py",
+     "node": "TestTimedeltaArraylikeAddSubOps::test_td64arr_add_sub_datetimelike_scalar",
+     "raw": "pytest pandas/tests/arithmetic/test_timedelta64.py::TestTimedeltaArraylikeAddSubOps::test_td64arr_add_sub_datetimelike_scalar"
+    }
+   ]
+  },
+  "130": {
+   "bug": "130",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_value_counts.py",
+   "buggy_commit": "7adc14a",
+   "fixed_commit": "8efc717e4652e1e4bfbc4455da1d40eb676eed91",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_value_counts.py",
+     "node": "test_series_groupby_value_counts_with_grouper",
+     "raw": "pytest pandas/tests/groupby/test_value_counts.py::test_series_groupby_value_counts_with_grouper"
+    }
+   ]
+  },
+  "131": {
+   "bug": "131",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_datetime_values.py",
+   "buggy_commit": "73745be",
+   "fixed_commit": "bf5848f111c92fc5c6c11a93a3bc2480f138f1b1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_datetime_values.py",
+     "node": "TestSeriesDatetimeValues::test_dt_tz_localize_categorical",
+     "raw": "pytest pandas/tests/series/test_datetime_values.py::TestSeriesDatetimeValues::test_dt_tz_localize_categorical"
+    },
+    {
+     "file": "pandas/tests/series/test_datetime_values.py",
+     "node": "TestSeriesDatetimeValues::test_dt_tz_convert_categorical",
+     "raw": "pytest pandas/tests/series/test_datetime_values.py::TestSeriesDatetimeValues::test_dt_tz_convert_categorical"
+    }
+   ]
+  },
+  "132": {
+   "bug": "132",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reductions/test_reductions.py",
+   "buggy_commit": "221c8a7",
+   "fixed_commit": "bd8f07fb29d2ac819f4c8e8e1b8e6d40f8b0f40c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reductions/test_reductions.py",
+     "node": "TestIndexReductions::test_timedelta_ops",
+     "raw": "pytest pandas/tests/reductions/test_reductions.py::TestIndexReductions::test_timedelta_ops"
+    },
+    {
+     "file": "pandas/tests/reductions/test_reductions.py",
+     "node": "TestSeriesReductions::test_ops_consistency_on_empty",
+     "raw": "pytest pandas/tests/reductions/test_reductions.py::TestSeriesReductions::test_ops_consistency_on_empty"
+    }
+   ]
+  },
+  "133": {
+   "bug": "133",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_missing.py",
+   "buggy_commit": "343544d",
+   "fixed_commit": "c983d52e3a3a8a191359814417f375b1dc8b04c1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_missing.py",
+     "node": "TestDataFrameInterpolate::test_interp_axis_names",
+     "raw": "pytest pandas/tests/frame/test_missing.py::TestDataFrameInterpolate::test_interp_axis_names"
+    }
+   ]
+  },
+  "134": {
+   "bug": "134",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/tseries/holiday/test_calendar.py",
+   "buggy_commit": "da1401b",
+   "fixed_commit": "b1eb97bdfe17f477600eef19e82d65480457bbf5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/tseries/holiday/test_calendar.py",
+     "node": "test_calendar_2031",
+     "raw": "pytest pandas/tests/tseries/holiday/test_calendar.py::test_calendar_2031"
+    }
+   ]
+  },
+  "135": {
+   "bug": "135",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/extension/decimal/test_decimal.py",
+   "buggy_commit": "0df22b6",
+   "fixed_commit": "f41219179de69fed5c2a4b7df821394af1aa6559",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/extension/decimal/test_decimal.py",
+     "node": "test_groupby_agg",
+     "raw": "pytest pandas/tests/extension/decimal/test_decimal.py::test_groupby_agg"
+    },
+    {
+     "file": "pandas/tests/extension/decimal/test_decimal.py",
+     "node": "test_groupby_agg_ea_method",
+     "raw": "pytest pandas/tests/extension/decimal/test_decimal.py::test_groupby_agg_ea_method"
+    }
+   ]
+  },
+  "136": {
+   "bug": "136",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/merge/test_merge_asof.py",
+   "buggy_commit": "3954fa7",
+   "fixed_commit": "6241b9d3b3b8fd688cf32e45539719f1b9ec25c1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/merge/test_merge_asof.py",
+     "node": "TestAsOfMerge::test_int_type_tolerance",
+     "raw": "pytest pandas/tests/reshape/merge/test_merge_asof.py::TestAsOfMerge::test_int_type_tolerance"
+    }
+   ]
+  },
+  "137": {
+   "bug": "137",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/extension/test_categorical.py;pandas/tests/reshape/merge/test_merge.py",
+   "buggy_commit": "a1b2c4b",
+   "fixed_commit": "48f1a67469c91c38e78ebb2648061fe73dd79e6b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/extension/test_categorical.py",
+     "node": "TestCasting::test_cast_category_to_extension_dtype",
+     "raw": "pytest pandas/tests/extension/test_categorical.py::TestCasting::test_cast_category_to_extension_dtype"
+    },
+    {
+     "file": "pandas/tests/reshape/merge/test_merge.py",
+     "node": "test_merge_on_cat_and_ext_array",
+     "raw": "pytest pandas/tests/reshape/merge/test_merge.py::test_merge_on_cat_and_ext_array"
+    }
+   ]
+  },
+  "138": {
+   "bug": "138",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_qcut.py",
+   "buggy_commit": "3dcbec5",
+   "fixed_commit": "c59c2df94e5563819a824f49fa6f55636bdb4445",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_qcut.py",
+     "node": "test_qcut_bool_coercion_to_int",
+     "raw": "pytest pandas/tests/reshape/test_qcut.py::test_qcut_bool_coercion_to_int"
+    }
+   ]
+  },
+  "139": {
+   "bug": "139",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_categorical.py",
+   "buggy_commit": "7705cd2",
+   "fixed_commit": "0ffdbe36f0df732f2700cda4a84be758084ff901",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_categorical.py",
+     "node": "test_preserve_categories",
+     "raw": "pytest pandas/tests/groupby/test_categorical.py::test_preserve_categories"
+    }
+   ]
+  },
+  "140": {
+   "bug": "140",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_apply.py",
+   "buggy_commit": "3b19e1d",
+   "fixed_commit": "4375daffeed16531bae3fdaf85324b590d1dcb59",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_apply.py",
+     "node": "test_apply_datetime_issue",
+     "raw": "pytest pandas/tests/groupby/test_apply.py::test_apply_datetime_issue"
+    }
+   ]
+  },
+  "141": {
+   "bug": "141",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/test_range.py",
+   "buggy_commit": "b298696",
+   "fixed_commit": "411dd249e755d7e281603fe3e0ab9e0e48383df9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/test_range.py",
+     "node": "TestRangeIndex::test_get_indexer_decreasing",
+     "raw": "pytest pandas/tests/indexes/test_range.py::TestRangeIndex::test_get_indexer_decreasing"
+    }
+   ]
+  },
+  "142": {
+   "bug": "142",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_analytics.py",
+   "buggy_commit": "7721f31",
+   "fixed_commit": "65815e6f33e25991e3d40a53c581ffb3c7daf70f",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_analytics.py",
+     "node": "TestSeriesAnalytics::test_bool_diff",
+     "raw": "pytest pandas/tests/series/test_analytics.py::TestSeriesAnalytics::test_bool_diff"
+    }
+   ]
+  },
+  "143": {
+   "bug": "143",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_indexing.py;pandas/tests/indexes/test_range.py",
+   "buggy_commit": "c13c13b",
+   "fixed_commit": "df918becf698741861da0e9b7e810d477b0eb194",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_indexing.py",
+     "node": "TestDataFrameIndexing::test_reindex_limit",
+     "raw": "pytest pandas/tests/frame/test_indexing.py::TestDataFrameIndexing::test_reindex_limit"
+    },
+    {
+     "file": "pandas/tests/indexes/test_range.py",
+     "node": "TestRangeIndex::test_get_indexer_limit",
+     "raw": "pytest pandas/tests/indexes/test_range.py::TestRangeIndex::test_get_indexer_limit"
+    }
+   ]
+  },
+  "144": {
+   "bug": "144",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/plotting/test_series.py",
+   "buggy_commit": "b106108",
+   "fixed_commit": "ffe6cfdbf82d663c3f77567bde11f1666de1df38",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/plotting/test_series.py",
+     "node": "TestSeriesPlots::test_xtick_barPlot",
+     "raw": "pytest pandas/tests/plotting/test_series.py::TestSeriesPlots::test_xtick_barPlot"
+    }
+   ]
+  },
+  "145": {
+   "bug": "145",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_arithmetic.py",
+   "buggy_commit": "3bd222d",
+   "fixed_commit": "f08a1e62e31fc11e7e5bd7bec72b7e6d86473423",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_arithmetic.py",
+     "node": "TestFrameArithmetic::test_td64_op_nat_casting",
+     "raw": "pytest pandas/tests/frame/test_arithmetic.py::TestFrameArithmetic::test_td64_op_nat_casting"
+    }
+   ]
+  },
+  "146": {
+   "bug": "146",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes/test_missing.py",
+   "buggy_commit": "5ebb1e4",
+   "fixed_commit": "74cba561ece511e24abb5145225bf98a929ca6c9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes/test_missing.py",
+     "node": "test_array_equivalent_tzawareness",
+     "raw": "pytest pandas/tests/dtypes/test_missing.py::test_array_equivalent_tzawareness"
+    }
+   ]
+  },
+  "147": {
+   "bug": "147",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes/test_dtypes.py",
+   "buggy_commit": "6acfc75",
+   "fixed_commit": "773f341c8cc5a481a5a222508718034457ed1ebc",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes/test_dtypes.py",
+     "node": "TestDatetimeTZDtype::test_construct_from_string_raises",
+     "raw": "pytest pandas/tests/dtypes/test_dtypes.py::TestDatetimeTZDtype::test_construct_from_string_raises"
+    }
+   ]
+  },
+  "148": {
+   "bug": "148",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_apply.py",
+   "buggy_commit": "4ac7f9d",
+   "fixed_commit": "95edcf1cbee630e42daca0404c44d8128ea156fb",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_apply.py",
+     "node": "TestDataFrameApply::test_apply_funcs_over_empty",
+     "raw": "pytest pandas/tests/frame/test_apply.py::TestDataFrameApply::test_apply_funcs_over_empty"
+    },
+    {
+     "file": "pandas/tests/frame/test_apply.py",
+     "node": "TestDataFrameApply::test_nunique_empty",
+     "raw": "pytest pandas/tests/frame/test_apply.py::TestDataFrameApply::test_nunique_empty"
+    }
+   ]
+  },
+  "149": {
+   "bug": "149",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/test_gcs.py",
+   "buggy_commit": "0d69d91",
+   "fixed_commit": "fa1364d1299a53093bc704f9c34c595b602a568b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/test_gcs.py",
+     "node": "test_to_parquet_gcs_new_file",
+     "raw": "pytest pandas/tests/io/test_gcs.py::test_to_parquet_gcs_new_file"
+    }
+   ]
+  },
+  "150": {
+   "bug": "150",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/dtypes/test_missing.py",
+   "buggy_commit": "54e9b75",
+   "fixed_commit": "d38627b5889db3f663cad339fe8f995af823b76b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/dtypes/test_missing.py",
+     "node": "test_array_equivalent_nested",
+     "raw": "pytest pandas/tests/dtypes/test_missing.py::test_array_equivalent_nested"
+    }
+   ]
+  },
+  "151": {
+   "bug": "151",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arrays/test_numpy.py",
+   "buggy_commit": "6110608",
+   "fixed_commit": "5a227a410c520ceec2d94369a44e2ab774a40dc3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arrays/test_numpy.py",
+     "node": "test_setitem_object_typecode",
+     "raw": "pytest pandas/tests/arrays/test_numpy.py::test_setitem_object_typecode"
+    },
+    {
+     "file": "pandas/tests/arrays/test_numpy.py",
+     "node": "test_setitem_no_coercion",
+     "raw": "pytest pandas/tests/arrays/test_numpy.py::test_setitem_no_coercion"
+    }
+   ]
+  },
+  "152": {
+   "bug": "152",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_combine_concat.py",
+   "buggy_commit": "eb8cce0",
+   "fixed_commit": "f61deb962ac0853595a43ad024c482b018d1792b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_combine_concat.py",
+     "node": "TestSeriesCombine::test_append_tuples",
+     "raw": "pytest pandas/tests/series/test_combine_concat.py::TestSeriesCombine::test_append_tuples"
+    }
+   ]
+  },
+  "153": {
+   "bug": "153",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/io/formats/test_to_csv.py",
+   "buggy_commit": "ae22b80",
+   "fixed_commit": "0c0a0cfbadcf01864d499599712edc9022eea12e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/io/formats/test_to_csv.py",
+     "node": "TestToCSV::test_to_csv_na_rep_long_string",
+     "raw": "pytest pandas/tests/io/formats/test_to_csv.py::TestToCSV::test_to_csv_na_rep_long_string"
+    }
+   ]
+  },
+  "154": {
+   "bug": "154",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_groupby.py",
+   "buggy_commit": "3f5b5c4",
+   "fixed_commit": "e0c63b4cfaa821dfe310f4a8a1f84929ced5f5bd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_groupby.py",
+     "node": "test_shift_bfill_ffill_tz",
+     "raw": "pytest pandas/tests/groupby/test_groupby.py::test_shift_bfill_ffill_tz"
+    }
+   ]
+  },
+  "155": {
+   "bug": "155",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/window/test_rolling.py",
+   "buggy_commit": "4252ab7",
+   "fixed_commit": "0bde7cedf46209a9fd4fa8c7f9fbce8b49aa78cd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/window/test_rolling.py",
+     "node": "TestRolling::test_rolling_datetime",
+     "raw": "pytest pandas/tests/window/test_rolling.py::TestRolling::test_rolling_datetime"
+    }
+   ]
+  },
+  "156": {
+   "bug": "156",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/sparse/frame/test_frame.py",
+   "buggy_commit": "42d6ee7",
+   "fixed_commit": "05cc95971e56b503d4df9911a44cd60a7b74cc79",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/sparse/frame/test_frame.py",
+     "node": "TestSparseDataFrameArithmetic::test_add_series_retains_dtype",
+     "raw": "pytest pandas/tests/sparse/frame/test_frame.py::TestSparseDataFrameArithmetic::test_add_series_retains_dtype"
+    }
+   ]
+  },
+  "157": {
+   "bug": "157",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/merge/test_merge_asof.py",
+   "buggy_commit": "b1c871c",
+   "fixed_commit": "def01cf7bbb5ef8c9bf2e19737ea918e6a76a143",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/merge/test_merge_asof.py",
+     "node": "TestAsOfMerge::test_timedelta_tolerance_nearest",
+     "raw": "pytest pandas/tests/reshape/merge/test_merge_asof.py::TestAsOfMerge::test_timedelta_tolerance_nearest"
+    }
+   ]
+  },
+  "158": {
+   "bug": "158",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_alter_axes.py",
+   "buggy_commit": "a76df79",
+   "fixed_commit": "b1c871ce4b5e76b3cffe1ebd4216d36379872352",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_alter_axes.py",
+     "node": "TestSeriesAlterAxes::test_rename_with_custom_indexer",
+     "raw": "pytest pandas/tests/series/test_alter_axes.py::TestSeriesAlterAxes::test_rename_with_custom_indexer"
+    },
+    {
+     "file": "pandas/tests/series/test_alter_axes.py",
+     "node": "TestSeriesAlterAxes::test_rename_with_custom_indexer_inplace",
+     "raw": "pytest pandas/tests/series/test_alter_axes.py::TestSeriesAlterAxes::test_rename_with_custom_indexer_inplace"
+    }
+   ]
+  },
+  "159": {
+   "bug": "159",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_numeric.py",
+   "buggy_commit": "e55b698",
+   "fixed_commit": "62ab439b168d972546e06d329916c6be7ddd1288",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_numeric.py",
+     "node": "test_fill_value_inf_masking",
+     "raw": "pytest pandas/tests/arithmetic/test_numeric.py::test_fill_value_inf_masking"
+    },
+    {
+     "file": "pandas/tests/arithmetic/test_numeric.py",
+     "node": "test_dataframe_div_silenced",
+     "raw": "pytest pandas/tests/arithmetic/test_numeric.py::test_dataframe_div_silenced"
+    }
+   ]
+  },
+  "160": {
+   "bug": "160",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/test_expressions.py",
+   "buggy_commit": "489d1ff",
+   "fixed_commit": "fb62fcf91c874e9c24fa83693c4e6e613f35f864",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/test_expressions.py",
+     "node": "TestExpressions::test_frame_series_axis",
+     "raw": "pytest pandas/tests/test_expressions.py::TestExpressions::test_frame_series_axis"
+    }
+   ]
+  },
+  "161": {
+   "bug": "161",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/series/test_missing.py",
+   "buggy_commit": "a818281",
+   "fixed_commit": "ca5198a6daa7757e398112a17ccadc9e7d078d96",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/series/test_missing.py",
+     "node": "TestSeriesMissingData::test_fillna_categorical_with_new_categories",
+     "raw": "pytest pandas/tests/series/test_missing.py::TestSeriesMissingData::test_fillna_categorical_with_new_categories"
+    }
+   ]
+  },
+  "162": {
+   "bug": "162",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/reshape/test_pivot.py",
+   "buggy_commit": "341043d",
+   "fixed_commit": "640d9e1f5fe8ab64d1f6496b8216c28185e53225",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/reshape/test_pivot.py",
+     "node": "TestCrosstab::test_margin_normalize",
+     "raw": "pytest pandas/tests/reshape/test_pivot.py::TestCrosstab::test_margin_normalize"
+    }
+   ]
+  },
+  "163": {
+   "bug": "163",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/window/test_rolling.py",
+   "buggy_commit": "61819ab",
+   "fixed_commit": "f669f94a186ea444cc771985a915e90eecf218a9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/window/test_rolling.py",
+     "node": "TestRolling::test_readonly_array",
+     "raw": "pytest pandas/tests/window/test_rolling.py::TestRolling::test_readonly_array"
+    }
+   ]
+  },
+  "164": {
+   "bug": "164",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_tools.py",
+   "buggy_commit": "ac69333",
+   "fixed_commit": "61819aba14dd7b3996336aaed84d07cd936d92b5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_tools.py",
+     "node": "TestToDatetimeMisc::test_to_datetime_dta_tz",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_tools.py::TestToDatetimeMisc::test_to_datetime_dta_tz"
+    }
+   ]
+  },
+  "165": {
+   "bug": "165",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/arithmetic/test_datetime64.py",
+   "buggy_commit": "9fe8a0f",
+   "fixed_commit": "9b1c005142fed227081dd454eab1a414168d458e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/arithmetic/test_datetime64.py",
+     "node": "TestDatetimeIndexArithmetic::test_dta_add_sub_index",
+     "raw": "pytest pandas/tests/arithmetic/test_datetime64.py::TestDatetimeIndexArithmetic::test_dta_add_sub_index"
+    }
+   ]
+  },
+  "166": {
+   "bug": "166",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_join.py",
+   "buggy_commit": "4056ded",
+   "fixed_commit": "d44fb07063e9a8bd8a209ddce35b40d8a56c8d02",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_join.py",
+     "node": "test_suppress_future_warning_with_sort_kw",
+     "raw": "pytest pandas/tests/frame/test_join.py::test_suppress_future_warning_with_sort_kw"
+    }
+   ]
+  },
+  "167": {
+   "bug": "167",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/indexes/datetimes/test_partial_slicing.py",
+   "buggy_commit": "6af6d51",
+   "fixed_commit": "226398224d260d908a1f3d0f23c16fa9ffc8f9b0",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/indexes/datetimes/test_partial_slicing.py",
+     "node": "TestSlicing::test_slice_reduce_to_series",
+     "raw": "pytest pandas/tests/indexes/datetimes/test_partial_slicing.py::TestSlicing::test_slice_reduce_to_series"
+    }
+   ]
+  },
+  "168": {
+   "bug": "168",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/groupby/test_groupby.py",
+   "buggy_commit": "2de4fbb",
+   "fixed_commit": "1fa1ad91b29c5474cbb86cbcbcdcd50537cad0ae",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/groupby/test_groupby.py",
+     "node": "test_groupby_axis_1",
+     "raw": "pytest pandas/tests/groupby/test_groupby.py::test_groupby_axis_1"
+    }
+   ]
+  },
+  "169": {
+   "bug": "169",
+   "project": "pandas",
+   "python_version": "3.8.3",
+   "test_file": "pandas/tests/frame/test_quantile.py",
+   "buggy_commit": "4d9016e",
+   "fixed_commit": "01babb590cb15ef5c6e9ad890ea580a5112e6999",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "pandas/tests/frame/test_quantile.py",
+     "node": "TestDataFrameQuantile::test_quantile_empty_no_columns",
+     "raw": "pytest pandas/tests/frame/test_quantile.py::TestDataFrameQuantile::test_quantile_empty_no_columns"
+    }
+   ]
+  }
+ }
+}

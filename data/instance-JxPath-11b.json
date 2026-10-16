@@ -1,0 +1,69 @@
+{
+  "project": "JxPath",
+  "bug": "11b",
+  "t": "2026-10-16T01:18:18.997301+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 12.4
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 4.5
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 3.9
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 3.3
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.jxpath.ri.JXPathCompiledExpressionTest",
+    "org.apache.commons.jxpath.ri.StressTest",
+    "org.apache.commons.jxpath.ri.axes.RecursiveAxesTest",
+    "org.apache.commons.jxpath.ri.axes.SimplePathInterpreterTest",
+    "org.apache.commons.jxpath.ri.compiler.ContextDependencyTest",
+    "org.apache.commons.jxpath.ri.compiler.CoreFunctionTest",
+    "org.apache.commons.jxpath.ri.compiler.CoreOperationTest",
+    "org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest",
+    "org.apache.commons.jxpath.ri.compiler.VariableTest",
+    "org.apache.commons.jxpath.ri.model.MixedModelTest",
+    "org.apache.commons.jxpath.ri.model.XMLPreserveSpaceTest",
+    "org.apache.commons.jxpath.ri.model.XMLSpaceTest",
+    "org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest",
+    "org.apache.commons.jxpath.ri.model.beans.BeanModelTest",
+    "org.apache.commons.jxpath.ri.model.container.ContainerModelTest",
+    "org.apache.commons.jxpath.ri.model.dom.DOMModelTest",
+    "org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest",
+    "org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest",
+    "org.apache.commons.jxpath.util.BasicTypeConverterTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testNamespaceMapping",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testNamespaceMapping"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.jxpath.ri.axes.SimplePathInterpreterTest",
+    "org.apache.commons.jxpath.ri.model.XMLPreserveSpaceTest",
+    "org.apache.commons.jxpath.ri.model.XMLSpaceTest",
+    "org.apache.commons.jxpath.ri.model.dom.DOMModelTest",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.jxpath.ri.model.dom.DOMAttributeIterator",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMAttributeIterator"
+  ],
+  "n_all_tests": 20
+}

@@ -1,0 +1,84 @@
+{
+  "project": "Cli",
+  "bug": "32b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T18:59:58.753866+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 5.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 10.2,
+      "lines_total": 1108,
+      "lines_covered": 541,
+      "cond_total": 684,
+      "cond_covered": 241,
+      "line_cov_pct": 48.8,
+      "cond_cov_pct": 35.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 2.3
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 5.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 39.5,
+      "mutants_generated": 921,
+      "mutants_covered": 560,
+      "mutants_killed": 319,
+      "mutation_score_pct": 57.0,
+      "mutation_score_covered_pct": 34.6
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 23,
+  "n_test_java_total": 24,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "n_keep_java": 6,
+  "kept_tests": [
+    "org/apache/commons/cli/ArgumentIsOptionTest.java",
+    "org/apache/commons/cli/BugsTest.java",
+    "org/apache/commons/cli/OptionBuilderTest.java",
+    "org/apache/commons/cli/OptionTest.java",
+    "org/apache/commons/cli/bug/BugCLI133Test.java",
+    "org/apache/commons/cli/bug/BugCLI71Test.java"
+  ],
+  "n_moved_b": 18,
+  "kept_tests_final": [
+    "org/apache/commons/cli/ArgumentIsOptionTest.java",
+    "org/apache/commons/cli/BugsTest.java",
+    "org/apache/commons/cli/OptionBuilderTest.java",
+    "org/apache/commons/cli/OptionTest.java",
+    "org/apache/commons/cli/bug/BugCLI133Test.java",
+    "org/apache/commons/cli/bug/BugCLI71Test.java"
+  ],
+  "n_test_final": 6,
+  "n_keep_java_f": 6,
+  "n_moved_f": 18,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli/ArgumentIsOptionTest.java",
+    "org/apache/commons/cli/BugsTest.java",
+    "org/apache/commons/cli/OptionBuilderTest.java",
+    "org/apache/commons/cli/OptionTest.java",
+    "org/apache/commons/cli/bug/BugCLI133Test.java",
+    "org/apache/commons/cli/bug/BugCLI71Test.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

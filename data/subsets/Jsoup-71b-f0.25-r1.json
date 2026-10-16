@@ -1,0 +1,45 @@
+{
+  "project": "Jsoup",
+  "bug": "71b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:39:55.926947+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.8
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 34,
+  "n_test_java_total": 43,
+  "n_test_target": 8,
+  "n_test_kept": 9,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "org/jsoup/helper/DataUtilTest.java",
+    "org/jsoup/helper/StringUtilTest.java",
+    "org/jsoup/integration/ParseTest.java",
+    "org/jsoup/nodes/FormElementTest.java",
+    "org/jsoup/nodes/TextNodeTest.java",
+    "org/jsoup/parser/HtmlTreeBuilderStateTest.java",
+    "org/jsoup/parser/XmlTreeBuilderTest.java",
+    "org/jsoup/safety/CleanerTest.java",
+    "org/jsoup/select/QueryParserTest.java"
+  ],
+  "n_moved_b": 32
+}

@@ -1,0 +1,110 @@
+{
+  "project": "Lang",
+  "bug": "64b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T14:15:16.228448+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 12.2
+    },
+    "compile_b": {
+      "rc": 1,
+      "s": 11.1,
+      "repair_added": 18,
+      "repair_log": [
+        [
+          "Broken1Enum",
+          "Broken1OperationEnum",
+          "Broken2Enum",
+          "Broken2OperationEnum",
+          "Broken3Enum",
+          "Broken3OperationEnum",
+          "Broken4OperationEnum",
+          "Broken5OperationEnum",
+          "ColorEnum",
+          "Extended1Enum",
+          "Extended2Enum",
+          "OperationEnum"
+        ],
+        [
+          "Extended3Enum",
+          "Nest",
+          "NestBroken",
+          "NestLinked",
+          "NestReferenced",
+          "ValuedColorEnum"
+        ]
+      ],
+      "rc_after_repair": 0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 32.9,
+      "lines_total": 9586,
+      "lines_covered": 841,
+      "cond_total": 6307,
+      "cond_covered": 412,
+      "line_cov_pct": 8.8,
+      "cond_cov_pct": 6.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 12.7
+    },
+    "compile_f": {
+      "rc": 1,
+      "s": 14.2,
+      "repair_added": 18
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 83.2,
+      "mutants_generated": 2001,
+      "mutants_covered": 349,
+      "mutants_killed": 224,
+      "mutation_score_pct": 64.2,
+      "mutation_score_covered_pct": 11.2
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 4,
+  "n_test_kept": 5,
+  "n_keep_java": 24,
+  "kept_tests": [
+    "org/apache/commons/lang/CharSetUtilsTest.java",
+    "org/apache/commons/lang/ClassUtilsTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/enums/ValuedEnumTest.java"
+  ],
+  "n_moved_b": 116,
+  "n_repaired_b": 18,
+  "kept_tests_final": [
+    "org/apache/commons/lang/CharSetUtilsTest.java",
+    "org/apache/commons/lang/ClassUtilsTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/enums/ValuedEnumTest.java"
+  ],
+  "n_test_final": 5,
+  "n_keep_java_f": 24,
+  "n_moved_f": 116,
+  "n_repaired_f": 18,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/CharSetUtilsTest.java",
+    "org/apache/commons/lang/ClassUtilsTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/enums/ValuedEnumTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

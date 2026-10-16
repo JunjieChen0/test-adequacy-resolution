@@ -1,0 +1,81 @@
+{
+  "project": "Lang",
+  "bug": "40b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T13:21:54.227646+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 12.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 20.5,
+      "lines_total": 9812,
+      "lines_covered": 665,
+      "cond_total": 6539,
+      "cond_covered": 163,
+      "line_cov_pct": 6.8,
+      "cond_cov_pct": 2.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 6.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 52.4,
+      "mutants_generated": 4369,
+      "mutants_covered": 57,
+      "mutants_killed": 8,
+      "mutation_score_pct": 14.0,
+      "mutation_score_covered_pct": 0.2
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 87,
+  "n_test_java_total": 98,
+  "n_test_target": 4,
+  "n_test_kept": 5,
+  "n_keep_java": 5,
+  "kept_tests": [
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/text/translate/EscapeUtilsTest.java"
+  ],
+  "n_moved_b": 93,
+  "kept_tests_final": [
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/text/translate/EscapeUtilsTest.java"
+  ],
+  "n_test_final": 5,
+  "n_keep_java_f": 5,
+  "n_moved_f": 93,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/text/translate/EscapeUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

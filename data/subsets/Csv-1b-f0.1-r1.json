@@ -1,0 +1,72 @@
+{
+  "project": "Csv",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:58:27.463378+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.0
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 6.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 11.0,
+      "lines_total": 457,
+      "lines_covered": 390,
+      "cond_total": 292,
+      "cond_covered": 226,
+      "line_cov_pct": 85.3,
+      "cond_cov_pct": 77.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 3.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 4.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 156.4,
+      "mutants_generated": 682,
+      "mutants_covered": 562,
+      "mutants_killed": 424,
+      "mutation_score_pct": 75.4,
+      "mutation_score_covered_pct": 62.2
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 5,
+  "n_test_java_total": 7,
+  "n_test_target": 1,
+  "n_test_kept": 2,
+  "n_keep_java": 2,
+  "kept_tests": [
+    "org/apache/commons/csv/CSVParserTest.java",
+    "org/apache/commons/csv/CSVPrinterTest.java"
+  ],
+  "n_moved_b": 5,
+  "kept_tests_final": [
+    "org/apache/commons/csv/CSVParserTest.java",
+    "org/apache/commons/csv/CSVPrinterTest.java"
+  ],
+  "n_test_final": 2,
+  "n_keep_java_f": 2,
+  "n_moved_f": 5,
+  "kept_tests_final_f": [
+    "org/apache/commons/csv/CSVParserTest.java",
+    "org/apache/commons/csv/CSVPrinterTest.java"
+  ],
+  "n_mut_classes": 8,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

@@ -1,0 +1,72 @@
+{
+  "project": "Compress",
+  "bug": "2b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:42:34.440610+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 17.2,
+      "lines_total": 4400,
+      "lines_covered": 403,
+      "cond_total": 1882,
+      "cond_covered": 124,
+      "line_cov_pct": 9.2,
+      "cond_cov_pct": 6.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 8.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 35.6,
+      "mutants_generated": 5865,
+      "mutants_covered": 332,
+      "mutants_killed": 142,
+      "mutation_score_pct": 42.8,
+      "mutation_score_covered_pct": 2.4
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 22,
+  "n_test_java_total": 25,
+  "n_test_target": 2,
+  "n_test_kept": 2,
+  "n_keep_java": 2,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java"
+  ],
+  "n_moved_b": 23,
+  "kept_tests_final": [
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java"
+  ],
+  "n_test_final": 2,
+  "n_keep_java_f": 2,
+  "n_moved_f": 23,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

@@ -1,0 +1,99 @@
+{
+  "project": "Lang",
+  "bug": "30b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:30:47.604393+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 29.7,
+      "lines_total": 9855,
+      "lines_covered": 1516,
+      "cond_total": 6569,
+      "cond_covered": 697,
+      "line_cov_pct": 15.4,
+      "cond_cov_pct": 10.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 8.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 10.4
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 66.8,
+      "mutants_generated": 1392,
+      "mutants_covered": 618,
+      "mutants_killed": 465,
+      "mutation_score_pct": 75.2,
+      "mutation_score_covered_pct": 33.4
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 88,
+  "n_test_java_total": 101,
+  "n_test_target": 9,
+  "n_test_kept": 11,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java"
+  ],
+  "n_moved_b": 90,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java"
+  ],
+  "n_test_final": 11,
+  "n_keep_java_f": 11,
+  "n_moved_f": 90,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java"
+  ],
+  "n_mut_classes": 11,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

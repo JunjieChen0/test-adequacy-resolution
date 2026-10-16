@@ -1,0 +1,26 @@
+{
+  "tag": "Codec-10b-f0.25-r1",
+  "project": "Codec",
+  "bug": "10b",
+  "frac": 0.25,
+  "rep": 1,
+  "n_test_final": 7,
+  "features": {
+    "n_assertions": 354,
+    "n_test_methods": 7,
+    "n_strong": 283,
+    "n_weak": 30,
+    "n_other": 21,
+    "n_predicate": 2,
+    "n_distinct_calls": 26,
+    "test_loc": 2274,
+    "n_files": 7
+  },
+  "derived": {
+    "assertions_per_method": 50.57142857142857,
+    "strong_ratio": 0.7994350282485876,
+    "weak_ratio": 0.0847457627118644,
+    "predicate_ratio": 0.005649717514124294,
+    "calls_per_assertion": 0.07344632768361582
+  }
+}

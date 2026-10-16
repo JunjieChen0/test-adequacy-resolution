@@ -1,0 +1,93 @@
+{
+  "project": "Lang",
+  "bug": "46b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:28:25.226477+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 10.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 29.2,
+      "lines_total": 10364,
+      "lines_covered": 814,
+      "cond_total": 6832,
+      "cond_covered": 475,
+      "line_cov_pct": 7.9,
+      "cond_cov_pct": 7.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 12.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 13.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 35.4,
+      "mutants_generated": 2799,
+      "mutants_covered": 114,
+      "mutants_killed": 30,
+      "mutation_score_pct": 26.3,
+      "mutation_score_covered_pct": 1.1
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 86,
+  "n_test_java_total": 144,
+  "n_test_target": 9,
+  "n_test_kept": 9,
+  "n_keep_java": 10,
+  "kept_tests": [
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/IntHashMapTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java"
+  ],
+  "n_moved_b": 134,
+  "kept_tests_final": [
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/IntHashMapTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 10,
+  "n_moved_f": 134,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/IntHashMapTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

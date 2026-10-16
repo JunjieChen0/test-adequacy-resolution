@@ -1,0 +1,78 @@
+{
+  "project": "Lang",
+  "bug": "56b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T13:45:30.256395+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 18.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 19.8
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 44.0,
+      "lines_total": 9742,
+      "lines_covered": 319,
+      "cond_total": 6455,
+      "cond_covered": 192,
+      "line_cov_pct": 3.3,
+      "cond_cov_pct": 3.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 20.3
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 17.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 47.4,
+      "mutants_generated": 2001,
+      "mutants_covered": 101,
+      "mutants_killed": 25,
+      "mutation_score_pct": 24.8,
+      "mutation_score_covered_pct": 1.2
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 4,
+  "n_test_kept": 4,
+  "n_keep_java": 4,
+  "kept_tests": [
+    "org/apache/commons/lang/BitFieldTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableLongTest.java"
+  ],
+  "n_moved_b": 136,
+  "kept_tests_final": [
+    "org/apache/commons/lang/BitFieldTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableLongTest.java"
+  ],
+  "n_test_final": 4,
+  "n_keep_java_f": 4,
+  "n_moved_f": 136,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/BitFieldTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableLongTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

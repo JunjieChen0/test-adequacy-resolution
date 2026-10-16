@@ -1,0 +1,132 @@
+{
+  "project": "Lang",
+  "bug": "40b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T13:24:20.297553+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 10.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 14.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 66.7,
+      "lines_total": 9812,
+      "lines_covered": 2811,
+      "cond_total": 6539,
+      "cond_covered": 1663,
+      "line_cov_pct": 28.6,
+      "cond_cov_pct": 25.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 8.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 12.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 110.5,
+      "mutants_generated": 4369,
+      "mutants_covered": 1559,
+      "mutants_killed": 1012,
+      "mutation_score_pct": 64.9,
+      "mutation_score_covered_pct": 23.2
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 87,
+  "n_test_java_total": 98,
+  "n_test_target": 22,
+  "n_test_kept": 22,
+  "n_keep_java": 32,
+  "kept_tests": [
+    "org/apache/commons/lang/CharSetTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/WordUtilsTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/math/NumberRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/text/StrLookupTest.java",
+    "org/apache/commons/lang/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang/text/translate/UnescapeUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 66,
+  "kept_tests_final": [
+    "org/apache/commons/lang/CharSetTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/WordUtilsTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/math/NumberRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/text/StrLookupTest.java",
+    "org/apache/commons/lang/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang/text/translate/UnescapeUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 22,
+  "n_keep_java_f": 32,
+  "n_moved_f": 66,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/CharSetTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/WordUtilsTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/math/IntRangeTest.java",
+    "org/apache/commons/lang/math/NumberRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableIntTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/text/StrLookupTest.java",
+    "org/apache/commons/lang/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang/text/translate/UnescapeUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

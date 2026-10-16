@@ -1,0 +1,132 @@
+{
+  "project": "Math",
+  "bug": "94b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T09:48:28.576163+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 28.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 31.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 289.5,
+      "lines_total": 13759,
+      "lines_covered": 4584,
+      "cond_total": 5870,
+      "cond_covered": 1831,
+      "line_cov_pct": 33.3,
+      "cond_cov_pct": 31.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 93.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 53.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 590.7,
+      "mutants_generated": 1880,
+      "mutants_covered": 1078,
+      "mutants_killed": 840,
+      "mutation_score_pct": 77.9,
+      "mutation_score_covered_pct": 44.7
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 157,
+  "n_test_java_total": 196,
+  "n_test_target": 16,
+  "n_test_kept": 22,
+  "n_keep_java": 33,
+  "kept_tests": [
+    "org/apache/commons/math/ArgumentOutsideDomainExceptionTest.java",
+    "org/apache/commons/math/ConvergenceExceptionTest.java",
+    "org/apache/commons/math/analysis/MullerSolverTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/ExponentialDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/distribution/PoissonDistributionTest.java",
+    "org/apache/commons/math/estimation/GaussNewtonEstimatorTest.java",
+    "org/apache/commons/math/linear/BigMatrixImplTest.java",
+    "org/apache/commons/math/linear/EigenDecompositionImplTest.java",
+    "org/apache/commons/math/linear/EigenSolverTest.java",
+    "org/apache/commons/math/linear/LUSolverTest.java",
+    "org/apache/commons/math/linear/MatrixUtilsTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/ode/ContinuousOutputModelTest.java",
+    "org/apache/commons/math/special/ErfTest.java",
+    "org/apache/commons/math/stat/data/LewTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumSqTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java"
+  ],
+  "n_moved_b": 163,
+  "kept_tests_final": [
+    "org/apache/commons/math/ArgumentOutsideDomainExceptionTest.java",
+    "org/apache/commons/math/ConvergenceExceptionTest.java",
+    "org/apache/commons/math/analysis/MullerSolverTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/ExponentialDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/distribution/PoissonDistributionTest.java",
+    "org/apache/commons/math/estimation/GaussNewtonEstimatorTest.java",
+    "org/apache/commons/math/linear/BigMatrixImplTest.java",
+    "org/apache/commons/math/linear/EigenDecompositionImplTest.java",
+    "org/apache/commons/math/linear/EigenSolverTest.java",
+    "org/apache/commons/math/linear/LUSolverTest.java",
+    "org/apache/commons/math/linear/MatrixUtilsTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/ode/ContinuousOutputModelTest.java",
+    "org/apache/commons/math/special/ErfTest.java",
+    "org/apache/commons/math/stat/data/LewTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumSqTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java"
+  ],
+  "n_test_final": 22,
+  "n_keep_java_f": 33,
+  "n_moved_f": 163,
+  "kept_tests_final_f": [
+    "org/apache/commons/math/ArgumentOutsideDomainExceptionTest.java",
+    "org/apache/commons/math/ConvergenceExceptionTest.java",
+    "org/apache/commons/math/analysis/MullerSolverTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/ExponentialDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/distribution/PoissonDistributionTest.java",
+    "org/apache/commons/math/estimation/GaussNewtonEstimatorTest.java",
+    "org/apache/commons/math/linear/BigMatrixImplTest.java",
+    "org/apache/commons/math/linear/EigenDecompositionImplTest.java",
+    "org/apache/commons/math/linear/EigenSolverTest.java",
+    "org/apache/commons/math/linear/LUSolverTest.java",
+    "org/apache/commons/math/linear/MatrixUtilsTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/ode/ContinuousOutputModelTest.java",
+    "org/apache/commons/math/special/ErfTest.java",
+    "org/apache/commons/math/stat/data/LewTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumSqTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

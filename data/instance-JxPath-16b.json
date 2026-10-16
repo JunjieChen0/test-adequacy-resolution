@@ -1,0 +1,92 @@
+{
+  "project": "JxPath",
+  "bug": "16b",
+  "t": "2026-10-16T01:18:51.721176+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 14.1
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 4.9
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 3.6
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 3.3
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.jxpath.BasicNodeSetTest",
+    "org.apache.commons.jxpath.ri.JXPathCompiledExpressionTest",
+    "org.apache.commons.jxpath.ri.StressTest",
+    "org.apache.commons.jxpath.ri.axes.RecursiveAxesTest",
+    "org.apache.commons.jxpath.ri.axes.SimplePathInterpreterTest",
+    "org.apache.commons.jxpath.ri.compiler.ContextDependencyTest",
+    "org.apache.commons.jxpath.ri.compiler.CoreFunctionTest",
+    "org.apache.commons.jxpath.ri.compiler.CoreOperationTest",
+    "org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest",
+    "org.apache.commons.jxpath.ri.compiler.VariableTest",
+    "org.apache.commons.jxpath.ri.model.EmbeddedColonMapKeysTest",
+    "org.apache.commons.jxpath.ri.model.EmptyCollectionTest",
+    "org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest",
+    "org.apache.commons.jxpath.ri.model.MixedModelTest",
+    "org.apache.commons.jxpath.ri.model.XMLPreserveSpaceTest",
+    "org.apache.commons.jxpath.ri.model.XMLSpaceTest",
+    "org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest",
+    "org.apache.commons.jxpath.ri.model.beans.BeanModelTest",
+    "org.apache.commons.jxpath.ri.model.container.ContainerModelTest",
+    "org.apache.commons.jxpath.ri.model.dom.DOMModelTest",
+    "org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest",
+    "org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest",
+    "org.apache.commons.jxpath.util.BasicTypeConverterTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisFollowing",
+    "org.apache.commons.jxpath.ri.model.dom.DOMModelTest::testAxisPreceding",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisFollowing",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest::testAxisPreceding"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.jxpath.BasicNodeSetTest",
+    "org.apache.commons.jxpath.ri.JXPathCompiledExpressionTest",
+    "org.apache.commons.jxpath.ri.StressTest",
+    "org.apache.commons.jxpath.ri.axes.RecursiveAxesTest",
+    "org.apache.commons.jxpath.ri.axes.SimplePathInterpreterTest",
+    "org.apache.commons.jxpath.ri.compiler.CoreFunctionTest",
+    "org.apache.commons.jxpath.ri.compiler.CoreOperationTest",
+    "org.apache.commons.jxpath.ri.compiler.ExtensionFunctionTest",
+    "org.apache.commons.jxpath.ri.compiler.VariableTest",
+    "org.apache.commons.jxpath.ri.model.EmbeddedColonMapKeysTest",
+    "org.apache.commons.jxpath.ri.model.EmptyCollectionTest",
+    "org.apache.commons.jxpath.ri.model.ExternalXMLNamespaceTest",
+    "org.apache.commons.jxpath.ri.model.MixedModelTest",
+    "org.apache.commons.jxpath.ri.model.XMLPreserveSpaceTest",
+    "org.apache.commons.jxpath.ri.model.XMLSpaceTest",
+    "org.apache.commons.jxpath.ri.model.beans.BadlyImplementedFactoryTest",
+    "org.apache.commons.jxpath.ri.model.beans.BeanModelTest",
+    "org.apache.commons.jxpath.ri.model.container.ContainerModelTest",
+    "org.apache.commons.jxpath.ri.model.dom.DOMModelTest",
+    "org.apache.commons.jxpath.ri.model.dynabeans.DynaBeanModelTest",
+    "org.apache.commons.jxpath.ri.model.dynamic.DynamicPropertiesModelTest",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMModelTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.jxpath.ri.model.dom.DOMNodePointer",
+    "org.apache.commons.jxpath.ri.model.jdom.JDOMNodePointer"
+  ],
+  "n_all_tests": 24
+}

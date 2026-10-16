@@ -1,0 +1,78 @@
+{
+  "project": "Chart",
+  "bug": "4b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T11:23:08.580868+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 36.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 24.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 204.8,
+      "lines_total": 52804,
+      "lines_covered": 7515,
+      "cond_total": 22800,
+      "cond_covered": 2292,
+      "line_cov_pct": 14.2,
+      "cond_cov_pct": 10.1
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 31.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 22.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 71.3,
+      "mutants_generated": 1233,
+      "mutants_covered": 55,
+      "mutants_killed": 20,
+      "mutation_score_pct": 36.4,
+      "mutation_score_covered_pct": 1.6
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 356,
+  "n_test_java_total": 387,
+  "n_test_target": 18,
+  "n_test_kept": 18,
+  "n_keep_java": 19,
+  "kept_tests": [
+    "org/jfree/chart/axis/junit/CategoryAnchorTests.java",
+    "org/jfree/chart/axis/junit/LogAxisTests.java",
+    "org/jfree/chart/axis/junit/SubCategoryAxisTests.java",
+    "org/jfree/chart/junit/StackedAreaChartTests.java",
+    "org/jfree/chart/labels/junit/StandardCategoryToolTipGeneratorTests.java",
+    "org/jfree/chart/labels/junit/StandardPieSectionLabelGeneratorTests.java",
+    "org/jfree/chart/needle/junit/MeterNeedleTests.java",
+    "org/jfree/chart/plot/dial/junit/DialPlotTests.java",
+    "org/jfree/chart/plot/junit/RingPlotTests.java",
+    "org/jfree/chart/plot/junit/ThermometerPlotTests.java",
+    "org/jfree/chart/renderer/category/junit/BarRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYShapeRendererTests.java",
+    "org/jfree/data/general/junit/DefaultKeyedValueDatasetTests.java",
+    "org/jfree/data/general/junit/DefaultKeyedValuesDatasetTests.java",
+    "org/jfree/data/statistics/junit/RegressionTests.java",
+    "org/jfree/data/time/junit/HourTests.java",
+    "org/jfree/data/xy/junit/DefaultWindDatasetTests.java",
+    "org/jfree/data/xy/junit/XIntervalDataItemTests.java"
+  ],
+  "n_moved_b": 368,
+  "n_keep_java_f": 19,
+  "n_moved_f": 368,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

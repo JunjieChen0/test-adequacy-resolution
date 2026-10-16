@@ -1,0 +1,70 @@
+{
+  "project": "Time",
+  "bug": "4b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:37:34.387739+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.7
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 123,
+  "n_test_java_total": 155,
+  "n_test_target": 31,
+  "n_test_kept": 34,
+  "n_keep_java": 38,
+  "kept_tests": [
+    "org/joda/time/TestDateMidnight_Properties.java",
+    "org/joda/time/TestDateTimeComparator.java",
+    "org/joda/time/TestDateTimeZone.java",
+    "org/joda/time/TestInstant_Basics.java",
+    "org/joda/time/TestInstant_Constructors.java",
+    "org/joda/time/TestInterval_Basics.java",
+    "org/joda/time/TestLocalDateTime_Basics.java",
+    "org/joda/time/TestLocalDate_Constructors.java",
+    "org/joda/time/TestMinutes.java",
+    "org/joda/time/TestMonthDay_Constructors.java",
+    "org/joda/time/TestMonthDay_Properties.java",
+    "org/joda/time/TestMutableDateTime_Sets.java",
+    "org/joda/time/TestPeriod_Constructors.java",
+    "org/joda/time/TestSeconds.java",
+    "org/joda/time/TestSerialization.java",
+    "org/joda/time/TestTimeOfDay_Basics.java",
+    "org/joda/time/TestYearMonth_Properties.java",
+    "org/joda/time/chrono/TestCopticChronology.java",
+    "org/joda/time/chrono/TestGJChronology.java",
+    "org/joda/time/convert/TestDateConverter.java",
+    "org/joda/time/convert/TestNullConverter.java",
+    "org/joda/time/convert/TestReadableDurationConverter.java",
+    "org/joda/time/field/TestFieldUtils.java",
+    "org/joda/time/field/TestScaledDurationField.java",
+    "org/joda/time/format/TestDateTimeFormat.java",
+    "org/joda/time/format/TestDateTimeFormatStyle.java",
+    "org/joda/time/format/TestISODateTimeFormatParsing.java",
+    "org/joda/time/format/TestISOPeriodFormat.java",
+    "org/joda/time/format/TestPeriodFormat.java",
+    "org/joda/time/tz/TestBuilder.java",
+    "org/joda/time/tz/TestCachedDateTimeZone.java",
+    "org/joda/time/tz/TestCompiler.java",
+    "org/joda/time/tz/TestFixedDateTimeZone.java",
+    "org/joda/time/tz/TestUTCProvider.java"
+  ],
+  "n_moved_b": 117
+}

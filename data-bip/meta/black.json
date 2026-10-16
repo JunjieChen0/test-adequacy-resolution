@@ -1,0 +1,378 @@
+{
+ "project": "black",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "26c9465a22c732ab1e17b0dec578fa3432e9b558",
+   "fixed_commit": "c0a7582e3d4cc8bec3b7f5a6c52b36880dcb57d7",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_works_in_mono_process_only_environment",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_works_in_mono_process_only_environment"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "c8ca6b2b9ff3510bee12129824cebfc2fc51e5b2",
+   "fixed_commit": "892eddacd215d685e136686b7f629ade70adca83",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_fmtonoff4",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_fmtonoff4"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "8126b4f6a9342290de4655e6a8a78cd288ce7daa",
+   "fixed_commit": "7a14a37981862ef418f3cdb4a7e2375856f97529",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_invalid_config_return_code",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_invalid_config_return_code"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py;tests/data/beginning_backslash.py",
+   "buggy_commit": "65ea568e3301951f26e0e3b98f6d5dc80132e917",
+   "fixed_commit": "c7495b9aa098ef7a358fc74556359d21c6a4ba11",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_beginning_backslash",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_beginning_backslash"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "1bbb01b854d168d76ebe4bf78961c2152ae075d9",
+   "fixed_commit": "9394de150ebf0adc426523f46dc08e8b2b2b0b63",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_function_trailing_comma",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_function_trailing_comma"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py;tests/data/comment_after_escaped_newline.py",
+   "buggy_commit": "8c8adedc2a74a494c24f93e405b6418ac32f54cd",
+   "fixed_commit": "f8617f975d56e81cfb4070ce65584f7b29a77e7a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_async_as_identifier",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_async_as_identifier"
+    },
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_python37",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_python37"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/data/tupleassign.py;tests/test_black.py",
+   "buggy_commit": "18119d38466652ae818436cb497f601294ed4558",
+   "fixed_commit": "de806405d2934b629d67e2a6317ad7e826765a20",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_tuple_assign",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_tuple_assign"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/data/comments7.py;tests/test_black.py",
+   "buggy_commit": "e6ddb68c786256e1cb0c76b42d10c212ef34cb2a",
+   "fixed_commit": "6b994fdb8ab70ce4c2eafb8f2f0ff2648f3ff1ef",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_comments7",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_comments7"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/data/python2_print_function.py;tests/test_black.py",
+   "buggy_commit": "026c81b83454f176a9f9253cbfb70be2c159d822",
+   "fixed_commit": "d6db1c12a8e14833fe22da377cddc2bd1f43dc14",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_python2_print_function",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_python2_print_function"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "f6643c4f0cfbae1f2493fdfce46cfbae3d26f46b",
+   "fixed_commit": "66aa676278948368dff251dffd58c850cb8b889e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_comment_indentation",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_comment_indentation"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/data/comments6.py;tests/test_black.py",
+   "buggy_commit": "283a5d53a8d57e8e186a08c9fbf249e1fbe7bc94",
+   "fixed_commit": "024c9cab55da7bd3236fd88759c9735d6149b464",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_comments6",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_comments6"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/data/bracketmatch.py;tests/test_black.py",
+   "buggy_commit": "8b340e210271a8108995fd479c55dbc0a34466bd",
+   "fixed_commit": "b53cb9474348e13533ccba3735191a55ef3da6c4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_bracket_match",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_bracket_match"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/data/python37.py;tests/test_black.py",
+   "buggy_commit": "b719d85ccc330170e40b2617307a7e3b2a0bab14",
+   "fixed_commit": "883689366ce0f0e0ddd66d81360c61abfd19b01a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_python37",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_python37"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "3bdd42389128bbbe8b64a8e050563f09bff99979",
+   "fixed_commit": "dd8bde6d2fbfe8a7a11093e761a0cb5837efa96a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_get_future_imports",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_get_future_imports"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/data/fmtonoff2.py;tests/test_black.py",
+   "buggy_commit": "8a8c58252cc023ae250d6febd24f50a8166450d4",
+   "fixed_commit": "df2ae3bbe6c45298aabb6c04e85cb353205626f1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_fmtonoff2",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_fmtonoff2"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "fb34c9e19589d05f92084a28940837151251ebd6",
+   "fixed_commit": "42a3fe53319a8c02858c2a96989ed1339f84515a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_symlink_out_of_root_directory",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_symlink_out_of_root_directory"
+    }
+   ]
+  },
+  "17": {
+   "bug": "17",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "bbc09a4f013f2a584f143f3f5e3f76f6082367d4",
+   "fixed_commit": "7fc6ce990669464f5172b63fafa3724f5f308be3",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_empty",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_empty"
+    }
+   ]
+  },
+  "18": {
+   "bug": "18",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "dbe26161fa68632d608a440666a0960a32630902",
+   "fixed_commit": "00a302560b92951c22f0f4c8d618cf63de39bd57",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_preserves_line_endings",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_preserves_line_endings"
+    }
+   ]
+  },
+  "19": {
+   "bug": "19",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/comments6.py;tests/test_black.py",
+   "buggy_commit": "337a4199f90ca48a19cf26511e0cec330b13bd4e",
+   "fixed_commit": "29e97d1d4a7717f1bd0ca35cacf2f2ce6d815b0c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_comment_in_decorator",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_comment_in_decorator"
+    }
+   ]
+  },
+  "20": {
+   "bug": "20",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "2e52a2b3ecc0fe025439c3db05a4457ab14f167b",
+   "fixed_commit": "06e95b1e9bcd43c4574840f8174ba4b2c5d281bd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_expression_diff",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_expression_diff"
+    }
+   ]
+  },
+  "21": {
+   "bug": "21",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/test_black.py",
+   "buggy_commit": "c071af761e1550c6e4ebab8e5af747d2d8fdd48e",
+   "fixed_commit": "8e7848c63efe36f09e4651bece8c0efc34a1c3e1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_expression_ff",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_expression_ff"
+    }
+   ]
+  },
+  "22": {
+   "bug": "22",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/comments3.py;tests/test_black.py",
+   "buggy_commit": "728c56c986bc5aea4d9897d3fce3159f89991b8e",
+   "fixed_commit": "c55d08d0b96c8de8bd867ca315e380d9e9d2d7ec",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_comments3",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_comments3"
+    }
+   ]
+  },
+  "23": {
+   "bug": "23",
+   "project": "black",
+   "python_version": "3.8.3",
+   "test_file": "tests/python2.py;tests/test_black.py",
+   "buggy_commit": "8de552eb4f0fbf1ad84812cde71489cc00d3ed1f",
+   "fixed_commit": "6316e293ac30a2837ec20eba289fd28a2a18cf89",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tests/test_black.py",
+     "node": "BlackTestCase::test_python2",
+     "raw": "python -m unittest -q tests.test_black.BlackTestCase.test_python2"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+  "project": "Lang",
+  "bug": "10b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:23:08.643038+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 10.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 52.7,
+      "lines_total": 11324,
+      "lines_covered": 2195,
+      "cond_total": 7524,
+      "cond_covered": 990,
+      "line_cov_pct": 19.4,
+      "cond_cov_pct": 13.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 10.7
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 61.1,
+      "mutants_generated": 1428,
+      "mutants_covered": 140,
+      "mutants_killed": 88,
+      "mutation_score_pct": 62.9,
+      "mutation_score_covered_pct": 6.2
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 109,
+  "n_test_java_total": 126,
+  "n_test_target": 11,
+  "n_test_kept": 13,
+  "n_keep_java": 23,
+  "kept_tests": [
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/mutable/MutableByteTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java",
+    "org/apache/commons/lang3/time/DateUtilsFragmentTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/tuple/ImmutablePairTest.java"
+  ],
+  "n_moved_b": 103,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/mutable/MutableByteTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java",
+    "org/apache/commons/lang3/time/DateUtilsFragmentTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/tuple/ImmutablePairTest.java"
+  ],
+  "n_test_final": 13,
+  "n_keep_java_f": 23,
+  "n_moved_f": 103,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/mutable/MutableByteTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java",
+    "org/apache/commons/lang3/time/DateUtilsFragmentTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/tuple/ImmutablePairTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

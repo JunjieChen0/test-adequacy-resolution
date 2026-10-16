@@ -1,0 +1,90 @@
+{
+  "project": "Lang",
+  "bug": "55b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:30:20.045902+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 11.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 18.7,
+      "lines_total": 9703,
+      "lines_covered": 2086,
+      "cond_total": 6397,
+      "cond_covered": 1167,
+      "line_cov_pct": 21.5,
+      "cond_cov_pct": 18.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 6.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 47.8,
+      "mutants_generated": 2004,
+      "mutants_covered": 706,
+      "mutants_killed": 426,
+      "mutation_score_pct": 60.3,
+      "mutation_score_covered_pct": 21.3
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 8,
+  "n_test_kept": 8,
+  "n_keep_java": 26,
+  "kept_tests": [
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java",
+    "org/apache/commons/lang/time/DurationFormatUtilsTest.java"
+  ],
+  "n_moved_b": 114,
+  "kept_tests_final": [
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java",
+    "org/apache/commons/lang/time/DurationFormatUtilsTest.java"
+  ],
+  "n_test_final": 8,
+  "n_keep_java_f": 26,
+  "n_moved_f": 114,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java",
+    "org/apache/commons/lang/time/DurationFormatUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

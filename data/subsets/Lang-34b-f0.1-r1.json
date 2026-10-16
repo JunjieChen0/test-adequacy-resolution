@@ -1,0 +1,93 @@
+{
+  "project": "Lang",
+  "bug": "34b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:31:23.863368+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 10.8
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 29.3,
+      "lines_total": 9713,
+      "lines_covered": 1631,
+      "cond_total": 6477,
+      "cond_covered": 852,
+      "line_cov_pct": 16.8,
+      "cond_cov_pct": 13.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 8.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 53.6,
+      "mutants_generated": 1343,
+      "mutants_covered": 469,
+      "mutants_killed": 376,
+      "mutation_score_pct": 80.2,
+      "mutation_score_covered_pct": 28.0
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 85,
+  "n_test_java_total": 98,
+  "n_test_target": 8,
+  "n_test_kept": 9,
+  "n_keep_java": 9,
+  "kept_tests": [
+    "org/apache/commons/lang3/BitFieldTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java"
+  ],
+  "n_moved_b": 89,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/BitFieldTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 9,
+  "n_moved_f": 89,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/BitFieldTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java"
+  ],
+  "n_mut_classes": 10,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

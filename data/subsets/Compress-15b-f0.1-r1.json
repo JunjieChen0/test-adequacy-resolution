@@ -1,0 +1,84 @@
+{
+  "project": "Compress",
+  "bug": "15b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:53:40.882882+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.3
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.3
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 21.5,
+      "lines_total": 7112,
+      "lines_covered": 1577,
+      "cond_total": 3340,
+      "cond_covered": 552,
+      "line_cov_pct": 22.2,
+      "cond_cov_pct": 16.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 3.9
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 6.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 54.8,
+      "mutants_generated": 5014,
+      "mutants_covered": 1080,
+      "mutants_killed": 508,
+      "mutation_score_pct": 47.0,
+      "mutation_score_covered_pct": 10.1
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 57,
+  "n_test_java_total": 64,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "n_keep_java": 7,
+  "kept_tests": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/DumpTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java"
+  ],
+  "n_moved_b": 57,
+  "kept_tests_final": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/DumpTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java"
+  ],
+  "n_test_final": 6,
+  "n_keep_java_f": 7,
+  "n_moved_f": 57,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/DumpTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

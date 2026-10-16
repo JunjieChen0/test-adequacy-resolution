@@ -1,0 +1,66 @@
+{
+  "project": "Math",
+  "bug": "37b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:27:33.078283+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.6
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.7,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 288,
+  "n_test_java_total": 360,
+  "n_test_target": 29,
+  "n_test_kept": 30,
+  "n_keep_java": 47,
+  "kept_tests": [
+    "org/apache/commons/math/analysis/function/StepFunctionTest.java",
+    "org/apache/commons/math/analysis/interpolation/TricubicSplineInterpolatingFunctionTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionLagrangeFormTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialsUtilsTest.java",
+    "org/apache/commons/math/analysis/solvers/PegasusSolverTest.java",
+    "org/apache/commons/math/distribution/PoissonDistributionTest.java",
+    "org/apache/commons/math/exception/OutOfRangeExceptionTest.java",
+    "org/apache/commons/math/fraction/BigFractionTest.java",
+    "org/apache/commons/math/genetics/BinaryChromosomeTest.java",
+    "org/apache/commons/math/genetics/OnePointCrossoverTest.java",
+    "org/apache/commons/math/geometry/euclidean/oned/IntervalsSetTest.java",
+    "org/apache/commons/math/linear/Array2DRowRealMatrixTest.java",
+    "org/apache/commons/math/linear/BiDiagonalTransformerTest.java",
+    "org/apache/commons/math/linear/PivotingQRDecompositionTest.java",
+    "org/apache/commons/math/linear/RealVectorFormatTest.java",
+    "org/apache/commons/math/linear/SymmLQTest.java",
+    "org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegratorTest.java",
+    "org/apache/commons/math/optimization/direct/SimplexOptimizerMultiDirectionalTest.java",
+    "org/apache/commons/math/optimization/univariate/BracketFinderTest.java",
+    "org/apache/commons/math/stat/correlation/StorelessCovarianceTest.java",
+    "org/apache/commons/math/stat/descriptive/AggregateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/DescriptiveStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedMultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/FourthMomentTest.java",
+    "org/apache/commons/math/stat/descriptive/rank/MaxTest.java",
+    "org/apache/commons/math/stat/inference/ChiSquareTestTest.java",
+    "org/apache/commons/math/stat/regression/MillerUpdatingRegressionTest.java",
+    "org/apache/commons/math/util/MultidimensionalCounterTest.java"
+  ],
+  "n_moved_b": 313
+}

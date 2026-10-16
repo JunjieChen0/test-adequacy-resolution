@@ -1,0 +1,693 @@
+{
+ "project": "youtube-dl",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "99036a1298089068dcf80c0985bfcc3f8c24f281",
+   "fixed_commit": "1cc47c667419e0eadc0a6989256ab7b276852adf",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_match_str",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_match_str"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_InfoExtractor.py",
+   "buggy_commit": "84f085d4bdb66ee025fb337bcd571eab7469da97",
+   "fixed_commit": "9d6ac71c27b1dfb662c795ef598dbfd0286682da",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_InfoExtractor.py",
+     "node": "TestInfoExtractor::test_parse_mpd_formats",
+     "raw": "python -m unittest -q test.test_InfoExtractor.TestInfoExtractor.test_parse_mpd_formats"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "f5469da9e6e259c1690c7ef54f1da1c19f65036f",
+   "fixed_commit": "95f3f7c20a05e7ac490e768b8470b20538ef8581",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_unescape_html",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_unescape_html"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_jsinterp.py",
+   "buggy_commit": "bc40b3a5ba44006c23daf7fe0ed872af5e33bdc5",
+   "fixed_commit": "189935f15960300d316e8b07108b076ac6c2186a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_jsinterp.py",
+     "node": "TestJSInterpreter::test_call",
+     "raw": "python -m unittest -q test.test_jsinterp.TestJSInterpreter.test_call"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "b02b960c6bba834d9e7199ac53430c7933079dc8",
+   "fixed_commit": "7dc2a74e0ac9cfa74cc9de6f586ffd5cc8bac0d9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_unified_timestamps",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_unified_timestamps"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "4f29fa99069760dc47ef9ca5dbf607a567d2982f",
+   "fixed_commit": "d631d5f9f27f93767226192e4288990413fa9dbd",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_parse_dfxp_time_expr",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_parse_dfxp_time_expr"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "63a64948342ebfe46db8c258765e698a04a61904",
+   "fixed_commit": "d01949dc89feb2441f251e42e8a6bfa4711b9715",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_js_to_json_realworld",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_js_to_json_realworld"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "cf2ac6df6896dac4d23918867bb86fac1e1088d9",
+   "fixed_commit": "f5f4a27a964b41646303921104f4d6d6fd2098e4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestFormatSelection::test_youtube_format_selection",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestFormatSelection.test_youtube_format_selection"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "0130afb76e5cb6f470f39f127c8d09eea3e82d0d",
+   "fixed_commit": "cf2ac6df6896dac4d23918867bb86fac1e1088d9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestFormatSelection::test_youtube_format_selection",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestFormatSelection.test_youtube_format_selection"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "youtube-dl",
+   "python_version": "3.7.0",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "85d586617750d38d742a24f141b099f6b898d269",
+   "fixed_commit": "d305dd73a3d6927f0a2c63d08662a183fa173833",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_js_to_json_realworld",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_js_to_json_realworld"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "b568561eba6f4aceb87419e21aba11567c5de7da",
+   "fixed_commit": "348c6bf1c1a00eec323d6e21ff7b9b12699afe04",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_str_to_int",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_str_to_int"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "435e382423f860aca82a58d7c3db58cbfa242b40",
+   "fixed_commit": "e118a8794ffe5a3a414afd489726f34d753b0b23",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestFormatSelection::test_format_selection_string_ops",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestFormatSelection.test_format_selection_string_ops"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "6945b9e78f38284eb4e440b7badea2fc60b66c2f",
+   "fixed_commit": "fad4ceb53404227f471af2f3544c4c14a5df4acb",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_urljoin",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_urljoin"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_youtube_chapters.py",
+   "buggy_commit": "562de77f41d0c08df9dbb08cfa86ba6c7d239c5a",
+   "fixed_commit": "84213ea8d41d5fe1608333a16ac578dccdf9a915",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_youtube_chapters.py",
+     "node": "TestYoutubeChapters::test_youtube_chapters",
+     "raw": "python -m unittest -q test.test_youtube_chapters.TestYoutubeChapters.test_youtube_chapters"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "e7f3529f68ee7c8ca78366d37f851cb31fa00f31",
+   "fixed_commit": "c384d537f882efab10a78a56ce6dcb0a30f54b47",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_js_to_json_edgecases",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_js_to_json_edgecases test.test_utils.TestUtil.test_js_to_json_realworld"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "68d43a61b552007a718894967b869c0f1d8ff00f",
+   "fixed_commit": "3869028ffb6be6ab719e5cf1004276dfdfd1216d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_dfxp2srt",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_dfxp2srt"
+    }
+   ]
+  },
+  "17": {
+   "bug": "17",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "4bf22f7a1014c55e3358b5a419945071b152eafc",
+   "fixed_commit": "5b232f46dcbdc805507c02edd4fd598f31d544d5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_cli_bool_option",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_cli_bool_option"
+    }
+   ]
+  },
+  "18": {
+   "bug": "18",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "dc6520aa3d1fe7afc52613e392f15dde90af4844",
+   "fixed_commit": "0396806f671e5828c2abdeb8048acf8b654507b6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestYoutubeDL::test_do_not_override_ie_key_in_url_transparent",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestYoutubeDL.test_do_not_override_ie_key_in_url_transparent"
+    }
+   ]
+  },
+  "19": {
+   "bug": "19",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "9a0942ad55bba714d6eaeb9ee4f66a138ec85e17",
+   "fixed_commit": "15da37c7dc8cf14ba5ce880aa1805fceaa71fc44",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestYoutubeDL::test_prepare_filename",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestYoutubeDL.test_prepare_filename"
+    }
+   ]
+  },
+  "20": {
+   "bug": "20",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "b6c9fe416243373bcb59eb8aa5ef0baca8f3c97c",
+   "fixed_commit": "609ff8ca19f1c4c168a81121074b91cc0f0d4c47",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_get_element_by_attribute",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_get_element_by_attribute"
+    }
+   ]
+  },
+  "21": {
+   "bug": "21",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "96182695e4e37795a30ab143129c91dab18a9865",
+   "fixed_commit": "4b5de77bdb7765df4797bf068592926285ba709a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_urljoin",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_urljoin"
+    }
+   ]
+  },
+  "22": {
+   "bug": "22",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "1bd05345ea4b91598ec04b8e0d33fd14f9e2eddc",
+   "fixed_commit": "db13c16ef8968613680e2bbc85f373c3e74faf98",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestYoutubeDL::test_match_filter",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestYoutubeDL.test_match_filter"
+    }
+   ]
+  },
+  "23": {
+   "bug": "23",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "a22b2fd19bd8c08d50f884d1903486d4f00f76ec",
+   "fixed_commit": "b3ee552e4b918fb720111b23147e24fa5475a74b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_js_to_json_edgecases",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_js_to_json_edgecases"
+    }
+   ]
+  },
+  "24": {
+   "bug": "24",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "2c6da7df4a4d69ec933688e3c53795fd3436a1c6",
+   "fixed_commit": "e5a088dc4be4fdcc96927a9f1b7284d4cd49c415",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestYoutubeDL::test_match_filter",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestYoutubeDL.test_match_filter"
+    }
+   ]
+  },
+  "25": {
+   "bug": "25",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "9e5751b9fe72f7425e4cb3f22a56b6a95b59e41d",
+   "fixed_commit": "e4659b45474acb563db0ab4284abdfc80837307e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_js_to_json_realworld",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_js_to_json_realworld"
+    }
+   ]
+  },
+  "26": {
+   "bug": "26",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "4c93ee8d14dc081d413304d2d2eb694cb62cc71a",
+   "fixed_commit": "47212f7bcbd59af40f91796562a6b72ba0439ac4",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_js_to_json_realworld",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_js_to_json_realworld"
+    }
+   ]
+  },
+  "27": {
+   "bug": "27",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "d631d5f9f27f93767226192e4288990413fa9dbd",
+   "fixed_commit": "db2fe38b5508cbd28b89893219d9cccd41406851",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_parse_dfxp_time_expr",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_parse_dfxp_time_expr"
+    }
+   ]
+  },
+  "28": {
+   "bug": "28",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "bd1512d19649c280197729814766d590ea6c023b",
+   "fixed_commit": "7aefc49c4013efb5056b2c1237e22c52cb5d3c49",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_unescape_html",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_unescape_html"
+    }
+   ]
+  },
+  "29": {
+   "bug": "29",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "c514b0ec655b23e7804eb18df04daa863d973f32",
+   "fixed_commit": "6a750402787dfc1f39a9ad347f2d78ae1c94c52c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_unified_dates",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_unified_dates"
+    }
+   ]
+  },
+  "30": {
+   "bug": "30",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_YoutubeDL.py",
+   "buggy_commit": "f5f4a27a964b41646303921104f4d6d6fd2098e4",
+   "fixed_commit": "bb8e55366289e0c129ef85abb8c1ac1cbae86a66",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_YoutubeDL.py",
+     "node": "TestFormatSelection::test_format_filtering",
+     "raw": "python -m unittest -q test.test_YoutubeDL.TestFormatSelection.test_format_filtering"
+    }
+   ]
+  },
+  "31": {
+   "bug": "31",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "ab07963b5cc79812c6fb7e4f9e363533d8123830",
+   "fixed_commit": "e8df5cee12378acd708b6686130a73c5edc06f0e",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_parse_duration",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_parse_duration"
+    }
+   ]
+  },
+  "32": {
+   "bug": "32",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "bf951c5e29548cfed80480389762edd29fcc8825",
+   "fixed_commit": "609a61e3e6fffce3d45e845f33ae2c5fa2d432ac",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_strip_jsonp",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_strip_jsonp"
+    }
+   ]
+  },
+  "33": {
+   "bug": "33",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "50c8266ef0b2b6d011257a909f47fd623dda8eb2",
+   "fixed_commit": "6ad4013d40e839211e2896129eed05ccd40ee963",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_parse_iso8601",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_parse_iso8601"
+    }
+   ]
+  },
+  "34": {
+   "bug": "34",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "07e764439a1cdd3a3b95fbf21acc6a517c6a889e",
+   "fixed_commit": "410f3e73ab268f74a455798ee39de5caba90caea",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_js_to_json",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_js_to_json"
+    }
+   ]
+  },
+  "35": {
+   "bug": "35",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "89294b5f50462ede8ba83463ff262eb2c5219e1b",
+   "fixed_commit": "99b67fecc5ab6c57eada1e1678034dd71c57e338",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_unified_dates",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_unified_dates"
+    }
+   ]
+  },
+  "36": {
+   "bug": "36",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_all_urls.py",
+   "buggy_commit": "173a7026d59bacfbfe7a8eea92e10ef6e89d1798",
+   "fixed_commit": "a6da7b6b9657f621a927cb4c7bc46cf7c6c27b11",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_all_urls.py",
+     "node": "TestAllURLsMatching::test_facebook_matching",
+     "raw": "python -m unittest -q test.test_all_urls.TestAllURLsMatching.test_facebook_matching"
+    }
+   ]
+  },
+  "37": {
+   "bug": "37",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "98b7cf1acefe398f792ca6ff4c5f84f1b7785fcb",
+   "fixed_commit": "676eb3f2dd542be3e84780b18388253382d3e465",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_uppercase_escpae",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_uppercase_escpae"
+    }
+   ]
+  },
+  "38": {
+   "bug": "38",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "94eae04c94a43847e8ce7c9bf3d88dd029ef62f6",
+   "fixed_commit": "b74fa8cd2c9deb412ac277c6cc44847c3839b844",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_urlencode_postdata",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_urlencode_postdata"
+    }
+   ]
+  },
+  "39": {
+   "bug": "39",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "b04c8f735805ea2671429ac8d683c2887a6b4db8",
+   "fixed_commit": "a020a0dc20ced6468ec46214c394f6f360735b1d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_limit_length",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_limit_length"
+    }
+   ]
+  },
+  "40": {
+   "bug": "40",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "6a7a38967976ea0d0b911c2965aaa74bed2976d7",
+   "fixed_commit": "b53466e1680db3d710415329674c887d38af46c5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_struct_unpack",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_struct_unpack"
+    }
+   ]
+  },
+  "41": {
+   "bug": "41",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "81c2f20b5386d89a62dc27293654d75b77f47473",
+   "fixed_commit": "026fcc04956f2077a50cd4b4e9b87f45d2bcddea",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_unified_dates",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_unified_dates"
+    }
+   ]
+  },
+  "42": {
+   "bug": "42",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "b853d2e1555dbb4a09fe3d7857c6d2bc044646f4",
+   "fixed_commit": "5aafe895fce2a7be9595cb2e56b7bd73a748e6b6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_fix_xml_ampersands",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_fix_xml_ampersands"
+    }
+   ]
+  },
+  "43": {
+   "bug": "43",
+   "project": "youtube-dl",
+   "python_version": "3.7.4",
+   "test_file": "test/test_utils.py",
+   "buggy_commit": "cecaaf3f58ad9f544dbb79af1e565d9353fa2b2d",
+   "fixed_commit": "d6c7a367e88096bb17e323954002c084477fe908",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/test_utils.py",
+     "node": "TestUtil::test_url_basename",
+     "raw": "python -m unittest -q test.test_utils.TestUtil.test_url_basename"
+    }
+   ]
+  }
+ }
+}

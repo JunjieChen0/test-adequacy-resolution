@@ -1,0 +1,53 @@
+{
+  "project": "Collections",
+  "bug": "20b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:37:04.575726+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 146,
+  "n_test_java_total": 184,
+  "n_test_target": 15,
+  "n_test_kept": 17,
+  "n_keep_java": 34,
+  "kept_tests": [
+    "org/apache/commons/collections/bag/TransformedSortedBagTest.java",
+    "org/apache/commons/collections/buffer/BlockingBufferTest.java",
+    "org/apache/commons/collections/collection/TransformedCollectionTest.java",
+    "org/apache/commons/collections/collection/UnmodifiableCollectionTest.java",
+    "org/apache/commons/collections/comparators/FixedOrderComparatorTest.java",
+    "org/apache/commons/collections/comparators/ReverseComparatorTest.java",
+    "org/apache/commons/collections/iterators/ArrayIteratorTest.java",
+    "org/apache/commons/collections/iterators/ObjectArrayIteratorTest.java",
+    "org/apache/commons/collections/iterators/ObjectArrayListIteratorTest.java",
+    "org/apache/commons/collections/iterators/UnmodifiableMapIteratorTest.java",
+    "org/apache/commons/collections/keyvalue/UnmodifiableMapEntryTest.java",
+    "org/apache/commons/collections/list/CursorableLinkedListTest.java",
+    "org/apache/commons/collections/list/PredicatedListTest.java",
+    "org/apache/commons/collections/map/FixedSizeSortedMapTest.java",
+    "org/apache/commons/collections/map/MultiKeyMapTest.java",
+    "org/apache/commons/collections/map/ReferenceMapTest.java",
+    "org/apache/commons/collections/set/CompositeSetTest.java"
+  ],
+  "n_moved_b": 150
+}

@@ -1,0 +1,84 @@
+{
+  "project": "Compress",
+  "bug": "20b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T17:04:09.549427+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 12.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 25.2,
+      "lines_total": 8853,
+      "lines_covered": 1779,
+      "cond_total": 4087,
+      "cond_covered": 568,
+      "line_cov_pct": 20.1,
+      "cond_cov_pct": 13.9
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 11.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 111.1,
+      "mutants_generated": 5139,
+      "mutants_covered": 1061,
+      "mutants_killed": 507,
+      "mutation_score_pct": 47.8,
+      "mutation_score_covered_pct": 9.9
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 62,
+  "n_test_java_total": 69,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "n_keep_java": 7,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/ArTestCase.java",
+    "org/apache/commons/compress/archivers/CpioTestCase.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java"
+  ],
+  "n_moved_b": 62,
+  "kept_tests_final": [
+    "org/apache/commons/compress/archivers/ArTestCase.java",
+    "org/apache/commons/compress/archivers/CpioTestCase.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java"
+  ],
+  "n_test_final": 6,
+  "n_keep_java_f": 7,
+  "n_moved_f": 62,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/archivers/ArTestCase.java",
+    "org/apache/commons/compress/archivers/CpioTestCase.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

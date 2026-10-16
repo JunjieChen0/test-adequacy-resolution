@@ -1,0 +1,84 @@
+{
+  "project": "Cli",
+  "bug": "26b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T18:59:58.753751+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 10.0,
+      "lines_total": 855,
+      "lines_covered": 562,
+      "cond_total": 472,
+      "cond_covered": 255,
+      "line_cov_pct": 65.7,
+      "cond_cov_pct": 54.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 2.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 4.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 40.6,
+      "mutants_generated": 887,
+      "mutants_covered": 654,
+      "mutants_killed": 381,
+      "mutation_score_pct": 58.3,
+      "mutation_score_covered_pct": 43.0
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 23,
+  "n_test_java_total": 24,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "n_keep_java": 6,
+  "kept_tests": [
+    "org/apache/commons/cli/ApplicationTest.java",
+    "org/apache/commons/cli/BugsTest.java",
+    "org/apache/commons/cli/CommandLineTest.java",
+    "org/apache/commons/cli/OptionGroupTest.java",
+    "org/apache/commons/cli/ParseRequiredTest.java",
+    "org/apache/commons/cli/ValuesTest.java"
+  ],
+  "n_moved_b": 18,
+  "kept_tests_final": [
+    "org/apache/commons/cli/ApplicationTest.java",
+    "org/apache/commons/cli/BugsTest.java",
+    "org/apache/commons/cli/CommandLineTest.java",
+    "org/apache/commons/cli/OptionGroupTest.java",
+    "org/apache/commons/cli/ParseRequiredTest.java",
+    "org/apache/commons/cli/ValuesTest.java"
+  ],
+  "n_test_final": 6,
+  "n_keep_java_f": 6,
+  "n_moved_f": 18,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli/ApplicationTest.java",
+    "org/apache/commons/cli/BugsTest.java",
+    "org/apache/commons/cli/CommandLineTest.java",
+    "org/apache/commons/cli/OptionGroupTest.java",
+    "org/apache/commons/cli/ParseRequiredTest.java",
+    "org/apache/commons/cli/ValuesTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

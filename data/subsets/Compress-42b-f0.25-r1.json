@@ -1,0 +1,60 @@
+{
+  "project": "Compress",
+  "bug": "42b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:36:07.972953+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.9
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 96,
+  "n_test_java_total": 108,
+  "n_test_target": 24,
+  "n_test_kept": 24,
+  "n_keep_java": 27,
+  "kept_tests": [
+    "org/apache/commons/compress/ChainingTestCase.java",
+    "org/apache/commons/compress/archivers/SevenZTestCase.java",
+    "org/apache/commons/compress/archivers/ar/ArArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/memory/MemoryArchiveTestCase.java",
+    "org/apache/commons/compress/archivers/tar/SparseFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/BinaryTreeTest.java",
+    "org/apache/commons/compress/archivers/zip/EncryptedArchiveTest.java",
+    "org/apache/commons/compress/archivers/zip/StreamCompressorTest.java",
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEightByteIntegerTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/BZip2UtilsTestCase.java",
+    "org/apache/commons/compress/compressors/CompressorStreamFactoryRoundtripTest.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase.java",
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamTest.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateParametersTest.java",
+    "org/apache/commons/compress/compressors/pack200/Pack200UtilsTest.java"
+  ],
+  "n_moved_b": 81
+}

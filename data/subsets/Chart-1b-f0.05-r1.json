@@ -1,0 +1,106 @@
+{
+  "project": "Chart",
+  "bug": "1b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T10:26:33.363915+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 13.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 18.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 216.7,
+      "lines_total": 53789,
+      "lines_covered": 12570,
+      "cond_total": 23120,
+      "cond_covered": 4323,
+      "line_cov_pct": 23.4,
+      "cond_cov_pct": 18.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 13.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 22.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 186.5,
+      "mutants_generated": 1229,
+      "mutants_covered": 190,
+      "mutants_killed": 94,
+      "mutation_score_pct": 49.5,
+      "mutation_score_covered_pct": 7.6
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 356,
+  "n_test_java_total": 389,
+  "n_test_target": 18,
+  "n_test_kept": 46,
+  "n_keep_java": 51,
+  "kept_tests": [
+    "org/jfree/chart/axis/junit/NumberAxisTests.java",
+    "org/jfree/chart/block/junit/GridArrangementTests.java",
+    "org/jfree/chart/imagemap/junit/StandardToolTipTagFragmentGeneratorTests.java",
+    "org/jfree/chart/junit/XYBarChartTests.java",
+    "org/jfree/chart/labels/junit/HighLowItemLabelGeneratorTests.java",
+    "org/jfree/chart/labels/junit/ItemLabelAnchorTests.java",
+    "org/jfree/chart/plot/junit/CategoryPlotTests.java",
+    "org/jfree/chart/plot/junit/CombinedDomainCategoryPlotTests.java",
+    "org/jfree/chart/renderer/category/junit/StackedAreaRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/AbstractXYItemRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/CandlestickRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/ClusteredXYBarRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/DeviationRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/GradientXYBarPainterTests.java",
+    "org/jfree/chart/renderer/xy/junit/HighLowRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/StackedXYAreaRenderer2Tests.java",
+    "org/jfree/chart/renderer/xy/junit/StackedXYAreaRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/StackedXYBarRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/StandardXYBarPainterTests.java",
+    "org/jfree/chart/renderer/xy/junit/StandardXYItemRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/VectorRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/WindItemRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYAreaRenderer2Tests.java",
+    "org/jfree/chart/renderer/xy/junit/XYAreaRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYBarRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYBlockRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYBoxAndWhiskerRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYBubbleRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYDifferenceRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYDotRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYErrorRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYLine3DRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYLineAndShapeRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYShapeRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYSplineRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepAreaRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/YIntervalRendererTests.java",
+    "org/jfree/chart/util/junit/SerialUtilitiesTests.java",
+    "org/jfree/data/function/junit/PowerFunction2DTests.java",
+    "org/jfree/data/general/junit/DatasetUtilitiesTests.java",
+    "org/jfree/data/junit/DefaultKeyedValueTests.java",
+    "org/jfree/data/time/junit/TimeTableXYDatasetTests.java",
+    "org/jfree/data/xy/junit/XYDataItemTests.java",
+    "org/jfree/data/xy/junit/XYSeriesTests.java",
+    "org/jfree/data/xy/junit/YIntervalSeriesTests.java"
+  ],
+  "n_moved_b": 338,
+  "n_keep_java_f": 51,
+  "n_moved_f": 338,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

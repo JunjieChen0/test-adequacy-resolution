@@ -1,0 +1,76 @@
+{
+  "project": "Lang",
+  "bug": "32b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T10:03:12.958619+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 30.8,
+      "lines_total": 9708,
+      "lines_covered": 2750,
+      "cond_total": 6481,
+      "cond_covered": 1661,
+      "line_cov_pct": 28.3,
+      "cond_cov_pct": 25.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 6.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 27.9,
+      "mutants_generated": 1344,
+      "mutants_covered": 166,
+      "mutants_killed": 110,
+      "mutation_score_pct": 66.3,
+      "mutation_score_covered_pct": 8.2
+    }
+  },
+  "n_test_total": 85,
+  "n_test_target": 21,
+  "n_test_kept": 22,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang3/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/CallableBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang3/mutable/MutableLongTest.java",
+    "org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+    "org/apache/commons/lang3/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang3/text/StrLookupTest.java",
+    "org/apache/commons/lang3/text/StrMatcherTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/EntityArraysTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java",
+    "org/apache/commons/lang3/time/DateUtilsFragmentTest.java"
+  ],
+  "n_moved_b": 63,
+  "n_test_kept_f": 22,
+  "n_moved_f": 63,
+  "n_mut_classes": 10,
+  "status": "ok"
+}

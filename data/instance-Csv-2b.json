@@ -1,0 +1,55 @@
+{
+  "project": "Csv",
+  "bug": "2b",
+  "t": "2026-10-16T00:54:29.513098+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.3
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.9
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.2
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.4
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatBuilderTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVLexerTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest",
+    "org.apache.commons.csv.TokenMatchersTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.csv.CSVRecordTest::testGetStringInconsistentRecord"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.csv.CSVRecord"
+  ],
+  "n_all_tests": 9
+}

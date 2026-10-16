@@ -1,0 +1,70 @@
+{
+  "project": "Jsoup",
+  "bug": "3b",
+  "t": "2026-10-16T01:08:05.524865+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 4.1
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 1.8
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 1.4
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 1.7
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.2
+    }
+  },
+  "all.txt": [
+    "org.jsoup.integration.ParseTest",
+    "org.jsoup.integration.UrlConnectTest",
+    "org.jsoup.nodes.DocumentTest",
+    "org.jsoup.nodes.ElementTest",
+    "org.jsoup.nodes.NodeTest",
+    "org.jsoup.nodes.TextNodeTest",
+    "org.jsoup.parser.AttributeParseTest",
+    "org.jsoup.parser.ParserTest",
+    "org.jsoup.parser.TagTest",
+    "org.jsoup.safety.CleanerTest",
+    "org.jsoup.select.ElementsTest",
+    "org.jsoup.select.SelectorTest"
+  ],
+  "trigger.txt": [
+    "org.jsoup.nodes.ElementTest::testAppendRowToTable",
+    "org.jsoup.nodes.ElementTest::testPrependRowToTable",
+    "org.jsoup.parser.ParserTest::handlesNestedImplicitTable"
+  ],
+  "relevant.txt": [
+    "org.jsoup.integration.ParseTest",
+    "org.jsoup.integration.UrlConnectTest",
+    "org.jsoup.nodes.DocumentTest",
+    "org.jsoup.nodes.ElementTest",
+    "org.jsoup.nodes.NodeTest",
+    "org.jsoup.nodes.TextNodeTest",
+    "org.jsoup.parser.AttributeParseTest",
+    "org.jsoup.parser.ParserTest",
+    "org.jsoup.parser.TagTest",
+    "org.jsoup.safety.CleanerTest",
+    "org.jsoup.select.ElementsTest",
+    "org.jsoup.select.SelectorTest"
+  ],
+  "modified.txt": [
+    "org.jsoup.nodes.Element",
+    "org.jsoup.parser.Parser",
+    "org.jsoup.parser.Tag"
+  ],
+  "n_all_tests": 12
+}

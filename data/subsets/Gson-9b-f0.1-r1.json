@@ -1,0 +1,93 @@
+{
+  "project": "Gson",
+  "bug": "9b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T17:12:11.835271+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 14.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 25.2,
+      "lines_total": 4380,
+      "lines_covered": 2314,
+      "cond_total": 2291,
+      "cond_covered": 985,
+      "line_cov_pct": 52.8,
+      "cond_cov_pct": 43.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 4.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 12.8
+    },
+    "mutation": {
+      "rc": 1,
+      "s": 1.3,
+      "err": [
+        "The compilation process ended with errors!\u001b[0m ",
+        "Cannot compile mml file: /home/user/d4j-work/subsets/Gson-9b-f0.1-r1-wf-47b8b9/.mml/default.mml! at /home/user/tools/defects4j/framework/core/Mutation.pm line 99.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "gson/src/main/java",
+    "test": "gson/src/test/java"
+  },
+  "n_test_total": 85,
+  "n_test_java_total": 93,
+  "n_test_target": 8,
+  "n_test_kept": 9,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "com/google/gson/GenericArrayTypeTest.java",
+    "com/google/gson/JavaSerializationTest.java",
+    "com/google/gson/OverrideCoreTypeAdaptersTest.java",
+    "com/google/gson/functional/CollectionTest.java",
+    "com/google/gson/functional/DefaultTypeAdaptersTest.java",
+    "com/google/gson/functional/InternationalizationTest.java",
+    "com/google/gson/functional/MapTest.java",
+    "com/google/gson/functional/ThrowableFunctionalTest.java",
+    "com/google/gson/internal/LazilyParsedNumberTest.java"
+  ],
+  "n_moved_b": 82,
+  "kept_tests_final": [
+    "com/google/gson/GenericArrayTypeTest.java",
+    "com/google/gson/JavaSerializationTest.java",
+    "com/google/gson/OverrideCoreTypeAdaptersTest.java",
+    "com/google/gson/functional/CollectionTest.java",
+    "com/google/gson/functional/DefaultTypeAdaptersTest.java",
+    "com/google/gson/functional/InternationalizationTest.java",
+    "com/google/gson/functional/MapTest.java",
+    "com/google/gson/functional/ThrowableFunctionalTest.java",
+    "com/google/gson/internal/LazilyParsedNumberTest.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 11,
+  "n_moved_f": 82,
+  "kept_tests_final_f": [
+    "com/google/gson/GenericArrayTypeTest.java",
+    "com/google/gson/JavaSerializationTest.java",
+    "com/google/gson/OverrideCoreTypeAdaptersTest.java",
+    "com/google/gson/functional/CollectionTest.java",
+    "com/google/gson/functional/DefaultTypeAdaptersTest.java",
+    "com/google/gson/functional/InternationalizationTest.java",
+    "com/google/gson/functional/MapTest.java",
+    "com/google/gson/functional/ThrowableFunctionalTest.java",
+    "com/google/gson/internal/LazilyParsedNumberTest.java"
+  ],
+  "n_mut_classes": 7,
+  "mut_sample_source": "cached",
+  "status": "incomplete"
+}

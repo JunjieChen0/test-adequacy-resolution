@@ -1,0 +1,73 @@
+{
+  "project": "Collections",
+  "bug": "20b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:37:04.622397+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.0
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 146,
+  "n_test_java_total": 184,
+  "n_test_target": 36,
+  "n_test_kept": 37,
+  "n_keep_java": 57,
+  "kept_tests": [
+    "org/apache/commons/collections/BufferUtilsTest.java",
+    "org/apache/commons/collections/ExtendedPropertiesTest.java",
+    "org/apache/commons/collections/MapUtilsTest.java",
+    "org/apache/commons/collections/SplitMapUtilsTest.java",
+    "org/apache/commons/collections/bag/PredicatedBagTest.java",
+    "org/apache/commons/collections/bag/PredicatedSortedBagTest.java",
+    "org/apache/commons/collections/bag/TransformedBagTest.java",
+    "org/apache/commons/collections/bag/TransformedSortedBagTest.java",
+    "org/apache/commons/collections/bidimap/DualLinkedHashBidiMapTest.java",
+    "org/apache/commons/collections/bidimap/UnmodifiableOrderedBidiMapTest.java",
+    "org/apache/commons/collections/bidimap/UnmodifiableSortedBidiMapTest.java",
+    "org/apache/commons/collections/buffer/UnboundedFifoBufferTest.java",
+    "org/apache/commons/collections/collection/TransformedCollectionTest.java",
+    "org/apache/commons/collections/functors/ComparatorPredicateTest.java",
+    "org/apache/commons/collections/iterators/ArrayIteratorTest.java",
+    "org/apache/commons/collections/iterators/ArrayListIteratorTest.java",
+    "org/apache/commons/collections/iterators/ListIteratorWrapperTest.java",
+    "org/apache/commons/collections/iterators/ObjectArrayIteratorTest.java",
+    "org/apache/commons/collections/iterators/ObjectArrayListIteratorTest.java",
+    "org/apache/commons/collections/iterators/ReverseListIteratorTest.java",
+    "org/apache/commons/collections/iterators/SingletonIterator2Test.java",
+    "org/apache/commons/collections/iterators/SingletonIteratorTest.java",
+    "org/apache/commons/collections/iterators/UnmodifiableListIteratorTest.java",
+    "org/apache/commons/collections/iterators/UnmodifiableOrderedMapIteratorTest.java",
+    "org/apache/commons/collections/list/CursorableLinkedListTest.java",
+    "org/apache/commons/collections/list/SynchronizedListTest.java",
+    "org/apache/commons/collections/list/UnmodifiableListTest.java",
+    "org/apache/commons/collections/map/CompositeMapTest.java",
+    "org/apache/commons/collections/map/DefaultedMapTest.java",
+    "org/apache/commons/collections/map/FixedSizeMapTest.java",
+    "org/apache/commons/collections/map/FixedSizeSortedMapTest.java",
+    "org/apache/commons/collections/map/PredicatedMapTest.java",
+    "org/apache/commons/collections/map/ReferenceMapTest.java",
+    "org/apache/commons/collections/map/TransformedMapTest.java",
+    "org/apache/commons/collections/map/UnmodifiableMapTest.java",
+    "org/apache/commons/collections/set/MapBackedSetTest.java",
+    "org/apache/commons/collections/splitmap/TransformedMapTest.java"
+  ],
+  "n_moved_b": 127
+}

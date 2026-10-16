@@ -1,0 +1,132 @@
+{
+  "project": "Compress",
+  "bug": "40b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T19:18:38.263355+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 13.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 44.8,
+      "lines_total": 10872,
+      "lines_covered": 6240,
+      "cond_total": 5038,
+      "cond_covered": 2297,
+      "line_cov_pct": 57.4,
+      "cond_cov_pct": 45.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 12.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 1394.8,
+      "mutants_generated": 5225,
+      "mutants_covered": 3532,
+      "mutants_killed": 1747,
+      "mutation_score_pct": 49.5,
+      "mutation_score_covered_pct": 33.4
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 90,
+  "n_test_java_total": 100,
+  "n_test_target": 22,
+  "n_test_kept": 22,
+  "n_keep_java": 23,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZMethodConfigurationTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExplodeSupportTest.java",
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBitTest.java",
+    "org/apache/commons/compress/archivers/zip/StreamCompressorTest.java",
+    "org/apache/commons/compress/archivers/zip/X000A_NTFSTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/compressors/CompressorStreamFactoryRoundtripTest.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java",
+    "org/apache/commons/compress/compressors/pack200/Pack200UtilsTest.java"
+  ],
+  "n_moved_b": 77,
+  "kept_tests_final": [
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZMethodConfigurationTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExplodeSupportTest.java",
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBitTest.java",
+    "org/apache/commons/compress/archivers/zip/StreamCompressorTest.java",
+    "org/apache/commons/compress/archivers/zip/X000A_NTFSTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/compressors/CompressorStreamFactoryRoundtripTest.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java",
+    "org/apache/commons/compress/compressors/pack200/Pack200UtilsTest.java"
+  ],
+  "n_test_final": 22,
+  "n_keep_java_f": 23,
+  "n_moved_f": 77,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZMethodConfigurationTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExplodeSupportTest.java",
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBitTest.java",
+    "org/apache/commons/compress/archivers/zip/StreamCompressorTest.java",
+    "org/apache/commons/compress/archivers/zip/X000A_NTFSTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/compressors/CompressorStreamFactoryRoundtripTest.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java",
+    "org/apache/commons/compress/compressors/pack200/Pack200UtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

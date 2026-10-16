@@ -1,0 +1,100 @@
+{
+  "project": "Chart",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T10:21:54.043801+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 74.2,
+      "lines_total": 53789,
+      "lines_covered": 6570,
+      "cond_total": 23120,
+      "cond_covered": 2117,
+      "line_cov_pct": 12.2,
+      "cond_cov_pct": 9.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 8.3
+    },
+    "mutation": {
+      "rc": 1,
+      "s": 35.4,
+      "err": [
+        "Running ant (mutation.test)................................................ FAIL",
+        "Executed command:  cd /home/user/d4j-work/subsets/Chart-1b-f0.1-r1-wf && /home/user/tools/defects4j/framework/lib/major/bin/ant -f /home/user/tools/defects4j/framework/projects/defects4j.build.xml -Dd4j.home=/home/user/tools/defects4j -Dd4j.dir.projects=/home/user/tools/defects4j/framework/projects -Dbasedir=/home/user/d4j-work/subsets/Chart-1b-f0.1-r1-wf -Dbuild.compiler=major.ant.MajorCompiler -Dmajor.kill.log=/home/user/d4j-work/subsets/Chart-1b-f0.1-r1-wf/kill.csv  -logfile /home/user/d4j-work/subsets/Chart-1b-f0.1-r1-wf/.mutation.log   mutation.test 2>&1",
+        "Buildfile: /home/user/tools/defects4j/framework/projects/defects4j.build.xml"
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 356,
+  "n_test_java_total": 389,
+  "n_test_target": 36,
+  "n_test_kept": 40,
+  "n_keep_java": 41,
+  "kept_tests": [
+    "org/jfree/chart/annotations/junit/XYImageAnnotationTests.java",
+    "org/jfree/chart/axis/junit/AxisSpaceTests.java",
+    "org/jfree/chart/axis/junit/NumberTickUnitTests.java",
+    "org/jfree/chart/axis/junit/SegmentedTimelineTests.java",
+    "org/jfree/chart/block/junit/BlockBorderTests.java",
+    "org/jfree/chart/junit/BarChart3DTests.java",
+    "org/jfree/chart/junit/ChartPanelTests.java",
+    "org/jfree/chart/junit/MeterChartTests.java",
+    "org/jfree/chart/junit/StackedBarChartTests.java",
+    "org/jfree/chart/junit/XYStepChartTests.java",
+    "org/jfree/chart/labels/junit/MultipleXYSeriesLabelGeneratorTests.java",
+    "org/jfree/chart/labels/junit/StandardPieToolTipGeneratorTests.java",
+    "org/jfree/chart/plot/junit/PieLabelRecordTests.java",
+    "org/jfree/chart/plot/junit/PlotTests.java",
+    "org/jfree/chart/plot/junit/SpiderWebPlotTests.java",
+    "org/jfree/chart/renderer/category/junit/BarRendererTests.java",
+    "org/jfree/chart/renderer/category/junit/GradientBarPainterTests.java",
+    "org/jfree/chart/renderer/category/junit/MinMaxCategoryRendererTests.java",
+    "org/jfree/chart/renderer/junit/LookupPaintScaleTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYErrorRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepAreaRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/XYStepRendererTests.java",
+    "org/jfree/chart/title/junit/CompositeTitleTests.java",
+    "org/jfree/chart/title/junit/LegendGraphicTests.java",
+    "org/jfree/chart/urls/junit/CustomCategoryURLGeneratorTests.java",
+    "org/jfree/chart/urls/junit/CustomXYURLGeneratorTests.java",
+    "org/jfree/chart/util/junit/HashUtilitiesTests.java",
+    "org/jfree/chart/util/junit/PaintListTests.java",
+    "org/jfree/chart/util/junit/ShapeListTests.java",
+    "org/jfree/chart/util/junit/StrokeListTests.java",
+    "org/jfree/data/category/junit/DefaultCategoryDatasetTests.java",
+    "org/jfree/data/function/junit/PolynomialFunction2DTests.java",
+    "org/jfree/data/junit/RangeTypeTests.java",
+    "org/jfree/data/statistics/junit/SimpleHistogramBinTests.java",
+    "org/jfree/data/time/junit/SecondTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/xy/junit/DefaultHighLowDatasetTests.java",
+    "org/jfree/data/xy/junit/XIntervalSeriesTests.java",
+    "org/jfree/data/xy/junit/XYIntervalSeriesTests.java",
+    "org/jfree/data/xy/junit/XYSeriesTests.java"
+  ],
+  "n_moved_b": 348,
+  "n_keep_java_f": 41,
+  "n_moved_f": 348,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

@@ -1,0 +1,68 @@
+{
+  "project": "Math",
+  "bug": "28b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:25:58.246740+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 10.3
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.7,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 301,
+  "n_test_java_total": 385,
+  "n_test_target": 30,
+  "n_test_kept": 32,
+  "n_keep_java": 49,
+  "kept_tests": [
+    "org/apache/commons/math3/analysis/interpolation/DividedDifferenceInterpolatorTest.java",
+    "org/apache/commons/math3/analysis/interpolation/TricubicSplineInterpolatorTest.java",
+    "org/apache/commons/math3/analysis/polynomials/PolynomialFunctionLagrangeFormTest.java",
+    "org/apache/commons/math3/analysis/polynomials/PolynomialFunctionTest.java",
+    "org/apache/commons/math3/dfp/DfpDecTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/FDistributionTest.java",
+    "org/apache/commons/math3/distribution/GammaDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/distribution/PascalDistributionTest.java",
+    "org/apache/commons/math3/exception/TooManyEvaluationsExceptionTest.java",
+    "org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/Vector3DTest.java",
+    "org/apache/commons/math3/linear/Array2DRowRealMatrixTest.java",
+    "org/apache/commons/math3/linear/BlockFieldMatrixTest.java",
+    "org/apache/commons/math3/linear/HessenbergTransformerTest.java",
+    "org/apache/commons/math3/linear/SparseFieldMatrixTest.java",
+    "org/apache/commons/math3/linear/SparseRealMatrixTest.java",
+    "org/apache/commons/math3/ode/events/OverlappingEventsTest.java",
+    "org/apache/commons/math3/ode/events/ReappearingEventTest.java",
+    "org/apache/commons/math3/ode/nonstiff/AdamsBashforthIntegratorTest.java",
+    "org/apache/commons/math3/ode/nonstiff/ClassicalRungeKuttaIntegratorTest.java",
+    "org/apache/commons/math3/optimization/linear/SimplexSolverTest.java",
+    "org/apache/commons/math3/stat/FrequencyTest.java",
+    "org/apache/commons/math3/stat/descriptive/moment/FourthMomentTest.java",
+    "org/apache/commons/math3/stat/descriptive/moment/VectorialCovarianceTest.java",
+    "org/apache/commons/math3/stat/descriptive/summary/ProductTest.java",
+    "org/apache/commons/math3/stat/inference/MannWhitneyUTestTest.java",
+    "org/apache/commons/math3/stat/inference/OneWayAnovaTest.java",
+    "org/apache/commons/math3/util/BigRealFieldTest.java",
+    "org/apache/commons/math3/util/BigRealTest.java",
+    "org/apache/commons/math3/util/FastMathTest.java"
+  ],
+  "n_moved_b": 336
+}

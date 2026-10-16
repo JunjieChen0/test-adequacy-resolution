@@ -1,0 +1,72 @@
+{
+  "project": "Cli",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T15:23:37.041857+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 10.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 39.3,
+      "lines_total": 852,
+      "lines_covered": 260,
+      "cond_total": 464,
+      "cond_covered": 91,
+      "line_cov_pct": 30.5,
+      "cond_cov_pct": 19.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 9.9
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 21.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 105.3,
+      "mutants_generated": 851,
+      "mutants_covered": 251,
+      "mutants_killed": 135,
+      "mutation_score_pct": 53.8,
+      "mutation_score_covered_pct": 15.9
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 16,
+  "n_test_java_total": 18,
+  "n_test_target": 2,
+  "n_test_kept": 2,
+  "n_keep_java": 2,
+  "kept_tests": [
+    "org/apache/commons/cli/ValuesTest.java",
+    "org/apache/commons/cli/bug/BugCLI13Test.java"
+  ],
+  "n_moved_b": 16,
+  "kept_tests_final": [
+    "org/apache/commons/cli/ValuesTest.java",
+    "org/apache/commons/cli/bug/BugCLI13Test.java"
+  ],
+  "n_test_final": 2,
+  "n_keep_java_f": 2,
+  "n_moved_f": 16,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli/ValuesTest.java",
+    "org/apache/commons/cli/bug/BugCLI13Test.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

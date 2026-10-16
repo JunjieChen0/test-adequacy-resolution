@@ -1,0 +1,84 @@
+{
+  "project": "Compress",
+  "bug": "1b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T19:18:38.260342+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 5.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 19.5,
+      "lines_total": 4088,
+      "lines_covered": 1681,
+      "cond_total": 1720,
+      "cond_covered": 566,
+      "line_cov_pct": 41.1,
+      "cond_cov_pct": 32.9
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 4.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 5.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 240.8,
+      "mutants_generated": 5267,
+      "mutants_covered": 2674,
+      "mutants_killed": 502,
+      "mutation_score_pct": 18.8,
+      "mutation_score_covered_pct": 9.5
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 22,
+  "n_test_java_total": 25,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "n_keep_java": 7,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java"
+  ],
+  "n_moved_b": 18,
+  "kept_tests_final": [
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java"
+  ],
+  "n_test_final": 6,
+  "n_keep_java_f": 7,
+  "n_moved_f": 18,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

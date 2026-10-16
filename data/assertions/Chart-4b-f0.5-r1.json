@@ -1,0 +1,26 @@
+{
+  "tag": "Chart-4b-f0.5-r1",
+  "project": "Chart",
+  "bug": "4b",
+  "frac": 0.5,
+  "rep": 1,
+  "n_test_final": null,
+  "features": {
+    "n_assertions": 4881,
+    "n_test_methods": 195,
+    "n_strong": 1858,
+    "n_weak": 3003,
+    "n_other": 20,
+    "n_predicate": 440,
+    "n_distinct_calls": 793,
+    "test_loc": 34778,
+    "n_files": 195
+  },
+  "derived": {
+    "assertions_per_method": 25.03076923076923,
+    "strong_ratio": 0.380659700880967,
+    "weak_ratio": 0.6152427781192379,
+    "predicate_ratio": 0.09014546199549273,
+    "calls_per_assertion": 0.16246670764187665
+  }
+}

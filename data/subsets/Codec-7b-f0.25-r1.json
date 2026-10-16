@@ -1,0 +1,84 @@
+{
+  "project": "Codec",
+  "bug": "7b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T15:31:36.497714+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 18.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 47.4,
+      "lines_total": 1796,
+      "lines_covered": 730,
+      "cond_total": 1202,
+      "cond_covered": 516,
+      "line_cov_pct": 40.6,
+      "cond_cov_pct": 42.9
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 12.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 17.4
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 147.0,
+      "mutants_generated": 1581,
+      "mutants_covered": 956,
+      "mutants_killed": 453,
+      "mutation_score_pct": 47.4,
+      "mutation_score_covered_pct": 28.7
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 26,
+  "n_test_java_total": 28,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "n_keep_java": 7,
+  "kept_tests": [
+    "org/apache/commons/codec/CharEncodingTest.java",
+    "org/apache/commons/codec/DecoderExceptionTest.java",
+    "org/apache/commons/codec/language/DoubleMetaphoneTest.java",
+    "org/apache/commons/codec/language/SoundexTest.java",
+    "org/apache/commons/codec/net/BCodecTest.java",
+    "org/apache/commons/codec/net/UtilsTest.java"
+  ],
+  "n_moved_b": 21,
+  "kept_tests_final": [
+    "org/apache/commons/codec/CharEncodingTest.java",
+    "org/apache/commons/codec/DecoderExceptionTest.java",
+    "org/apache/commons/codec/language/DoubleMetaphoneTest.java",
+    "org/apache/commons/codec/language/SoundexTest.java",
+    "org/apache/commons/codec/net/BCodecTest.java",
+    "org/apache/commons/codec/net/UtilsTest.java"
+  ],
+  "n_test_final": 6,
+  "n_keep_java_f": 7,
+  "n_moved_f": 21,
+  "kept_tests_final_f": [
+    "org/apache/commons/codec/CharEncodingTest.java",
+    "org/apache/commons/codec/DecoderExceptionTest.java",
+    "org/apache/commons/codec/language/DoubleMetaphoneTest.java",
+    "org/apache/commons/codec/language/SoundexTest.java",
+    "org/apache/commons/codec/net/BCodecTest.java",
+    "org/apache/commons/codec/net/UtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

@@ -1,0 +1,87 @@
+{
+  "project": "Compress",
+  "bug": "22b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:57:56.444811+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 10.0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 22.2,
+      "lines_total": 9737,
+      "lines_covered": 1619,
+      "cond_total": 4541,
+      "cond_covered": 476,
+      "line_cov_pct": 16.6,
+      "cond_cov_pct": 10.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 9.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 74.8,
+      "mutants_generated": 5129,
+      "mutants_covered": 973,
+      "mutants_killed": 509,
+      "mutation_score_pct": 52.3,
+      "mutation_score_covered_pct": 9.9
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 73,
+  "n_test_java_total": 80,
+  "n_test_target": 7,
+  "n_test_kept": 7,
+  "n_keep_java": 8,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/CpioTestCase.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java"
+  ],
+  "n_moved_b": 72,
+  "kept_tests_final": [
+    "org/apache/commons/compress/archivers/CpioTestCase.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java"
+  ],
+  "n_test_final": 7,
+  "n_keep_java_f": 8,
+  "n_moved_f": 72,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/archivers/CpioTestCase.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

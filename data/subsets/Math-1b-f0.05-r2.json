@@ -1,0 +1,132 @@
+{
+  "project": "Math",
+  "bug": "1b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T13:58:24.715816+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 14.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 27.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 256.6,
+      "lines_total": 43883,
+      "lines_covered": 8528,
+      "cond_total": 19097,
+      "cond_covered": 3164,
+      "line_cov_pct": 19.4,
+      "cond_cov_pct": 16.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 11.9
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 25.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 293.4,
+      "mutants_generated": 3335,
+      "mutants_covered": 188,
+      "mutants_killed": 160,
+      "mutation_score_pct": 85.1,
+      "mutation_score_covered_pct": 4.8
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 385,
+  "n_test_java_total": 496,
+  "n_test_target": 19,
+  "n_test_kept": 22,
+  "n_keep_java": 32,
+  "kept_tests": [
+    "org/apache/commons/math3/analysis/integration/IterativeLegendreGaussIntegratorTest.java",
+    "org/apache/commons/math3/analysis/integration/RombergIntegratorTest.java",
+    "org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatingFunctionTest.java",
+    "org/apache/commons/math3/analysis/solvers/BrentSolverTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/genetics/RandomKeyTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/Vector3DTest.java",
+    "org/apache/commons/math3/linear/ArrayFieldVectorTest.java",
+    "org/apache/commons/math3/linear/CholeskyDecompositionTest.java",
+    "org/apache/commons/math3/linear/EigenDecompositionTest.java",
+    "org/apache/commons/math3/linear/SingularValueDecompositionTest.java",
+    "org/apache/commons/math3/ode/nonstiff/AdamsBashforthIntegratorTest.java",
+    "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizerTest.java",
+    "org/apache/commons/math3/optim/univariate/BrentOptimizerTest.java",
+    "org/apache/commons/math3/optimization/PointVectorValuePairTest.java",
+    "org/apache/commons/math3/optimization/SimpleVectorValueCheckerTest.java",
+    "org/apache/commons/math3/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SynchronizedMultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/util/FastMathStrictComparisonTest.java",
+    "org/apache/commons/math3/util/IncrementorTest.java"
+  ],
+  "n_moved_b": 464,
+  "kept_tests_final": [
+    "org/apache/commons/math3/analysis/integration/IterativeLegendreGaussIntegratorTest.java",
+    "org/apache/commons/math3/analysis/integration/RombergIntegratorTest.java",
+    "org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatingFunctionTest.java",
+    "org/apache/commons/math3/analysis/solvers/BrentSolverTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/genetics/RandomKeyTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/Vector3DTest.java",
+    "org/apache/commons/math3/linear/ArrayFieldVectorTest.java",
+    "org/apache/commons/math3/linear/CholeskyDecompositionTest.java",
+    "org/apache/commons/math3/linear/EigenDecompositionTest.java",
+    "org/apache/commons/math3/linear/SingularValueDecompositionTest.java",
+    "org/apache/commons/math3/ode/nonstiff/AdamsBashforthIntegratorTest.java",
+    "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizerTest.java",
+    "org/apache/commons/math3/optim/univariate/BrentOptimizerTest.java",
+    "org/apache/commons/math3/optimization/PointVectorValuePairTest.java",
+    "org/apache/commons/math3/optimization/SimpleVectorValueCheckerTest.java",
+    "org/apache/commons/math3/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SynchronizedMultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/util/FastMathStrictComparisonTest.java",
+    "org/apache/commons/math3/util/IncrementorTest.java"
+  ],
+  "n_test_final": 22,
+  "n_keep_java_f": 32,
+  "n_moved_f": 464,
+  "kept_tests_final_f": [
+    "org/apache/commons/math3/analysis/integration/IterativeLegendreGaussIntegratorTest.java",
+    "org/apache/commons/math3/analysis/integration/RombergIntegratorTest.java",
+    "org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatingFunctionTest.java",
+    "org/apache/commons/math3/analysis/solvers/BrentSolverTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/genetics/RandomKeyTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/Vector3DTest.java",
+    "org/apache/commons/math3/linear/ArrayFieldVectorTest.java",
+    "org/apache/commons/math3/linear/CholeskyDecompositionTest.java",
+    "org/apache/commons/math3/linear/EigenDecompositionTest.java",
+    "org/apache/commons/math3/linear/SingularValueDecompositionTest.java",
+    "org/apache/commons/math3/ode/nonstiff/AdamsBashforthIntegratorTest.java",
+    "org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizerTest.java",
+    "org/apache/commons/math3/optim/univariate/BrentOptimizerTest.java",
+    "org/apache/commons/math3/optimization/PointVectorValuePairTest.java",
+    "org/apache/commons/math3/optimization/SimpleVectorValueCheckerTest.java",
+    "org/apache/commons/math3/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/stat/descriptive/SynchronizedMultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math3/util/FastMathStrictComparisonTest.java",
+    "org/apache/commons/math3/util/IncrementorTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

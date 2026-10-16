@@ -1,0 +1,93 @@
+{
+  "project": "Compress",
+  "bug": "32b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T04:07:30.363950+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 26.0,
+      "lines_total": 10519,
+      "lines_covered": 2151,
+      "cond_total": 4866,
+      "cond_covered": 719,
+      "line_cov_pct": 20.4,
+      "cond_cov_pct": 14.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.3
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 8.4
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 134.5,
+      "mutants_generated": 5178,
+      "mutants_covered": 1442,
+      "mutants_killed": 636,
+      "mutation_score_pct": 44.1,
+      "mutation_score_covered_pct": 12.3
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 88,
+  "n_test_java_total": 96,
+  "n_test_target": 9,
+  "n_test_kept": 9,
+  "n_keep_java": 10,
+  "kept_tests": [
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/CircularBufferTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEightByteIntegerTest.java",
+    "org/apache/commons/compress/compressors/LZMATestCase.java",
+    "org/apache/commons/compress/compressors/lzma/LZMAUtilsTestCase.java"
+  ],
+  "n_moved_b": 86,
+  "kept_tests_final": [
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/CircularBufferTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEightByteIntegerTest.java",
+    "org/apache/commons/compress/compressors/LZMATestCase.java",
+    "org/apache/commons/compress/compressors/lzma/LZMAUtilsTestCase.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 10,
+  "n_moved_f": 86,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/CircularBufferTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEightByteIntegerTest.java",
+    "org/apache/commons/compress/compressors/LZMATestCase.java",
+    "org/apache/commons/compress/compressors/lzma/LZMAUtilsTestCase.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

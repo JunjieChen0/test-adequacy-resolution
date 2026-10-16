@@ -1,0 +1,99 @@
+{
+  "project": "Lang",
+  "bug": "22b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:25:52.208352+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.0
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 15.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 36.6,
+      "lines_total": 10550,
+      "lines_covered": 1170,
+      "cond_total": 7115,
+      "cond_covered": 622,
+      "line_cov_pct": 11.1,
+      "cond_cov_pct": 8.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 15.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 51.2,
+      "mutants_generated": 1401,
+      "mutants_covered": 91,
+      "mutants_killed": 38,
+      "mutation_score_pct": 41.8,
+      "mutation_score_covered_pct": 2.7
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 93,
+  "n_test_java_total": 109,
+  "n_test_target": 9,
+  "n_test_kept": 11,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/BooleanUtilsTest.java",
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java"
+  ],
+  "n_moved_b": 98,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/BooleanUtilsTest.java",
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java"
+  ],
+  "n_test_final": 11,
+  "n_keep_java_f": 11,
+  "n_moved_f": 98,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/BooleanUtilsTest.java",
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/mutable/MutableDoubleTest.java"
+  ],
+  "n_mut_classes": 13,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

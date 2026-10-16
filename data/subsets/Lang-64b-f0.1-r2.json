@@ -1,0 +1,90 @@
+{
+  "project": "Lang",
+  "bug": "64b",
+  "frac": 0.1,
+  "rep": 2,
+  "t": "2026-10-15T14:18:03.785261+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 17.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 18.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 47.3,
+      "lines_total": 9586,
+      "lines_covered": 1210,
+      "cond_total": 6307,
+      "cond_covered": 565,
+      "line_cov_pct": 12.6,
+      "cond_cov_pct": 9.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 16.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 22.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 86.9,
+      "mutants_generated": 2001,
+      "mutants_covered": 619,
+      "mutants_killed": 314,
+      "mutation_score_pct": 50.7,
+      "mutation_score_covered_pct": 15.7
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 8,
+  "n_test_kept": 8,
+  "n_keep_java": 10,
+  "kept_tests": [
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/oldenum/ValuedEnumTest.java",
+    "org/apache/commons/lang/time/FastDateFormatTest.java"
+  ],
+  "n_moved_b": 130,
+  "kept_tests_final": [
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/oldenum/ValuedEnumTest.java",
+    "org/apache/commons/lang/time/FastDateFormatTest.java"
+  ],
+  "n_test_final": 8,
+  "n_keep_java_f": 10,
+  "n_moved_f": 130,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang/math/DoubleRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/oldenum/ValuedEnumTest.java",
+    "org/apache/commons/lang/time/FastDateFormatTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

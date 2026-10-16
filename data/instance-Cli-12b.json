@@ -1,0 +1,70 @@
+{
+  "project": "Cli",
+  "bug": "12b",
+  "t": "2026-10-16T00:43:44.722588+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 11.6
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 3.4
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.9
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 3.2
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.9
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.cli.ApplicationTest",
+    "org.apache.commons.cli.ArgumentIsOptionTest",
+    "org.apache.commons.cli.BasicParserTest",
+    "org.apache.commons.cli.BugsTest",
+    "org.apache.commons.cli.GnuParserTest",
+    "org.apache.commons.cli.HelpFormatterTest",
+    "org.apache.commons.cli.OptionBuilderTest",
+    "org.apache.commons.cli.OptionGroupTest",
+    "org.apache.commons.cli.OptionTest",
+    "org.apache.commons.cli.OptionsTest",
+    "org.apache.commons.cli.ParseRequiredTest",
+    "org.apache.commons.cli.PatternOptionBuilderTest",
+    "org.apache.commons.cli.PosixParserTest",
+    "org.apache.commons.cli.UtilTest",
+    "org.apache.commons.cli.ValueTest",
+    "org.apache.commons.cli.ValuesTest",
+    "org.apache.commons.cli.bug.BugCLI133Test",
+    "org.apache.commons.cli.bug.BugCLI13Test",
+    "org.apache.commons.cli.bug.BugCLI148Test",
+    "org.apache.commons.cli.bug.BugCLI18Test",
+    "org.apache.commons.cli.bug.BugCLI51Test",
+    "org.apache.commons.cli.bug.BugCLI71Test"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.cli.GnuParserTest::testShortWithEqual",
+    "org.apache.commons.cli.GnuParserTest::testLongWithEqualSingleDash",
+    "org.apache.commons.cli.GnuParserTest::testLongWithEqual"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.cli.ApplicationTest",
+    "org.apache.commons.cli.BugsTest",
+    "org.apache.commons.cli.GnuParserTest",
+    "org.apache.commons.cli.ParseRequiredTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.cli.GnuParser"
+  ],
+  "n_all_tests": 22
+}

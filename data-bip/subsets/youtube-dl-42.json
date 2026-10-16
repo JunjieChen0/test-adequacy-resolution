@@ -1,0 +1,113 @@
+{
+ "project": "youtube-dl",
+ "bug": "42",
+ "n_collected": 27,
+ "n_pool": 22,
+ "source_pkgs": [
+  "youtube_dl"
+ ],
+ "total_asserts_in_pool": null,
+ "pool": [
+  "test/test_utils.py::TestUtil::test_daterange",
+  "test/test_utils.py::TestUtil::test_find_xpath_attr",
+  "test/test_utils.py::TestUtil::test_fix_xml_ampersands",
+  "test/test_utils.py::TestUtil::test_meta_parser",
+  "test/test_utils.py::TestUtil::test_ordered_set",
+  "test/test_utils.py::TestUtil::test_parse_duration",
+  "test/test_utils.py::TestUtil::test_sanitize_filename",
+  "test/test_utils.py::TestUtil::test_sanitize_filename_restricted",
+  "test/test_utils.py::TestUtil::test_sanitize_ids",
+  "test/test_utils.py::TestUtil::test_shell_quote",
+  "test/test_utils.py::TestUtil::test_smuggle_url",
+  "test/test_utils.py::TestUtil::test_str_to_int",
+  "test/test_utils.py::TestUtil::test_timeconvert",
+  "test/test_utils.py::TestUtil::test_unescape_html",
+  "test/test_utils.py::TestUtil::test_unified_dates",
+  "test/test_utils.py::TestUtil::test_url_basename",
+  "test/test_utils.py::TestUtil::test_xpath_with_ns",
+  "test/test_YoutubeDL.py::TestFormatSelection::test_add_extra_info",
+  "test/test_execution.py::TestExecution::test_import",
+  "test/test_execution.py::TestExecution::test_main_exec",
+  "test/test_execution.py::TestExecution::test_module_exec",
+  "test/test_unicode_literals.py::TestUnicodeLiterals::test_all_files"
+ ],
+ "instances": [
+  {
+   "frac": 0.1,
+   "rep": 1,
+   "k": 5,
+   "detect_n": 3,
+   "detect_rate": 0.3333333333333333,
+   "n_bugs_project": 43,
+   "n_bugs_active": 9,
+   "features": {
+    "assertions_per_method": 5.6,
+    "strong_ratio": 0.7142857142857143,
+    "weak_ratio": 0.2857142857142857,
+    "predicate_ratio": 0.7142857142857143,
+    "calls_per_assertion": 1.2142857142857142,
+    "n_assert_total": 28,
+    "n_methods_with_assert": 5
+   },
+   "status": "ok",
+   "line_cov_pct": 25.77100646352724,
+   "n_pass": 5,
+   "tail": "5 passed, 16 warnings in 0.89s"
+  },
+  {
+   "frac": 0.3,
+   "rep": 1,
+   "k": 7,
+   "detect_n": 1,
+   "detect_rate": 0.1111111111111111,
+   "n_bugs_project": 43,
+   "n_bugs_active": 9,
+   "features": {
+    "assertions_per_method": 6.428571428571429,
+    "strong_ratio": 0.7777777777777778,
+    "weak_ratio": 0.2222222222222222,
+    "predicate_ratio": 0.7777777777777778,
+    "calls_per_assertion": 1.0222222222222221,
+    "n_assert_total": 45,
+    "n_methods_with_assert": 7
+   },
+   "status": "ok",
+   "line_cov_pct": 25.872576177285318,
+   "n_pass": 7,
+   "tail": "7 passed, 16 warnings in 0.92s"
+  },
+  {
+   "frac": 0.6,
+   "rep": 1,
+   "k": 13,
+   "detect_n": 7,
+   "detect_rate": 0.7777777777777778,
+   "n_bugs_project": 43,
+   "n_bugs_active": 9,
+   "features": {
+    "assertions_per_method": 3.1538461538461537,
+    "strong_ratio": 0.8780487804878049,
+    "weak_ratio": 0.12195121951219512,
+    "predicate_ratio": 0.8780487804878049,
+    "calls_per_assertion": 1.024390243902439,
+    "n_assert_total": 41,
+    "n_methods_with_assert": 11
+   },
+   "status": "ok",
+   "line_cov_pct": 26.140350877192983,
+   "n_pass": 13,
+   "tail": "13 passed, 16 warnings in 2.11s"
+  }
+ ],
+ "pool_features": {
+  "assertions_per_method": 3.6818181818181817,
+  "strong_ratio": 0.8148148148148148,
+  "weak_ratio": 0.18518518518518517,
+  "predicate_ratio": 0.8148148148148148,
+  "calls_per_assertion": 1.0,
+  "n_assert_total": 81,
+  "n_methods_with_assert": 19
+ },
+ "n_bugs_active": 9,
+ "status": "ok"
+}

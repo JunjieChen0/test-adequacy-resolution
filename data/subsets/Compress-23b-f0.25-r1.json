@@ -1,0 +1,54 @@
+{
+  "project": "Compress",
+  "bug": "23b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:35:44.173458+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.9
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 73,
+  "n_test_java_total": 80,
+  "n_test_target": 18,
+  "n_test_kept": 18,
+  "n_keep_java": 19,
+  "kept_tests": [
+    "org/apache/commons/compress/ChainingTestCase.java",
+    "org/apache/commons/compress/archivers/ArTestCase.java",
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.java",
+    "org/apache/commons/compress/archivers/JarTestCase.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/ar/ArArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/EncryptedArchiveTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/compressors/BZip2UtilsTestCase.java",
+    "org/apache/commons/compress/compressors/LZMATestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java"
+  ],
+  "n_moved_b": 61
+}

@@ -1,0 +1,97 @@
+{
+  "project": "Compress",
+  "bug": "4b",
+  "t": "2026-10-16T00:57:58.342563+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 5.8
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.0
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.4
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.2
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.2
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.compress.ArchiveUtilsTest",
+    "org.apache.commons.compress.DetectArchiverTestCase",
+    "org.apache.commons.compress.DetectCompressorTestCase",
+    "org.apache.commons.compress.IOMethodsTest",
+    "org.apache.commons.compress.archivers.ArTestCase",
+    "org.apache.commons.compress.archivers.ArchiveOutputStreamTest",
+    "org.apache.commons.compress.archivers.CpioTestCase",
+    "org.apache.commons.compress.archivers.JarTestCase",
+    "org.apache.commons.compress.archivers.TarTestCase",
+    "org.apache.commons.compress.archivers.ZipTestCase",
+    "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest",
+    "org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest",
+    "org.apache.commons.compress.archivers.memory.MemoryArchiveTestCase",
+    "org.apache.commons.compress.archivers.tar.TarArchiveEntryTest",
+    "org.apache.commons.compress.archivers.tar.TarUtilsTest",
+    "org.apache.commons.compress.archivers.zip.AsiExtraFieldTest",
+    "org.apache.commons.compress.archivers.zip.ExtraFieldUtilsTest",
+    "org.apache.commons.compress.archivers.zip.TestZipEncodings",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest",
+    "org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest",
+    "org.apache.commons.compress.archivers.zip.ZipLongTest",
+    "org.apache.commons.compress.archivers.zip.ZipShortTest",
+    "org.apache.commons.compress.archivers.zip.ZipUtilTest",
+    "org.apache.commons.compress.changes.ChangeSetTestCase",
+    "org.apache.commons.compress.compressors.BZip2TestCase",
+    "org.apache.commons.compress.compressors.GZipTestCase",
+    "org.apache.commons.compress.compressors.GzipUtilsTestCase"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest::testJarMarker",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testCP437FileRoundtripImplicitUnicodeExtra",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testUtf8FileRoundtripImplicitUnicodeExtra",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testCP437FileRoundtripExplicitUnicodeExtra",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testUtf8FileRoundtripExplicitUnicodeExtra",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testASCIIFileRoundtripImplicitUnicodeExtra",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testUtf8FileRoundtripNoEFSImplicitUnicodeExtra",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testZipArchiveInputStreamReadsUnicodeFields",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testASCIIFileRoundtripExplicitUnicodeExtra",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest::testUtf8FileRoundtripNoEFSExplicitUnicodeExtra"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.compress.ArchiveUtilsTest",
+    "org.apache.commons.compress.DetectArchiverTestCase",
+    "org.apache.commons.compress.IOMethodsTest",
+    "org.apache.commons.compress.archivers.ArTestCase",
+    "org.apache.commons.compress.archivers.ArchiveOutputStreamTest",
+    "org.apache.commons.compress.archivers.CpioTestCase",
+    "org.apache.commons.compress.archivers.JarTestCase",
+    "org.apache.commons.compress.archivers.TarTestCase",
+    "org.apache.commons.compress.archivers.ZipTestCase",
+    "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest",
+    "org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest",
+    "org.apache.commons.compress.archivers.tar.TarArchiveEntryTest",
+    "org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest",
+    "org.apache.commons.compress.changes.ChangeSetTestCase",
+    "org.apache.commons.compress.compressors.BZip2TestCase",
+    "org.apache.commons.compress.compressors.GZipTestCase"
+  ],
+  "modified.txt": [
+    "org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream",
+    "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream",
+    "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream",
+    "org.apache.commons.compress.changes.ChangeSetPerformer"
+  ],
+  "n_all_tests": 27
+}

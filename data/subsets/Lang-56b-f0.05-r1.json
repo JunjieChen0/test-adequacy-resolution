@@ -1,0 +1,81 @@
+{
+  "project": "Lang",
+  "bug": "56b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T13:44:22.808955+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 18.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 20.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 46.1,
+      "lines_total": 9742,
+      "lines_covered": 700,
+      "cond_total": 6455,
+      "cond_covered": 375,
+      "line_cov_pct": 7.2,
+      "cond_cov_pct": 5.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 19.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 19.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 131.1,
+      "mutants_generated": 2001,
+      "mutants_covered": 573,
+      "mutants_killed": 362,
+      "mutation_score_pct": 63.2,
+      "mutation_score_covered_pct": 18.1
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 82,
+  "n_test_java_total": 140,
+  "n_test_target": 4,
+  "n_test_kept": 5,
+  "n_keep_java": 5,
+  "kept_tests": [
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 135,
+  "kept_tests_final": [
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 5,
+  "n_keep_java_f": 5,
+  "n_moved_f": 135,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang/SystemUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

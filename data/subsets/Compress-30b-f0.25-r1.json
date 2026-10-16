@@ -1,0 +1,132 @@
+{
+  "project": "Compress",
+  "bug": "30b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T19:18:38.263061+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 12.9
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 46.5,
+      "lines_total": 10460,
+      "lines_covered": 6137,
+      "cond_total": 4836,
+      "cond_covered": 2202,
+      "line_cov_pct": 58.7,
+      "cond_cov_pct": 45.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 6.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 12.1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 774.6,
+      "mutants_generated": 5168,
+      "mutants_covered": 3981,
+      "mutants_killed": 2448,
+      "mutation_score_pct": 61.5,
+      "mutation_score_covered_pct": 47.4
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 87,
+  "n_test_java_total": 95,
+  "n_test_target": 22,
+  "n_test_kept": 22,
+  "n_keep_java": 23,
+  "kept_tests": [
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/IOMethodsTest.java",
+    "org/apache/commons/compress/archivers/SevenZTestCase.java",
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.java",
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java",
+    "org/apache/commons/compress/compressors/ZTestCase.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStreamTest.java",
+    "org/apache/commons/compress/compressors/xz/XZUtilsTestCase.java",
+    "org/apache/commons/compress/utils/BitInputStreamTest.java"
+  ],
+  "n_moved_b": 72,
+  "kept_tests_final": [
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/IOMethodsTest.java",
+    "org/apache/commons/compress/archivers/SevenZTestCase.java",
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.java",
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java",
+    "org/apache/commons/compress/compressors/ZTestCase.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStreamTest.java",
+    "org/apache/commons/compress/compressors/xz/XZUtilsTestCase.java",
+    "org/apache/commons/compress/utils/BitInputStreamTest.java"
+  ],
+  "n_test_final": 22,
+  "n_keep_java_f": 23,
+  "n_moved_f": 72,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/DetectArchiverTestCase.java",
+    "org/apache/commons/compress/IOMethodsTest.java",
+    "org/apache/commons/compress/archivers/SevenZTestCase.java",
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.java",
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/BZip2TestCase.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java",
+    "org/apache/commons/compress/compressors/ZTestCase.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStreamTest.java",
+    "org/apache/commons/compress/compressors/xz/XZUtilsTestCase.java",
+    "org/apache/commons/compress/utils/BitInputStreamTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

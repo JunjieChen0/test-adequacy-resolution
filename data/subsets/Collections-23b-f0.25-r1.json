@@ -1,0 +1,72 @@
+{
+  "project": "Collections",
+  "bug": "23b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:37:22.463267+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.6
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 139,
+  "n_test_java_total": 179,
+  "n_test_target": 35,
+  "n_test_kept": 36,
+  "n_keep_java": 57,
+  "kept_tests": [
+    "org/apache/commons/collections4/ClosureUtilsTest.java",
+    "org/apache/commons/collections4/ListUtilsTest.java",
+    "org/apache/commons/collections4/MapUtilsTest.java",
+    "org/apache/commons/collections4/SetUtilsTest.java",
+    "org/apache/commons/collections4/SplitMapUtilsTest.java",
+    "org/apache/commons/collections4/TransformerUtilsTest.java",
+    "org/apache/commons/collections4/bag/TransformedBagTest.java",
+    "org/apache/commons/collections4/bag/TreeBagTest.java",
+    "org/apache/commons/collections4/bidimap/DualTreeBidiMap2Test.java",
+    "org/apache/commons/collections4/bidimap/UnmodifiableSortedBidiMapTest.java",
+    "org/apache/commons/collections4/collection/PredicatedCollectionTest.java",
+    "org/apache/commons/collections4/collection/TransformedCollectionTest.java",
+    "org/apache/commons/collections4/collection/UnmodifiableBoundedCollectionTest.java",
+    "org/apache/commons/collections4/comparators/FixedOrderComparatorTest.java",
+    "org/apache/commons/collections4/comparators/ReverseComparatorTest.java",
+    "org/apache/commons/collections4/iterators/CollatingIteratorTest.java",
+    "org/apache/commons/collections4/iterators/ListIteratorWrapper2Test.java",
+    "org/apache/commons/collections4/iterators/LoopingListIteratorTest.java",
+    "org/apache/commons/collections4/iterators/ObjectArrayIteratorTest.java",
+    "org/apache/commons/collections4/iterators/ObjectGraphIteratorTest.java",
+    "org/apache/commons/collections4/iterators/PeekingIteratorTest.java",
+    "org/apache/commons/collections4/iterators/PermutationIteratorTest.java",
+    "org/apache/commons/collections4/iterators/ReverseListIteratorTest.java",
+    "org/apache/commons/collections4/iterators/SingletonListIteratorTest.java",
+    "org/apache/commons/collections4/iterators/UnmodifiableListIteratorTest.java",
+    "org/apache/commons/collections4/list/SetUniqueListTest.java",
+    "org/apache/commons/collections4/map/CompositeMapTest.java",
+    "org/apache/commons/collections4/map/Flat3MapTest.java",
+    "org/apache/commons/collections4/map/LRUMapTest.java",
+    "org/apache/commons/collections4/map/ListOrderedMap2Test.java",
+    "org/apache/commons/collections4/map/ListOrderedMapTest.java",
+    "org/apache/commons/collections4/map/PassiveExpiringMapTest.java",
+    "org/apache/commons/collections4/set/PredicatedSetTest.java",
+    "org/apache/commons/collections4/set/UnmodifiableSetTest.java",
+    "org/apache/commons/collections4/splitmap/TransformedSplitMapTest.java",
+    "org/apache/commons/collections4/trie/PatriciaTrieTest.java"
+  ],
+  "n_moved_b": 122
+}

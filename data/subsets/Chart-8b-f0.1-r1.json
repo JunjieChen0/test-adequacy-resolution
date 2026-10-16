@@ -1,0 +1,93 @@
+{
+  "project": "Chart",
+  "bug": "8b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T12:27:01.682928+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 15.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 17.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 172.0,
+      "lines_total": 46539,
+      "lines_covered": 7776,
+      "cond_total": 19780,
+      "cond_covered": 2426,
+      "line_cov_pct": 16.7,
+      "cond_cov_pct": 12.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 14.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 19.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 46.0,
+      "mutants_generated": 1104,
+      "mutants_covered": 69,
+      "mutants_killed": 36,
+      "mutation_score_pct": 52.2,
+      "mutation_score_covered_pct": 3.3
+    }
+  },
+  "layout_b": {
+    "src": "source",
+    "test": "tests"
+  },
+  "n_test_total": 329,
+  "n_test_java_total": 359,
+  "n_test_target": 33,
+  "n_test_kept": 33,
+  "n_keep_java": 34,
+  "kept_tests": [
+    "org/jfree/chart/annotations/junit/XYTextAnnotationTests.java",
+    "org/jfree/chart/axis/junit/AxisTests.java",
+    "org/jfree/chart/axis/junit/CategoryLabelPositionTests.java",
+    "org/jfree/chart/block/junit/BlockContainerTests.java",
+    "org/jfree/chart/block/junit/EmptyBlockTests.java",
+    "org/jfree/chart/block/junit/RectangleConstraintTests.java",
+    "org/jfree/chart/entity/junit/CategoryItemEntityTests.java",
+    "org/jfree/chart/junit/GanttChartTests.java",
+    "org/jfree/chart/junit/LegendItemTests.java",
+    "org/jfree/chart/junit/PaintMapTests.java",
+    "org/jfree/chart/labels/junit/BubbleXYItemLabelGeneratorTests.java",
+    "org/jfree/chart/needle/junit/MeterNeedleTests.java",
+    "org/jfree/chart/needle/junit/PinNeedleTests.java",
+    "org/jfree/chart/plot/dial/junit/DialPlotTests.java",
+    "org/jfree/chart/plot/dial/junit/DialTextAnnotationTests.java",
+    "org/jfree/chart/plot/junit/CompassPlotTests.java",
+    "org/jfree/chart/plot/junit/MarkerTests.java",
+    "org/jfree/chart/renderer/category/junit/LayeredBarRendererTests.java",
+    "org/jfree/chart/renderer/category/junit/LineRenderer3DTests.java",
+    "org/jfree/chart/renderer/junit/DefaultPolarItemRendererTests.java",
+    "org/jfree/chart/renderer/xy/junit/VectorRendererTests.java",
+    "org/jfree/chart/title/junit/PaintScaleLegendTests.java",
+    "org/jfree/chart/urls/junit/StandardPieURLGeneratorTests.java",
+    "org/jfree/chart/urls/junit/StandardXYURLGeneratorTests.java",
+    "org/jfree/chart/util/junit/BooleanListTests.java",
+    "org/jfree/data/junit/DomainOrderTests.java",
+    "org/jfree/data/time/junit/TimeTableXYDatasetTests.java",
+    "org/jfree/data/time/junit/YearTests.java",
+    "org/jfree/data/time/ohlc/junit/OHLCTests.java",
+    "org/jfree/data/xy/junit/DefaultWindDatasetTests.java",
+    "org/jfree/data/xy/junit/VectorSeriesCollectionTests.java",
+    "org/jfree/data/xy/junit/XYDataItemTests.java",
+    "org/jfree/data/xy/junit/XYSeriesTests.java"
+  ],
+  "n_moved_b": 325,
+  "n_keep_java_f": 34,
+  "n_moved_f": 325,
+  "n_mut_classes": 13,
+  "status": "ok"
+}

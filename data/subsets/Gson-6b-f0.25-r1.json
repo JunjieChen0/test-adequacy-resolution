@@ -1,0 +1,58 @@
+{
+  "project": "Gson",
+  "bug": "6b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:40:22.446614+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.1
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "gson/src/main/java",
+    "test": "gson/src/test/java"
+  },
+  "n_test_total": 85,
+  "n_test_java_total": 92,
+  "n_test_target": 21,
+  "n_test_kept": 22,
+  "n_keep_java": 24,
+  "kept_tests": [
+    "com/google/gson/DefaultMapJsonSerializerTest.java",
+    "com/google/gson/ExposeAnnotationExclusionStrategyTest.java",
+    "com/google/gson/JsonObjectTest.java",
+    "com/google/gson/JsonPrimitiveTest.java",
+    "com/google/gson/ParameterizedTypeTest.java",
+    "com/google/gson/functional/ConcurrencyTest.java",
+    "com/google/gson/functional/DefaultTypeAdaptersTest.java",
+    "com/google/gson/functional/EscapingTest.java",
+    "com/google/gson/functional/ExclusionStrategyFunctionalTest.java",
+    "com/google/gson/functional/ExposeFieldsTest.java",
+    "com/google/gson/functional/InternationalizationTest.java",
+    "com/google/gson/functional/JsonAdapterAnnotationOnFieldsTest.java",
+    "com/google/gson/functional/MapTest.java",
+    "com/google/gson/functional/PrimitiveTest.java",
+    "com/google/gson/functional/StreamingTypeAdaptersTest.java",
+    "com/google/gson/internal/GsonTypesTest.java",
+    "com/google/gson/internal/LazilyParsedNumberTest.java",
+    "com/google/gson/internal/LinkedHashTreeMapTest.java",
+    "com/google/gson/internal/LinkedTreeMapTest.java",
+    "com/google/gson/internal/bind/JsonElementReaderTest.java",
+    "com/google/gson/metrics/PerformanceTest.java",
+    "com/google/gson/reflect/TypeTokenTest.java"
+  ],
+  "n_moved_b": 68
+}

@@ -1,0 +1,96 @@
+{
+  "project": "Codec",
+  "bug": "14b",
+  "t": "2026-10-16T00:57:21.062721+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.0
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.3
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.5
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.4
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.7
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.1
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.codec.CharEncodingTest",
+    "org.apache.commons.codec.CharsetsTest",
+    "org.apache.commons.codec.DecoderExceptionTest",
+    "org.apache.commons.codec.EncoderExceptionTest",
+    "org.apache.commons.codec.StringEncoderComparatorTest",
+    "org.apache.commons.codec.binary.Base32InputStreamTest",
+    "org.apache.commons.codec.binary.Base32OutputStreamTest",
+    "org.apache.commons.codec.binary.Base32Test",
+    "org.apache.commons.codec.binary.Base64Codec13Test",
+    "org.apache.commons.codec.binary.Base64InputStreamTest",
+    "org.apache.commons.codec.binary.Base64OutputStreamTest",
+    "org.apache.commons.codec.binary.Base64Test",
+    "org.apache.commons.codec.binary.BaseNCodecTest",
+    "org.apache.commons.codec.binary.BinaryCodecTest",
+    "org.apache.commons.codec.binary.HexTest",
+    "org.apache.commons.codec.binary.StringUtilsTest",
+    "org.apache.commons.codec.digest.Apr1CryptTest",
+    "org.apache.commons.codec.digest.B64Test",
+    "org.apache.commons.codec.digest.CryptTest",
+    "org.apache.commons.codec.digest.DigestUtilsTest",
+    "org.apache.commons.codec.digest.Md5CryptTest",
+    "org.apache.commons.codec.digest.Sha256CryptTest",
+    "org.apache.commons.codec.digest.Sha2CryptTest",
+    "org.apache.commons.codec.digest.Sha512CryptTest",
+    "org.apache.commons.codec.digest.UnixCryptTest",
+    "org.apache.commons.codec.language.Caverphone1Test",
+    "org.apache.commons.codec.language.Caverphone2Test",
+    "org.apache.commons.codec.language.ColognePhoneticTest",
+    "org.apache.commons.codec.language.DoubleMetaphone2Test",
+    "org.apache.commons.codec.language.DoubleMetaphoneTest",
+    "org.apache.commons.codec.language.MatchRatingApproachEncoderTest",
+    "org.apache.commons.codec.language.MetaphoneTest",
+    "org.apache.commons.codec.language.NysiisTest",
+    "org.apache.commons.codec.language.RefinedSoundexTest",
+    "org.apache.commons.codec.language.SoundexTest",
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoderTest",
+    "org.apache.commons.codec.language.bm.LanguageGuessingTest",
+    "org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest",
+    "org.apache.commons.codec.language.bm.RuleTest",
+    "org.apache.commons.codec.net.BCodecTest",
+    "org.apache.commons.codec.net.QCodecTest",
+    "org.apache.commons.codec.net.QuotedPrintableCodecTest",
+    "org.apache.commons.codec.net.RFC1522CodecTest",
+    "org.apache.commons.codec.net.URLCodecTest",
+    "org.apache.commons.codec.net.UtilsTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest::testCompatibilityWithOriginalVersion"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoderTest",
+    "org.apache.commons.codec.language.bm.LanguageGuessingTest",
+    "org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest",
+    "org.apache.commons.codec.language.bm.RuleTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.codec.language.bm.Lang",
+    "org.apache.commons.codec.language.bm.PhoneticEngine",
+    "org.apache.commons.codec.language.bm.Rule",
+    "src.main.resources.org.apache.commons.codec.language.bm.ash_lang.txt",
+    "src.main.resources.org.apache.commons.codec.language.bm.gen_lang.txt",
+    "src.main.resources.org.apache.commons.codec.language.bm.sep_lang.txt"
+  ],
+  "n_all_tests": 45
+}

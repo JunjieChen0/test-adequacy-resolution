@@ -1,0 +1,59 @@
+{
+  "project": "Lang",
+  "bug": "26b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:34:24.023009+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.0
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 90,
+  "n_test_java_total": 106,
+  "n_test_target": 22,
+  "n_test_kept": 23,
+  "n_keep_java": 23,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/PairTest.java",
+    "org/apache/commons/lang3/RandomStringUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang3/builder/NoFieldNamesToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/event/EventUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang3/mutable/MutableIntTest.java",
+    "org/apache/commons/lang3/reflect/MethodUtilsTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java",
+    "org/apache/commons/lang3/text/StrLookupTest.java",
+    "org/apache/commons/lang3/text/StrMatcherTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/EntityArraysTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsRoundingTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java"
+  ],
+  "n_moved_b": 83
+}

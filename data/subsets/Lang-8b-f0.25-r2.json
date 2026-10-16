@@ -1,0 +1,88 @@
+{
+  "project": "Lang",
+  "bug": "8b",
+  "frac": 0.25,
+  "rep": 2,
+  "t": "2026-10-15T10:57:49.825590+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 11.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 13.0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 108.1,
+      "lines_total": 11286,
+      "lines_covered": 3550,
+      "cond_total": 7504,
+      "cond_covered": 1780,
+      "line_cov_pct": 31.5,
+      "cond_cov_pct": 23.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 10.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 13.7
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 228.6,
+      "mutants_generated": 1428,
+      "mutants_covered": 723,
+      "mutants_killed": 553,
+      "mutation_score_pct": 76.5,
+      "mutation_score_covered_pct": 38.7
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 109,
+  "n_test_java_total": 126,
+  "n_test_target": 27,
+  "n_test_kept": 28,
+  "n_keep_java": 28,
+  "kept_tests": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java",
+    "org/apache/commons/lang3/BitFieldTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/RandomStringUtilsTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java",
+    "org/apache/commons/lang3/concurrent/ConcurrentUtilsTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/TimedSemaphoreTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableIntTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/text/CompositeFormatTest.java",
+    "org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang3/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/time/FastDatePrinterTest.java",
+    "org/apache/commons/lang3/tuple/ImmutableTripleTest.java",
+    "org/apache/commons/lang3/tuple/MutablePairTest.java",
+    "org/apache/commons/lang3/tuple/TripleTest.java"
+  ],
+  "n_moved_b": 98,
+  "n_keep_java_f": 28,
+  "n_moved_f": 98,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

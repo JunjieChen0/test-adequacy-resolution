@@ -1,0 +1,67 @@
+{
+  "project": "Math",
+  "bug": "42b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:28:58.205688+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 284,
+  "n_test_java_total": 354,
+  "n_test_target": 28,
+  "n_test_kept": 31,
+  "n_keep_java": 49,
+  "kept_tests": [
+    "org/apache/commons/math/MathExceptionTest.java",
+    "org/apache/commons/math/analysis/FunctionUtilsTest.java",
+    "org/apache/commons/math/analysis/interpolation/TricubicSplineInterpolatingFunctionTest.java",
+    "org/apache/commons/math/analysis/solvers/SecantSolverTest.java",
+    "org/apache/commons/math/complex/ComplexFormatTest.java",
+    "org/apache/commons/math/complex/ComplexUtilsTest.java",
+    "org/apache/commons/math/dfp/DfpMathTest.java",
+    "org/apache/commons/math/dfp/DfpTest.java",
+    "org/apache/commons/math/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math/distribution/GammaDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/fraction/BigFractionFormatTest.java",
+    "org/apache/commons/math/genetics/GeneticAlgorithmTestPermutations.java",
+    "org/apache/commons/math/geometry/euclidean/threed/RotationTest.java",
+    "org/apache/commons/math/linear/ArrayRealVectorTest.java",
+    "org/apache/commons/math/linear/BlockFieldMatrixTest.java",
+    "org/apache/commons/math/linear/CholeskySolverTest.java",
+    "org/apache/commons/math/linear/FrenchRealVectorFormatTest.java",
+    "org/apache/commons/math/linear/QRSolverTest.java",
+    "org/apache/commons/math/ode/FirstOrderConverterTest.java",
+    "org/apache/commons/math/ode/nonstiff/DormandPrince54IntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/MidpointStepInterpolatorTest.java",
+    "org/apache/commons/math/optimization/fitting/GaussianFitterTest.java",
+    "org/apache/commons/math/optimization/fitting/PolynomialFitterTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/FourthMomentTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/KurtosisTest.java",
+    "org/apache/commons/math/stat/regression/MillerUpdatingRegressionTest.java",
+    "org/apache/commons/math/stat/regression/SimpleRegressionTest.java",
+    "org/apache/commons/math/util/OpenIntToFieldTest.java",
+    "org/apache/commons/math/util/ResizableDoubleArrayTest.java"
+  ],
+  "n_moved_b": 305
+}

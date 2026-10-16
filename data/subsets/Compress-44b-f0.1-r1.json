@@ -1,0 +1,47 @@
+{
+  "project": "Compress",
+  "bug": "44b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:36:09.423722+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 113,
+  "n_test_java_total": 127,
+  "n_test_target": 11,
+  "n_test_kept": 11,
+  "n_keep_java": 15,
+  "kept_tests": [
+    "org/apache/commons/compress/ArchiveReadTest.java",
+    "org/apache/commons/compress/archivers/TarTestCase.java",
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.java",
+    "org/apache/commons/compress/archivers/memory/MemoryArchiveTestCase.java",
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStreamTest.java",
+    "org/apache/commons/compress/compressors/z/ZCompressorInputStreamTest.java",
+    "org/apache/commons/compress/utils/ChecksumCalculatingInputStreamTest.java"
+  ],
+  "n_moved_b": 112
+}

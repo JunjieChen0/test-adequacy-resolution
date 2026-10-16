@@ -1,0 +1,58 @@
+{
+  "project": "Math",
+  "bug": "85b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:32:47.163681+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 204,
+  "n_test_java_total": 246,
+  "n_test_target": 20,
+  "n_test_kept": 22,
+  "n_keep_java": 33,
+  "kept_tests": [
+    "org/apache/commons/math/DuplicateSampleAbscissaExceptionTest.java",
+    "org/apache/commons/math/analysis/interpolation/DividedDifferenceInterpolatorTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialSplineFunctionTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/estimation/MinpackTest.java",
+    "org/apache/commons/math/fraction/FractionTest.java",
+    "org/apache/commons/math/genetics/RandomKeyTest.java",
+    "org/apache/commons/math/genetics/TournamentSelectionTest.java",
+    "org/apache/commons/math/geometry/Vector3DTest.java",
+    "org/apache/commons/math/linear/ArrayRealVectorTest.java",
+    "org/apache/commons/math/linear/BiDiagonalTransformerTest.java",
+    "org/apache/commons/math/linear/BlockRealMatrixTest.java",
+    "org/apache/commons/math/ode/ContinuousOutputModelTest.java",
+    "org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolatorTest.java",
+    "org/apache/commons/math/stat/descriptive/SummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/GeometricMeanTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/KurtosisTest.java",
+    "org/apache/commons/math/stat/regression/GLSMultipleLinearRegressionTest.java",
+    "org/apache/commons/math/transform/FastCosineTransformerTest.java"
+  ],
+  "n_moved_b": 213
+}

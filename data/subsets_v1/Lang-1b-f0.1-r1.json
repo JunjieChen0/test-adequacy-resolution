@@ -1,0 +1,68 @@
+{
+  "project": "Lang",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T08:12:12.306367+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 17.7
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 96.3,
+      "lines_total": 12084,
+      "lines_covered": 2278,
+      "cond_total": 8104,
+      "cond_covered": 1081,
+      "line_cov_pct": 18.9,
+      "cond_cov_pct": 13.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 10.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 13.7
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 115.1,
+      "mutants_generated": 1432,
+      "mutants_covered": 237,
+      "mutants_killed": 135,
+      "mutation_score_pct": 57.0,
+      "mutation_score_covered_pct": 9.4
+    }
+  },
+  "n_test_total": 111,
+  "n_test_target": 11,
+  "n_test_kept": 14,
+  "kept_tests": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/HashSetvBitSetTest.java",
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/ConstantInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
+    "org/apache/commons/lang3/text/FormattableUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/time/FastDatePrinterTest.java"
+  ],
+  "n_moved_b": 97,
+  "n_test_kept_f": 14,
+  "n_moved_f": 97,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

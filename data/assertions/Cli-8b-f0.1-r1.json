@@ -1,0 +1,26 @@
+{
+  "tag": "Cli-8b-f0.1-r1",
+  "project": "Cli",
+  "bug": "8b",
+  "frac": 0.1,
+  "rep": 1,
+  "n_test_final": 2,
+  "features": {
+    "n_assertions": 64,
+    "n_test_methods": 2,
+    "n_strong": 6,
+    "n_weak": 46,
+    "n_other": 12,
+    "n_predicate": 11,
+    "n_distinct_calls": 10,
+    "test_loc": 375,
+    "n_files": 2
+  },
+  "derived": {
+    "assertions_per_method": 32.0,
+    "strong_ratio": 0.09375,
+    "weak_ratio": 0.71875,
+    "predicate_ratio": 0.171875,
+    "calls_per_assertion": 0.15625
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "project": "Csv",
+  "bug": "3b",
+  "t": "2026-10-16T00:54:52.404921+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.9
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 3.6
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 3.1
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.5
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.3
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatBuilderTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVLexerTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest",
+    "org.apache.commons.csv.TokenMatchersTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.csv.CSVLexerTest::testEscapedMySqlNullValue",
+    "org.apache.commons.csv.CSVLexerTest::testEscapedCharacter",
+    "org.apache.commons.csv.CSVParserTest::testBackslashEscaping"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVLexerTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.csv.Lexer"
+  ],
+  "n_all_tests": 9
+}

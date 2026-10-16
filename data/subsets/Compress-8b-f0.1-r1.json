@@ -1,0 +1,75 @@
+{
+  "project": "Compress",
+  "bug": "8b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:43:55.982706+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 5.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 13.2,
+      "lines_total": 5093,
+      "lines_covered": 2037,
+      "cond_total": 2368,
+      "cond_covered": 686,
+      "line_cov_pct": 40.0,
+      "cond_cov_pct": 29.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 4.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 6.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 684.8,
+      "mutants_generated": 5899,
+      "mutants_covered": 1260,
+      "mutants_killed": 566,
+      "mutation_score_pct": 44.9,
+      "mutation_score_covered_pct": 9.6
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 34,
+  "n_test_java_total": 39,
+  "n_test_target": 3,
+  "n_test_kept": 3,
+  "n_keep_java": 4,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java"
+  ],
+  "n_moved_b": 35,
+  "kept_tests_final": [
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java"
+  ],
+  "n_test_final": 3,
+  "n_keep_java_f": 4,
+  "n_moved_f": 35,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

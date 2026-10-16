@@ -1,0 +1,74 @@
+{
+  "project": "Collections",
+  "bug": "18b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:37:00.633938+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.0
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 143,
+  "n_test_java_total": 181,
+  "n_test_target": 36,
+  "n_test_kept": 38,
+  "n_keep_java": 62,
+  "kept_tests": [
+    "org/apache/commons/collections/BufferUtilsTest.java",
+    "org/apache/commons/collections/CollectionUtilsTest.java",
+    "org/apache/commons/collections/IteratorUtilsTest.java",
+    "org/apache/commons/collections/bag/TreeBagTest.java",
+    "org/apache/commons/collections/bidimap/DualTreeBidiMapTest.java",
+    "org/apache/commons/collections/buffer/BoundedFifoBuffer2Test.java",
+    "org/apache/commons/collections/buffer/BoundedFifoBufferTest.java",
+    "org/apache/commons/collections/buffer/UnmodifiableBufferTest.java",
+    "org/apache/commons/collections/collection/IndexedCollectionTest.java",
+    "org/apache/commons/collections/collection/PredicatedCollectionTest.java",
+    "org/apache/commons/collections/collection/SynchronizedCollectionTest.java",
+    "org/apache/commons/collections/collection/TransformedCollectionTest.java",
+    "org/apache/commons/collections/comparators/ReverseComparatorTest.java",
+    "org/apache/commons/collections/functors/AllPredicateTest.java",
+    "org/apache/commons/collections/functors/EqualPredicateTest.java",
+    "org/apache/commons/collections/iterators/TestArrayIterator2.java",
+    "org/apache/commons/collections/iterators/TestArrayListIterator2.java",
+    "org/apache/commons/collections/iterators/TestFilterIterator.java",
+    "org/apache/commons/collections/iterators/TestIteratorIterable.java",
+    "org/apache/commons/collections/iterators/TestListIteratorWrapper2.java",
+    "org/apache/commons/collections/iterators/TestLoopingListIterator.java",
+    "org/apache/commons/collections/iterators/TestObjectArrayListIterator2.java",
+    "org/apache/commons/collections/iterators/TestObjectGraphIterator.java",
+    "org/apache/commons/collections/iterators/TestUniqueFilterIterator.java",
+    "org/apache/commons/collections/iterators/TestUnmodifiableMapIterator.java",
+    "org/apache/commons/collections/list/FixedSizeListTest.java",
+    "org/apache/commons/collections/list/GrowthListTest.java",
+    "org/apache/commons/collections/list/SynchronizedListTest.java",
+    "org/apache/commons/collections/list/TreeListTest.java",
+    "org/apache/commons/collections/map/TestLazyMap.java",
+    "org/apache/commons/collections/map/TestListOrderedMap.java",
+    "org/apache/commons/collections/map/TestListOrderedMap2.java",
+    "org/apache/commons/collections/map/TestMultiValueMap.java",
+    "org/apache/commons/collections/map/TestPassiveExpiringMap.java",
+    "org/apache/commons/collections/map/TestReferenceIdentityMap.java",
+    "org/apache/commons/collections/map/TestReferenceMap.java",
+    "org/apache/commons/collections/map/TestUnmodifiableOrderedMap.java",
+    "org/apache/commons/collections/set/TransformedSetTest.java"
+  ],
+  "n_moved_b": 119
+}

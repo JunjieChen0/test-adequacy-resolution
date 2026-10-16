@@ -1,0 +1,66 @@
+{
+  "project": "Lang",
+  "bug": "1b",
+  "frac": 0.1,
+  "rep": 2,
+  "t": "2026-10-15T08:21:44.994842+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 14.3
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 24.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 78.4,
+      "lines_total": 12084,
+      "lines_covered": 2627,
+      "cond_total": 8104,
+      "cond_covered": 1348,
+      "line_cov_pct": 21.7,
+      "cond_cov_pct": 16.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 19.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 27.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 129.2,
+      "mutants_generated": 1432,
+      "mutants_covered": 238,
+      "mutants_killed": 128,
+      "mutation_score_pct": 53.8,
+      "mutation_score_covered_pct": 8.9
+    }
+  },
+  "n_test_total": 111,
+  "n_test_target": 11,
+  "n_test_kept": 12,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsRemoveMultipleTest.java",
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/HashCodeBuilderTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/IEEE754rUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang3/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityEscaperTest.java",
+    "org/apache/commons/lang3/time/DurationFormatUtilsTest.java"
+  ],
+  "n_moved_b": 99,
+  "n_test_kept_f": 12,
+  "n_moved_f": 99,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

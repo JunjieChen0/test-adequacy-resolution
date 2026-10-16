@@ -1,0 +1,60 @@
+{
+  "project": "Lang",
+  "bug": "1b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T08:21:44.990660+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 14.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 24.0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 59.4,
+      "lines_total": 12084,
+      "lines_covered": 1472,
+      "cond_total": 8104,
+      "cond_covered": 683,
+      "line_cov_pct": 12.2,
+      "cond_cov_pct": 8.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 14.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 19.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 116.0,
+      "mutants_generated": 1432,
+      "mutants_covered": 206,
+      "mutants_killed": 96,
+      "mutation_score_pct": 46.6,
+      "mutation_score_covered_pct": 6.7
+    }
+  },
+  "n_test_total": 111,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/builder/SimpleToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java"
+  ],
+  "n_moved_b": 105,
+  "n_test_kept_f": 6,
+  "n_moved_f": 105,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

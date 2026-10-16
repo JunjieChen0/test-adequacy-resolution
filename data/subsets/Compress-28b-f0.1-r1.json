@@ -1,0 +1,90 @@
+{
+  "project": "Compress",
+  "bug": "28b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T04:04:31.444705+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.5
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 29.8,
+      "lines_total": 9944,
+      "lines_covered": 3297,
+      "cond_total": 4654,
+      "cond_covered": 1088,
+      "line_cov_pct": 33.2,
+      "cond_cov_pct": 23.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 7.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 118.9,
+      "mutants_generated": 5164,
+      "mutants_covered": 887,
+      "mutants_killed": 325,
+      "mutation_score_pct": 36.6,
+      "mutation_score_covered_pct": 6.3
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 75,
+  "n_test_java_total": 83,
+  "n_test_target": 8,
+  "n_test_kept": 8,
+  "n_keep_java": 9,
+  "kept_tests": [
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/JarTestCase.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java",
+    "org/apache/commons/compress/utils/CharsetsTest.java"
+  ],
+  "n_moved_b": 74,
+  "kept_tests_final": [
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/JarTestCase.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java",
+    "org/apache/commons/compress/utils/CharsetsTest.java"
+  ],
+  "n_test_final": 8,
+  "n_keep_java_f": 9,
+  "n_moved_f": 74,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/JarTestCase.java",
+    "org/apache/commons/compress/archivers/ZipTestCase.java",
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.java",
+    "org/apache/commons/compress/compressors/XZTestCase.java",
+    "org/apache/commons/compress/utils/CharsetsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

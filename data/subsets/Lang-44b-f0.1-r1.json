@@ -1,0 +1,45 @@
+{
+  "project": "Lang",
+  "bug": "44b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:35:07.684570+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.4
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 89,
+  "n_test_java_total": 157,
+  "n_test_target": 9,
+  "n_test_kept": 9,
+  "n_keep_java": 27,
+  "kept_tests": [
+    "org/apache/commons/lang/IllegalClassExceptionTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/ObjectUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/math/NumberRangeTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/text/StrBuilderTest.java"
+  ],
+  "n_moved_b": 130
+}

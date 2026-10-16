@@ -1,0 +1,62 @@
+{
+  "project": "Csv",
+  "bug": "16b",
+  "t": "2026-10-16T00:56:05.041744+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.4
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.9
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.6
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.9
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 3.1
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.csv.AssertionsTest",
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatPredefinedTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest",
+    "org.apache.commons.csv.LexerTest",
+    "org.apache.commons.csv.TokenMatchersTest",
+    "org.apache.commons.csv.issues.JiraCsv164Test",
+    "org.apache.commons.csv.issues.JiraCsv167Test",
+    "org.apache.commons.csv.issues.JiraCsv198Test",
+    "org.apache.commons.csv.issues.JiraCsv203Test",
+    "org.apache.commons.csv.issues.JiraCsv213Test"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.csv.CSVParserTest::testIteratorSequenceBreaking"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.issues.JiraCsv198Test"
+  ],
+  "modified.txt": [
+    "org.apache.commons.csv.CSVParser"
+  ],
+  "n_all_tests": 15
+}

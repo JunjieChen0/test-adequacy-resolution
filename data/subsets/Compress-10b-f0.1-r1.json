@@ -1,0 +1,81 @@
+{
+  "project": "Compress",
+  "bug": "10b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T17:04:09.548181+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 30.6,
+      "lines_total": 6744,
+      "lines_covered": 1850,
+      "cond_total": 3148,
+      "cond_covered": 593,
+      "line_cov_pct": 27.4,
+      "cond_cov_pct": 18.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 10.6
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 420.0,
+      "mutants_generated": 6255,
+      "mutants_covered": 294,
+      "mutants_killed": 104,
+      "mutation_score_pct": 35.4,
+      "mutation_score_covered_pct": 1.7
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 52,
+  "n_test_java_total": 59,
+  "n_test_target": 5,
+  "n_test_kept": 5,
+  "n_keep_java": 6,
+  "kept_tests": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/DumpTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java"
+  ],
+  "n_moved_b": 53,
+  "kept_tests_final": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/DumpTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java"
+  ],
+  "n_test_final": 5,
+  "n_keep_java_f": 6,
+  "n_moved_f": 53,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/DumpTestCase.java",
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.java",
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

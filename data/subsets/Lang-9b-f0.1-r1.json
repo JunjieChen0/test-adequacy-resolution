@@ -1,0 +1,52 @@
+{
+  "project": "Lang",
+  "bug": "9b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:33:25.772166+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.4
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 109,
+  "n_test_java_total": 126,
+  "n_test_target": 11,
+  "n_test_kept": 16,
+  "n_keep_java": 20,
+  "kept_tests": [
+    "org/apache/commons/lang3/ClassUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsTest.java",
+    "org/apache/commons/lang3/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang3/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/exception/ContextedRuntimeExceptionTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeEscaperTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_ParserTest.java",
+    "org/apache/commons/lang3/time/FastDateFormat_PrinterTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/time/FastDatePrinterTest.java"
+  ],
+  "n_moved_b": 106
+}

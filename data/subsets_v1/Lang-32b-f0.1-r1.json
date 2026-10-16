@@ -1,0 +1,63 @@
+{
+  "project": "Lang",
+  "bug": "32b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T10:02:09.852124+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.3
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 6.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 17.9,
+      "lines_total": 9708,
+      "lines_covered": 1072,
+      "cond_total": 6481,
+      "cond_covered": 443,
+      "line_cov_pct": 11.0,
+      "cond_cov_pct": 6.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 6.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 22.2,
+      "mutants_generated": 1344,
+      "mutants_covered": 125,
+      "mutants_killed": 65,
+      "mutation_score_pct": 52.0,
+      "mutation_score_covered_pct": 4.8
+    }
+  },
+  "n_test_total": 85,
+  "n_test_target": 8,
+  "n_test_kept": 9,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/RangeTest.java",
+    "org/apache/commons/lang3/StringEscapeUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsStartsEndsWithTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/reflect/TypeUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeEscaperTest.java"
+  ],
+  "n_moved_b": 76,
+  "n_test_kept_f": 9,
+  "n_moved_f": 76,
+  "n_mut_classes": 10,
+  "status": "ok"
+}

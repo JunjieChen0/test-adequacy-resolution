@@ -1,0 +1,56 @@
+{
+  "project": "Csv",
+  "bug": "6b",
+  "t": "2026-10-16T00:55:14.314055+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 3.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.3
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 3.1
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.6
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.9
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.8
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.csv.AssertionsTest",
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest",
+    "org.apache.commons.csv.FercGovTest",
+    "org.apache.commons.csv.LexerTest",
+    "org.apache.commons.csv.TokenMatchersTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.csv.CSVRecordTest::testToMapWithShortRecord"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.csv.CSVRecord"
+  ],
+  "n_all_tests": 10
+}

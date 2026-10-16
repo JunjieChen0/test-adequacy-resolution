@@ -1,0 +1,78 @@
+{
+  "project": "Codec",
+  "bug": "13b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T17:01:32.264235+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 1.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 4.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 8.9,
+      "lines_total": 3257,
+      "lines_covered": 530,
+      "cond_total": 1811,
+      "cond_covered": 245,
+      "line_cov_pct": 16.3,
+      "cond_cov_pct": 13.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 1.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 3.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 91.2,
+      "mutants_generated": 1310,
+      "mutants_covered": 671,
+      "mutants_killed": 452,
+      "mutation_score_pct": 67.4,
+      "mutation_score_covered_pct": 34.5
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 45,
+  "n_test_java_total": 53,
+  "n_test_target": 4,
+  "n_test_kept": 4,
+  "n_keep_java": 7,
+  "kept_tests": [
+    "org/apache/commons/codec/binary/Base32Test.java",
+    "org/apache/commons/codec/binary/Base64InputStreamTest.java",
+    "org/apache/commons/codec/digest/Apr1CryptTest.java",
+    "org/apache/commons/codec/net/QuotedPrintableCodecTest.java"
+  ],
+  "n_moved_b": 46,
+  "kept_tests_final": [
+    "org/apache/commons/codec/binary/Base32Test.java",
+    "org/apache/commons/codec/binary/Base64InputStreamTest.java",
+    "org/apache/commons/codec/digest/Apr1CryptTest.java",
+    "org/apache/commons/codec/net/QuotedPrintableCodecTest.java"
+  ],
+  "n_test_final": 4,
+  "n_keep_java_f": 7,
+  "n_moved_f": 46,
+  "kept_tests_final_f": [
+    "org/apache/commons/codec/binary/Base32Test.java",
+    "org/apache/commons/codec/binary/Base64InputStreamTest.java",
+    "org/apache/commons/codec/digest/Apr1CryptTest.java",
+    "org/apache/commons/codec/net/QuotedPrintableCodecTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

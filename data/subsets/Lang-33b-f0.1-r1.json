@@ -1,0 +1,96 @@
+{
+  "project": "Lang",
+  "bug": "33b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:28:03.881459+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 10.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 9.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 29.3,
+      "lines_total": 9709,
+      "lines_covered": 1558,
+      "cond_total": 6479,
+      "cond_covered": 687,
+      "line_cov_pct": 16.0,
+      "cond_cov_pct": 10.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 9.3
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 88.2,
+      "mutants_generated": 1344,
+      "mutants_covered": 597,
+      "mutants_killed": 388,
+      "mutation_score_pct": 65.0,
+      "mutation_score_covered_pct": 28.9
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 85,
+  "n_test_java_total": 98,
+  "n_test_target": 8,
+  "n_test_kept": 10,
+  "n_keep_java": 10,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 88,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 10,
+  "n_keep_java_f": 10,
+  "n_moved_f": 88,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/ArrayUtilsAddTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/builder/StandardToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang3/text/WordUtilsTest.java",
+    "org/apache/commons/lang3/text/translate/LookupTranslatorTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 10,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

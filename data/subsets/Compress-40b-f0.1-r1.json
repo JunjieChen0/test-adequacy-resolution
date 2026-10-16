@@ -1,0 +1,93 @@
+{
+  "project": "Compress",
+  "bug": "40b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T17:04:09.551896+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 14.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 31.4,
+      "lines_total": 10872,
+      "lines_covered": 2040,
+      "cond_total": 5038,
+      "cond_covered": 672,
+      "line_cov_pct": 18.8,
+      "cond_cov_pct": 13.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 9.2
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 14.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 74.1,
+      "mutants_generated": 5225,
+      "mutants_covered": 657,
+      "mutants_killed": 182,
+      "mutation_score_pct": 27.7,
+      "mutation_score_covered_pct": 3.5
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 90,
+  "n_test_java_total": 100,
+  "n_test_target": 9,
+  "n_test_kept": 9,
+  "n_keep_java": 10,
+  "kept_tests": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/TarTestCase.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/compressors/BZip2UtilsTestCase.java",
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase.java",
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.java",
+    "org/apache/commons/compress/compressors/lzma/LZMAUtilsTestCase.java"
+  ],
+  "n_moved_b": 90,
+  "kept_tests_final": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/TarTestCase.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/compressors/BZip2UtilsTestCase.java",
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase.java",
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.java",
+    "org/apache/commons/compress/compressors/lzma/LZMAUtilsTestCase.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 10,
+  "n_moved_f": 90,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/ArchiveUtilsTest.java",
+    "org/apache/commons/compress/archivers/TarTestCase.java",
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.java",
+    "org/apache/commons/compress/compressors/BZip2UtilsTestCase.java",
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase.java",
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.java",
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.java",
+    "org/apache/commons/compress/compressors/lzma/LZMAUtilsTestCase.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

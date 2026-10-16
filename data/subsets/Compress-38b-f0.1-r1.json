@@ -1,0 +1,93 @@
+{
+  "project": "Compress",
+  "bug": "38b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T04:24:04.240262+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.8
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 7.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 18.9,
+      "lines_total": 10855,
+      "lines_covered": 3027,
+      "cond_total": 4998,
+      "cond_covered": 950,
+      "line_cov_pct": 27.9,
+      "cond_cov_pct": 19.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.6
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 7.7
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 1007.3,
+      "mutants_generated": 5223,
+      "mutants_covered": 1284,
+      "mutants_killed": 702,
+      "mutation_score_pct": 54.7,
+      "mutation_score_covered_pct": 13.4
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 89,
+  "n_test_java_total": 99,
+  "n_test_target": 9,
+  "n_test_kept": 9,
+  "n_keep_java": 10,
+  "kept_tests": [
+    "org/apache/commons/compress/ArchiveReadTest.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java",
+    "org/apache/commons/compress/compressors/xz/XZUtilsTestCase.java",
+    "org/apache/commons/compress/utils/CountingStreamTest.java"
+  ],
+  "n_moved_b": 89,
+  "kept_tests_final": [
+    "org/apache/commons/compress/ArchiveReadTest.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java",
+    "org/apache/commons/compress/compressors/xz/XZUtilsTestCase.java",
+    "org/apache/commons/compress/utils/CountingStreamTest.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 10,
+  "n_moved_f": 89,
+  "kept_tests_final_f": [
+    "org/apache/commons/compress/ArchiveReadTest.java",
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.java",
+    "org/apache/commons/compress/archivers/LongPathTest.java",
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.java",
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java",
+    "org/apache/commons/compress/compressors/xz/XZUtilsTestCase.java",
+    "org/apache/commons/compress/utils/CountingStreamTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

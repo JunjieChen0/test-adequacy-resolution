@@ -1,0 +1,65 @@
+{
+  "project": "Lang",
+  "bug": "24b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T11:21:35.029630+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 13.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 17.6
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 39.4,
+      "lines_total": 10493,
+      "lines_covered": 410,
+      "cond_total": 7085,
+      "cond_covered": 166,
+      "line_cov_pct": 3.9,
+      "cond_cov_pct": 2.3
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 11.7
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 11.7
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 46.0,
+      "mutants_generated": 1401,
+      "mutants_covered": 258,
+      "mutants_killed": 138,
+      "mutation_score_pct": 53.5,
+      "mutation_score_covered_pct": 9.9
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 93,
+  "n_test_java_total": 109,
+  "n_test_target": 5,
+  "n_test_kept": 5,
+  "n_keep_java": 5,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharSequenceUtilsTest.java",
+    "org/apache/commons/lang3/SystemUtilsTest.java",
+    "org/apache/commons/lang3/exception/ExceptionUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableLongTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeUnescaperTest.java"
+  ],
+  "n_moved_b": 104,
+  "n_keep_java_f": 5,
+  "n_moved_f": 104,
+  "n_mut_classes": 13,
+  "status": "ok"
+}

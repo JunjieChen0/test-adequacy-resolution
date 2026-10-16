@@ -1,0 +1,72 @@
+{
+  "project": "Cli",
+  "bug": "32b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:50:29.623836+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 4.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 8.6,
+      "lines_total": 1108,
+      "lines_covered": 475,
+      "cond_total": 684,
+      "cond_covered": 210,
+      "line_cov_pct": 42.9,
+      "cond_cov_pct": 30.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 2.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 4.2
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 19.9,
+      "mutants_generated": 921,
+      "mutants_covered": 391,
+      "mutants_killed": 260,
+      "mutation_score_pct": 66.5,
+      "mutation_score_covered_pct": 28.2
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 23,
+  "n_test_java_total": 24,
+  "n_test_target": 2,
+  "n_test_kept": 2,
+  "n_keep_java": 3,
+  "kept_tests": [
+    "org/apache/commons/cli/GnuParserTest.java",
+    "org/apache/commons/cli/OptionGroupTest.java"
+  ],
+  "n_moved_b": 21,
+  "kept_tests_final": [
+    "org/apache/commons/cli/GnuParserTest.java",
+    "org/apache/commons/cli/OptionGroupTest.java"
+  ],
+  "n_test_final": 2,
+  "n_keep_java_f": 3,
+  "n_moved_f": 21,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli/GnuParserTest.java",
+    "org/apache/commons/cli/OptionGroupTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

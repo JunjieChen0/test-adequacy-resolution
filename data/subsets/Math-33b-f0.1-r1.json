@@ -1,0 +1,67 @@
+{
+  "project": "Math",
+  "bug": "33b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:27:32.110740+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.9
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.7,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 288,
+  "n_test_java_total": 364,
+  "n_test_target": 29,
+  "n_test_kept": 31,
+  "n_keep_java": 47,
+  "kept_tests": [
+    "org/apache/commons/math3/RetryRunnerTest.java",
+    "org/apache/commons/math3/analysis/function/HarmonicOscillatorTest.java",
+    "org/apache/commons/math3/analysis/solvers/BracketingNthOrderBrentSolverTest.java",
+    "org/apache/commons/math3/dfp/DfpDecTest.java",
+    "org/apache/commons/math3/distribution/CauchyDistributionTest.java",
+    "org/apache/commons/math3/distribution/ChiSquaredDistributionTest.java",
+    "org/apache/commons/math3/distribution/KolmogorovSmirnovDistributionTest.java",
+    "org/apache/commons/math3/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math3/distribution/PascalDistributionTest.java",
+    "org/apache/commons/math3/exception/DimensionMismatchExceptionTest.java",
+    "org/apache/commons/math3/exception/NotStrictlyPositiveExceptionTest.java",
+    "org/apache/commons/math3/exception/util/ArgUtilsTest.java",
+    "org/apache/commons/math3/geometry/euclidean/threed/PlaneTest.java",
+    "org/apache/commons/math3/geometry/euclidean/twod/SubLineTest.java",
+    "org/apache/commons/math3/linear/Array2DRowRealMatrixTest.java",
+    "org/apache/commons/math3/linear/BlockRealMatrixTest.java",
+    "org/apache/commons/math3/linear/FieldLUDecompositionTest.java",
+    "org/apache/commons/math3/linear/MatrixUtilsTest.java",
+    "org/apache/commons/math3/linear/SparseFieldMatrixTest.java",
+    "org/apache/commons/math3/linear/SparseRealVectorTest.java",
+    "org/apache/commons/math3/ode/ContinuousOutputModelTest.java",
+    "org/apache/commons/math3/ode/events/EventStateTest.java",
+    "org/apache/commons/math3/ode/nonstiff/GillStepInterpolatorTest.java",
+    "org/apache/commons/math3/optimization/DifferentiableMultivariateVectorMultiStartOptimizerTest.java",
+    "org/apache/commons/math3/optimization/univariate/BracketFinderTest.java",
+    "org/apache/commons/math3/special/GammaTest.java",
+    "org/apache/commons/math3/stat/descriptive/moment/MeanTest.java",
+    "org/apache/commons/math3/stat/descriptive/moment/SkewnessTest.java",
+    "org/apache/commons/math3/stat/regression/MillerUpdatingRegressionTest.java",
+    "org/apache/commons/math3/util/MathArraysTest.java",
+    "org/apache/commons/math3/util/MultidimensionalCounterTest.java"
+  ],
+  "n_moved_b": 317
+}

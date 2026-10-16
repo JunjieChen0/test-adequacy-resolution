@@ -1,0 +1,78 @@
+{
+  "project": "Lang",
+  "bug": "24b",
+  "frac": 0.25,
+  "rep": 2,
+  "t": "2026-10-15T09:53:19.473136+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 10.3
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 25.0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 129.2,
+      "lines_total": 10493,
+      "lines_covered": 3080,
+      "cond_total": 7085,
+      "cond_covered": 1504,
+      "line_cov_pct": 29.4,
+      "cond_cov_pct": 21.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 18.1
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 20.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 144.3,
+      "mutants_generated": 1401,
+      "mutants_covered": 711,
+      "mutants_killed": 498,
+      "mutation_score_pct": 70.0,
+      "mutation_score_covered_pct": 35.5
+    }
+  },
+  "n_test_total": 93,
+  "n_test_target": 23,
+  "n_test_kept": 24,
+  "kept_tests": [
+    "org/apache/commons/lang3/AnnotationUtilsTest.java",
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/PairTest.java",
+    "org/apache/commons/lang3/RandomStringUtilsTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/BackgroundInitializerTest.java",
+    "org/apache/commons/lang3/concurrent/BasicThreadFactoryTest.java",
+    "org/apache/commons/lang3/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang3/mutable/MutableLongTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/reflect/ConstructorUtilsTest.java",
+    "org/apache/commons/lang3/reflect/FieldUtilsTest.java",
+    "org/apache/commons/lang3/text/CompositeFormatTest.java",
+    "org/apache/commons/lang3/text/StrTokenizerTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java",
+    "org/apache/commons/lang3/text/translate/UnicodeEscaperTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/DateUtilsTest.java",
+    "org/apache/commons/lang3/time/FastDateFormatTest.java",
+    "org/apache/commons/lang3/time/StopWatchTest.java"
+  ],
+  "n_moved_b": 69,
+  "n_test_kept_f": 24,
+  "n_moved_f": 69,
+  "n_mut_classes": 13,
+  "status": "ok"
+}

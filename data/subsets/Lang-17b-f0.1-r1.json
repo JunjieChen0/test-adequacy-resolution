@@ -1,0 +1,96 @@
+{
+  "project": "Lang",
+  "bug": "17b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:25:52.207899+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 15.4
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 34.1,
+      "lines_total": 10633,
+      "lines_covered": 1567,
+      "cond_total": 7159,
+      "cond_covered": 823,
+      "line_cov_pct": 14.7,
+      "cond_cov_pct": 11.5
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 13.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 38.7,
+      "mutants_generated": 1435,
+      "mutants_covered": 0,
+      "mutants_killed": 0,
+      "mutation_score_pct": 0.0,
+      "mutation_score_covered_pct": 0.0
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 97,
+  "n_test_java_total": 115,
+  "n_test_target": 10,
+  "n_test_kept": 10,
+  "n_keep_java": 11,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/EnumUtilsTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableLongTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/time/DurationFormatUtilsTest.java"
+  ],
+  "n_moved_b": 104,
+  "kept_tests_final": [
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/EnumUtilsTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableLongTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/time/DurationFormatUtilsTest.java"
+  ],
+  "n_test_final": 10,
+  "n_keep_java_f": 11,
+  "n_moved_f": 104,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/CharSetUtilsTest.java",
+    "org/apache/commons/lang3/EnumUtilsTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/concurrent/AtomicSafeInitializerTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableLongTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/time/DurationFormatUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

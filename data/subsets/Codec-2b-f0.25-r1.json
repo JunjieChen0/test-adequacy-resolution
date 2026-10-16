@@ -1,0 +1,40 @@
+{
+  "project": "Codec",
+  "bug": "2b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:40:00.897951+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.3
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 17,
+  "n_test_java_total": 21,
+  "n_test_target": 4,
+  "n_test_kept": 4,
+  "n_keep_java": 5,
+  "kept_tests": [
+    "org/apache/commons/codec/binary/BinaryCodecTest.java",
+    "org/apache/commons/codec/digest/DigestUtilsTest.java",
+    "org/apache/commons/codec/language/CaverphoneTest.java",
+    "org/apache/commons/codec/language/DoubleMetaphoneTest.java"
+  ],
+  "n_moved_b": 16
+}

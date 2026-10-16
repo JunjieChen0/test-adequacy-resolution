@@ -1,0 +1,43 @@
+{
+  "project": "Codec",
+  "bug": "9b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:40:07.642864+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 28,
+  "n_test_java_total": 33,
+  "n_test_target": 7,
+  "n_test_kept": 7,
+  "n_keep_java": 9,
+  "kept_tests": [
+    "org/apache/commons/codec/CharEncodingTest.java",
+    "org/apache/commons/codec/DecoderExceptionTest.java",
+    "org/apache/commons/codec/binary/Base64InputStreamTest.java",
+    "org/apache/commons/codec/binary/Base64OutputStreamTest.java",
+    "org/apache/commons/codec/net/BCodecTest.java",
+    "org/apache/commons/codec/net/QCodecTest.java",
+    "org/apache/commons/codec/net/URLCodecTest.java"
+  ],
+  "n_moved_b": 24
+}

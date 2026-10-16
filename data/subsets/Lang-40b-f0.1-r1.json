@@ -1,0 +1,99 @@
+{
+  "project": "Lang",
+  "bug": "40b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T13:21:54.228820+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 13.5
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 23.9,
+      "lines_total": 9812,
+      "lines_covered": 2307,
+      "cond_total": 6539,
+      "cond_covered": 1620,
+      "line_cov_pct": 23.5,
+      "cond_cov_pct": 24.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 10.7
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 96.7,
+      "mutants_generated": 4369,
+      "mutants_covered": 766,
+      "mutants_killed": 553,
+      "mutation_score_pct": 72.2,
+      "mutation_score_covered_pct": 12.7
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 87,
+  "n_test_java_total": 98,
+  "n_test_target": 9,
+  "n_test_kept": 11,
+  "n_keep_java": 13,
+  "kept_tests": [
+    "org/apache/commons/lang/CharEncodingTest.java",
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/concurrent/LazyInitializerTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 85,
+  "kept_tests_final": [
+    "org/apache/commons/lang/CharEncodingTest.java",
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/concurrent/LazyInitializerTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 11,
+  "n_keep_java_f": 13,
+  "n_moved_f": 85,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/CharEncodingTest.java",
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/concurrent/LazyInitializerTest.java",
+    "org/apache/commons/lang/math/NumberUtilsTest.java",
+    "org/apache/commons/lang/mutable/MutableFloatTest.java",
+    "org/apache/commons/lang/text/StrMatcherTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

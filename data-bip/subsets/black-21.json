@@ -1,0 +1,119 @@
+{
+ "project": "black",
+ "bug": "21",
+ "n_collected": 27,
+ "n_pool": 27,
+ "source_pkgs": [
+  "black",
+  "blib2to3"
+ ],
+ "total_asserts_in_pool": null,
+ "pool": [
+  "tests/test_black.py::BlackTestCase::test_assertFormatEqual",
+  "tests/test_black.py::BlackTestCase::test_black",
+  "tests/test_black.py::BlackTestCase::test_cantfit",
+  "tests/test_black.py::BlackTestCase::test_comments",
+  "tests/test_black.py::BlackTestCase::test_comments2",
+  "tests/test_black.py::BlackTestCase::test_comments3",
+  "tests/test_black.py::BlackTestCase::test_comments4",
+  "tests/test_black.py::BlackTestCase::test_composition",
+  "tests/test_black.py::BlackTestCase::test_debug_visitor",
+  "tests/test_black.py::BlackTestCase::test_empty_lines",
+  "tests/test_black.py::BlackTestCase::test_endmarker",
+  "tests/test_black.py::BlackTestCase::test_expression",
+  "tests/test_black.py::BlackTestCase::test_expression_diff",
+  "tests/test_black.py::BlackTestCase::test_expression_ff",
+  "tests/test_black.py::BlackTestCase::test_fmtonoff",
+  "tests/test_black.py::BlackTestCase::test_format_file_contents",
+  "tests/test_black.py::BlackTestCase::test_fstring",
+  "tests/test_black.py::BlackTestCase::test_function",
+  "tests/test_black.py::BlackTestCase::test_import_spacing",
+  "tests/test_black.py::BlackTestCase::test_is_python36",
+  "tests/test_black.py::BlackTestCase::test_piping",
+  "tests/test_black.py::BlackTestCase::test_piping_diff",
+  "tests/test_black.py::BlackTestCase::test_python2",
+  "tests/test_black.py::BlackTestCase::test_report",
+  "tests/test_black.py::BlackTestCase::test_self",
+  "tests/test_black.py::BlackTestCase::test_setup",
+  "tests/test_black.py::BlackTestCase::test_string_quotes"
+ ],
+ "instances": [
+  {
+   "frac": 0.1,
+   "rep": 1,
+   "k": 5,
+   "detect_n": 1,
+   "detect_rate": 0.25,
+   "n_bugs_project": 23,
+   "n_bugs_active": 4,
+   "features": {
+    "assertions_per_method": 1.2,
+    "strong_ratio": 0.5,
+    "weak_ratio": 0.5,
+    "predicate_ratio": 0.5,
+    "calls_per_assertion": 1.1666666666666667,
+    "n_assert_total": 6,
+    "n_methods_with_assert": 4
+   },
+   "status": "ok",
+   "line_cov_pct": 73.2114467408585,
+   "n_pass": 5,
+   "tail": "5 passed in 3.04s"
+  },
+  {
+   "frac": 0.3,
+   "rep": 1,
+   "k": 8,
+   "detect_n": 0,
+   "detect_rate": 0.0,
+   "n_bugs_project": 23,
+   "n_bugs_active": 4,
+   "features": {
+    "assertions_per_method": 4.375,
+    "strong_ratio": 0.9714285714285714,
+    "weak_ratio": 0.02857142857142857,
+    "predicate_ratio": 0.9714285714285714,
+    "calls_per_assertion": 0.8285714285714286,
+    "n_assert_total": 35,
+    "n_methods_with_assert": 3
+   },
+   "status": "ok",
+   "line_cov_pct": 81.00158982511924,
+   "n_pass": 8,
+   "tail": "8 passed in 9.85s"
+  },
+  {
+   "frac": 0.6,
+   "rep": 1,
+   "k": 16,
+   "detect_n": 2,
+   "detect_rate": 0.5,
+   "n_bugs_project": 23,
+   "n_bugs_active": 4,
+   "features": {
+    "assertions_per_method": 2.5,
+    "strong_ratio": 0.875,
+    "weak_ratio": 0.125,
+    "predicate_ratio": 0.875,
+    "calls_per_assertion": 0.875,
+    "n_assert_total": 40,
+    "n_methods_with_assert": 6
+   },
+   "status": "ok",
+   "line_cov_pct": 86.40699523052464,
+   "n_pass": 16,
+   "tail": "16 passed in 8.64s"
+  }
+ ],
+ "pool_features": {
+  "assertions_per_method": 2.037037037037037,
+  "strong_ratio": 0.7454545454545455,
+  "weak_ratio": 0.2545454545454545,
+  "predicate_ratio": 0.7454545454545455,
+  "calls_per_assertion": 1.0,
+  "n_assert_total": 55,
+  "n_methods_with_assert": 12
+ },
+ "n_bugs_active": 4,
+ "status": "ok"
+}

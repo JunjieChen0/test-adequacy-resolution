@@ -1,0 +1,72 @@
+{
+  "project": "Cli",
+  "bug": "26b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:50:29.623611+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.6
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 4.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 8.4,
+      "lines_total": 855,
+      "lines_covered": 205,
+      "cond_total": 472,
+      "cond_covered": 95,
+      "line_cov_pct": 24.0,
+      "cond_cov_pct": 20.1
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 2.4
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 4.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 10.7,
+      "mutants_generated": 887,
+      "mutants_covered": 119,
+      "mutants_killed": 61,
+      "mutation_score_pct": 51.3,
+      "mutation_score_covered_pct": 6.9
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 23,
+  "n_test_java_total": 24,
+  "n_test_target": 2,
+  "n_test_kept": 2,
+  "n_keep_java": 3,
+  "kept_tests": [
+    "org/apache/commons/cli/BasicParserTest.java",
+    "org/apache/commons/cli/UtilTest.java"
+  ],
+  "n_moved_b": 21,
+  "kept_tests_final": [
+    "org/apache/commons/cli/BasicParserTest.java",
+    "org/apache/commons/cli/UtilTest.java"
+  ],
+  "n_test_final": 2,
+  "n_keep_java_f": 3,
+  "n_moved_f": 21,
+  "kept_tests_final_f": [
+    "org/apache/commons/cli/BasicParserTest.java",
+    "org/apache/commons/cli/UtilTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

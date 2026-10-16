@@ -1,0 +1,42 @@
+{
+  "project": "Codec",
+  "bug": "3b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:40:00.899242+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.2
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.4,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 23,
+  "n_test_java_total": 27,
+  "n_test_target": 6,
+  "n_test_kept": 6,
+  "n_keep_java": 8,
+  "kept_tests": [
+    "org/apache/commons/codec/DecoderExceptionTest.java",
+    "org/apache/commons/codec/binary/Base64Test.java",
+    "org/apache/commons/codec/binary/HexTest.java",
+    "org/apache/commons/codec/digest/DigestUtilsTest.java",
+    "org/apache/commons/codec/language/CaverphoneTest.java",
+    "org/apache/commons/codec/language/RefinedSoundexTest.java"
+  ],
+  "n_moved_b": 19
+}

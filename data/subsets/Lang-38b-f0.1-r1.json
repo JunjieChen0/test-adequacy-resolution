@@ -1,0 +1,45 @@
+{
+  "project": "Lang",
+  "bug": "38b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:34:53.888190+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.3,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 84,
+  "n_test_java_total": 97,
+  "n_test_target": 8,
+  "n_test_kept": 9,
+  "n_keep_java": 9,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharRangeTest.java",
+    "org/apache/commons/lang3/CharSetTest.java",
+    "org/apache/commons/lang3/builder/EqualsBuilderTest.java",
+    "org/apache/commons/lang3/builder/HashCodeBuilderAndEqualsBuilderTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/math/NumberUtilsTest.java",
+    "org/apache/commons/lang3/mutable/MutableIntTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java",
+    "org/apache/commons/lang3/text/translate/EntityArraysTest.java"
+  ],
+  "n_moved_b": 88
+}

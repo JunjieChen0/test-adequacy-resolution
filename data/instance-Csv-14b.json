@@ -1,0 +1,67 @@
+{
+  "project": "Csv",
+  "bug": "14b",
+  "t": "2026-10-16T00:55:58.489255+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.9
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 6.8
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.5
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 3.2
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 3.2
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.8
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.csv.AssertionsTest",
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatPredefinedTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest",
+    "org.apache.commons.csv.LexerTest",
+    "org.apache.commons.csv.TokenMatchersTest",
+    "org.apache.commons.csv.bugs.JiraCsv164Test",
+    "org.apache.commons.csv.bugs.JiraCsv167Test"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeNull1",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeNull4",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeNull5",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash1",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash4",
+    "org.apache.commons.csv.CSVPrinterTest::testEscapeBackslash5"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatPredefinedTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.LexerTest",
+    "org.apache.commons.csv.bugs.JiraCsv164Test"
+  ],
+  "modified.txt": [
+    "org.apache.commons.csv.CSVFormat"
+  ],
+  "n_all_tests": 12
+}

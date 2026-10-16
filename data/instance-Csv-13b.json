@@ -1,0 +1,63 @@
+{
+  "project": "Csv",
+  "bug": "13b",
+  "t": "2026-10-16T00:55:48.111571+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.1
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.5
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 2.0
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.3
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.8
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.csv.AssertionsTest",
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatPredefinedTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.ExtendedBufferedReaderTest",
+    "org.apache.commons.csv.FercGovTest",
+    "org.apache.commons.csv.JiraCsv167Test",
+    "org.apache.commons.csv.LexerTest",
+    "org.apache.commons.csv.TokenMatchersTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.csv.CSVPrinterTest::testMySqlNullOutput",
+    "org.apache.commons.csv.CSVPrinterTest::testMySqlNullStringDefault"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.csv.CSVFileParserTest",
+    "org.apache.commons.csv.CSVFormatPredefinedTest",
+    "org.apache.commons.csv.CSVFormatTest",
+    "org.apache.commons.csv.CSVParserTest",
+    "org.apache.commons.csv.CSVPrinterTest",
+    "org.apache.commons.csv.CSVRecordTest",
+    "org.apache.commons.csv.LexerTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.csv.CSVFormat",
+    "org.apache.commons.csv.CSVPrinter"
+  ],
+  "n_all_tests": 12
+}

@@ -1,0 +1,271 @@
+{
+ "project": "tornado",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/websocket_test.py",
+   "buggy_commit": "6a5a0bfa370b6c0d3dbbf9589a560a98202d2baa",
+   "fixed_commit": "4677c54cc18bbfbdf0f4dadf11610fab6203fd63",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/websocket_test.py",
+     "node": "WebSocketTest::test_nodelay",
+     "raw": "python -m unittest -q tornado.test.websocket_test.WebSocketTest.test_nodelay"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/httpclient_test.py",
+   "buggy_commit": "2ca8821d006f6693f920a4b183a3a7c985a5c8ad",
+   "fixed_commit": "4f486a4aec746e9d66441600ee3b0743228b061c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/httpclient_test.py",
+     "node": "HTTPClientCommonTestCase::test_redirect_put_without_body",
+     "raw": "python -m unittest -q tornado.test.httpclient_test.HTTPClientCommonTestCase.test_redirect_put_without_body"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/httpclient_test.py",
+   "buggy_commit": "940fd87fe9145d1154c8457221f86d56ea063c65",
+   "fixed_commit": "aa622e724f80e0f7fcee369f75d69d1db13d72f2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/httpclient_test.py",
+     "node": "SyncHTTPClientSubprocessTest",
+     "raw": "python -m unittest -q tornado.test.httpclient_test.SyncHTTPClientSubprocessTest"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/web_test.py",
+   "buggy_commit": "a8420fc681c5423d072978f00eab4d0645057d16",
+   "fixed_commit": "db529031a1e1a6e951826aba0b7d0b18f05cd4c7",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/web_test.py",
+     "node": "StaticFileTest::test_static_with_range_neg_past_start",
+     "raw": "python -m unittest -q tornado.test.web_test.StaticFileTest.test_static_with_range_neg_past_start"
+    },
+    {
+     "file": "tornado/test/web_test.py",
+     "node": "StaticFileTest::test_static_unsatisfiable_range_end_less_than_start",
+     "raw": "python -m unittest -q tornado.test.web_test.StaticFileTest.test_static_unsatisfiable_range_end_less_than_start"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/ioloop_test.py",
+   "buggy_commit": "2d4053daa56c609d642b214399e046671d4a593e",
+   "fixed_commit": "886643965b5cb782503d8d7b374b7a794ec2077b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/ioloop_test.py",
+     "node": "TestPeriodicCallbackMath::test_clock_backwards",
+     "raw": "python -m unittest -q tornado.test.ioloop_test.TestPeriodicCallbackMath.test_clock_backwards"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/asyncio_test.py",
+   "buggy_commit": "fb74e4816ccfa7fc6a7abd8c8aab1f415cfc1b13",
+   "fixed_commit": "2905ee4fb3c283d40b10f609359e189c83a0dc06",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/asyncio_test.py",
+     "node": "LeakTest::test_ioloop_close_leak",
+     "raw": "python -m unittest -q tornado.test.asyncio_test.LeakTest.test_ioloop_close_leak"
+    },
+    {
+     "file": "tornado/test/asyncio_test.py",
+     "node": "LeakTest::test_asyncio_close_leak",
+     "raw": "python -m unittest -q tornado.test.asyncio_test.LeakTest.test_asyncio_close_leak"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/ioloop_test.py",
+   "buggy_commit": "fa3409179588536f2f743d16e537f6f9827fa92f",
+   "fixed_commit": "a3b44cd701e0e82693363701bc0346b0125d2362",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/ioloop_test.py",
+     "node": "TestIOLoopFutures::test_run_in_executor_native",
+     "raw": "python -m unittest -q tornado.test.ioloop_test.TestIOLoopFutures.test_run_in_executor_native"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/websocket_test.py",
+   "buggy_commit": "34c43f4775971ab9b2b8ed43356f218add6387b2",
+   "fixed_commit": "5d4a9ab26372efd255bbb29fde55c41395ed17b1",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/websocket_test.py",
+     "node": "WebSocketTest::test_missing_websocket_key",
+     "raw": "python -m unittest -q tornado.test.websocket_test.WebSocketTest.test_missing_websocket_key"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/httputil_test.py",
+   "buggy_commit": "c9d2a3fa573987629ad576e991c2f3b65f4daab4",
+   "fixed_commit": "86cc31f52992fb9d11f92de6fd5496842fea2265",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/httputil_test.py",
+     "node": "TestUrlConcat::test_url_concat_none_params",
+     "raw": "python -m unittest -q tornado.test.httputil_test.TestUrlConcat.test_url_concat_none_params"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/websocket_test.py",
+   "buggy_commit": "ecd8968c5135b810cd607b5902dda2cd32122b39",
+   "fixed_commit": "5931d913b4ea250891a0b582f1f8b2901b868c79",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/websocket_test.py",
+     "node": "WebSocketTest::test_render_message",
+     "raw": "python -m unittest -q tornado.test.websocket_test.WebSocketTest.test_render_message"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/httpserver_test.py",
+   "buggy_commit": "79ef301eb05cac82c075198e502d94dad296f6aa",
+   "fixed_commit": "1131c9b50a6a4c0868d0d6fa5e0be077cf8fd1ca",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/httpserver_test.py",
+     "node": "HTTPServerRawTest::test_chunked_request_uppercase",
+     "raw": "python -m unittest -q tornado.test.httpserver_test.HTTPServerRawTest.test_chunked_request_uppercase"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/auth_test.py",
+   "buggy_commit": "4ee9ba94de11aaa4f932560fa2b3d8ceb8c61d2a",
+   "fixed_commit": "301f52b532c071a0d2fec1eb7c23f2714bb38567",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/auth_test.py",
+     "node": "AuthTest::test_facebook_login",
+     "raw": "python -m unittest -q tornado.test.auth_test.AuthTest.test_facebook_login"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/http1connection_test.py",
+   "buggy_commit": "d7d9c467cda38f4c9352172ba7411edc29a85196",
+   "fixed_commit": "34903f9e1a99441b2729bbe6f1d65d46cf352ea7",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/http1connection_test.py",
+     "node": "HTTP1ConnectionTest::test_http10_no_content_length",
+     "raw": "python -m unittest -q tornado.test.http1connection_test.HTTP1ConnectionTest.test_http10_no_content_length"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/ioloop_test.py",
+   "buggy_commit": "81ee310adcd905fbdf7c98d9fb6ef0c5a46026c2",
+   "fixed_commit": "1d02ed606f1c52636462633d009bdcbaac644331",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/ioloop_test.py",
+     "node": "TestIOLoopCurrent::test_force_current",
+     "raw": "python -m unittest -q tornado.test.ioloop_test.TestIOLoopCurrent.test_force_current"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/web_test.py",
+   "buggy_commit": "fdfaf3dffa49479c7461050eacca07bc5ee8d207",
+   "fixed_commit": "ecb3ea7543cc942659faf3d2144853018afa6139",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/web_test.py",
+     "node": "StaticFileTest::test_path_traversal_protection",
+     "raw": "python -m unittest -q tornado.test.web_test.StaticFileTest.test_path_traversal_protection"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "tornado",
+   "python_version": "3.7.0",
+   "test_file": "tornado/test/gen_test.py",
+   "buggy_commit": "b450ff270df0395ee80f4ee5896a92bfe7f9b6ae",
+   "fixed_commit": "d1676810ef5972c4defb0a710a1d8f8a0018983b",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "tornado/test/gen_test.py",
+     "node": "WaitIteratorTest::test_no_ref",
+     "raw": "python -m unittest -q tornado.test.gen_test.WaitIteratorTest.test_no_ref"
+    }
+   ]
+  }
+ }
+}

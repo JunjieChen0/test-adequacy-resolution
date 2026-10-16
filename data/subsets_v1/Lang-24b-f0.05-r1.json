@@ -1,0 +1,60 @@
+{
+  "project": "Lang",
+  "bug": "24b",
+  "frac": 0.05,
+  "rep": 1,
+  "t": "2026-10-15T09:41:56.320679+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 16.1
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 19.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 61.0,
+      "lines_total": 10493,
+      "lines_covered": 1088,
+      "cond_total": 7085,
+      "cond_covered": 542,
+      "line_cov_pct": 10.4,
+      "cond_cov_pct": 7.6
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 16.8
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 18.0
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 60.9,
+      "mutants_generated": 1401,
+      "mutants_covered": 153,
+      "mutants_killed": 51,
+      "mutation_score_pct": 33.3,
+      "mutation_score_covered_pct": 3.6
+    }
+  },
+  "n_test_total": 93,
+  "n_test_target": 5,
+  "n_test_kept": 6,
+  "kept_tests": [
+    "org/apache/commons/lang3/ObjectUtilsTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang3/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/text/translate/NumericEntityUnescaperTest.java"
+  ],
+  "n_moved_b": 87,
+  "n_test_kept_f": 6,
+  "n_moved_f": 87,
+  "n_mut_classes": 13,
+  "status": "ok"
+}

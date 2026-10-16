@@ -1,0 +1,26 @@
+{
+  "tag": "Csv-10b-f0.25-r1",
+  "project": "Csv",
+  "bug": "10b",
+  "frac": 0.25,
+  "rep": 1,
+  "n_test_final": 2,
+  "features": {
+    "n_assertions": 93,
+    "n_test_methods": 7,
+    "n_strong": 87,
+    "n_weak": 6,
+    "n_other": 0,
+    "n_predicate": 0,
+    "n_distinct_calls": 5,
+    "test_loc": 275,
+    "n_files": 2
+  },
+  "derived": {
+    "assertions_per_method": 13.285714285714286,
+    "strong_ratio": 0.9354838709677419,
+    "weak_ratio": 0.06451612903225806,
+    "predicate_ratio": 0.0,
+    "calls_per_assertion": 0.053763440860215055
+  }
+}

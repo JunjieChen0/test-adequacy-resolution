@@ -1,0 +1,72 @@
+{
+  "project": "Codec",
+  "bug": "5b",
+  "t": "2026-10-16T00:56:33.766522+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 2.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 8.3
+    },
+    "export_all.txt": {
+      "rc": 0,
+      "s": 2.6
+    },
+    "export_trigger.txt": {
+      "rc": 0,
+      "s": 1.7
+    },
+    "export_relevant.txt": {
+      "rc": 0,
+      "s": 2.0
+    },
+    "export_modified.txt": {
+      "rc": 0,
+      "s": 2.4
+    }
+  },
+  "all.txt": [
+    "org.apache.commons.codec.CharEncodingTest",
+    "org.apache.commons.codec.DecoderExceptionTest",
+    "org.apache.commons.codec.EncoderExceptionTest",
+    "org.apache.commons.codec.StringEncoderComparatorTest",
+    "org.apache.commons.codec.binary.Base64Codec13Test",
+    "org.apache.commons.codec.binary.Base64InputStreamTest",
+    "org.apache.commons.codec.binary.Base64OutputStreamTest",
+    "org.apache.commons.codec.binary.Base64Test",
+    "org.apache.commons.codec.binary.BinaryCodecTest",
+    "org.apache.commons.codec.binary.HexTest",
+    "org.apache.commons.codec.binary.StringUtilsTest",
+    "org.apache.commons.codec.digest.DigestUtilsTest",
+    "org.apache.commons.codec.language.CaverphoneTest",
+    "org.apache.commons.codec.language.DoubleMetaphone2Test",
+    "org.apache.commons.codec.language.DoubleMetaphoneTest",
+    "org.apache.commons.codec.language.MetaphoneTest",
+    "org.apache.commons.codec.language.RefinedSoundexTest",
+    "org.apache.commons.codec.language.SoundexTest",
+    "org.apache.commons.codec.net.BCodecTest",
+    "org.apache.commons.codec.net.QCodecTest",
+    "org.apache.commons.codec.net.QuotedPrintableCodecTest",
+    "org.apache.commons.codec.net.RFC1522CodecTest",
+    "org.apache.commons.codec.net.URLCodecTest",
+    "org.apache.commons.codec.net.UtilsTest"
+  ],
+  "trigger.txt": [
+    "org.apache.commons.codec.binary.Base64InputStreamTest::testCodec98NPE",
+    "org.apache.commons.codec.binary.Base64OutputStreamTest::testCodec98NPE"
+  ],
+  "relevant.txt": [
+    "org.apache.commons.codec.binary.Base64Codec13Test",
+    "org.apache.commons.codec.binary.Base64InputStreamTest",
+    "org.apache.commons.codec.binary.Base64OutputStreamTest",
+    "org.apache.commons.codec.binary.Base64Test",
+    "org.apache.commons.codec.net.BCodecTest"
+  ],
+  "modified.txt": [
+    "org.apache.commons.codec.binary.Base64"
+  ],
+  "n_all_tests": 24
+}

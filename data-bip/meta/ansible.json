@@ -1,0 +1,318 @@
+{
+ "project": "ansible",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/galaxy/test_collection.py",
+   "buggy_commit": "25c5388fdec9e56517a93feb5e8d485680946c25",
+   "fixed_commit": "343ffaa18b63c92e182b16c3ad84b8d81ca4df69",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/galaxy/test_collection.py",
+     "node": "test_verify_collections_no_version",
+     "raw": "pytest test/units/galaxy/test_collection.py::test_verify_collections_no_version"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/utils/test_version.py",
+   "buggy_commit": "de59b17c7f69d5cfb72479b71776cc8b97e29a6b",
+   "fixed_commit": "5b9418c06ca6d51507468124250bb58046886be6",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/utils/test_version.py",
+     "node": "test_alpha",
+     "raw": "pytest test/units/utils/test_version.py::test_alpha"
+    },
+    {
+     "file": "test/units/utils/test_version.py",
+     "node": "test_numeric",
+     "raw": "pytest test/units/utils/test_version.py::test_numeric"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/module_utils/test_distribution_version.py",
+   "buggy_commit": "70219df9056ffb1e2766f572fbe71f7a1800c9f5",
+   "fixed_commit": "9d48884e36fb4fd9551f000b87d264383de74e75",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/module_utils/test_distribution_version.py",
+     "node": "test_distribution_version",
+     "raw": "pytest test/units/module_utils/test_distribution_version.py::test_distribution_version"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/playbook/test_collectionsearch.py",
+   "buggy_commit": "d91658ec0c8434c82c3ef98bfe9eb4e1027a43a3",
+   "fixed_commit": "18a66e291dad71128a32d662aa808213acefe0e9",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/playbook/test_collectionsearch.py",
+     "node": "test_collection_static_warning",
+     "raw": "pytest test/units/playbook/test_collectionsearch.py::test_collection_static_warning"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/module_utils/common/validation/test_check_required_arguments.py",
+   "buggy_commit": "2af76f16be8cf2239daaec4c2f31c3dcb4e3469e",
+   "fixed_commit": "3c3ffc09c203d1b2262f6a319cceadd727749761",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/module_utils/common/validation/test_check_required_arguments.py",
+     "node": "test_check_required_arguments_missing_multiple",
+     "raw": "pytest test/units/module_utils/common/validation/test_check_required_arguments.py::test_check_required_arguments_missing_multiple"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/galaxy/test_collection_install.py",
+   "buggy_commit": "90898132e456ee1993db99a1531379f1b98ee915",
+   "fixed_commit": "4881af2e7e0506ada0225fd764e874e20569d5b2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/galaxy/test_collection_install.py",
+     "node": "test_build_requirement_from_path_with_manifest",
+     "raw": "pytest test/units/galaxy/test_collection_install.py::test_build_requirement_from_path_with_manifest"
+    },
+    {
+     "file": "test/units/galaxy/test_collection_install.py",
+     "node": "test_build_requirement_from_path_no_version",
+     "raw": "pytest test/units/galaxy/test_collection_install.py::test_build_requirement_from_path_no_version"
+    },
+    {
+     "file": "test/units/galaxy/test_collection_install.py",
+     "node": "test_add_collection_requirement_to_unknown_installed_version",
+     "raw": "pytest test/units/galaxy/test_collection_install.py::test_add_collection_requirement_to_unknown_installed_version"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/modules/network/eos/test_eos_vlans.py",
+   "buggy_commit": "cd146b836e032df785ecd9eb711c6ef23c2228b8",
+   "fixed_commit": "4ec1437212b2fb3c313e44ed5a76b105f2151622",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/modules/network/eos/test_eos_vlans.py",
+     "node": "TestEosVlansModule::test_eos_vlan_replaced",
+     "raw": "pytest test/units/modules/network/eos/test_eos_vlans.py::TestEosVlansModule::test_eos_vlan_replaced"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/plugins/shell/test_powershell.py",
+   "buggy_commit": "81378b3e744cd0d13b33d18a4f8a38aeb8a6e97a",
+   "fixed_commit": "fc7980af9a42676913b4054163570ee438b82e9c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/plugins/shell/test_powershell.py",
+     "node": "test_join_path_unc",
+     "raw": "pytest test/units/plugins/shell/test_powershell.py::test_join_path_unc"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/modules/packaging/os/test_redhat_subscription.py",
+   "buggy_commit": "9276dd2007a73172ed99ab5a56cded4298d3cd2b",
+   "fixed_commit": "6f1bb37feb81acd99157f5ba0933fecd747015a2",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/modules/packaging/os/test_redhat_subscription.py",
+     "node": "test_redhat_subscribtion",
+     "raw": "pytest test/units/modules/packaging/os/test_redhat_subscription.py::test_redhat_subscribtion"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/modules/system/test_pamd.py",
+   "buggy_commit": "e368f788f71c338cd3f049d5d6bdc643a51c0514",
+   "fixed_commit": "a4b59d021368285490f7cda50c11ac4f7a8030b5",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/modules/system/test_pamd.py",
+     "node": "PamdServiceTestCase::test_remove_first_rule",
+     "raw": "pytest test/units/modules/system/test_pamd.py::PamdServiceTestCase::test_remove_first_rule"
+    },
+    {
+     "file": "test/units/modules/system/test_pamd.py",
+     "node": "PamdServiceTestCase::test_remove_last_rule",
+     "raw": "pytest test/units/modules/system/test_pamd.py::PamdServiceTestCase::test_remove_last_rule"
+    }
+   ]
+  },
+  "11": {
+   "bug": "11",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/modules/network/ios/test_ios_banner.py",
+   "buggy_commit": "da07b98b7a433493728ddb7ac7efbd20b8988776",
+   "fixed_commit": "52f3ce8a808f943561803bd664e695fed1841fe8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/modules/network/ios/test_ios_banner.py",
+     "node": "TestIosBannerModule::test_ios_banner_nochange",
+     "raw": "pytest test/units/modules/network/ios/test_ios_banner.py::TestIosBannerModule::test_ios_banner_nochange"
+    },
+    {
+     "file": "test/units/modules/network/ios/test_ios_banner.py",
+     "node": "TestIosBannerIos12Module::test_ios_banner_nochange",
+     "raw": "pytest test/units/modules/network/ios/test_ios_banner.py::TestIosBannerIos12Module::test_ios_banner_nochange"
+    }
+   ]
+  },
+  "12": {
+   "bug": "12",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/plugins/lookup/test_env.py",
+   "buggy_commit": "05e2e1806162393d76542a75c2520c7d61c2d855",
+   "fixed_commit": "2fa8f9cfd80daf32c7d222190edf7cfc7234582a",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/plugins/lookup/test_env.py",
+     "node": "",
+     "raw": "pytest test/units/plugins/lookup/test_env.py"
+    }
+   ]
+  },
+  "13": {
+   "bug": "13",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/cli/test_galaxy.py",
+   "buggy_commit": "41472ee3878be215af8b933b2b04b4a72b9165ca",
+   "fixed_commit": "694ef5660d45fcb97c9beea5b2750f6eadcf5e93",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/cli/test_galaxy.py",
+     "node": "test_collection_install_with_url",
+     "raw": "pytest test/units/cli/test_galaxy.py::test_collection_install_with_url"
+    }
+   ]
+  },
+  "14": {
+   "bug": "14",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/galaxy/test_api.py",
+   "buggy_commit": "a1ab093ddbd32f1002cbf6d6f184c7d0041d890d",
+   "fixed_commit": "7acae62fa849481b2a5e2e2d56961c5e1dcea96c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/galaxy/test_api.py",
+     "node": "test_get_role_versions_pagination",
+     "raw": "pytest test/units/galaxy/test_api.py::test_get_role_versions_pagination"
+    }
+   ]
+  },
+  "15": {
+   "bug": "15",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/modules/network/eos/test_eos_eapi.py",
+   "buggy_commit": "b1e8a6c1cbd2a668b462995487b819ef7dd8ba4b",
+   "fixed_commit": "68de182555b185737353e780882159a3d213908c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/modules/network/eos/test_eos_eapi.py",
+     "node": "TestEosEapiModule::test_eos_eapi_vrf",
+     "raw": "pytest test/units/modules/network/eos/test_eos_eapi.py::TestEosEapiModule::test_eos_eapi_vrf"
+    }
+   ]
+  },
+  "16": {
+   "bug": "16",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/module_utils/facts/hardware/test_linux_get_cpu_info.py",
+   "buggy_commit": "2a9964ede8b2b77a62a005f6f5abc964b2819b0e",
+   "fixed_commit": "93d9d640380252084855885ad27873b4377898ec",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/module_utils/facts/hardware/test_linux_get_cpu_info.py",
+     "node": "test_get_cpu_info_missing_arch",
+     "raw": "pytest test/units/module_utils/facts/hardware/test_linux_get_cpu_info.py::test_get_cpu_info_missing_arch"
+    }
+   ]
+  },
+  "17": {
+   "bug": "17",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/module_utils/facts/test_facts.py",
+   "buggy_commit": "9cb47832d15c61884b30d70f9d4e0f816b064b05",
+   "fixed_commit": "b38cb37728df76e0529243bdce694b18ca0e1163",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/module_utils/facts/test_facts.py",
+     "node": "TestFactsLinuxHardwareGetMountFacts::test_get_mount_facts",
+     "raw": "pytest test/units/module_utils/facts/test_facts.py::TestFactsLinuxHardwareGetMountFacts::test_get_mount_facts"
+    }
+   ]
+  },
+  "18": {
+   "bug": "18",
+   "project": "ansible",
+   "python_version": "3.6.9",
+   "test_file": "test/units/cli/test_galaxy.py",
+   "buggy_commit": "bb1256ca9aa4c22225dbeef0ef23a20fa9388b2f",
+   "fixed_commit": "056aac1e3012d0e65991b73f2478b844b7cbdfc8",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "test/units/cli/test_galaxy.py",
+     "node": "test_collection_default",
+     "raw": "pytest test/units/cli/test_galaxy.py::test_collection_default"
+    }
+   ]
+  }
+ }
+}

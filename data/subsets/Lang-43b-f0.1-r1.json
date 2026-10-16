@@ -1,0 +1,122 @@
+{
+  "project": "Lang",
+  "bug": "43b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T03:35:11.496023+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.7
+    },
+    "compile_b": {
+      "rc": 1,
+      "s": 6.9,
+      "repair_added": 18,
+      "repair_log": [
+        [
+          "Broken1Enum",
+          "Broken1OperationEnum",
+          "Broken2Enum",
+          "Broken2OperationEnum",
+          "Broken3Enum",
+          "Broken3OperationEnum",
+          "Broken4OperationEnum",
+          "Broken5OperationEnum",
+          "ColorEnum",
+          "Extended1Enum",
+          "Extended2Enum",
+          "OperationEnum"
+        ],
+        [
+          "Extended3Enum",
+          "Nest",
+          "NestBroken",
+          "NestLinked",
+          "NestReferenced",
+          "ValuedColorEnum"
+        ]
+      ],
+      "rc_after_repair": 0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 31.0,
+      "lines_total": 10778,
+      "lines_covered": 1047,
+      "cond_total": 7102,
+      "cond_covered": 508,
+      "line_cov_pct": 9.7,
+      "cond_cov_pct": 7.2
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.1
+    },
+    "compile_f": {
+      "rc": 1,
+      "s": 7.7,
+      "repair_added": 18
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 362.5,
+      "mutants_generated": 4183,
+      "mutants_covered": 355,
+      "mutants_killed": 104,
+      "mutation_score_pct": 29.3,
+      "mutation_score_covered_pct": 2.5
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 90,
+  "n_test_java_total": 158,
+  "n_test_target": 9,
+  "n_test_kept": 9,
+  "n_keep_java": 29,
+  "kept_tests": [
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/CharUtilsTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/enums/ValuedEnumTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/text/CompositeFormatTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_moved_b": 129,
+  "n_repaired_b": 18,
+  "kept_tests_final": [
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/CharUtilsTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/enums/ValuedEnumTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/text/CompositeFormatTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 29,
+  "n_moved_f": 129,
+  "n_repaired_f": 18,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/CharRangeTest.java",
+    "org/apache/commons/lang/CharUtilsTest.java",
+    "org/apache/commons/lang/LocaleUtilsTest.java",
+    "org/apache/commons/lang/builder/ReflectionToStringBuilderExcludeTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/enums/ValuedEnumTest.java",
+    "org/apache/commons/lang/math/FloatRangeTest.java",
+    "org/apache/commons/lang/text/CompositeFormatTest.java",
+    "org/apache/commons/lang/time/StopWatchTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

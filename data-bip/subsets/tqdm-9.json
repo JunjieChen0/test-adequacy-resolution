@@ -1,0 +1,105 @@
+{
+ "project": "tqdm",
+ "bug": "9",
+ "n_collected": 14,
+ "n_pool": 14,
+ "source_pkgs": [
+  "tqdm"
+ ],
+ "total_asserts_in_pool": null,
+ "pool": [
+  "tqdm/tests/tests_tqdm.py::test_format_interval",
+  "tqdm/tests/tests_tqdm.py::test_format_meter",
+  "tqdm/tests/tests_tqdm.py::test_si_format",
+  "tqdm/tests/tests_tqdm.py::test_all_defaults",
+  "tqdm/tests/tests_tqdm.py::test_iterate_over_csv_rows",
+  "tqdm/tests/tests_tqdm.py::test_file_output",
+  "tqdm/tests/tests_tqdm.py::test_leave_option",
+  "tqdm/tests/tests_tqdm.py::test_trange",
+  "tqdm/tests/tests_tqdm.py::test_min_interval",
+  "tqdm/tests/tests_tqdm.py::test_min_iters",
+  "tqdm/tests/tests_tqdm.py::test_disable",
+  "tqdm/tests/tests_tqdm.py::test_unit",
+  "tqdm/tests/tests_tqdm.py::test_update",
+  "tqdm/tests/tests_tqdm.py::test_close"
+ ],
+ "instances": [
+  {
+   "frac": 0.1,
+   "rep": 1,
+   "k": 5,
+   "detect_n": 2,
+   "detect_rate": 0.6666666666666666,
+   "n_bugs_project": 9,
+   "n_bugs_active": 3,
+   "features": {
+    "assertions_per_method": 2.8,
+    "strong_ratio": 1.0,
+    "weak_ratio": 0.0,
+    "predicate_ratio": 1.0,
+    "calls_per_assertion": 1.0714285714285714,
+    "n_assert_total": 14,
+    "n_methods_with_assert": 4
+   },
+   "status": "ok",
+   "line_cov_pct": 89.14285714285714,
+   "n_pass": 5,
+   "tail": "5 passed in 0.15s"
+  },
+  {
+   "frac": 0.3,
+   "rep": 1,
+   "k": 5,
+   "detect_n": 2,
+   "detect_rate": 0.6666666666666666,
+   "n_bugs_project": 9,
+   "n_bugs_active": 3,
+   "features": {
+    "assertions_per_method": 2.2,
+    "strong_ratio": 1.0,
+    "weak_ratio": 0.0,
+    "predicate_ratio": 1.0,
+    "calls_per_assertion": 1.0909090909090908,
+    "n_assert_total": 11,
+    "n_methods_with_assert": 4
+   },
+   "status": "ok",
+   "line_cov_pct": 84.57142857142857,
+   "n_pass": 5,
+   "tail": "5 passed in 0.16s"
+  },
+  {
+   "frac": 0.6,
+   "rep": 1,
+   "k": 8,
+   "detect_n": 3,
+   "detect_rate": 1.0,
+   "n_bugs_project": 9,
+   "n_bugs_active": 3,
+   "features": {
+    "assertions_per_method": 4.375,
+    "strong_ratio": 1.0,
+    "weak_ratio": 0.0,
+    "predicate_ratio": 1.0,
+    "calls_per_assertion": 1.0285714285714285,
+    "n_assert_total": 35,
+    "n_methods_with_assert": 7
+   },
+   "status": "ok",
+   "line_cov_pct": 91.42857142857143,
+   "n_pass": 8,
+   "tail": "8 passed in 0.18s"
+  }
+ ],
+ "pool_features": {
+  "assertions_per_method": 3.357142857142857,
+  "strong_ratio": 1.0,
+  "weak_ratio": 0.0,
+  "predicate_ratio": 1.0,
+  "calls_per_assertion": 1.0212765957446808,
+  "n_assert_total": 47,
+  "n_methods_with_assert": 13
+ },
+ "n_bugs_active": 3,
+ "status": "ok"
+}

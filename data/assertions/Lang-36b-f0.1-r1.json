@@ -1,0 +1,26 @@
+{
+  "tag": "Lang-36b-f0.1-r1",
+  "project": "Lang",
+  "bug": "36b",
+  "frac": 0.1,
+  "rep": 1,
+  "n_test_final": 10,
+  "features": {
+    "n_assertions": 1771,
+    "n_test_methods": 14,
+    "n_strong": 1064,
+    "n_weak": 388,
+    "n_other": 163,
+    "n_predicate": 368,
+    "n_distinct_calls": 142,
+    "test_loc": 5645,
+    "n_files": 10
+  },
+  "derived": {
+    "assertions_per_method": 126.5,
+    "strong_ratio": 0.6007905138339921,
+    "weak_ratio": 0.21908526256352343,
+    "predicate_ratio": 0.2077922077922078,
+    "calls_per_assertion": 0.08018068887634106
+  }
+}

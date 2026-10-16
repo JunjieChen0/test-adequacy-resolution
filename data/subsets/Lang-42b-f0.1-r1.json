@@ -1,0 +1,106 @@
+{
+  "project": "Lang",
+  "bug": "42b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-15T16:28:22.200114+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.7
+    },
+    "compile_b": {
+      "rc": 1,
+      "s": 10.6,
+      "repair_added": 1,
+      "repair_log": [
+        [
+          "ColorEnum"
+        ]
+      ],
+      "rc_after_repair": 0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 34.0,
+      "lines_total": 10779,
+      "lines_covered": 1418,
+      "cond_total": 7102,
+      "cond_covered": 738,
+      "line_cov_pct": 13.2,
+      "cond_cov_pct": 10.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 13.5
+    },
+    "compile_f": {
+      "rc": 1,
+      "s": 11.9,
+      "repair_added": 1
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 53.2,
+      "mutants_generated": 4183,
+      "mutants_covered": 399,
+      "mutants_killed": 270,
+      "mutation_score_pct": 67.7,
+      "mutation_score_covered_pct": 6.5
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 90,
+  "n_test_java_total": 158,
+  "n_test_target": 9,
+  "n_test_kept": 10,
+  "n_keep_java": 27,
+  "kept_tests": [
+    "org/apache/commons/lang/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/enums/EnumEqualsTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 131,
+  "n_repaired_b": 1,
+  "kept_tests_final": [
+    "org/apache/commons/lang/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/enums/EnumEqualsTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 10,
+  "n_keep_java_f": 27,
+  "n_moved_f": 131,
+  "n_repaired_f": 1,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang/UnhandledExceptionTest.java",
+    "org/apache/commons/lang/builder/CompareToBuilderTest.java",
+    "org/apache/commons/lang/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang/builder/MultiLineToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ShortPrefixToStringStyleTest.java",
+    "org/apache/commons/lang/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang/enums/EnumEqualsTest.java",
+    "org/apache/commons/lang/oldenum/EnumTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

@@ -1,0 +1,51 @@
+{
+  "project": "Compress",
+  "bug": "13b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:35:33.033944+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.4
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 55,
+  "n_test_java_total": 62,
+  "n_test_target": 14,
+  "n_test_kept": 15,
+  "n_keep_java": 16,
+  "kept_tests": [
+    "org/apache/commons/compress/ChainingTestCase.java",
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.java",
+    "org/apache/commons/compress/archivers/zip/TestZipEncodings.java",
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraFieldTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.java",
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.java",
+    "org/apache/commons/compress/changes/ChangeSetTestCase.java",
+    "org/apache/commons/compress/compressors/GZipTestCase.java",
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.java",
+    "org/apache/commons/compress/compressors/Pack200TestCase.java",
+    "org/apache/commons/compress/utils/CountingStreamTest.java"
+  ],
+  "n_moved_b": 46
+}

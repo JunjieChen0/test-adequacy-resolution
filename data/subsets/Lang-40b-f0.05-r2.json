@@ -1,0 +1,87 @@
+{
+  "project": "Lang",
+  "bug": "40b",
+  "frac": 0.05,
+  "rep": 2,
+  "t": "2026-10-15T13:21:54.228123+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 7.7
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 13.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 21.6,
+      "lines_total": 9812,
+      "lines_covered": 1928,
+      "cond_total": 6539,
+      "cond_covered": 1141,
+      "line_cov_pct": 19.6,
+      "cond_cov_pct": 17.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 5.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 8.3
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 82.7,
+      "mutants_generated": 4369,
+      "mutants_covered": 439,
+      "mutants_killed": 183,
+      "mutation_score_pct": 41.7,
+      "mutation_score_covered_pct": 4.2
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 87,
+  "n_test_java_total": 98,
+  "n_test_target": 4,
+  "n_test_kept": 7,
+  "n_keep_java": 9,
+  "kept_tests": [
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_moved_b": 89,
+  "kept_tests_final": [
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_test_final": 7,
+  "n_keep_java_f": 9,
+  "n_moved_f": 89,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/exception/ContextedExceptionTest.java",
+    "org/apache/commons/lang/exception/DefaultExceptionContextTest.java",
+    "org/apache/commons/lang/text/StrSubstitutorTest.java",
+    "org/apache/commons/lang/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang/time/DateUtilsTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

@@ -1,0 +1,41 @@
+{
+  "project": "Cli",
+  "bug": "4b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-16T06:36:19.094100+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 4.0
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 19,
+  "n_test_java_total": 21,
+  "n_test_target": 5,
+  "n_test_kept": 5,
+  "n_keep_java": 5,
+  "kept_tests": [
+    "org/apache/commons/cli/BuildTest.java",
+    "org/apache/commons/cli/ParseTest.java",
+    "org/apache/commons/cli/PatternOptionBuilderTest.java",
+    "org/apache/commons/cli/ValueTest.java",
+    "org/apache/commons/cli/bug/BugCLI51Test.java"
+  ],
+  "n_moved_b": 16
+}

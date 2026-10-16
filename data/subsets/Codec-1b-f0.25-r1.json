@@ -1,0 +1,78 @@
+{
+  "project": "Codec",
+  "bug": "1b",
+  "frac": 0.25,
+  "rep": 1,
+  "t": "2026-10-15T15:23:47.760500+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 11.4
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 20.2
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 44.2,
+      "lines_total": 1476,
+      "lines_covered": 572,
+      "cond_total": 986,
+      "cond_covered": 428,
+      "line_cov_pct": 38.8,
+      "cond_cov_pct": 43.4
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 8.5
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 24.9
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 112.9,
+      "mutants_generated": 1444,
+      "mutants_covered": 257,
+      "mutants_killed": 213,
+      "mutation_score_pct": 82.9,
+      "mutation_score_covered_pct": 14.8
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 16,
+  "n_test_java_total": 18,
+  "n_test_target": 4,
+  "n_test_kept": 4,
+  "n_keep_java": 5,
+  "kept_tests": [
+    "org/apache/commons/codec/binary/BinaryCodecTest.java",
+    "org/apache/commons/codec/digest/DigestUtilsTest.java",
+    "org/apache/commons/codec/language/DoubleMetaphoneTest.java",
+    "org/apache/commons/codec/language/RefinedSoundexTest.java"
+  ],
+  "n_moved_b": 13,
+  "kept_tests_final": [
+    "org/apache/commons/codec/binary/BinaryCodecTest.java",
+    "org/apache/commons/codec/digest/DigestUtilsTest.java",
+    "org/apache/commons/codec/language/DoubleMetaphoneTest.java",
+    "org/apache/commons/codec/language/RefinedSoundexTest.java"
+  ],
+  "n_test_final": 4,
+  "n_keep_java_f": 5,
+  "n_moved_f": 13,
+  "kept_tests_final_f": [
+    "org/apache/commons/codec/binary/BinaryCodecTest.java",
+    "org/apache/commons/codec/digest/DigestUtilsTest.java",
+    "org/apache/commons/codec/language/DoubleMetaphoneTest.java",
+    "org/apache/commons/codec/language/RefinedSoundexTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "cached",
+  "status": "ok"
+}

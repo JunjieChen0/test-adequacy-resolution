@@ -1,0 +1,165 @@
+{
+ "project": "spacy",
+ "bugs": {
+  "1": {
+   "bug": "1",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/test_errors.py",
+   "buggy_commit": "9ce059dd067ecc3f097d04023e3cfa0d70d35bb8",
+   "fixed_commit": "a987e9e45d4084f30964a4cec9914ae6ed25a73c",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/test_errors.py",
+     "node": "test_add_codes",
+     "raw": "py.test spacy/tests/test_errors.py::test_add_codes"
+    }
+   ]
+  },
+  "2": {
+   "bug": "2",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/regression/test_issue5137.py",
+   "buggy_commit": "efec28ce70a0ff69471cc379867deebe7eb881e0",
+   "fixed_commit": "cfdaf99b8029d6762730c5d5bd2b6f6c173c1241",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/regression/test_issue5137.py",
+     "node": "test_issue5137",
+     "raw": "py.test spacy/tests/regression/test_issue5137.py::test_issue5137"
+    }
+   ]
+  },
+  "3": {
+   "bug": "3",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/regression/test_issue5314.py",
+   "buggy_commit": "dac70f29eb3b1f21ae9e2c6346666bf6a46307b6",
+   "fixed_commit": "663333c3b2bad90915d1a48a626ca1275b7ef077",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/regression/test_issue5314.py",
+     "node": "test_issue5314",
+     "raw": "py.test spacy/tests/regression/test_issue5314.py::test_issue5314"
+    }
+   ]
+  },
+  "4": {
+   "bug": "4",
+   "project": "spacy",
+   "python_version": "3.8.3",
+   "test_file": "spacy/tests/regression/test_issue4665.py",
+   "buggy_commit": "abd5c06374eab5db0cf897b73543b1f3eb007e12",
+   "fixed_commit": "9fa9d7f2cb52ce6a70c264d4e57c7f190d7686bf",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/regression/test_issue4665.py",
+     "node": "test_issue4665",
+     "raw": "py.test spacy/tests/regression/test_issue4665.py::test_issue4665"
+    }
+   ]
+  },
+  "5": {
+   "bug": "5",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/test_language.py",
+   "buggy_commit": "bdfb696677a7591ced018e7597c00929e97c6837",
+   "fixed_commit": "3bd15055ce74b04dcaf3b9abe2adeb01fb595776",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/test_language.py",
+     "node": "test_evaluate_no_pipe",
+     "raw": "py.test spacy/tests/test_language.py::test_evaluate_no_pipe"
+    }
+   ]
+  },
+  "6": {
+   "bug": "6",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/pipeline/test_analysis.py",
+   "buggy_commit": "6b874ef09611ac32ad038203423d44087cbeb3ae",
+   "fixed_commit": "afe4a428f78abe45d6104d74ef42a066570fa43d",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/pipeline/test_analysis.py",
+     "node": "test_analysis_validate_attrs_remove_pipe",
+     "raw": "py.test spacy/tests/pipeline/test_analysis.py::test_analysis_validate_attrs_remove_pipe"
+    }
+   ]
+  },
+  "7": {
+   "bug": "7",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/doc/test_span.py",
+   "buggy_commit": "da6e0de34f4947fdebc839df3969c641014cfa97",
+   "fixed_commit": "6f54e59fe7ccb3bacce896ed33d36b39f11cbfaf",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/doc/test_span.py",
+     "node": "test_filter_spans",
+     "raw": "py.test spacy/tests/doc/test_span.py::test_filter_spans"
+    }
+   ]
+  },
+  "8": {
+   "bug": "8",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/matcher/test_matcher_logic.py",
+   "buggy_commit": "fa95c030a511337935d1a2e930cb954c7a4cd376",
+   "fixed_commit": "5efae495f18f37316bd641a05ca26e62cb78e242",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/matcher/test_matcher_logic.py",
+     "node": "test_matcher_remove",
+     "raw": "py.test spacy/tests/matcher/test_matcher_logic.py::test_matcher_remove"
+    }
+   ]
+  },
+  "9": {
+   "bug": "9",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/pipeline/test_tagger.py",
+   "buggy_commit": "bc7e7db208d351fae2982afbcdff7633f9636779",
+   "fixed_commit": "3297a19545027c8d8550b1ae793ce290567eff32",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/pipeline/test_tagger.py",
+     "node": "test_tagger_warns_no_lemma_lookups",
+     "raw": "py.test spacy/tests/pipeline/test_tagger.py::test_tagger_warns_no_lemma_lookups"
+    }
+   ]
+  },
+  "10": {
+   "bug": "10",
+   "project": "spacy",
+   "python_version": "3.7.7",
+   "test_file": "spacy/tests/matcher/test_matcher_api.py",
+   "buggy_commit": "38de08c7a99d5d8c490223126071afe7dd4f4b67",
+   "fixed_commit": "52904b72700a3f301a26563d3f94493bad96a446",
+   "github_url": null,
+   "triggers": [
+    {
+     "file": "spacy/tests/matcher/test_matcher_api.py",
+     "node": "test_matcher_valid_callback",
+     "raw": "py.test spacy/tests/matcher/test_matcher_api.py::test_matcher_valid_callback"
+    }
+   ]
+  }
+ }
+}

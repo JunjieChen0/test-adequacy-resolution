@@ -1,0 +1,123 @@
+{
+  "project": "Math",
+  "bug": "89b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T09:40:05.898611+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 19.3
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 24.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 157.4,
+      "lines_total": 16763,
+      "lines_covered": 3909,
+      "cond_total": 7132,
+      "cond_covered": 1571,
+      "line_cov_pct": 23.3,
+      "cond_cov_pct": 22.0
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 21.0
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 30.8
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 116.7,
+      "mutants_generated": 1066,
+      "mutants_covered": 88,
+      "mutants_killed": 59,
+      "mutation_score_pct": 67.0,
+      "mutation_score_covered_pct": 5.5
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 174,
+  "n_test_java_total": 213,
+  "n_test_target": 17,
+  "n_test_kept": 19,
+  "n_keep_java": 34,
+  "kept_tests": [
+    "org/apache/commons/math/analysis/integration/SimpsonIntegratorTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionNewtonFormTest.java",
+    "org/apache/commons/math/distribution/PascalDistributionTest.java",
+    "org/apache/commons/math/estimation/LevenbergMarquardtEstimatorTest.java",
+    "org/apache/commons/math/linear/DenseRealMatrixTest.java",
+    "org/apache/commons/math/linear/RealMatrixImplTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/linear/SparseRealMatrixTest.java",
+    "org/apache/commons/math/linear/decomposition/CholeskySolverTest.java",
+    "org/apache/commons/math/linear/decomposition/LUSolverTest.java",
+    "org/apache/commons/math/ode/nonstiff/EulerIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/GillIntegratorTest.java",
+    "org/apache/commons/math/optimization/linear/SimplexTableauTest.java",
+    "org/apache/commons/math/special/BetaTest.java",
+    "org/apache/commons/math/special/GammaTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/FourthMomentTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumSqTest.java",
+    "org/apache/commons/math/transform/FastCosineTransformerTest.java"
+  ],
+  "n_moved_b": 179,
+  "kept_tests_final": [
+    "org/apache/commons/math/analysis/integration/SimpsonIntegratorTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionNewtonFormTest.java",
+    "org/apache/commons/math/distribution/PascalDistributionTest.java",
+    "org/apache/commons/math/estimation/LevenbergMarquardtEstimatorTest.java",
+    "org/apache/commons/math/linear/DenseRealMatrixTest.java",
+    "org/apache/commons/math/linear/RealMatrixImplTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/linear/SparseRealMatrixTest.java",
+    "org/apache/commons/math/linear/decomposition/CholeskySolverTest.java",
+    "org/apache/commons/math/linear/decomposition/LUSolverTest.java",
+    "org/apache/commons/math/ode/nonstiff/EulerIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/GillIntegratorTest.java",
+    "org/apache/commons/math/optimization/linear/SimplexTableauTest.java",
+    "org/apache/commons/math/special/BetaTest.java",
+    "org/apache/commons/math/special/GammaTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/FourthMomentTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumSqTest.java",
+    "org/apache/commons/math/transform/FastCosineTransformerTest.java"
+  ],
+  "n_test_final": 19,
+  "n_keep_java_f": 34,
+  "n_moved_f": 179,
+  "kept_tests_final_f": [
+    "org/apache/commons/math/analysis/integration/SimpsonIntegratorTest.java",
+    "org/apache/commons/math/analysis/polynomials/PolynomialFunctionNewtonFormTest.java",
+    "org/apache/commons/math/distribution/PascalDistributionTest.java",
+    "org/apache/commons/math/estimation/LevenbergMarquardtEstimatorTest.java",
+    "org/apache/commons/math/linear/DenseRealMatrixTest.java",
+    "org/apache/commons/math/linear/RealMatrixImplTest.java",
+    "org/apache/commons/math/linear/RealVectorImplTest.java",
+    "org/apache/commons/math/linear/SparseRealMatrixTest.java",
+    "org/apache/commons/math/linear/decomposition/CholeskySolverTest.java",
+    "org/apache/commons/math/linear/decomposition/LUSolverTest.java",
+    "org/apache/commons/math/ode/nonstiff/EulerIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/GillIntegratorTest.java",
+    "org/apache/commons/math/optimization/linear/SimplexTableauTest.java",
+    "org/apache/commons/math/special/BetaTest.java",
+    "org/apache/commons/math/special/GammaTest.java",
+    "org/apache/commons/math/stat/descriptive/MultivariateSummaryStatisticsTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/FourthMomentTest.java",
+    "org/apache/commons/math/stat/descriptive/summary/SumSqTest.java",
+    "org/apache/commons/math/transform/FastCosineTransformerTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

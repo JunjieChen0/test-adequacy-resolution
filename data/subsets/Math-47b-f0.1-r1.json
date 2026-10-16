@@ -1,0 +1,66 @@
+{
+  "project": "Math",
+  "bug": "47b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:28:59.176675+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 9.9
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.6,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 270,
+  "n_test_java_total": 333,
+  "n_test_target": 27,
+  "n_test_kept": 30,
+  "n_keep_java": 50,
+  "kept_tests": [
+    "org/apache/commons/math/analysis/solvers/RegulaFalsiSolverTest.java",
+    "org/apache/commons/math/dfp/BracketingNthOrderBrentSolverDFPTest.java",
+    "org/apache/commons/math/distribution/ChiSquareDistributionTest.java",
+    "org/apache/commons/math/distribution/ExponentialDistributionTest.java",
+    "org/apache/commons/math/distribution/NormalDistributionTest.java",
+    "org/apache/commons/math/exception/NotStrictlyPositiveExceptionTest.java",
+    "org/apache/commons/math/exception/NumberIsTooSmallExceptionTest.java",
+    "org/apache/commons/math/genetics/GeneticAlgorithmTestBinary.java",
+    "org/apache/commons/math/geometry/euclidean/threed/Vector3DTest.java",
+    "org/apache/commons/math/linear/Array2DRowRealMatrixTest.java",
+    "org/apache/commons/math/linear/BlockRealMatrixTest.java",
+    "org/apache/commons/math/linear/EigenDecompositionImplTest.java",
+    "org/apache/commons/math/linear/QRDecompositionImplTest.java",
+    "org/apache/commons/math/linear/SingularValueDecompositionImplTest.java",
+    "org/apache/commons/math/ode/nonstiff/AdamsBashforthIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/EulerStepInterpolatorTest.java",
+    "org/apache/commons/math/ode/nonstiff/GraggBulirschStoerStepInterpolatorTest.java",
+    "org/apache/commons/math/ode/nonstiff/HighamHall54StepInterpolatorTest.java",
+    "org/apache/commons/math/ode/nonstiff/ThreeEighthesIntegratorTest.java",
+    "org/apache/commons/math/ode/nonstiff/ThreeEighthesStepInterpolatorTest.java",
+    "org/apache/commons/math/optimization/direct/BOBYQAOptimizerTest.java",
+    "org/apache/commons/math/optimization/direct/SimplexOptimizerMultiDirectionalTest.java",
+    "org/apache/commons/math/optimization/fitting/CurveFitterTest.java",
+    "org/apache/commons/math/optimization/fitting/GaussianFitterTest.java",
+    "org/apache/commons/math/stat/clustering/KMeansPlusPlusClustererTest.java",
+    "org/apache/commons/math/stat/descriptive/InteractionTest.java",
+    "org/apache/commons/math/stat/descriptive/MixedListUnivariateImplTest.java",
+    "org/apache/commons/math/stat/descriptive/moment/KurtosisTest.java",
+    "org/apache/commons/math/util/ContinuedFractionTest.java",
+    "org/apache/commons/math/util/ResizableDoubleArrayTest.java"
+  ],
+  "n_moved_b": 283
+}

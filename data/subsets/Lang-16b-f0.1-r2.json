@@ -1,0 +1,70 @@
+{
+  "project": "Lang",
+  "bug": "16b",
+  "frac": 0.1,
+  "rep": 2,
+  "t": "2026-10-15T11:10:51.993475+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 8.2
+    },
+    "compile_b": {
+      "rc": 0,
+      "s": 12.1
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 45.4,
+      "lines_total": 11166,
+      "lines_covered": 2258,
+      "cond_total": 7495,
+      "cond_covered": 1483,
+      "line_cov_pct": 20.2,
+      "cond_cov_pct": 19.8
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 7.3
+    },
+    "compile_f": {
+      "rc": 0,
+      "s": 10.5
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 56.5,
+      "mutants_generated": 1435,
+      "mutants_covered": 12,
+      "mutants_killed": 6,
+      "mutation_score_pct": 50.0,
+      "mutation_score_covered_pct": 0.4
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 102,
+  "n_test_java_total": 120,
+  "n_test_target": 10,
+  "n_test_kept": 10,
+  "n_keep_java": 12,
+  "kept_tests": [
+    "org/apache/commons/lang3/ArrayUtilsRemoveTest.java",
+    "org/apache/commons/lang3/ArrayUtilsTest.java",
+    "org/apache/commons/lang3/SerializationUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsSubstringTest.java",
+    "org/apache/commons/lang3/mutable/MutableByteTest.java",
+    "org/apache/commons/lang3/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang3/text/ExtendedMessageFormatTest.java",
+    "org/apache/commons/lang3/time/DateFormatUtilsTest.java",
+    "org/apache/commons/lang3/time/StopWatchTest.java",
+    "org/apache/commons/lang3/tuple/ImmutablePairTest.java"
+  ],
+  "n_moved_b": 108,
+  "n_keep_java_f": 12,
+  "n_moved_f": 108,
+  "n_mut_classes": 15,
+  "status": "ok"
+}

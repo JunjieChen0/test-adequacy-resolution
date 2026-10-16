@@ -1,0 +1,48 @@
+{
+  "project": "Lang",
+  "bug": "5b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T06:33:25.765952+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 6.5
+    },
+    "compile_b": {
+      "rc": 2,
+      "s": 0.5,
+      "repair_added": 0,
+      "repair_log": [],
+      "err": [
+        "Launcher Directory: /home/user/tools/defects4j/framework/lib/major/lib/ant",
+        "Cannot compile sources! at /home/user/tools/defects4j/framework/bin/d4j/d4j-compile line 82.",
+        "Compilation failed in require at /home/user/tools/defects4j/framework/bin/defects4j line 195."
+      ]
+    }
+  },
+  "layout_b": {
+    "src": "src/main/java",
+    "test": "src/test/java"
+  },
+  "n_test_total": 111,
+  "n_test_java_total": 128,
+  "n_test_target": 11,
+  "n_test_kept": 12,
+  "n_keep_java": 12,
+  "kept_tests": [
+    "org/apache/commons/lang3/CharUtilsTest.java",
+    "org/apache/commons/lang3/StringUtilsEqualsIndexOfTest.java",
+    "org/apache/commons/lang3/builder/DefaultToStringStyleTest.java",
+    "org/apache/commons/lang3/builder/ToStringStyleTest.java",
+    "org/apache/commons/lang3/math/FractionTest.java",
+    "org/apache/commons/lang3/mutable/MutableIntTest.java",
+    "org/apache/commons/lang3/mutable/MutableObjectTest.java",
+    "org/apache/commons/lang3/mutable/MutableShortTest.java",
+    "org/apache/commons/lang3/text/StrBuilderAppendInsertTest.java",
+    "org/apache/commons/lang3/text/StrBuilderTest.java",
+    "org/apache/commons/lang3/time/FastDateParserTest.java",
+    "org/apache/commons/lang3/tuple/MutablePairTest.java"
+  ],
+  "n_moved_b": 116
+}
