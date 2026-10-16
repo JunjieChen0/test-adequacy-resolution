@@ -10,7 +10,9 @@ license: MIT
 version: v1.0-submission
 date-released: 2026-10-16
 authors:
-  - family-names: "Anonymous"
-    given-names: "Author"
+  - family-names: "Chen"
+    given-names: "Junjie"
+    affiliation: "Nanjing University of Science and Technology"
+    email: "junjie_chen@njust.edu.cn"
 message: >-
   If you use this replication package, please cite the accompanying paper.

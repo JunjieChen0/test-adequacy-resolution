@@ -2,7 +2,7 @@
 
 Generated: 2026-10-16
 
-1692 files.
+1691 files.
 
 ```
 ./.gitignore
@@ -1650,7 +1650,6 @@ Generated: 2026-10-16
 ./paper/main.pdf
 ./paper/main.tex
 ./paper/refs.bib
-./paper/title-page.tex
 ./requirements.txt
 ./results/a1-interim-findings.md
 ./results/a1_rows.json
