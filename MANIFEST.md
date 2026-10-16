@@ -2,7 +2,7 @@
 
 Generated: 2026-10-16
 
-1630 files.
+1632 files.
 
 ```
 ./.gitignore
@@ -1582,13 +1582,15 @@ Generated: 2026-10-16
 ./data/subsets_v1/Lang-8b-f0.5-r1.json
 ./data/subsets_v1/Lang-8b-f0.5-r2.json
 ./data/subsets_v1/Lang-8b-f1.0-r1.json
+./paper/Highlights.txt
 ./paper/figures/fig-crossbench-en.png
 ./paper/figures/fig-crossbench.png
 ./paper/figures/fig-identifiability-en.png
 ./paper/figures/fig-identifiability.png
+./paper/main.pdf
 ./paper/main.tex
-./paper/manuscript.pdf
 ./paper/refs.bib
+./paper/title-page.tex
 ./requirements.txt
 ./results/a1-interim-findings.md
 ./results/a1_rows.json

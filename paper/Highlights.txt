@@ -1,0 +1,5 @@
+Incremental-validity claims for test-adequacy metrics are not resolvable
+A behavioural feature block's R2 gain has a 95% interval width of 0.06-0.15
+Project-level confounding alone manufactures false increments in up to 94% of runs
+Fixed effects hold that rate below 1% on two benchmarks in two languages
+Resolving a 0.05 increment needs ~70 independent fault versions, 0.02 needs ~100
