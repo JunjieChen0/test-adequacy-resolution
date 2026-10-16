@@ -32,7 +32,8 @@ produced by `scripts/analyze_all.py`. No number in the paper is entered by hand.
 
 | Script | Purpose |
 |---|---|
-| `scripts/analyze_all.py` | **Primary analysis.** Produces `results/analysis.json`: model comparisons under three evaluation schemes, both bootstrap hierarchies, the project-fingerprint diagnostic, leave-one-project-out, project-composition sensitivity, and the resolution curves. |
+| `scripts/analyze_all.py` | **Primary analysis.** Produces `results/analysis.json`: model comparisons under three evaluation schemes, both bootstrap hierarchies, the project-fingerprint diagnostic, leave-one-project-out, project-composition sensitivity, and the resolution curves. `--recompute-required` re-derives the required-version counts from the curves already stored in the JSON, without re-running the bootstrap (`required` is a pure function of `curve`). |
+| `scripts/make_highlights.py` | Builds `paper/Highlights.docx` from `paper/Highlights.txt` and checks Elsevier's length and count constraints, so the two cannot drift apart. |
 | `scripts/simulate_confounding.py` | Parameterised simulation isolating project-level confounding. Produces `results/simulation-confounding.json`. `SIM_R` sets the replications per cell (2000 in the manuscript). |
 | `scripts/analyze_outcome_scope.py` | Robustness of the outcome's denominator: whole-project fault set versus the faults reachable at the evaluated revision. Produces `results/outcome-scope.json`. |
 | `scripts/analyze_fingerprint_baselines.py` | Project-classification metrics robust to class imbalance (balanced accuracy, macro $F_1$, majority-class baseline). Produces `results/fingerprint-baselines.json`. |

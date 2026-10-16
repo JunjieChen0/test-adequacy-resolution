@@ -110,6 +110,13 @@ def fingerprint(df):
     return out
 
 
+FIT_MIN_N = 30      # required_n 的拟合区间起点。正文已说明低于约 30 个版本时估计量
+                    # 不稳定（半宽 0.2~1.5，最小样本处甚至超过 100）。把这些点并进
+                    # log-log 最小二乘会把斜率显著拉陡（Defects4J 版本层级 −2.97 对
+                    # −1.79，BugsInPy 项目层级 −2.54 对 −1.23），从而系统性低估所需
+                    # 版本数，甚至算出低于已评估样本量的"需求"。
+
+
 def mde_curve(df, models, scheme, B=MDE_B, seed=99):
     rng = np.random.default_rng(seed)
     fn = resample_versions if scheme == "version" else resample_projects
@@ -143,16 +150,41 @@ def mde_curve(df, models, scheme, B=MDE_B, seed=99):
 
 
 def required_n(curve, targets=(0.02, 0.05, 0.10)):
-    if len(curve) < 3:
+    """由分辨力曲线反解达到目标半宽所需的版本数。
+
+    做法：在 n >= FIT_MIN_N 的稳定区间上对 log(n) 与 log(半宽) 做最小二乘直线，
+    再对目标半宽求逆。
+
+    判"外推"的依据是**目标半宽是否低于直接评估到的最小半宽**——也就是所需的
+    分辨力是否超出了实测曲线的量程。等价的判据是所需 n 是否超出直接评估过的最大
+    n；两者在单调下降的曲线上一致，若出现分歧以"目标低于最小观测半宽"为准，
+    两个字段都记录下来以便核对。
+    """
+    pts = [c for c in curve if c["n_ver"] >= FIT_MIN_N]
+    if len(pts) < 3:
         return {}
-    x = np.log([c["n_ver"] for c in curve])
-    y = np.log([c["mde"] for c in curve])
+    x = np.log([c["n_ver"] for c in pts])
+    y = np.log([c["mde"] for c in pts])
     a, b = np.polyfit(x, y, 1)
+    if a >= 0:                       # 半宽必须随样本量下降，否则拟合不可用
+        return {}
     inside = max(c["n_ver"] for c in curve)
+    min_obs = min(c["mde"] for c in curve)
     out = {}
     for t in targets:
         n = float(np.exp((np.log(t) - b) / a))
-        out[f"{t:.2f}"] = {"n": n, "extrapolated": bool(n > inside)}
+        below = bool(t < min_obs)
+        exceeded = bool(n > inside)
+        out[f"{t:.2f}"] = {
+            "n": n,
+            "extrapolated": bool(below or exceeded),
+            "target_below_min_observed": below,
+            "n_exceeds_evaluated": exceeded,
+            "slope": float(a),
+            "fit_n_min": FIT_MIN_N,
+            "n_evaluated_max": int(inside),
+            "mde_min_observed": float(min_obs),
+        }
     return out
 
 
@@ -259,13 +291,32 @@ def main():
     ap.add_argument("--benchmark", choices=["d4j", "bip", "both"], default="both")
     ap.add_argument("--boot", type=int, default=2000,
                     help="自助次数；95%% 百分位区间在每侧需要足够多的重采样，200 次时每侧仅约 5 个点，区间宽度本身就有可观的蒙特卡洛噪声")
+    ap.add_argument("--recompute-required", action="store_true",
+                    help="只由现有 results/analysis.json 里已存的分辨力曲线重算目标版本数，"
+                         "不重跑自助力。required 是 curve 的纯函数，因此结果与整脚本重跑一致；"
+                         "用于修正 required_n 的实现而不必付出整轮自助的开销")
     a = ap.parse_args()
+
+    p = os.path.join(ROOT, "results", "analysis.json")
+
+    if a.recompute_required:
+        data = json.load(open(p))
+        for bench, b in data.items():
+            for scheme, blk in b.get("mde", {}).items():
+                blk["required"] = required_n(blk["curve"])
+                print(f"{bench} / {scheme}:")
+                for t, v in blk["required"].items():
+                    print(f"  目标半宽={t} → {v['n']:.1f} 个版本"
+                          + ("（外推）" if v["extrapolated"] else ""))
+        json.dump(data, open(p, "w"), indent=1)
+        print(f"\nrequired 已重算并写回 {p}")
+        return
+
     out = {}
     if a.benchmark in ("d4j", "both"):
         out["Defects4J"] = run("Defects4J (Java)", load_d4j(), a.boot)
     if a.benchmark in ("bip", "both"):
         out["BugsInPy"] = run("BugsInPy (Python)", load_bip(), a.boot)
-    p = os.path.join(ROOT, "results", "analysis.json")
     json.dump(out, open(p, "w"), indent=1)
     print(f"\n结果已写入 {p}")
 

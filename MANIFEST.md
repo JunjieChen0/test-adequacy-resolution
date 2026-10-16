@@ -2,7 +2,7 @@
 
 Generated: 2026-10-16
 
-1698 files.
+1699 files.
 
 ```
 ./.gitignore
@@ -1694,6 +1694,7 @@ Generated: 2026-10-16
 ./scripts/d4j-env.sh
 ./scripts/d4j_probe.py
 ./scripts/launch_broad.sh
+./scripts/make_highlights.py
 ./scripts/plot_crossbench.py
 ./scripts/plot_figures.py
 ./scripts/plot_identifiability.py

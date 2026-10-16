@@ -238,16 +238,34 @@
     ],
     "required": {
      "0.02": {
-      "n": 113.23053557571278,
-      "extrapolated": false
+      "n": 159.98834772735356,
+      "extrapolated": true,
+      "target_below_min_observed": true,
+      "n_exceeds_evaluated": true,
+      "slope": -1.7917109630612964,
+      "fit_n_min": 30,
+      "n_evaluated_max": 130,
+      "mde_min_observed": 0.03296145435865105
      },
      "0.05": {
-      "n": 83.134050985749,
-      "extrapolated": false
+      "n": 95.93736654695124,
+      "extrapolated": false,
+      "target_below_min_observed": false,
+      "n_exceeds_evaluated": false,
+      "slope": -1.7917109630612964,
+      "fit_n_min": 30,
+      "n_evaluated_max": 130,
+      "mde_min_observed": 0.03296145435865105
      },
      "0.10": {
-      "n": 65.80701602755428,
-      "extrapolated": false
+      "n": 65.15911921754495,
+      "extrapolated": false,
+      "target_below_min_observed": false,
+      "n_exceeds_evaluated": false,
+      "slope": -1.7917109630612964,
+      "fit_n_min": 30,
+      "n_evaluated_max": 130,
+      "mde_min_observed": 0.03296145435865105
      }
     }
    },
@@ -292,16 +310,34 @@
     ],
     "required": {
      "0.02": {
-      "n": 148.95036245464496,
-      "extrapolated": true
+      "n": 292.82125042450025,
+      "extrapolated": true,
+      "target_below_min_observed": true,
+      "n_exceeds_evaluated": true,
+      "slope": -1.3601540921410407,
+      "fit_n_min": 30,
+      "n_evaluated_max": 130,
+      "mde_min_observed": 0.06364538567269269
      },
      "0.05": {
-      "n": 103.27293914523243,
-      "extrapolated": false
+      "n": 149.29071305239916,
+      "extrapolated": true,
+      "target_below_min_observed": true,
+      "n_exceeds_evaluated": true,
+      "slope": -1.3601540921410407,
+      "fit_n_min": 30,
+      "n_evaluated_max": 130,
+      "mde_min_observed": 0.06364538567269269
      },
      "0.10": {
-      "n": 78.2827464627477,
-      "extrapolated": false
+      "n": 89.68344524328964,
+      "extrapolated": false,
+      "target_below_min_observed": false,
+      "n_exceeds_evaluated": false,
+      "slope": -1.3601540921410407,
+      "fit_n_min": 30,
+      "n_evaluated_max": 130,
+      "mde_min_observed": 0.06364538567269269
      }
     }
    }
@@ -538,16 +574,34 @@
     ],
     "required": {
      "0.02": {
-      "n": 116.93062026276775,
-      "extrapolated": true
+      "n": 251.0172474107919,
+      "extrapolated": true,
+      "target_below_min_observed": true,
+      "n_exceeds_evaluated": true,
+      "slope": -1.1960026542812572,
+      "fit_n_min": 30,
+      "n_evaluated_max": 70,
+      "mde_min_observed": 0.09090718352037853
      },
      "0.05": {
-      "n": 76.16659144530844,
-      "extrapolated": true
+      "n": 116.67519665688434,
+      "extrapolated": true,
+      "target_below_min_observed": true,
+      "n_exceeds_evaluated": true,
+      "slope": -1.1960026542812572,
+      "fit_n_min": 30,
+      "n_evaluated_max": 70,
+      "mde_min_observed": 0.09090718352037853
      },
      "0.10": {
-      "n": 55.072791904384694,
-      "extrapolated": false
+      "n": 65.35544549470875,
+      "extrapolated": false,
+      "target_below_min_observed": false,
+      "n_exceeds_evaluated": false,
+      "slope": -1.1960026542812572,
+      "fit_n_min": 30,
+      "n_evaluated_max": 70,
+      "mde_min_observed": 0.09090718352037853
      }
     }
    },
@@ -584,16 +638,34 @@
     ],
     "required": {
      "0.02": {
-      "n": 97.48157679513166,
-      "extrapolated": true
+      "n": 213.19161661394142,
+      "extrapolated": true,
+      "target_below_min_observed": true,
+      "n_exceeds_evaluated": true,
+      "slope": -1.2286440935351008,
+      "fit_n_min": 30,
+      "n_evaluated_max": 70,
+      "mde_min_observed": 0.08013690882034255
      },
      "0.05": {
-      "n": 67.91643362216143,
-      "extrapolated": false
+      "n": 101.13107439110304,
+      "extrapolated": true,
+      "target_below_min_observed": true,
+      "n_exceeds_evaluated": true,
+      "slope": -1.2286440935351008,
+      "fit_n_min": 30,
+      "n_evaluated_max": 70,
+      "mde_min_observed": 0.08013690882034255
      },
      "0.10": {
-      "n": 51.67119923535019,
-      "extrapolated": false
+      "n": 57.52739353572904,
+      "extrapolated": false,
+      "target_below_min_observed": false,
+      "n_exceeds_evaluated": false,
+      "slope": -1.2286440935351008,
+      "fit_n_min": 30,
+      "n_evaluated_max": 70,
+      "mde_min_observed": 0.08013690882034255
      }
     }
    }

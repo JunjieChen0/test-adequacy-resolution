@@ -45,8 +45,8 @@ unadjusted pooled analyses, against below 1\% under project fixed effects;
 (iii)~behavioural features identify the source project with \num{0.895} and
 \num{0.824} accuracy against a uniform-random baseline of $1/7$; and
 (iv)~resolving a \num{0.05} target half-width needs on the order of
-\num{70} to \num{100} independent fault versions and \num{0.02} on the
-order of \num{100} to \num{150}, depending on the benchmark and the
+\num{100} to \num{150} independent fault versions and \num{0.02} on the
+order of \num{200} to \num{300}, depending on the benchmark and the
 resampling hierarchy. We conclude that incremental-validity
 claims at the magnitudes common in this literature are not identifiable at
 conventional sample sizes, and provide a protocol and resolution curves for
@@ -567,8 +567,8 @@ Rather than extrapolating a single sample size, we report the \emph{resolution} 
 
 \begin{table}[t]
 \centering
-\caption{Resolution of the estimate, expressed as the half-width of the 95\% bootstrap interval, by number of independent fault versions. Values marked
-{\emph{Extrap.}} are model-based extrapolations beyond the largest directly evaluated sample size and should not be interpreted as empirically observed thresholds.}
+\caption{Resolution of the estimate, expressed as the half-width of the 95\% bootstrap interval, by number of independent fault versions. Required counts are read off a log--log line fitted to each curve over its stable range (at least \num{30} versions); values marked
+{\emph{Extrap.}} lie beyond the resolution the curve actually measures, and are model-based extrapolations rather than empirically observed thresholds.}
 \label{tab:mde}
 \begin{tabular}{rcccc}
 \toprule
@@ -584,9 +584,9 @@ versions & Version-level & Project-level & Version-level & Project-level \\
 100 & 0.045 & 0.085 & --- & --- \\
 \midrule
 \multicolumn{5}{l}{\emph{Versions required for a target half-width}} \\
-Target $=0.10$ & 66 & 78 & 55 & 52 \\
-Target $=0.05$ & 83 & 103 & 76\emph{\,Extrap.} & 68 \\
-Target $=0.02$ & 113 & 149\emph{\,Extrap.} & 117\emph{\,Extrap.} & 97\emph{\,Extrap.} \\
+Target $=0.10$ & 65 & 90 & 65 & 58 \\
+Target $=0.05$ & 96 & 149\emph{\,Extrap.} & 117\emph{\,Extrap.} & 101\emph{\,Extrap.} \\
+Target $=0.02$ & 160\emph{\,Extrap.} & 293\emph{\,Extrap.} & 251\emph{\,Extrap.} & 213\emph{\,Extrap.} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -602,11 +602,12 @@ which disappeared once the replicate count was raised. This supports the
 Monte Carlo reading.
 
 Reading the conservative (project-level) columns: resolving an effect of
-\num{0.05} requires on the order of \num{100} independent fault versions
-(\num{103} on Defects4J and \num{68} on BugsInPy), and resolving
-\num{0.02} requires on the order of \num{120} (\num{149} and \num{97}
+\num{0.05} requires on the order of \num{150} independent fault versions
+(\num{149} on Defects4J and \num{101} on BugsInPy), and resolving
+\num{0.02} requires on the order of \num{250} (\num{293} and \num{213}
 respectively). These are order-of-magnitude
-readings from fitted curves, not observed crossing points.
+readings from fitted curves, not observed crossing points; at a target of
+\num{0.02} every entry is an extrapolation.
 Below roughly
 30 versions the estimator is not merely imprecise but unstable, with
 half-widths between $0.2$ and $1.5$ and, in the smallest samples, values
@@ -987,7 +988,7 @@ recommend that studies state their resampling unit explicitly.
 The version counts in Table~\ref{tab:mde} are presented as a function of
 the target effect rather than as a single number, because the answer
 depends on what the study wants to establish. The observed curves reach a
-half-width of approximately $0.10$ at roughly 50--80 fault-version units,
+half-width of approximately $0.10$ at roughly 60--90 fault-version units,
 and a target of $0.02$ lies beyond the sample sizes this literature
 typically reports.
 
