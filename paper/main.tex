@@ -10,8 +10,6 @@
 \usepackage{multirow}
 \usepackage{threeparttable}
 
-% 草稿期标注：定稿前应全部清除（用 grep -n torefresh 检查）
-\newcommand{\torefresh}[1]{\textcolor{red}{[#1]}}
 
 \journal{Journal of Systems and Software}
 
@@ -183,8 +181,8 @@ Confounding by group identity is the setting of Simpson's paradox
 \cite{simpson1951interpretation}, and the fixed-effects estimator that
 removes it is textbook econometrics \cite{wooldridge2010econometric}.
 Publication and reporting practice---in particular the tendency to report
-point estimates and $p$-values without interval width or a
-minimum-detectable-effect statement---is the subject of a broad
+point estimates and $p$-values without any statement of the precision the
+design achieved---is the subject of a broad
 meta-scientific literature \cite{ioannidis2005contamination}; the specific
 recommendation we arrive at, that a study state the smallest effect its
 design could have detected, is the standard power-analysis requirement
@@ -414,16 +412,21 @@ little outcome variance and are not comparable across resamples.
 replacement---fault versions for the version-level hierarchy, whole
 projects for the project-level one---and recomputes $\Delta R^2$ on the
 resampled data using the same grouped $K$-fold scheme, with folds
-recomputed within each replicate. Intervals are percentile intervals from $B = 2000$ replicates, so that each tail of the 95\% interval is supported by about 50 replicates rather than the handful that $B=200$ would provide; the resolution curves in Table~\ref{tab:mde} use $B = 1000$ replicates per point. we also report the fraction of replicates in which
+recomputed within each replicate. Intervals are percentile intervals from
+$B = 2000$ replicates, so that each tail of the 95\% interval is supported
+by about 50 replicates rather than the handful that $B = 200$ would
+provide; the resolution curves in Table~\ref{tab:mde} use $B = 1000$
+replicates per point. We also report the fraction of replicates in which
 $\Delta R^2 \le 0$. Replicates yielding fewer than six versions are
 discarded: six is the smallest number for which the grouped five-fold
-cross-validation used in every comparison is defined. Point estimates and bootstrap means are reported separately:
-the former is the statistic computed on the full sample, the latter the
-mean of the resampling distribution, and they need not coincide. With only
-seven project clusters per benchmark, the project-level intervals are
-themselves imprecisely estimated; the project-level bootstrap is therefore
-used to expose sensitivity to the assumed independent unit, not to claim a
-well-calibrated seven-cluster confidence interval.
+cross-validation used in every comparison is defined. Point estimates and
+bootstrap means are reported separately: the former is the statistic
+computed on the full sample, the latter the mean of the resampling
+distribution, and they need not coincide. With only seven project clusters
+per benchmark, the project-level intervals are themselves imprecisely
+estimated; the project-level bootstrap is therefore used to expose
+sensitivity to the assumed independent unit, not to claim a well-calibrated
+seven-cluster confidence interval.
 
 % =====================================================================
 \section{RQ1: To what extent can incremental-validity effects be resolved
@@ -461,8 +464,12 @@ Benchmark & Scheme & Size & Classical & Size$+$beh. & Full \\
 
 The pooled analysis---the analysis most commonly reported---selects the
 full model on \emph{both} benchmarks, by $+0.087$ and $+0.018$
-respectively. Introducing project fixed effects reduces the advantage on
-Defects4J to $-0.011$ (a reversal), but only to $+0.015$ on BugsInPy. The sign on Defects4J changes when project fixed effects are introduced: the pooled analysis is positive ($+0.087$), whereas both fixed-effects schemes are negative ($-0.011$ and $-0.001$). Leave-one-version-out agrees with grouped CV on the ranking but not on the magnitude.
+respectively. Introducing project fixed effects reverses the sign on
+Defects4J ($+0.087 \to -0.011$) but leaves the advantage essentially intact
+on BugsInPy ($+0.018 \to +0.015$). Leave-one-version-out agrees with
+grouped cross-validation on the ranking but not on the magnitude: under
+LOVO the Defects4J decrement shrinks to $-0.001$, an order of magnitude
+smaller than under grouped CV.
 
 \subsection{Uncertainty of the increment}
 
@@ -566,7 +573,7 @@ the difference between a model with and without the candidate block is of
 the same order as the uncertainty of the difference itself, and on
 Defects4J the sign of the point estimate depends on an analyst choice
 (which cross-validation scheme) that is rarely reported. A study reporting
-$\Delta R^2 = +0.065$, $p < 0.0001$ on a pooled analysis of our Defects4J
+$\Delta R^2 = +0.087$, $p < 0.0001$ on a pooled analysis of our Defects4J
 sample is not necessarily wrong; it is reporting a quantity whose
 interval contains both a meaningful improvement and a meaningful
 degradation, and whose value under within-project comparison reverses.
@@ -698,8 +705,11 @@ half-width.
 \begin{figure*}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/fig-crossbench-en.png}
-\caption{Cross-benchmark comparison. (a) Resolution---the half-width of the 95\% bootstrap interval---against the number of independent fault versions; both benchmarks approach, but do
-not reach at conventional sizes, the effect magnitudes typically claimed.
+\caption{Cross-benchmark comparison. (a) Version-level resolution---the
+half-width of the 95\% bootstrap interval---against the number of
+independent fault versions. The Defects4J curve crosses the $\Delta R^2 =
+0.05$ reference at about 90 versions; the BugsInPy curve remains above it
+throughout its observed range.
 (b) Project-classification accuracy by feature set; both benchmarks exceed the uniform-random-guess baseline by a factor of about six.}
 \label{fig:crossbench}
 \end{figure*}
@@ -828,7 +838,8 @@ recommend that studies state their resampling unit explicitly.
 The version counts in Table~\ref{tab:mde} are presented as a function of
 the target effect rather than as a single number, because the answer
 depends on what the study wants to establish. A study aiming to resolve
-$\Delta R^2 = 0.10$ is adequately sized at roughly 50 versions; one aiming
+$\Delta R^2 = 0.10$ is adequately sized at roughly 50 to 80 independent
+versions; one aiming
 at $0.02$ is not adequately sized at any sample this literature typically
 reports.
 
@@ -932,7 +943,8 @@ Table~\ref{tab:delta} should be read with that in mind. The simulation in
 Section~\ref{sec:rq2} is a mechanism demonstration with calibrated
 dispersion, not an estimate of $\rho$ in either benchmark; the observed
 project-level correlation in our Defects4J sample is weak
-($\rho \approx -0.07$ across seven projects, itself imprecisely estimated),
+($\rho \approx +0.08$ across seven projects, $p = 0.87$, itself
+imprecisely estimated),
 so the $\rho$ sweep should be read as ``if $\rho$ were $x$'' rather than as
 a description of these benchmarks.
 
