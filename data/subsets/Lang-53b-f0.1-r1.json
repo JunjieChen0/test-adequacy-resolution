@@ -1,0 +1,121 @@
+{
+  "project": "Lang",
+  "bug": "53b",
+  "frac": 0.1,
+  "rep": 1,
+  "t": "2026-10-16T10:24:50.668247+00:00",
+  "steps": {
+    "checkout_b": {
+      "rc": 0,
+      "s": 20.6
+    },
+    "compile_b": {
+      "rc": 1,
+      "s": 33.5,
+      "repair_added": 17,
+      "repair_log": [
+        [
+          "Broken1Enum",
+          "Broken1OperationEnum",
+          "Broken2Enum",
+          "Broken2OperationEnum",
+          "Broken3Enum",
+          "Broken3OperationEnum",
+          "Broken4OperationEnum",
+          "Broken5OperationEnum",
+          "ColorEnum",
+          "Extended1Enum",
+          "Extended2Enum",
+          "OperationEnum"
+        ],
+        [
+          "Extended3Enum",
+          "Nest",
+          "NestBroken",
+          "NestLinked",
+          "NestReferenced"
+        ]
+      ],
+      "rc_after_repair": 0
+    },
+    "coverage": {
+      "rc": 0,
+      "s": 115.6,
+      "lines_total": 9734,
+      "lines_covered": 2133,
+      "cond_total": 6435,
+      "cond_covered": 1270,
+      "line_cov_pct": 21.9,
+      "cond_cov_pct": 19.7
+    },
+    "checkout_f": {
+      "rc": 0,
+      "s": 30.1
+    },
+    "compile_f": {
+      "rc": 1,
+      "s": 47.4,
+      "repair_added": 17
+    },
+    "mutation": {
+      "rc": 0,
+      "s": 204.1,
+      "mutants_generated": 2004,
+      "mutants_covered": 539,
+      "mutants_killed": 318,
+      "mutation_score_pct": 59.0,
+      "mutation_score_covered_pct": 15.9
+    }
+  },
+  "layout_b": {
+    "src": "src/java",
+    "test": "src/test"
+  },
+  "n_test_total": 83,
+  "n_test_java_total": 141,
+  "n_test_target": 8,
+  "n_test_kept": 9,
+  "n_keep_java": 26,
+  "kept_tests": [
+    "org/apache/commons/lang/BooleanUtilsTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java"
+  ],
+  "n_moved_b": 115,
+  "n_repaired_b": 17,
+  "kept_tests_final": [
+    "org/apache/commons/lang/BooleanUtilsTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java"
+  ],
+  "n_test_final": 9,
+  "n_keep_java_f": 26,
+  "n_moved_f": 115,
+  "n_repaired_f": 17,
+  "kept_tests_final_f": [
+    "org/apache/commons/lang/BooleanUtilsTest.java",
+    "org/apache/commons/lang/NumberRangeTest.java",
+    "org/apache/commons/lang/StringUtilsTest.java",
+    "org/apache/commons/lang/StringUtilsTrimEmptyTest.java",
+    "org/apache/commons/lang/enums/EnumTest.java",
+    "org/apache/commons/lang/math/FractionTest.java",
+    "org/apache/commons/lang/mutable/MutableBooleanTest.java",
+    "org/apache/commons/lang/mutable/MutableShortTest.java",
+    "org/apache/commons/lang/text/StrTokenizerTest.java"
+  ],
+  "n_mut_classes": 15,
+  "mut_sample_source": "fresh",
+  "status": "ok"
+}

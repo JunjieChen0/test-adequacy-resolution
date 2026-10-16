@@ -36,17 +36,17 @@ BugsInPy (Python), seven projects each, derive each subset's fault-detection
 rate from per-fault trigger-test metadata without executing the suites, and
 quantify the incremental $R^2$'s uncertainty under several evaluation
 schemes. We find: (i)~the incremental $R^2$ of a behavioural-matching feature
-block has a 95\% interval width of \num{0.062} on Defects4J and \num{0.143}
-on BugsInPy under version-level resampling, and of \num{0.129} and
+block has a 95\% interval width of \num{0.056} on Defects4J and \num{0.143}
+on BugsInPy under version-level resampling, and of \num{0.120} and
 \num{0.146} under a project-level cluster bootstrap, with an unstable sign on
 Defects4J; (ii)~a simulation calibrated on the observed data shows that a
 feature with zero within-project effect whose project means correlate with
-baseline detection rates yields a non-trivial increment in up to 94\% of
+baseline detection rates yields a non-trivial increment in up to 80\% of
 unadjusted pooled analyses, against below 1\% under project fixed effects;
-(iii)~behavioural features identify the source project with \num{0.876} and
+(iii)~behavioural features identify the source project with \num{0.895} and
 \num{0.824} accuracy against a uniform-random baseline of $1/7$; and
-(iv)~a \num{0.05} target half-width needs about $70$ independent fault
-versions and \num{0.02} about $100$. We conclude that incremental-validity
+(iv)~a \num{0.05} target half-width needs about $100$ independent fault
+versions and \num{0.02} about $120$. We conclude that incremental-validity
 claims at the magnitudes common in this literature are not identifiable at
 conventional sample sizes, and provide a protocol and resolution curves for
 sizing future studies.
@@ -284,9 +284,10 @@ revision, not about the fault itself.
 \begin{threeparttable}
 \caption{Analysis sample. A \emph{version} is a \texttt{(project, fault)}
 pair with at least one usable subset; an \emph{instance} is one subset run.
-Counts are those that enter the analysis, after dropping records with
-incomplete metric measurement (Defects4J: \num{3} of \num{302} instances;
-BugsInPy: \num{1} of \num{246}).}
+Counts are those that enter the analysis. Of the \num{626} subset records
+collected on Defects4J, \num{355} carried both metrics and \num{352} entered
+the analysis, three more having been dropped because their assertion features
+failed to parse; on BugsInPy \num{245} of \num{246} instances entered.}
 \label{tab:subjects}
 \begin{tabular}{llrrr}
 \toprule
@@ -296,10 +297,10 @@ Benchmark & Project & Versions & Instances & Mean line coverage (\%) \\
  & Chart    & 14 &  49 & 27.4 \\
  & Cli      &  6 &  12 & 49.4 \\
  & Codec    &  5 &  10 & 23.3 \\
- & Compress & 16 &  29 & 36.1 \\
+ & Compress & 17 &  33 & 37.6 \\
  & Csv      &  5 &   7 & 50.3 \\
- & Lang     & 34 & 124 & 31.7 \\
- & Math     & 32 &  68 & 33.2 \\
+ & Lang     & 38 & 131 & 31.2 \\
+ & Math     & 54 & 110 & 33.2 \\
 \midrule
 \multirow{7}{*}{BugsInPy}
  & black      & 18 &  54 & 83.1 \\
@@ -445,9 +446,9 @@ coverage (BugsInPy).}
 Benchmark & Scheme & Size & Classical & Size$+$beh. & Full \\
 \midrule
 \multirow{3}{*}{Defects4J}
- & Pooled        & 0.200 & 0.360 & 0.257 & \textbf{0.424} \\
- & Grouped CV, FE & 0.554 & \textbf{0.590} & 0.552 & 0.588 \\
- & LOVO, FE       & 0.562 & \textbf{0.597} & 0.563 & 0.594 \\
+ & Pooled        & 0.128 & 0.292 & 0.209 & \textbf{0.379} \\
+ & Grouped CV, FE & 0.556 & \textbf{0.594} & 0.553 & 0.583 \\
+ & LOVO, FE       & 0.552 & \textbf{0.591} & 0.557 & 0.591 \\
 \midrule
 \multirow{3}{*}{BugsInPy}
  & Pooled        & 0.305 & 0.297 & 0.300 & \textbf{0.315} \\
@@ -458,9 +459,9 @@ Benchmark & Scheme & Size & Classical & Size$+$beh. & Full \\
 \end{table}
 
 The pooled analysis---the analysis most commonly reported---selects the
-full model on \emph{both} benchmarks, by $+0.064$ and $+0.018$
+full model on \emph{both} benchmarks, by $+0.087$ and $+0.018$
 respectively. Introducing project fixed effects reduces the advantage on
-Defects4J to $-0.002$ (a reversal), but only to $+0.015$ on BugsInPy. The sign on Defects4J changes when project fixed effects are introduced: the pooled analysis is positive ($+0.064$), whereas both fixed-effects schemes are negative ($-0.002$ and $-0.003$). Leave-one-version-out agrees with grouped CV on the ranking but not on the magnitude.
+Defects4J to $-0.011$ (a reversal), but only to $+0.015$ on BugsInPy. The sign on Defects4J changes when project fixed effects are introduced: the pooled analysis is positive ($+0.087$), whereas both fixed-effects schemes are negative ($-0.011$ and $-0.001$). Leave-one-version-out agrees with grouped CV on the ranking but not on the magnitude.
 
 \subsection{Uncertainty of the increment}
 
@@ -480,8 +481,8 @@ $\Delta R^2 \le 0$ (percentile intervals from $B = 2000$ replicates).}
 Benchmark & Unit & Point & Boot.\ mean & 95\% CI & Width & $P_{\rm boot}$ \\
 \midrule
 \multirow{2}{*}{Defects4J}
-  & Version & $-0.002$ & $-0.013$ & $[-0.048, +0.014]$ & 0.062 & 0.86 \\
- & Project & $-0.002$ & $-0.001$ & $[-0.062, +0.067]$ & \textbf{0.129} & 0.56 \\
+  & Version & $-0.011$ & $-0.009$ & $[-0.038, +0.017]$ & 0.056 & 0.78 \\
+ & Project & $-0.011$ & $+0.004$ & $[-0.052, +0.069]$ & \textbf{0.120} & 0.43 \\
 \midrule
 \multirow{2}{*}{BugsInPy}
   & Version & $+0.015$ & $+0.019$ & $[-0.047, +0.096]$ & 0.143 & 0.29 \\
@@ -492,14 +493,14 @@ Benchmark & Unit & Point & Boot.\ mean & 95\% CI & Width & $P_{\rm boot}$ \\
 
 Three observations. The intervals are wide relative to the effects at
 stake: even the narrower Defects4J version-level interval,
-$\pm 0.031$, cannot distinguish ``no effect'' from a $0.05$ increment in
+$\pm 0.028$, cannot distinguish ``no effect'' from a $0.05$ increment in
 either direction. The resampling hierarchy matters: on Defects4J the
 cluster interval is about twice as wide as the version-level interval
-(0.129 against 0.062), and on BugsInPy the two are nearly equal (0.143 and
+(0.120 against 0.056), and on BugsInPy the two are nearly equal (0.143 and
 0.146). The direction of the change differs from the usual expectation
 because with only seven project clusters the cluster bootstrap is itself
 highly variable. And the two benchmarks do not agree on the sign of the
-point estimate ($-0.002$ versus $+0.015$), which is consistent with both
+point estimate ($-0.011$ versus $+0.015$), which is consistent with both
 being indistinguishable from zero rather than with a genuine
 language difference.
 
@@ -518,41 +519,42 @@ Independent & \multicolumn{2}{c}{Defects4J} & \multicolumn{2}{c}{BugsInPy} \\
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}
 versions & Version-level & Project-level & Version-level & Project-level \\
 \midrule
- 20 & 1.292 & 1.480 & 0.520 & 1.173 \\
- 30 & 0.301 & 0.423 & 0.250 & 0.224 \\
- 40 & 0.178 & 0.257 & 0.183 & 0.158 \\
- 50 & 0.105 & 0.178 & 0.139 & 0.114 \\
- 70 & 0.057 & 0.113 & 0.091 & 0.080 \\
-100 & 0.037 & 0.066 & --- & --- \\
+ 20 & 1.437 & 1.461 & 0.520 & 1.173 \\
+ 30 & 0.468 & 0.459 & 0.250 & 0.224 \\
+ 40 & 0.235 & 0.320 & 0.183 & 0.158 \\
+ 50 & 0.136 & 0.197 & 0.139 & 0.114 \\
+ 70 & 0.083 & 0.138 & 0.091 & 0.080 \\
+100 & 0.045 & 0.085 & --- & --- \\
 \midrule
 \multicolumn{5}{l}{\emph{Versions required for a target half-width}} \\
-Target $=0.10$ & 54 & 64 & 55 & 52 \\
-Target $=0.05$ & 65 & 79 & 76\emph{\,Extrap.} & 68 \\
-Target $=0.02$ & 84\emph{\,Extrap.} & 107\emph{\,Extrap.} & 117\emph{\,Extrap.} & 97\emph{\,Extrap.} \\
+Target $=0.10$ & 66 & 78 & 55 & 52 \\
+Target $=0.05$ & 83 & 103 & 76\emph{\,Extrap.} & 68 \\
+Target $=0.02$ & 113 & 149\emph{\,Extrap.} & 117\emph{\,Extrap.} & 97\emph{\,Extrap.} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 The empirical curves are not constrained to be monotone, because each
 point is obtained from a finite bootstrap sample; small local reversals
-(the BugsInPy project-level value rising from \num{0.083} at 50 versions
-to \num{0.115} at 70 in an earlier run with only 80 replicates per point)
 should be read as Monte Carlo variability rather than as evidence that
-additional independent versions systematically reduce precision. Increasing
-to 1000 replicates per point removed that reversal and left a monotone
-curve, which supports this reading.
+additional independent versions systematically reduce precision. At
+\num{1000} replicates per point all four curves in Table~\ref{tab:mde} are
+monotone in the range reported; an earlier run with only $80$ replicates
+per point produced a local reversal on the BugsInPy project-level curve,
+which disappeared once the replicate count was raised. This supports the
+Monte Carlo reading.
 
 Reading the conservative (project-level) columns: resolving an effect of
-\num{0.05} requires on the order of \num{70} independent fault versions
-(\num{79} on Defects4J and \num{68} on BugsInPy), and resolving
-\num{0.02} requires on the order of \num{100} (\num{107} and \num{97}
+\num{0.05} requires on the order of \num{100} independent fault versions
+(\num{103} on Defects4J and \num{68} on BugsInPy), and resolving
+\num{0.02} requires on the order of \num{120} (\num{149} and \num{97}
 respectively). These are order-of-magnitude
 readings from fitted curves, not observed crossing points, and the
-BugsInPy values marked \emph{Extrap.} lie beyond the range of the data.
+values marked \emph{Extrap.} lie beyond the range of the data.
 Below roughly
 30 versions the estimator is not merely imprecise but unstable, with
-half-widths in the range $0.2$ to $0.7$ and, in the smallest samples for
-Defects4J, values in the hundreds---the fixed-effect model cannot estimate
+half-widths between $0.2$ and $1.5$ and, in the smallest samples, values
+above $100$---the fixed-effect model cannot estimate
 project effects reliably and the between-fold variance explodes.
 
 \subsection{Interpretation}
@@ -599,23 +601,23 @@ increment, when the feature's true within-project effect is exactly zero.
 \cmidrule(lr){2-4}\cmidrule(lr){5-5}
 Confounding strength $\rho$ & $>0.02$ & $>0.05$ & $>0.10$ & $>0.02$ \\
 \midrule
-0.0 & 0.34 & 0.16 & 0.04 & 0.00 \\
-0.3 & 0.45 & 0.33 & 0.13 & 0.00 \\
-0.6 & 0.80 & 0.59 & 0.37 & 0.01 \\
-0.9 & 0.94 & 0.88 & 0.74 & 0.01 \\
+0.0 & 0.17 & 0.03 & 0.01 & 0.00 \\
+0.3 & 0.32 & 0.12 & 0.03 & 0.00 \\
+0.6 & 0.56 & 0.32 & 0.13 & 0.01 \\
+0.9 & 0.80 & 0.65 & 0.39 & 0.01 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Table~\ref{tab:sim} and Figure~\ref{fig:identifiability}(b) give the
 result. Two readings matter. At $\rho = 0$ the pooled analysis already
-reports an increment in 34\% of runs: that is the estimator's own noise
+reports an increment in 17\% of runs: that is the estimator's own noise
 floor, and it alone means a single reported $\Delta R^2 > 0.02$ is weak
-evidence. As $\rho$ grows, the rate rises to 94\%. It does \emph{not} fall with
-sample size: at $\rho = 0.9$ the pooled rate is 0.76, 0.92 and 0.94 across
+evidence. As $\rho$ grows, the rate rises to 80\%. It does \emph{not} fall with
+sample size: at $\rho = 0.9$ the pooled rate is 0.55, 0.74 and 0.80 across
 the three sample sizes in our grid (70, 200 and 400 instances), and at
-$\rho = 0.6$ it is 0.55, 0.73 and 0.80, while the fixed-effect rate stays
-at or below 0.07 throughout. That is the signature of a bias rather than a
+$\rho = 0.6$ it is 0.39, 0.53 and 0.56, while at 400 instances the
+fixed-effect rate is 0.01 or below throughout. That is the signature of a bias rather than a
 sampling-variance artefact: adding observations within the same project
 structure does not remove it. Project fixed effects reduce the rate to at most 1\% and drive it
 towards zero as versions accumulate.
@@ -623,22 +625,22 @@ towards zero as versions accumulate.
 \paragraph{Choice of threshold} The materiality threshold is a judgement,
 not a quantity the data can supply, so we report the probability of a material increment at three thresholds (Table~\ref{tab:sim}) rather than one. The effect of the
 threshold is confined to the intercept: at $\rho = 0$ the pooled rate
-falls from 0.34 to 0.04 as the threshold tightens from 0.02 to 0.10, while
-at $\rho = 0.9$ it remains between 0.74 and 0.94. The qualitative
+falls from 0.17 to 0.01 as the threshold tightens from 0.02 to 0.10, while
+at $\rho = 0.9$ it remains between 0.39 and 0.80. The qualitative
 conclusion---that the pooled analysis manufactures increments at rates
 that rise steeply with confounding---therefore does not depend on the
 threshold. We adopt 0.02 as a \emph{prespecified practical threshold} for the
 simulation, reporting 0.05 and 0.10 as sensitivity thresholds; the
 qualitative conclusions are unchanged across them. The value is chosen to
-be an order of magnitude below the pooled increment our own Defects4J
-sample produces ($+0.064$), so that a study of that character would clear
+be comfortably below the pooled increment our own Defects4J
+sample produces ($+0.087$), so that a study of that character would clear
 the bar even if its entire apparent effect were confounding. The resolution target of $\Delta R^2 = 0.05$ used in
 Table~\ref{tab:mde} is likewise set by the magnitudes this literature
 reports, including our own pooled estimates; because the resolution curve
 is continuous, a reader who prefers a different target can read the
 required sample size directly off it.
 
-We stress the scope of this diagnostic. A rate of 0.34 under
+We stress the scope of this diagnostic. A rate of 0.17 under
 $\rho = 0$ is not a classical Type~I error rate: the criterion
 $\Delta R^2 > 0.02$ is a practical-significance threshold applied to a
 cross-validated difference, so the figure is the probability that a
@@ -661,9 +663,9 @@ several subsets share a fault version, we report both an instance-level
 5-fold split and a split \emph{grouped by fault version}, the latter
 answering the stronger question of whether the fingerprint generalises to
 versions the classifier has not seen. Instance-level accuracies for
-Defects4J and BugsInPy respectively are \num{0.876} and \num{0.824} from
-behavioural features alone; \num{0.833} and \num{0.890} from classical
-metrics alone; \num{0.913} and \num{0.943} from all features; against a
+Defects4J and BugsInPy respectively are \num{0.895} and \num{0.824} from
+behavioural features alone; \num{0.835} and \num{0.890} from classical
+metrics alone; \num{0.935} and \num{0.943} from all features; against a
 \emph{uniform-random-guess} baseline of $1/7 \approx \num{0.143}$ in both
 benchmarks (Figure~\ref{fig:crossbench}(b)). Because the projects are
 highly unbalanced in size, $1/7$ is a reference for uniform guessing only,
@@ -671,7 +673,7 @@ not the majority-class or empirical-prior baseline; we report it because it
 is the accuracy a classifier with no project information would obtain under
 balanced guessing, and we make no claim about how much of the observed
 accuracy is attributable to class imbalance. The version-grouped accuracies are
-essentially unchanged (\num{0.866}, \num{0.819}, \num{0.913} for
+essentially unchanged (\num{0.892}, \num{0.838}, \num{0.943} for
 Defects4J and \num{0.837}, \num{0.918}, \num{0.946} for BugsInPy), so
 the fingerprint is not an artefact of subsets from the same version
 appearing on both sides of the split. Behavioural features do not merely
@@ -685,7 +687,7 @@ rather than substituting one feature family for another.
 \paragraph{Resolution} Table~\ref{tab:models} and Table~\ref{tab:delta}
 show that the pooled analysis favours the larger model on both benchmarks,
 and that the correction for project identity shrinks the increment
-substantially on Defects4J ($+0.064 \to -0.002$) but only marginally on
+substantially on Defects4J ($+0.087 \to -0.011$) but only marginally on
 BugsInPy ($+0.018 \to +0.015$). The two benchmarks differ in whether the
 correction reverses the sign, and Section~\ref{sec:rq4} shows that on
 BugsInPy the reversal appears once the dominant project is removed. On
@@ -733,13 +735,13 @@ model with the highest grouped-CV $R^2$ on the reduced sample.}
 Benchmark & Project removed & Best model & $\Delta R^2$ \\
 \midrule
 \multirow{7}{*}{Defects4J}
- & Chart    & Classical & $-0.007$ \\
- & Cli      & Classical & $-0.003$ \\
- & Codec    & Full      & $+0.000$ \\
- & Compress & Classical & $-0.011$ \\
- & Csv      & Classical & $-0.001$ \\
- & Lang     & Classical & $-0.078$ \\
- & Math     & Classical & $-0.007$ \\
+ & Chart    & Classical & $-0.029$ \\
+ & Cli      & Full      & $+0.002$ \\
+ & Codec    & Classical & $-0.003$ \\
+ & Compress & Classical & $-0.010$ \\
+ & Csv      & Classical & $-0.000$ \\
+ & Lang     & Classical & $-0.057$ \\
+ & Math     & Classical & $-0.012$ \\
 \midrule
 \multirow{7}{*}{BugsInPy}
  & black      & Full & $+0.037$ \\
@@ -755,7 +757,7 @@ Benchmark & Project removed & Best model & $\Delta R^2$ \\
 
 On Defects4J the within-project conclusion is stable: six of seven
 leave-one-out samples still rank the classical block first, and the
-increment stays within $\pm 0.08$ in all seven. On BugsInPy the picture is the
+increment stays within $\pm 0.06$ in all seven. On BugsInPy the picture is the
 reverse: the full model ranks first in six of seven leave-one-project-out
 samples, so the BugsInPy result is not an artefact of pooling alone.
 Its magnitude and sign nevertheless remain sensitive to the composition of
@@ -779,10 +781,10 @@ over the classical block.}
 Benchmark & Sample & Projects & Best (FE) & $\Delta R^2$ \\
 \midrule
 \multirow{4}{*}{Defects4J}
- & all            & 7 & Classical & $-0.002$ \\
- & $\geq 2$ versions & 7 & Classical & $-0.002$ \\
- & $\geq 5$ versions & 7 & Classical & $-0.002$ \\
- & $\geq 10$ versions & 4 & Size$+$behaviour & $+0.005$ \\
+ & all            & 7 & Classical & $-0.011$ \\
+ & $\geq 2$ versions & 7 & Classical & $-0.011$ \\
+ & $\geq 5$ versions & 7 & Classical & $-0.011$ \\
+ & $\geq 10$ versions & 4 & Size$+$behaviour & $+0.002$ \\
 \midrule
 \multirow{3}{*}{BugsInPy}
  & all            & 7 & Full & $+0.015$ \\
@@ -813,7 +815,7 @@ benchmark's result is a function of which projects are in it.
 \subsection{Bootstrap hierarchy}
 
 The version-level and project-level bootstraps give interval widths of
-\num{0.062} and \num{0.129} on Defects4J, and \num{0.143} and \num{0.146}
+\num{0.056} and \num{0.120} on Defects4J, and \num{0.143} and \num{0.146}
 on BugsInPy (Table~\ref{tab:delta}). The unit of resampling therefore
 changes reported uncertainty by a factor of up to two, and the
 two hierarchies do not even rank the benchmarks consistently. We report
@@ -942,7 +944,7 @@ prediction. We have shown, on two independent benchmarks in two
 languages, that this instrument is not sharp enough for the conclusions
 typically drawn from it: the effects being claimed are of the same order as
 the uncertainty of their own estimates, their sign depends on unreported
-analyst choices, and project-level confounding alone can produce them in up to 94\% of
+analyst choices, and project-level confounding alone can produce them in up to 80\% of
 runs.
 
 None of this implies that test-adequacy metrics are worthless, or that the

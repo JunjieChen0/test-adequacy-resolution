@@ -78,17 +78,30 @@ constructed by passing an explicit list of pytest node identifiers.
 
 `results/analysis.json` is the single source of every number in the manuscript.
 It is computed from the shipped per-instance measurements by
-`scripts/analyze_all.py`.
+`scripts/analyze_all.py`. `results/simulation-confounding.json`, produced by
+`scripts/simulate_confounding.py`, is the source of the simulated
+false-positive rates.
 
 Records whose metrics could not be measured are retained in `data/` and
-`data-bip/` but excluded by the analysis, so the version counts in the
-manuscript's Table 1 are slightly below the raw file counts.
+`data-bip/` but excluded by the analysis, so the counts in the manuscript's
+Table 1 are below the raw file counts: 626 subset records were collected on
+Defects4J, 355 of them carried both metrics, and 352 entered the analysis after
+three more were dropped for assertion features that failed to parse. Every
+version count and interval width in the manuscript refers to that analysed
+sample, which is 139 independent fault versions on Defects4J and 82 on
+BugsInPy.
 
 `data/subsets_v1/` holds the superseded first-round pilot records. No script in
 this package reads it; it is kept only as a record of the pilot phase.
 
 `results/reference-verification.md` records the pre-submission check of every
 bibliographic entry in `paper/refs.bib` against Crossref.
+
+The other `results/*.md` files are working notes kept while the study was
+carried out. They were written at different stages against earlier and smaller
+samples, and some of the numbers in them are superseded. They are included as a
+record of how the conclusions were reached; `analysis.json` and the manuscript,
+not these notes, are authoritative.
 
 As a check on this package, `scripts/analyze_all.py` was re-run against the
 shipped `data/` and `data-bip/` after the measurements were frozen. Every point
@@ -98,12 +111,6 @@ accuracies, leave-one-project-out, project-composition sensitivity, and the
 resolution curves. The only quantities that moved were the interval bounds,
 whose width and centre are set by `--boot` (the check used 200 replicates
 against the manuscript's 2000), which is the parameter's purpose.
-
-The manuscript was frozen on the measurements as of the `v1.0-submission` tag.
-Collection of additional Defects4J versions was still running when the tag was
-cut; those records are included in `data/` but excluded from the analysis,
-because their assertion-level features have not yet been extracted. They
-therefore do not affect any reported number.
 
 ## Environment
 

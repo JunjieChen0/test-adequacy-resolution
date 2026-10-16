@@ -1,0 +1,26 @@
+{
+  "tag": "Math-16b-f0.25-r1",
+  "project": "Math",
+  "bug": "16b",
+  "frac": 0.25,
+  "rep": 1,
+  "n_test_final": 82,
+  "features": {
+    "n_assertions": 2343,
+    "n_test_methods": 628,
+    "n_strong": 1675,
+    "n_weak": 340,
+    "n_other": 288,
+    "n_predicate": 143,
+    "n_distinct_calls": 481,
+    "test_loc": 17650,
+    "n_files": 82
+  },
+  "derived": {
+    "assertions_per_method": 3.7308917197452227,
+    "strong_ratio": 0.7148954332052924,
+    "weak_ratio": 0.14511310285958173,
+    "predicate_ratio": 0.06103286384976526,
+    "calls_per_assertion": 0.2052923602219377
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tag": "Math-72b-f0.25-r1",
+  "project": "Math",
+  "bug": "72b",
+  "frac": 0.25,
+  "rep": 1,
+  "n_test_final": 60,
+  "features": {
+    "n_assertions": 1935,
+    "n_test_methods": 92,
+    "n_strong": 1151,
+    "n_weak": 282,
+    "n_other": 343,
+    "n_predicate": 181,
+    "n_distinct_calls": 391,
+    "test_loc": 13986,
+    "n_files": 60
+  },
+  "derived": {
+    "assertions_per_method": 21.032608695652176,
+    "strong_ratio": 0.5948320413436693,
+    "weak_ratio": 0.14573643410852713,
+    "predicate_ratio": 0.09354005167958657,
+    "calls_per_assertion": 0.2020671834625323
+  }
+}

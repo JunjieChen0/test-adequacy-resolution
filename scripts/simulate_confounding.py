@@ -17,10 +17,11 @@
 参数按 Defects4J 实测标定（跨项目与组内标准差，见下表），只把 ρ 当作自变量扫描。
 数据生成过程里**行为特征对结果变量的系数恒为 0**——任何被"检出"的增量都是伪影。
 
-标定值（Defects4J，7 项目 / 70 独立版本 / 219 实例）：
-    跨项目 SD：检出率 0.086，log 套件规模 1.36，覆盖率 10.3，强断言占比 0.175
-    组内 SD：  检出率 0.142，log 套件规模 0.66，覆盖率 17.9，强断言占比 0.133
-    拟合残差 SD：0.0995
+标定值（Defects4J，7 项目 / 139 独立版本 / 352 实例，2026-10-16 按扩样后样本重算）：
+    跨项目 SD：检出率 0.071，log 套件规模 0.86，覆盖率 5.04，强断言占比 0.121
+    组内 SD：  检出率 0.125，log 套件规模 0.68，覆盖率 16.79，强断言占比 0.104
+    组内斜率：规模 +0.062，覆盖率 +0.0031
+    拟合残差 SD：0.106（调至使组内检出率 SD ≈ 0.125）
 
 用法：python3 scripts/simulate_confounding.py
 """
@@ -30,18 +31,18 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import GroupKFold
 
 # ---- 标定常数 ----
-SD_PROJ_DET = 0.0856      # 检出错率跨项目 SD
-SD_WITHIN_DET = 0.1421    # 检出率组内 SD
-SD_PROJ_SIZE = 1.3575
-SD_WITHIN_SIZE = 0.6556
-SD_PROJ_COV = 10.3263
-SD_WITHIN_COV = 17.8937
-SD_PROJ_BEHAV = 0.1754
-SD_WITHIN_BEHAV = 0.1329
-RESID_SD = 0.070          # 调至使组内检出率 SD ≈ 0.142
+SD_PROJ_DET = 0.0707      # 检出错率跨项目 SD
+SD_WITHIN_DET = 0.1251    # 检出率组内 SD
+SD_PROJ_SIZE = 0.8583
+SD_WITHIN_SIZE = 0.6776
+SD_PROJ_COV = 5.0407
+SD_WITHIN_COV = 16.7927
+SD_PROJ_BEHAV = 0.1212
+SD_WITHIN_BEHAV = 0.1036
+RESID_SD = 0.106          # 调至使组内检出率 SD ≈ 0.125
 
-B_SIZE = 0.030            # 组内规模效应（按实测斜率量级）
-B_COV = 0.0020            # 组内覆盖率效应
+B_SIZE = 0.062            # 组内规模效应（按实测斜率）
+B_COV = 0.0031            # 组内覆盖率效应
 B_BEHAV = 0.0             # **真实效应为零**——本模拟的核心设定
 
 
