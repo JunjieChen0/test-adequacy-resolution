@@ -33,7 +33,9 @@ produced by `scripts/analyze_all.py`. No number in the paper is entered by hand.
 | Script | Purpose |
 |---|---|
 | `scripts/analyze_all.py` | **Primary analysis.** Produces `results/analysis.json`: model comparisons under three evaluation schemes, both bootstrap hierarchies, the project-fingerprint diagnostic, leave-one-project-out, project-composition sensitivity, and the resolution curves. |
-| `scripts/simulate_confounding.py` | Parameterised simulation isolating project-level confounding. Produces `results/simulation-confounding.json`. |
+| `scripts/simulate_confounding.py` | Parameterised simulation isolating project-level confounding. Produces `results/simulation-confounding.json`. `SIM_R` sets the replications per cell (2000 in the manuscript). |
+| `scripts/analyze_outcome_scope.py` | Robustness of the outcome's denominator: whole-project fault set versus the faults reachable at the evaluated revision. Produces `results/outcome-scope.json`. |
+| `scripts/analyze_fingerprint_baselines.py` | Project-classification metrics robust to class imbalance (balanced accuracy, macro $F_1$, majority-class baseline). Produces `results/fingerprint-baselines.json`. |
 | `scripts/plot_figures.py` | Renders both manuscript figures from the two JSON files above. |
 | `scripts/robust_lib.py` | Shared modelling and resampling primitives used by the analysis. |
 | `scripts/collect_subsets.py` | Defects4J subset construction, coverage and mutation measurement. |

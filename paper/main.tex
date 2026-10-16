@@ -40,12 +40,14 @@ on BugsInPy under version-level resampling, and of \num{0.120} and
 \num{0.146} under a project-level cluster bootstrap, with an unstable sign on
 Defects4J; (ii)~a simulation calibrated on the observed data shows that a
 feature with zero within-project effect whose project means correlate with
-baseline detection rates yields a non-trivial increment in up to 80\% of
+baseline detection rates yields a non-trivial increment in up to 82\% of
 unadjusted pooled analyses, against below 1\% under project fixed effects;
 (iii)~behavioural features identify the source project with \num{0.895} and
 \num{0.824} accuracy against a uniform-random baseline of $1/7$; and
-(iv)~a \num{0.05} target half-width needs about $100$ independent fault
-versions and \num{0.02} about $120$. We conclude that incremental-validity
+(iv)~resolving a \num{0.05} target half-width needs on the order of
+\num{70} to \num{100} independent fault versions and \num{0.02} on the
+order of \num{100} to \num{150}, depending on the benchmark and the
+resampling hierarchy. We conclude that incremental-validity
 claims at the magnitudes common in this literature are not identifiable at
 conventional sample sizes, and provide a protocol and resolution curves for
 sizing future studies.
@@ -263,11 +265,13 @@ possible across languages.
 The unit is a \emph{test-suite subset}: a fraction of a project's test suite
 at a specific fault version. Varying the fraction gives within-version
 variation in suite size and in composition, which is what the incremental
-analysis requires. Independent information, however, accumulates at the
-level of fault \emph{versions}, not subsets, and we report both the nominal
-sample size and the number of independent fault-version units throughout.
-We use the latter as a count of independent units rather than as a formal
-effective sample size (Section~\ref{sec:protocol}).
+analysis requires. We treat fault \emph{versions}, not subsets, as the
+independent resampling units in the version-level analysis, while
+recognising that they remain clustered within projects; a project-level
+hierarchy is reported alongside it (Section~\ref{sec:rq4}). We report both
+the nominal sample size and the number of fault-version units throughout,
+using the latter as a count of units rather than as a formal effective
+sample size (Section~\ref{sec:protocol}).
 
 \subsection{Benchmarks and subjects}
 
@@ -343,6 +347,28 @@ On BugsInPy, subsets are far simpler: \texttt{pytest} accepts an explicit
 list of test node identifiers, so no source relocation is needed. The pool
 for a version is the set of collected tests that pass at the fixed revision.
 
+Sampling is deterministic and fixed in advance. For each version we draw
+subsets at fractions of the runnable pool---\num{0.10} and \num{0.25} for
+the main Defects4J collection, plus a remainder of pilot instances at
+\num{0.05}, \num{0.50} and \num{1.0}, and \num{0.10}, \num{0.30} and
+\num{0.60} on BugsInPy---with target size $\max(1, \mathrm{round}(n \cdot
+f))$ and uniform sampling \emph{without} replacement from the pool, seeded
+from the string \texttt{project|bug|f|rep} so that any single instance can be
+regenerated in isolation. Subsets at different fractions of the same version
+are drawn independently and are \emph{not} nested. The Defects4J pool is the
+framework's test list at the fixed revision, extended by the dependency
+closure described above; the BugsInPy pool is the set of tests that pass at
+that revision, built once per project from an explicit file list, because
+some projects' test modules do not match \texttt{pytest}'s default
+collection patterns.
+
+Mutation score is measured on \num{15} classes per version. The classes are
+drawn once per project with a fixed seed and reused wherever they are
+present, so that the score is comparable across a project's versions; where
+a version has been repackaged and the cached classes are absent
+(\num{108} of the \num{355} analysed instances), the sample is redrawn from
+that version's own classes and the record notes which source was used.
+
 \subsection{Outcome variable: differential fault detection}
 
 For a subset $S$ of project $P$'s test suite, the outcome is
@@ -354,7 +380,22 @@ For a subset $S$ of project $P$'s test suite, the outcome is
 where $\mathcal{F}_P$ is the set of faults of $P$ and
 $\mathrm{trigger}(f)$ is the test recorded as triggering fault $f$. The
 outcome is computed purely from metadata: \emph{no suite under study is
-executed to obtain it}. This avoids executing the suites under study and makes the outcome deterministic and cheap to compute, but it does \emph{not} eliminate the clean-program assumption inherent in trigger-test-based fault detection \cite{chekam2017empirical}: the metadata records which test the fault's patch makes fail, not whether a passing suite would have revealed the fault.
+executed to obtain it}.
+
+Two features of this definition matter and we state them explicitly. First,
+the denominator is the project's \emph{whole} fault set, not the faults
+fixed at the revision the subset was drawn from: on Defects4J only about
+half of a project's faults have their trigger class present in any one
+revision's test list. Second, matching is at class granularity, so a fault
+counts as detected when the subset contains its trigger class, whether or
+not that revision also carries the specific trigger method. We adopt this
+project-level denominator deliberately---it asks how well a suite
+discriminates among the project's known faults and gives the outcome a
+target that does not depend on which fault the revision happens to fix---but
+it is a choice, and Section~\ref{sec:rq4} reports what changes under the
+revision-matched alternative.
+
+This outcome does \emph{not} eliminate the clean-program assumption inherent in trigger-test-based fault detection \cite{chekam2017empirical}: the metadata records which test the fault's patch makes fail, not whether a passing suite would have revealed the fault.
 
 Two calibration details apply. On BugsInPy, trigger tests are occasionally
 declared on a \texttt{unittest} base class that \texttt{pytest} does not
@@ -565,6 +606,15 @@ half-widths between $0.2$ and $1.5$ and, in the smallest samples, values
 above $100$---the fixed-effect model cannot estimate
 project effects reliably and the between-fold variance explodes.
 
+These requirements are \emph{conditional}: they follow from the project
+composition of these two benchmarks and from the resampling hierarchy
+chosen, and they are design-based guidance for sizing a similar study
+rather than a universal power requirement. A study with a different number
+of projects, or with project-level variation unlike that of Defects4J and
+BugsInPy, will land on different numbers; the curves in
+Table~\ref{tab:mde} are the transferable object, and the version counts we
+read off them are illustrations.
+
 \subsection{Interpretation}
 
 The practical consequence is not that behavioural features are worthless.
@@ -573,8 +623,8 @@ the difference between a model with and without the candidate block is of
 the same order as the uncertainty of the difference itself, and on
 Defects4J the sign of the point estimate depends on an analyst choice
 (which cross-validation scheme) that is rarely reported. A study reporting
-$\Delta R^2 = +0.087$, $p < 0.0001$ on a pooled analysis of our Defects4J
-sample is not necessarily wrong; it is reporting a quantity whose
+a pooled $\Delta R^2$ of $+0.087$ together with a nominally small
+$p$-value is not necessarily wrong; it is reporting a quantity whose
 interval contains both a meaningful improvement and a meaningful
 degradation, and whose value under within-project comparison reverses.
 
@@ -591,8 +641,11 @@ within-project standard deviations, residual standard deviation).
 
 The single free parameter is $\rho$, the correlation between a project's
 mean value of the candidate feature and its baseline fault-detection rate.
-$\rho = 0$ means the feature is not even a project fingerprint; $\rho = 1$
-means it identifies projects perfectly. Crucially, $\rho$ is directly
+$\rho = 0$ denotes no \emph{linear}
+association between project-level feature means and baseline detection
+rates, and $\rho = 1$ denotes perfect positive linear alignment; neither
+endpoint is a statement about how well a classifier could recover projects
+from the feature. Crucially, $\rho$ is directly
 estimable in any real study from project-level means, so this is a
 sensitivity analysis an author can run on their own data.
 
@@ -600,8 +653,11 @@ sensitivity analysis an author can run on their own data.
 \centering
 \caption{Probability that an analysis reports a $\Delta R^2 > 0.02$
 increment, when the feature's true within-project effect is exactly zero.
-400 instances (10 projects $\times$ 20 versions $\times$ 2 subsets),
-200 replications per cell.}
+Shown for the 400-instance cell; \num{2000} replications per cell. The grid
+varies projects and versions together, always with two subsets per version:
+70 instances $= 7$ projects $\times$ 5 versions $\times$ 2, 200 $= 10 \times
+10 \times 2$, 400 $= 10 \times 20 \times 2$. Monte Carlo standard error is
+at most \num{0.011} on any reported rate.}
 \label{tab:sim}
 \begin{tabular}{lcccc}
 \toprule
@@ -609,22 +665,22 @@ increment, when the feature's true within-project effect is exactly zero.
 \cmidrule(lr){2-4}\cmidrule(lr){5-5}
 Confounding strength $\rho$ & $>0.02$ & $>0.05$ & $>0.10$ & $>0.02$ \\
 \midrule
-0.0 & 0.17 & 0.03 & 0.01 & 0.00 \\
-0.3 & 0.32 & 0.12 & 0.03 & 0.00 \\
-0.6 & 0.56 & 0.32 & 0.13 & 0.01 \\
-0.9 & 0.80 & 0.65 & 0.39 & 0.01 \\
+0.0 & 0.21 & 0.07 & 0.01 & 0.01 \\
+0.3 & 0.32 & 0.15 & 0.03 & 0.00 \\
+0.6 & 0.58 & 0.34 & 0.13 & 0.01 \\
+0.9 & 0.82 & 0.64 & 0.38 & 0.01 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 Table~\ref{tab:sim} and Figure~\ref{fig:identifiability}(b) give the
 result. Two readings matter. At $\rho = 0$ the pooled analysis already
-reports an increment in 17\% of runs: that is the estimator's own noise
+reports an increment in 21\% of runs: that is the estimator's own noise
 floor, and it alone means a single reported $\Delta R^2 > 0.02$ is weak
-evidence. As $\rho$ grows, the rate rises to 80\%. It does \emph{not} fall with
-sample size: at $\rho = 0.9$ the pooled rate is 0.55, 0.74 and 0.80 across
+evidence. As $\rho$ grows, the rate rises to 82\%. It does \emph{not} fall with
+sample size: at $\rho = 0.9$ the pooled rate is 0.54, 0.76 and 0.82 across
 the three sample sizes in our grid (70, 200 and 400 instances), and at
-$\rho = 0.6$ it is 0.39, 0.53 and 0.56, while at 400 instances the
+$\rho = 0.6$ it is 0.39, 0.52 and 0.58, while at 400 instances the
 fixed-effect rate is 0.01 or below throughout. That is the signature of a bias rather than a
 sampling-variance artefact: adding observations within the same project
 structure does not remove it. Project fixed effects reduce the rate to at most 1\% and drive it
@@ -633,8 +689,8 @@ towards zero as versions accumulate.
 \paragraph{Choice of threshold} The materiality threshold is a judgement,
 not a quantity the data can supply, so we report the probability of a material increment at three thresholds (Table~\ref{tab:sim}) rather than one. The effect of the
 threshold is confined to the intercept: at $\rho = 0$ the pooled rate
-falls from 0.17 to 0.01 as the threshold tightens from 0.02 to 0.10, while
-at $\rho = 0.9$ it remains between 0.39 and 0.80. The qualitative
+falls from 0.21 to 0.01 as the threshold tightens from 0.02 to 0.10, while
+at $\rho = 0.9$ it remains between 0.38 and 0.82. The qualitative
 conclusion---that the pooled analysis manufactures increments at rates
 that rise steeply with confounding---therefore does not depend on the
 threshold. We adopt 0.02 as a \emph{prespecified practical threshold} for the
@@ -648,7 +704,7 @@ reports, including our own pooled estimates; because the resolution curve
 is continuous, a reader who prefers a different target can read the
 required sample size directly off it.
 
-We stress the scope of this diagnostic. A rate of 0.17 under
+We stress the scope of this diagnostic. A rate of 0.21 under
 $\rho = 0$ is not a classical Type~I error rate: the criterion
 $\Delta R^2 > 0.02$ is a practical-significance threshold applied to a
 cross-validated difference, so the figure is the probability that a
@@ -673,24 +729,49 @@ answering the stronger question of whether the fingerprint generalises to
 versions the classifier has not seen. Instance-level accuracies for
 Defects4J and BugsInPy respectively are \num{0.895} and \num{0.824} from
 behavioural features alone; \num{0.835} and \num{0.890} from classical
-metrics alone; \num{0.935} and \num{0.943} from all features; against a
-\emph{uniform-random-guess} baseline of $1/7 \approx \num{0.143}$ in both
-benchmarks (Figure~\ref{fig:crossbench}(b)). Because the projects are
-highly unbalanced in size, $1/7$ is a reference for uniform guessing only,
-not the majority-class or empirical-prior baseline; we report it because it
-is the accuracy a classifier with no project information would obtain under
-balanced guessing, and we make no claim about how much of the observed
-accuracy is attributable to class imbalance. The version-grouped accuracies are
+metrics alone; \num{0.935} and \num{0.943} from all features. The
+version-grouped accuracies are
 essentially unchanged (\num{0.892}, \num{0.838}, \num{0.943} for
 Defects4J and \num{0.837}, \num{0.918}, \num{0.946} for BugsInPy), so
 the fingerprint is not an artefact of subsets from the same version
-appearing on both sides of the split. Behavioural features do not merely
-differ across projects: they reach roughly six times the
-uniform-random-guess accuracy at identifying the source project, in both
-ecosystems. Neither
-family is ``safer'' than the other---the ranking between them flips across
-benchmarks---which is itself an argument for controlling project identity
-rather than substituting one feature family for another.
+appearing on both sides of the split.
+
+The projects are highly unbalanced, so accuracy alone is not a fair
+summary: the majority class accounts for \num{0.372} of Defects4J
+instances and \num{0.527} of BugsInPy instances, both well above the
+$1/7 \approx \num{0.143}$ uniform-guessing reference. Reporting only
+accuracy would leave open how much of the fingerprint is class imbalance,
+so Table~\ref{tab:fingerprint} adds imbalance-robust measures. Under
+version-grouped splitting, behavioural features reach a balanced accuracy
+of \num{0.712} on Defects4J and \num{0.766} on BugsInPy---roughly five
+times the $1/7$ reference---and a macro $F_1$ of \num{0.705} and
+\num{0.725}. Neither is inflated by predicting the largest project, and
+both far exceed the majority-class baseline. Behavioural features do not
+merely differ across projects: the difference survives both a held-out-version
+split and a strict imbalance correction.
+
+\begin{table}[t]
+\centering
+\caption{Project classification from behavioural features alone, under
+version-grouped 5-fold splitting, on an imbalanced class distribution. All
+figures are fold means. \emph{Majority} is the accuracy of always predicting
+the largest project. The classifier is a random forest (\num{300} trees,
+\texttt{random\_state}~$=0$, otherwise \textsc{scikit-learn} defaults); no
+hyperparameter tuning was performed.}
+\label{tab:fingerprint}
+\begin{tabular}{lccccc}
+\toprule
+Benchmark & $1/k$ & Majority & Accuracy & Balanced acc. & Macro $F_1$ \\
+\midrule
+Defects4J & 0.143 & 0.372 & 0.892 & \textbf{0.712} & 0.705 \\
+BugsInPy  & 0.143 & 0.527 & 0.837 & \textbf{0.766} & 0.725 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Neither feature family is ``safer'' than the other---the ranking between
+them flips across benchmarks---which is itself an argument for controlling
+project identity rather than substituting one feature family for another.
 
 \paragraph{Resolution} Table~\ref{tab:models} and Table~\ref{tab:delta}
 show that the pooled analysis favours the larger model on both benchmarks,
@@ -768,9 +849,12 @@ Benchmark & Project removed & Best model & $\Delta R^2$ \\
 
 On Defects4J the within-project conclusion is stable: six of seven
 leave-one-out samples still rank the classical block first, and the
-increment stays within $\pm 0.06$ in all seven. On BugsInPy the picture is the
-reverse: the full model ranks first in six of seven leave-one-project-out
-samples, so the BugsInPy result is not an artefact of pooling alone.
+increment stays within $\pm 0.06$ in all seven. On BugsInPy the picture is
+the reverse: the full model ranks first in five of the seven
+leave-one-project-out samples, the remaining two going to the
+size-plus-behaviour block (\texttt{tqdm}) and to the classical block
+(\texttt{youtube-dl}); the BugsInPy result is therefore not an artefact of
+pooling alone.
 Its magnitude and sign nevertheless remain sensitive to the composition of
 projects (Section~\ref{sec:rq4}).
 
@@ -823,6 +907,49 @@ $\geq 5$ and \emph{without youtube-dl} rows is therefore not an
 inconsistency but the signature of the same underlying sensitivity: this
 benchmark's result is a function of which projects are in it.
 
+\subsection{Scope of the outcome's denominator}
+
+The outcome's denominator is the project's whole fault set, while each
+observation is drawn at a single fault version's fixed revision. On
+Defects4J only about half of a project's faults have their trigger class
+present in any one revision's test list (mean \num{32.7} of \num{65.8} faults
+per version). Restricting the denominator to the faults that are reachable
+at the evaluated revision raises the outcome's mean from \num{0.147} to
+\num{0.252}; the two definitions correlate at $r = \num{0.83}$ across
+instances.
+
+\begin{table}[t]
+\centering
+\caption{Scope of the outcome's denominator, grouped cross-validation on
+Defects4J. The two definitions differ only in whether the denominator is the
+project's whole fault set or the faults whose trigger class is present at the
+evaluated revision.}
+\label{tab:scope}
+\begin{tabular}{lccccc}
+\toprule
+Denominator & Fixed effects & Size & Classical & Size$+$beh. & Full \\
+\midrule
+\multirow{2}{*}{Whole project}
+ & no  & 0.134 & 0.287 & 0.221 & \textbf{0.391} \\
+ & yes & 0.557 & \textbf{0.592} & 0.560 & 0.587 \\
+\midrule
+\multirow{2}{*}{Revision-matched}
+ & no  & 0.211 & 0.586 & 0.240 & \textbf{0.636} \\
+ & yes & 0.543 & \textbf{0.669} & 0.560 & 0.668 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The models' absolute $R^2$ values change considerably, but the comparison
+between them does not: the pooled analysis prefers the full model under both
+definitions, project fixed effects reverse that preference under both, and
+the same model ranks first in all four cells as in
+Table~\ref{tab:models}. We retain the project-level denominator---it gives
+the outcome a target that does not depend on which fault the revision
+happens to fix---and report the alternative here rather than re-running the
+main analysis under it. This check is produced by
+\texttt{scripts/analyze\_outcome\_scope.py}.
+
 \subsection{Bootstrap hierarchy}
 
 The version-level and project-level bootstraps give interval widths of
@@ -854,8 +981,10 @@ under study---and can be applied to any increment-in-$R^2$ claim.
 \item \textbf{Report the nominal sample size and the independent-unit
 count.} Compute $n_{\text{nominal}}$, the number of subset instances, and
 $n_{\text{ind}} = |\{(\text{project}, \text{version})\}|$, the number of
-independent fault-version units. If the ratio is below $0.5$, either
-cluster the standard errors or move the analysis to the independent unit.
+independent fault-version units. When the number of fault-version units is
+substantially smaller than the nominal instance count---as a practical
+heuristic, below half---either cluster the standard errors or move the
+analysis to the independent unit.
 We deliberately do not call $n_{\text{ind}}$ an ``effective sample size'':
 the formal effective sample size of a clustered design also depends on the
 within-cluster dependence and on the cluster-size distribution, and we do
@@ -957,7 +1086,7 @@ prediction. We have shown, on two independent benchmarks in two
 languages, that this instrument is not sharp enough for the conclusions
 typically drawn from it: the effects being claimed are of the same order as
 the uncertainty of their own estimates, their sign depends on unreported
-analyst choices, and project-level confounding alone can produce them in up to 80\% of
+analyst choices, and project-level confounding alone can produce them in up to 82\% of
 runs.
 
 None of this implies that test-adequacy metrics are worthless, or that the

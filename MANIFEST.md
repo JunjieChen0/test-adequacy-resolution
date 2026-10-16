@@ -2,7 +2,7 @@
 
 Generated: 2026-10-16
 
-1691 files.
+1696 files.
 
 ```
 ./.gitignore
@@ -1642,6 +1642,7 @@ Generated: 2026-10-16
 ./data/subsets_v1/Lang-8b-f0.5-r1.json
 ./data/subsets_v1/Lang-8b-f0.5-r2.json
 ./data/subsets_v1/Lang-8b-f1.0-r1.json
+./paper/Highlights.docx
 ./paper/Highlights.txt
 ./paper/figures/fig-crossbench-en.png
 ./paper/figures/fig-crossbench.png
@@ -1660,8 +1661,10 @@ Generated: 2026-10-16
 ./results/fig-crossbench.png
 ./results/fig-identifiability-en.png
 ./results/fig-identifiability.png
+./results/fingerprint-baselines.json
 ./results/identifiability-finding.md
 ./results/identifiability.json
+./results/outcome-scope.json
 ./results/project-fingerprint-finding.md
 ./results/pseudo-replication-finding.md
 ./results/reference-verification.md
@@ -1673,8 +1676,10 @@ Generated: 2026-10-16
 ./scripts/analyze_a1.py
 ./scripts/analyze_all.py
 ./scripts/analyze_assertions.py
+./scripts/analyze_fingerprint_baselines.py
 ./scripts/analyze_fixed_effects.py
 ./scripts/analyze_identifiability.py
+./scripts/analyze_outcome_scope.py
 ./scripts/analyze_rq3.py
 ./scripts/bip_analyze.py
 ./scripts/bip_assertions.py

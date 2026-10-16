@@ -1,0 +1,90 @@
+{
+ "Defects4J": {
+  "n_proj": 7,
+  "n_inst": 352,
+  "uniform_baseline": 0.14285714285714285,
+  "majority_baseline": 0.3721590909090909,
+  "models": {
+   "behaviour": {
+    "instance": {
+     "accuracy": 0.8949698189134809,
+     "balanced_accuracy": 0.7184493813065241,
+     "macro_f1": 0.7158863085269107
+    },
+    "version-grouped": {
+     "accuracy": 0.892072434607646,
+     "balanced_accuracy": 0.7115218851808713,
+     "macro_f1": 0.7045999558407215
+    }
+   },
+   "classical": {
+    "instance": {
+     "accuracy": 0.8352112676056338,
+     "balanced_accuracy": 0.6699649556792414,
+     "macro_f1": 0.6572253750949251
+    },
+    "version-grouped": {
+     "accuracy": 0.8381086519114689,
+     "balanced_accuracy": 0.6838429817009735,
+     "macro_f1": 0.6806796303981769
+    }
+   },
+   "all": {
+    "instance": {
+     "accuracy": 0.9346076458752515,
+     "balanced_accuracy": 0.783215514644086,
+     "macro_f1": 0.7898944533887982
+    },
+    "version-grouped": {
+     "accuracy": 0.9432997987927566,
+     "balanced_accuracy": 0.8139926739926739,
+     "macro_f1": 0.8104816398141057
+    }
+   }
+  }
+ },
+ "BugsInPy": {
+  "n_proj": 7,
+  "n_inst": 245,
+  "uniform_baseline": 0.14285714285714285,
+  "majority_baseline": 0.5265306122448979,
+  "models": {
+   "behaviour": {
+    "instance": {
+     "accuracy": 0.8244897959183672,
+     "balanced_accuracy": 0.7376956376956377,
+     "macro_f1": 0.7015251391164183
+    },
+    "version-grouped": {
+     "accuracy": 0.8372843137254902,
+     "balanced_accuracy": 0.7659506172839505,
+     "macro_f1": 0.7251529470349138
+    }
+   },
+   "classical": {
+    "instance": {
+     "accuracy": 0.889795918367347,
+     "balanced_accuracy": 0.7067532467532467,
+     "macro_f1": 0.679303161757683
+    },
+    "version-grouped": {
+     "accuracy": 0.9177352941176471,
+     "balanced_accuracy": 0.8338518518518516,
+     "macro_f1": 0.7874770809219284
+    }
+   },
+   "all": {
+    "instance": {
+     "accuracy": 0.9428571428571428,
+     "balanced_accuracy": 0.8267316017316017,
+     "macro_f1": 0.8056400562860191
+    },
+    "version-grouped": {
+     "accuracy": 0.9458333333333332,
+     "balanced_accuracy": 0.8855555555555554,
+     "macro_f1": 0.8724462905515538
+    }
+   }
+  }
+ }
+}

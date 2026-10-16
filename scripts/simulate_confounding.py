@@ -25,6 +25,8 @@
 
 用法：python3 scripts/simulate_confounding.py
 """
+import os
+
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -99,15 +101,20 @@ def cvr2(d, cols, fe, k=5):
 
 def main():
     BASE = ["log_size", "coverage"]
+    R = int(os.environ.get("SIM_R", "2000"))
     print("模拟设定：行为特征的真实（项目内）效应恒为 0")
-    print("判阳性：样本外 R² 提升 > 0.02\n")
+    print(f"每个单元 {R} 次重复（蒙特卡洛标准误在 p≈0.8 处约 "
+          f"{np.sqrt(0.8*0.2/R):.3f}）\n")
     print(f"{'ρ':>5}{'项目数':>7}{'每项目版本':>10}{'实例数':>8}"
           f"{'汇总分析阳性率':>16}{'项目内分析阳性率':>18}")
-    R = 200
     out = []
     for rho in (0.0, 0.3, 0.6, 0.9):
         for n_proj, n_ver in ((7, 5), (10, 10), (10, 20)):
-            acc = {"pool": 0, "fe": 0}
+            # 阈值是研究者的判断，因此同一次模拟里把所有阈值一起统计，
+            # 而不是按阈值重跑——重新模拟是纯粹的重复计算。
+            ths = (0.02, 0.05, 0.10)
+            hits = {("pool", t): 0 for t in ths} | {("fe", t): 0 for t in ths}
+            ok = 0
             for r in range(R):
                 d = simulate(n_proj, n_ver, rho, seed=r * 1000 + int(rho * 10))
                 try:
@@ -115,29 +122,24 @@ def main():
                     b = cvr2(d, BASE + ["behav"], True) - cvr2(d, BASE, True)
                 except Exception:
                     continue
-                acc["pool"] += (a > 0.02)
-                acc["fe"] += (b > 0.02)
+                ok += 1
+                for t in ths:
+                    hits[("pool", t)] += (a > t)
+                    hits[("fe", t)] += (b > t)
+            if not ok:
+                continue
             rec = {"rho": rho, "n_proj": n_proj, "n_ver": n_ver,
-                   "n_inst": n_proj * n_ver * 2,
-                   "pool": acc["pool"] / R, "fe": acc["fe"] / R, "R": R}
-            # 阈值扫描：materiality threshold 是研究者的判断，
-            # 因此把"阳性率"对阈值也做一遍敏感性，回应"Why 0.02"。
-            rec["by_threshold"] = {}
-            for th in (0.02, 0.05, 0.10):
-                cp = cf = 0
-                for r in range(R):
-                    d = simulate(n_proj, n_ver, rho, seed=r * 1000 + int(rho * 10))
-                    try:
-                        a = cvr2(d, BASE + ["behav"], False) - cvr2(d, BASE, False)
-                        b = cvr2(d, BASE + ["behav"], True) - cvr2(d, BASE, True)
-                    except Exception:
-                        continue
-                    cp += (a > th); cf += (b > th)
-                rec["by_threshold"][f"{th:.2f}"] = {"pooled": cp / R, "fe": cf / R}
+                   "n_sub": 2, "n_inst": n_proj * n_ver * 2,
+                   "pool": hits[("pool", 0.02)] / ok,
+                   "fe": hits[("fe", 0.02)] / ok, "R": ok,
+                   "mc_se": float(np.sqrt(0.25 / ok))}
+            rec["by_threshold"] = {
+                f"{t:.2f}": {"pooled": hits[("pool", t)] / ok,
+                             "fe": hits[("fe", t)] / ok} for t in ths}
             out.append(rec)
             print(f"{rho:>5.1f}{n_proj:>7}{n_ver:>10}{rec['n_inst']:>8}"
-                  f"{rec['pool']:>16.2f}{rec['fe']:>18.2f}")
-    import json, os
+                  f"{rec['pool']:>16.3f}{rec['fe']:>18.3f}", flush=True)
+    import json
     path = os.path.join(os.path.dirname(__file__), "..",
                         "results", "simulation-confounding.json")
     with open(path, "w") as f:
