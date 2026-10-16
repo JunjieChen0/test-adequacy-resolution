@@ -1,0 +1,71 @@
+{
+ "Defects4J": {
+  "n_proj": 7,
+  "n_ver": 139,
+  "n_inst": 352,
+  "reference_category": "Chart",
+  "min_versions_per_project": 5,
+  "single_version_projects": [],
+  "orphan_rows": 0,
+  "orphan_fraction": 0.0,
+  "orphan_detail": {},
+  "sensitivity": [
+   {
+    "label": "\u5168\u90e8 project",
+    "n_proj": 7,
+    "n_inst": 352,
+    "full": 0.5829417316033245,
+    "classical": 0.5938936219096941,
+    "delta": -0.01095189030636956
+   },
+   {
+    "label": "\u5254\u9664\u5355\u7248\u672c project",
+    "n_proj": 7,
+    "n_inst": 352,
+    "full": 0.5829417316033245,
+    "classical": 0.5938936219096941,
+    "delta": -0.01095189030636956
+   }
+  ],
+  "sign_preserved": true
+ },
+ "BugsInPy": {
+  "n_proj": 7,
+  "n_ver": 82,
+  "n_inst": 245,
+  "reference_category": "black",
+  "min_versions_per_project": 1,
+  "single_version_projects": [
+   "sanic"
+  ],
+  "orphan_rows": 3,
+  "orphan_fraction": 0.012244897959183673,
+  "orphan_detail": {
+   "sanic": {
+    "reference_category": false,
+    "orphan_rows": 3,
+    "mean_abs_coef": 2.7755575615628914e-17,
+    "max_abs_coef": 2.7755575615628914e-17
+   }
+  },
+  "sensitivity": [
+   {
+    "label": "\u5168\u90e8 project",
+    "n_proj": 7,
+    "n_inst": 245,
+    "full": 0.39772441729260977,
+    "classical": 0.3825485730352204,
+    "delta": 0.015175844257389381
+   },
+   {
+    "label": "\u5254\u9664\u5355\u7248\u672c project",
+    "n_proj": 6,
+    "n_inst": 242,
+    "full": 0.3722652842836549,
+    "classical": 0.34725776629702987,
+    "delta": 0.02500751798662504
+   }
+  ],
+  "sign_preserved": true
+ }
+}

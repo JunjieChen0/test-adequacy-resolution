@@ -3,6 +3,10 @@
  "n_inst": 342,
  "mean_faults_project": 65.76315789473684,
  "mean_faults_revision": 32.71345029239766,
+ "mean_detect_project": 0.14690303622580542,
+ "mean_detect_revision": 0.252492807728884,
+ "sd_detect_project": 0.14397692183697336,
+ "sd_detect_revision": 0.19617775110801405,
  "detect_correlation": 0.8309767651340799,
  "cv": {
   "detect_project": {

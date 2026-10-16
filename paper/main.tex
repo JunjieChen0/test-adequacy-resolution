@@ -157,11 +157,13 @@ Pseudo-tested methods \cite{niedermayr2016pseudo} identify methods whose
 bodies can be deleted without any test failing; Vera-P{\'e}rez et al.\
 \cite{vera2019comprehensive} replicated the phenomenon at scale. The
 ``oracle gap'' \cite{jain2023mindthegap} contrasts coverage with mutation
-score to locate oracle weaknesses. Semantic coverage
-\cite{ayad2025detecting} measures failure-revealing capability directly, and
-Paul and Holmes \cite{paul2026beyond} extract expected behaviours from
-documentation and source and measure how many are never verified by any
-test.
+score to locate oracle weaknesses. Semantic coverage measures
+failure-revealing capability directly: it was introduced as a
+semantics-based measure of test-suite effectiveness by Al Blwi et al.\
+\cite{alblwi2023semantic} and developed further by Ayad et al.\
+\cite{ayad2025detecting}. Paul and Holmes \cite{paul2026beyond} extract
+expected behaviours from documentation and source and measure how many are
+never verified by any test.
 
 These works are the immediate context for ours. Two shared features matter
 here: their validity arguments are frequently explanatory rather than
@@ -177,8 +179,9 @@ metrics can support the conclusions drawn from it.
 The concerns we quantify are instances of long-standing issues in applied
 statistics. Non-independence of observations drawn from clusters motivates
 cluster-robust standard errors and mixed-effects models
-\cite{liang1986longitudinal}; in the software engineering literature these
-are standard tools \cite{briand2000recapture} but are applied unevenly.
+\cite{liang1986longitudinal}. Mixed-effects models are established tools
+used in empirical software engineering to account for repeated or nested
+observations \cite{ni2022justintime}, but they are applied unevenly.
 Confounding by group identity is the setting of Simpson's paradox
 \cite{simpson1951interpretation}, and the fixed-effects estimator that
 removes it is textbook econometrics \cite{wooldridge2010econometric}.
@@ -222,7 +225,12 @@ distribution and can in principle recover between-group information
 question we ask is explicitly within-project---whether a metric helps
 discriminate suites of the same project---and because with seven groups
 the random-effects variance components would themselves be poorly
-determined.
+determined. Identification of a within-project effect requires a project to
+contribute at least two fault versions: a project contributing one version
+supplies a level, not a contrast. On Defects4J every project contributes at
+least five versions and the condition holds throughout. On BugsInPy exactly
+one project fails it, and we quantify the consequences in
+Section~\ref{sec:rq4} rather than leaving them implicit.
 
 \paragraph{The bootstrap with few clusters} Cluster resampling is
 unreliable when the number of clusters is small, and the resulting
@@ -559,8 +567,8 @@ Rather than extrapolating a single sample size, we report the \emph{resolution} 
 
 \begin{table}[t]
 \centering
-\caption{Resolution of the estimate, expressed as the half-width of the 95\% bootstrap interval, by number of independent fault versions. {\emph{Extrap.}} marks
-values beyond the range of the observed curves.}
+\caption{Resolution of the estimate, expressed as the half-width of the 95\% bootstrap interval, by number of independent fault versions. Values marked
+{\emph{Extrap.}} are model-based extrapolations beyond the largest directly evaluated sample size and should not be interpreted as empirically observed thresholds.}
 \label{tab:mde}
 \begin{tabular}{rcccc}
 \toprule
@@ -598,8 +606,7 @@ Reading the conservative (project-level) columns: resolving an effect of
 (\num{103} on Defects4J and \num{68} on BugsInPy), and resolving
 \num{0.02} requires on the order of \num{120} (\num{149} and \num{97}
 respectively). These are order-of-magnitude
-readings from fitted curves, not observed crossing points, and the
-values marked \emph{Extrap.} lie beyond the range of the data.
+readings from fitted curves, not observed crossing points.
 Below roughly
 30 versions the estimator is not merely imprecise but unstable, with
 half-widths between $0.2$ and $1.5$ and, in the smallest samples, values
@@ -681,8 +688,9 @@ evidence. As $\rho$ grows, the rate rises to 82\%. It does \emph{not} fall with
 sample size: at $\rho = 0.9$ the pooled rate is 0.54, 0.76 and 0.82 across
 the three sample sizes in our grid (70, 200 and 400 instances), and at
 $\rho = 0.6$ it is 0.39, 0.52 and 0.58, while at 400 instances the
-fixed-effect rate is 0.01 or below throughout. That is the signature of a bias rather than a
-sampling-variance artefact: adding observations within the same project
+fixed-effect rate is 0.01 or below throughout. This pattern is consistent
+with a systematic confounding mechanism rather than a reduction in sampling
+variance: adding observations within the same project
 structure does not remove it. Project fixed effects reduce the rate to at most 1\% and drive it
 towards zero as versions accumulate.
 
@@ -890,6 +898,20 @@ Benchmark & Sample & Projects & Best (FE) & $\Delta R^2$ \\
 \end{tabular}
 \end{table}
 
+On BugsInPy the $\geq 2$ versions row is exactly the removal of one
+project. \texttt{sanic} is the only project contributing a single fault
+version (three instances); every other project contributes at least two. Its
+removal is not cosmetic, because it is the one case in either benchmark
+where the fixed effect is not identified. \texttt{sanic} receives a project
+dummy that is estimable only in folds that contain it; when its version is
+held out, that column is identically zero in the training folds, the
+minimum-norm least-squares solution sets the coefficient to zero, and its
+three held-out records are predicted at the reference project's level---%
+\num{3} of \num{245} held-out predictions (\SI{1.2}{\percent}). Excluding the
+project raises the increment from $+0.015$ to $+0.025$: neither the sign nor
+the selected model changes, and the effect of retaining it is to make the
+reported increment, if anything, more conservative.
+
 Two honest readings follow. The Defects4J conclusion is robust to
 leave-one-project-out perturbations. The BugsInPy conclusion is not robust
 to dropping its largest one, and we report this rather than the version
@@ -964,11 +986,10 @@ recommend that studies state their resampling unit explicitly.
 
 The version counts in Table~\ref{tab:mde} are presented as a function of
 the target effect rather than as a single number, because the answer
-depends on what the study wants to establish. A study aiming to resolve
-$\Delta R^2 = 0.10$ is adequately sized at roughly 50 to 80 independent
-versions; one aiming
-at $0.02$ is not adequately sized at any sample this literature typically
-reports.
+depends on what the study wants to establish. The observed curves reach a
+half-width of approximately $0.10$ at roughly 50--80 fault-version units,
+and a target of $0.02$ lies beyond the sample sizes this literature
+typically reports.
 
 % =====================================================================
 \section{A pre-submission protocol}
@@ -1017,7 +1038,9 @@ therefore about \emph{within-project} validity. That is the correct scope
 for claims about a metric's diagnostic value for an individual project, but
 it must be stated: ``this metric does not help within projects'' and ``this
 metric does not help'' are different claims, and only the former follows
-from the analysis.
+from the analysis. Our conclusions concern incremental-validity analyses
+using trigger-test-based fault-detection proxies and do not establish
+metric validity under directly observed fault-detection outcomes.
 
 % =====================================================================
 \section{Threats to validity}
@@ -1072,7 +1095,7 @@ Table~\ref{tab:delta} should be read with that in mind. The simulation in
 Section~\ref{sec:rq2} is a mechanism demonstration with calibrated
 dispersion, not an estimate of $\rho$ in either benchmark; the observed
 project-level correlation in our Defects4J sample is weak
-($\rho \approx +0.08$ across seven projects, $p = 0.87$, itself
+($r \approx +0.08$ across seven projects, $p = 0.87$, itself
 imprecisely estimated),
 so the $\rho$ sweep should be read as ``if $\rho$ were $x$'' rather than as
 a description of these benchmarks.

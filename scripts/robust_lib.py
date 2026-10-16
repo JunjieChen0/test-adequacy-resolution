@@ -88,6 +88,16 @@ class Panel:
         self.y = df["detect_rate"].astype(float).values
         self.groups = df["version"].values
         self.projects = df["project"].values
+        # 项目固定效应的可识别性。一个 project 至少要贡献两个缺陷版本，才谈得上
+        # within-project 对比；只贡献一个版本的 project 只能给出水平，给不出水平差。
+        # 当这样的 project 整体落入测试折时，它的哑变量列在训练集中恒为 0，
+        # np.linalg.lstsq 在 rcond=None 下返回最小范数解，把该列系数定为 0，
+        # 于是这些测试行按参考类别（drop_first 丢掉的第一个项目）的水平预测。
+        # 这里只做记录，不改变设计矩阵，以免动到主分析的数字。
+        # 量化见 scripts/analyze_fe_identification.py。
+        _vpp = self.df.groupby("project")["version"].nunique()
+        self.fe_identifiable = sorted(_vpp.index[_vpp >= 2])
+        self.fe_single_version = sorted(_vpp.index[_vpp < 2])
         # 分组 -> 行索引
         self.folds = {}
         for g in pd.unique(self.groups):

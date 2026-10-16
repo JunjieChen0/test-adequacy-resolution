@@ -2,7 +2,7 @@
 
 Generated: 2026-10-16
 
-1696 files.
+1698 files.
 
 ```
 ./.gitignore
@@ -1657,6 +1657,7 @@ Generated: 2026-10-16
 ./results/analysis.json
 ./results/bip-crossbench.json
 ./results/bip-crossbenchmark-finding.md
+./results/fe-identification.json
 ./results/fig-crossbench-en.png
 ./results/fig-crossbench.png
 ./results/fig-identifiability-en.png
@@ -1676,6 +1677,7 @@ Generated: 2026-10-16
 ./scripts/analyze_a1.py
 ./scripts/analyze_all.py
 ./scripts/analyze_assertions.py
+./scripts/analyze_fe_identification.py
 ./scripts/analyze_fingerprint_baselines.py
 ./scripts/analyze_fixed_effects.py
 ./scripts/analyze_identifiability.py

@@ -140,6 +140,10 @@ def main():
         "n_ver": int(df["version"].nunique()), "n_inst": int(len(df)),
         "mean_faults_project": float(df["n_faults_project"].mean()),
         "mean_faults_revision": float(df["n_faults_revision"].mean()),
+        "mean_detect_project": float(df["detect_project"].mean()),
+        "mean_detect_revision": float(df["detect_revision"].mean()),
+        "sd_detect_project": float(df["detect_project"].std()),
+        "sd_detect_revision": float(df["detect_revision"].std()),
         "detect_correlation": float(df["detect_project"].corr(df["detect_revision"])),
         "cv": rec,
     }

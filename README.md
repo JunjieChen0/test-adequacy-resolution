@@ -36,6 +36,7 @@ produced by `scripts/analyze_all.py`. No number in the paper is entered by hand.
 | `scripts/simulate_confounding.py` | Parameterised simulation isolating project-level confounding. Produces `results/simulation-confounding.json`. `SIM_R` sets the replications per cell (2000 in the manuscript). |
 | `scripts/analyze_outcome_scope.py` | Robustness of the outcome's denominator: whole-project fault set versus the faults reachable at the evaluated revision. Produces `results/outcome-scope.json`. |
 | `scripts/analyze_fingerprint_baselines.py` | Project-classification metrics robust to class imbalance (balanced accuracy, macro $F_1$, majority-class baseline). Produces `results/fingerprint-baselines.json`. |
+| `scripts/analyze_fe_identification.py` | Identification of the within-project fixed effect: per-project version counts, the held-out rows whose project is absent from the training folds, the fitted coefficient on their dummy column, and the sensitivity check excluding single-version projects. Produces `results/fe-identification.json`. |
 | `scripts/plot_figures.py` | Renders both manuscript figures from the two JSON files above. |
 | `scripts/robust_lib.py` | Shared modelling and resampling primitives used by the analysis. |
 | `scripts/collect_subsets.py` | Defects4J subset construction, coverage and mutation measurement. |
