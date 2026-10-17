@@ -1,0 +1,67 @@
+% !TEX program = xelatex
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{flushright}
+Junjie Chen\\
+School of Computer Science and Engineering\\
+Nanjing University of Science and Technology\\
+Nanjing, China\\
+\href{mailto:junjie_chen@njust.edu.cn}{junjie\_chen@njust.edu.cn}
+\end{flushright}
+
+\vspace{1em}
+\noindent 17 October 2026
+
+\vspace{1em}
+\noindent Dear Editor-in-Chief,
+
+\vspace{0.5em}
+Please consider the enclosed manuscript, \emph{Identifiability and Confounding in
+Test-Adequacy Metric Validity Studies: A Cross-Language Empirical Analysis}, for
+publication in the \emph{Journal of Systems and Software} as a research paper.
+
+The manuscript examines the evidential basis of a standard argument in empirical
+software engineering: that a test-adequacy metric is incrementally valuable
+because adding it to a regression improves the cross-validated $R^2$. Rather than
+proposing a new metric, we ask whether that argument can be statistically
+resolved at the sample sizes at which it is routinely made. Using Defects4J
+(Java) and BugsInPy (Python), we show that the increments being claimed are of
+the same order as their own uncertainty; that their sign depends on
+cross-validation and resampling choices that are rarely reported; and that
+project-level confounding alone can manufacture a material increment in up to
+82\% of runs, a rate that project fixed effects hold below 1\%.
+
+Our contribution is methodological rather than a benchmark result, and we
+believe it speaks to a broad part of the journal's readership: the same
+incremental-prediction design is used to validate metrics, defect predictors,
+and effort models across software engineering. We close with a five-check
+protocol that requires no test executions and can be applied to any published
+increment-in-$R^2$ claim, including those in already-published work.
+
+All scripts, collected measurements, and analysis outputs are publicly archived
+(DOI: \href{https://doi.org/10.5281/zenodo.23432059}{10.5281/zenodo.23432059})
+and the full pipeline is available at
+\url{https://github.com/JunjieChen0/test-adequacy-resolution}. Every number in
+the manuscript is produced by the shipped analysis code from the shipped
+measurements; none is entered by hand.
+
+The manuscript is original, has not been published previously, and is not under
+consideration by another journal. As the sole author, I have approved the
+submission, declare no competing interests, and take full responsibility for
+the content. A declaration of generative AI and AI-assisted technologies is
+included in the manuscript.
+
+\vspace{1em}
+\noindent Thank you for considering this submission.
+
+\vspace{1.5em}
+\noindent Sincerely,\\[0.3em]
+Junjie Chen
+
+\end{document}
