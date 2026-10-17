@@ -25,31 +25,30 @@ A Cross-Language Empirical Analysis}
 \ead{junjie_chen@njust.edu.cn}
 
 \begin{abstract}
-A large body of software engineering research asks whether a test-adequacy
+Much software engineering research asks whether a test-adequacy
 metric predicts a suite's ability to detect real faults. The standard
 argument regresses fault detection on existing metrics, adds the candidate
 metric, and reads the cross-validated $R^2$ gain as incremental value. We ask
-whether that evidence can be resolved at the sample sizes the
+whether that evidence is resolvable at the sample sizes the
 literature uses. We build test-suite subsets on Defects4J (Java) and
 BugsInPy (Python), seven projects each, derive each subset's fault-detection
 rate from per-fault trigger-test metadata without executing the suites, and
-quantify the incremental $R^2$'s uncertainty under several evaluation
+quantify its uncertainty under several evaluation
 schemes. We find: (i)~the incremental $R^2$ of a behavioural-matching feature
 block has a 95\% interval width of \num{0.056} on Defects4J and \num{0.143}
 on BugsInPy under version-level resampling, and of \num{0.120} and
 \num{0.146} under a project-level cluster bootstrap, with an unstable sign on
-Defects4J; (ii)~a simulation calibrated on the observed data shows that a
+Defects4J; (ii)~a simulation calibrated on the data shows that a
 feature with zero within-project effect whose project means correlate with
 baseline detection rates yields a non-trivial increment in up to 82\% of
-unadjusted pooled analyses, against below 1\% under project fixed effects;
+unadjusted pooled analyses, against below 1\% with project fixed effects;
 (iii)~behavioural features identify the source project with \num{0.892} and
-\num{0.837} accuracy against a uniform-random baseline of $1/7$; and
-(iv)~resolving a \num{0.05} target half-width needs on the order of
+\num{0.837} accuracy against a $1/7$ random baseline; and
+(iv)~resolving a \num{0.05} half-width needs on the order of
 \num{100} to \num{150} independent fault versions and \num{0.02} on the
-order of \num{200} to \num{300}, depending on the benchmark and the
-resampling hierarchy. We conclude that incremental-validity
+order of \num{200} to \num{300}. We conclude that incremental-validity
 claims at the magnitudes common in this literature are not identifiable at
-conventional sample sizes, and provide a protocol and resolution curves for
+conventional sample sizes, and give a protocol and resolution curves for
 sizing future studies.
 \end{abstract}
 
