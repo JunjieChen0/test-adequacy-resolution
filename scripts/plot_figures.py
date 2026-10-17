@@ -32,7 +32,7 @@ TXT = {
            "ty": "P(reporting a material increment)",
            "tx": "Project-level confounding $\\rho$",
            "tp": "Pooled analysis", "tf": "Project fixed effects",
-           "tb": "(b) Probability of a material increment when the true effect is zero",
+           "tb": "(b) False increments under confounding",
            "yb": "Project-classification accuracy",
            "tb2": "(b) Project fingerprint",
            "labels": ["Behavioural\nonly", "Classical\nmetrics only",
@@ -46,7 +46,7 @@ TXT = {
            "ty": "报告出实质性增量的概率",
            "tx": "项目级混淆强度 $\\rho$",
            "tp": "汇总分析", "tf": "项目内分析（固定效应）",
-           "tb": "(b) 真实效应为零时报出实质增量的概率（400 实例）",
+           "tb": "(b) 混杂下的虚假增量比例",
            "yb": "识别项目的准确率",
            "tb2": "(b) 项目指纹：特征能否识别项目",
            "labels": ["仅行为匹配", "仅传统指标", "全部", "随机基线"],
@@ -97,6 +97,7 @@ def fig_identifiability(lang):
     ax2.legend(frameon=False, fontsize=7.5, loc="upper left")
     ax2.set_title(t["tb"], fontsize=9, pad=6)
 
+    fig.tight_layout()
     out = os.path.join(RES, f"fig-identifiability{'-en' if lang=='en' else ''}.png")
     fig.savefig(out); plt.close(fig); print("已写入", out)
 
@@ -125,7 +126,9 @@ def fig_crossbench(lang):
     for i, (bench, name, color) in enumerate((("Defects4J", "Defects4J", "#1f4e79"),
                                               ("BugsInPy", "BugsInPy", "#c00000"))):
         fp = AN[bench]["fingerprint"]
-        vals = [fp[k] for k in t["keys"]] + [fp["baseline"]]
+        # 画版本分组口径，使图与 Table 6 及摘要的准确率一致；实例级数值
+        # 记载于 *_grouped 之外的键，正文两者都报告
+        vals = [fp[f"{k}_grouped"] for k in t["keys"]] + [fp["baseline"]]
         ax2.bar(xs + (i - 0.5) * w, vals, w, color=color, label=name)
     ax2.set_xticks(xs); ax2.set_xticklabels(t["labels"], fontsize=8)
     ax2.set_ylabel(t["yb"]); ax2.set_ylim(0, 1.32)
@@ -134,6 +137,7 @@ def fig_crossbench(lang):
                handlelength=1.2, columnspacing=1.2)
     ax2.set_title(t["tb2"], fontsize=9, pad=6)
 
+    fig.tight_layout()
     out = os.path.join(RES, f"fig-crossbench{'-en' if lang=='en' else ''}.png")
     fig.savefig(out); plt.close(fig); print("已写入", out)
 

@@ -42,8 +42,8 @@ Defects4J; (ii)~a simulation calibrated on the observed data shows that a
 feature with zero within-project effect whose project means correlate with
 baseline detection rates yields a non-trivial increment in up to 82\% of
 unadjusted pooled analyses, against below 1\% under project fixed effects;
-(iii)~behavioural features identify the source project with \num{0.895} and
-\num{0.824} accuracy against a uniform-random baseline of $1/7$; and
+(iii)~behavioural features identify the source project with \num{0.892} and
+\num{0.837} accuracy against a uniform-random baseline of $1/7$; and
 (iv)~resolving a \num{0.05} target half-width needs on the order of
 \num{100} to \num{150} independent fault versions and \num{0.02} on the
 order of \num{200} to \num{300}, depending on the benchmark and the
@@ -801,7 +801,9 @@ independent fault versions. The Defects4J curve reaches the $\Delta R^2 =
 0.05$ reference at approximately \num{100} fault-version units
 (Table~\ref{tab:mde}); the BugsInPy curve remains above it
 throughout its observed range.
-(b) Project-classification accuracy by feature set; both benchmarks exceed the uniform-random-guess baseline by a factor of about six.}
+(b) Project-classification accuracy by feature set under version-grouped
+splits; both benchmarks exceed the uniform-random-guess baseline by a factor
+of about six.}
 \label{fig:crossbench}
 \end{figure*}
 
@@ -947,7 +949,12 @@ instances.
 \caption{Scope of the outcome's denominator, grouped cross-validation on
 Defects4J. The two definitions differ only in whether the denominator is the
 project's whole fault set or the faults whose trigger class is present at the
-evaluated revision.}
+evaluated revision. Both rows use the \num{342} instances (\num{136}
+versions) for which the trigger metadata needed by the revision-matched
+definition is available, so the \emph{Whole project} row is not numerically
+identical to the main analysis in Table~\ref{tab:models} (\num{352}
+instances, \num{139} versions); the model ranking and the sign of
+$\Delta R^2$ are the same under both samples.}
 \label{tab:scope}
 \begin{tabular}{lccccc}
 \toprule
@@ -1069,7 +1076,10 @@ BugsInPy, coverage is dominated by import-time execution in some projects
 60\% subset), which compresses within-project coverage variation and may
 understate coverage's within-project value. Finally, the two benchmarks
 differ in their classical metric block (BugsInPy has no mutation score), so
-the model comparison is not perfectly symmetric across languages.
+the model comparison is not perfectly symmetric across languages. We checked
+this directly: dropping mutation from the Defects4J block, to match BugsInPy,
+leaves the conclusion unchanged ($\Delta R^2 = -0.012$ against $-0.011$ with
+mutation, with the same model ranking).
 
 \paragraph{External validity} Two benchmarks and fourteen projects is a
 small basis. Version counts are uneven within BugsInPy (43 down to 1), and
@@ -1100,7 +1110,13 @@ project-level correlation in our Defects4J sample is weak
 ($r \approx +0.08$ across seven projects, $p = 0.87$, itself
 imprecisely estimated),
 so the $\rho$ sweep should be read as ``if $\rho$ were $x$'' rather than as
-a description of these benchmarks.
+a description of these benchmarks. This weak bivariate correlation is not in
+tension with the large change that fixed effects produce in
+Table~\ref{tab:models}: a single feature's correlation with project means can
+be near zero while the feature block as a whole separates projects almost
+perfectly (Section~\ref{sec:rq3}), and a pooled model absorbs those
+between-project baseline differences whatever the sign of any one
+correlation.
 
 % =====================================================================
 \section{Conclusion}
